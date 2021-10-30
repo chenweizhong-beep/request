@@ -3,7 +3,7 @@
 # ***
 import pytest
 
-from day04_reqursts.api.member import Member
+from api.member import Member
 
 member = Member()
 

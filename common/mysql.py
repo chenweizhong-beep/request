@@ -3,8 +3,8 @@
 # ***
 import pymysql
 
-from day04_reqursts.common.config import cf
-from day04_reqursts.common.log import log
+from common.config import cf
+from common.log import log
 
 
 class Mysql:

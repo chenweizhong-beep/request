@@ -3,9 +3,9 @@
 # ***
 import pytest
 
-from day04_reqursts.api.member import Member
-from day04_reqursts.api.tag import Tag
-from day04_reqursts.common.log import log
+from api.member import Member
+from api.tag import Tag
+from common.log import log
 
 tag = Tag()
 member = Member()

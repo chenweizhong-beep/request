@@ -4,8 +4,8 @@
 import allure
 import pytest
 
-from day04_reqursts.api.schedule import Schedule
-from day04_reqursts.common.log import log
+from api.schedule import Schedule
+from common.log import log
 
 url = "https://work.weixin.qq.com/api/doc/90000/90135/90195"
 

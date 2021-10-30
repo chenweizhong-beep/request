@@ -3,7 +3,7 @@
 # ***
 import pytest
 
-from day04_reqursts.api.schedule import Schedule
+from api.schedule import Schedule
 
 schedule = Schedule()
 

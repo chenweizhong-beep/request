@@ -1,7 +1,7 @@
 # ***
 # @autor CWZ
 # ***
-from day04_reqursts.api.base_api import BaseApi
+from api.base_api import BaseApi
 
 
 class Tag(BaseApi):

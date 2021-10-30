@@ -3,7 +3,7 @@
 # ***
 import pytest
 
-from day04_reqursts.api.department import Department
+from api.department import Department
 
 depart = Department()
 

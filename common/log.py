@@ -5,7 +5,7 @@ import datetime
 import logging
 import os
 
-from day04_reqursts.common.config import cf
+from common.config import cf
 
 
 class Log:

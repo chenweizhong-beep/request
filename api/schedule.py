@@ -2,9 +2,9 @@
 # @autor CWZ
 # ***
 
-from day04_reqursts.api.base_api import BaseApi
-from day04_reqursts.common.log import log
-from day04_reqursts.common.mysql import mysql
+from api.base_api import BaseApi
+from common.log import log
+from common.mysql import mysql
 
 
 class Schedule(BaseApi):

@@ -1,8 +1,8 @@
 # ***
 # @autor CWZ
 # ***
-from day04_reqursts.api.base_api import BaseApi
-from day04_reqursts.common.config import cf
+from api.base_api import BaseApi
+from common.config import cf
 
 
 class WeWork(BaseApi):
