@@ -1,7 +1,6 @@
 # ***
 # @autor CWZ
 # ***
-import json
 
 from api.base_api import BaseApi
 

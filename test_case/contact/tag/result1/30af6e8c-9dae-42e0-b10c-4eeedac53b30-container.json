@@ -1,1 +1,13 @@
-{"uuid": "213d12c8-8c8f-4563-b0cd-221a8cbd3af3", "befores": [{"name": "partylist", "status": "passed", "start": 1634660510817, "stop": 1634660510817}], "start": 1634660510817, "stop": 1634660511218}
+{
+  "uuid": "213d12c8-8c8f-4563-b0cd-221a8cbd3af3",
+  "befores": [
+    {
+      "name": "partylist",
+      "status": "passed",
+      "start": 1634660510817,
+      "stop": 1634660510817
+    }
+  ],
+  "start": 1634660510817,
+  "stop": 1634660511218
+}

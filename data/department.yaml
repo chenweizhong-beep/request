@@ -8,12 +8,12 @@ add:
     - parentid存在，name非法，增加部门失败
     - parentid存在，name重复，增加部门失败
   data:
-    - [1,"add",0,"created", "parentid存在，name存在不唯一，增加部门成功"]
-    - ["","add1",60004,"parent department not found", "parentid为空，增加部门失败"]
-    - [100,"add2",60004,"parent department not found", "parentid不存在，增加部门失败"]
-    - [1,"",60001,"department invalid length", "parentid存在，name为空，增加部门失败"]
-    - [1,"add<>!?:\/",60009,"department name include invalid char", "parentid存在，name非法，增加部门失败"]
-    - [1,"add",60008,"department existed", "parentid存在，name重复，增加部门失败"]
+    - [ 1,"add",0,"created", "parentid存在，name存在不唯一，增加部门成功" ]
+    - [ "","add1",60004,"parent department not found", "parentid为空，增加部门失败" ]
+    - [ 100,"add2",60004,"parent department not found", "parentid不存在，增加部门失败" ]
+    - [ 1,"",60001,"department invalid length", "parentid存在，name为空，增加部门失败" ]
+    - [ 1,"add<>!?:\/",60009,"department name include invalid char", "parentid存在，name非法，增加部门失败" ]
+    - [ 1,"add",60008,"department existed", "parentid存在，name重复，增加部门失败" ]
 
 # 查看部门，参数有id，errcode，errmsg
 get:
@@ -22,9 +22,9 @@ get:
     - 部门id为空，查询全部的部门
     - 部门id不存在，无法查询部门
   data:
-    - [1,0,"ok"]
-    - ["",0,"ok"]
-    - [200,60123,"invalid party id,"]
+    - [ 1,0,"ok" ]
+    - [ "",0,"ok" ]
+    - [ 200,60123,"invalid party id," ]
 
 # 删除门，参数有id，errcode，errmsg
 delete:
@@ -35,11 +35,11 @@ delete:
     - 部门id不存在，删除失败
     - 部门id为空，删除失败
   data:
-    - [5,0,"deleted"]
-    - [6,60123,"invalid party id"]
-    - [3,60005,"department contains user"]
-    - [100,60123,"invalid party id"]
-    - ["",40058,"invalid Request Parameter"]
+    - [ 5,0,"deleted" ]
+    - [ 6,60123,"invalid party id" ]
+    - [ 3,60005,"department contains user" ]
+    - [ 100,60123,"invalid party id" ]
+    - [ "",40058,"invalid Request Parameter" ]
 
 # 编辑部门，参数有id，name，errcode，errmsg
 update:
@@ -51,9 +51,9 @@ update:
     - 部门为空，部门修改失败
 
   data:
-    - [5,"edit",0,"updated"]
+    - [ 5,"edit",0,"updated" ]
     # 名字为空应该是fail的，这里有问题
-    - [5,"",0,"updated"]
-    - [5,"陈氏集团",0,"updated"]
-    - [100,"edit12",60003,"department not found"]
-    - ["","edit2",60003,"department not found"]
+    - [ 5,"",0,"updated" ]
+    - [ 5,"陈氏集团",0,"updated" ]
+    - [ 100,"edit12",60003,"department not found" ]
+    - [ "","edit2",60003,"department not found" ]

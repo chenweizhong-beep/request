@@ -1,1 +1,13 @@
-{"uuid": "1032e95f-f90b-43a2-822a-d5c771bb7259", "befores": [{"name": "partylist", "status": "passed", "start": 1634660512230, "stop": 1634660512230}], "start": 1634660512230, "stop": 1634660512590}
+{
+  "uuid": "1032e95f-f90b-43a2-822a-d5c771bb7259",
+  "befores": [
+    {
+      "name": "partylist",
+      "status": "passed",
+      "start": 1634660512230,
+      "stop": 1634660512230
+    }
+  ],
+  "start": 1634660512230,
+  "stop": 1634660512590
+}

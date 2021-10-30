@@ -9,11 +9,10 @@ from string import Template
 
 import requests
 import yaml
-from jsonpath import jsonpath
-
 # from common.config import cf
 from common.config import cf
 from common.log import log
+from jsonpath import jsonpath
 
 
 class BaseApi:

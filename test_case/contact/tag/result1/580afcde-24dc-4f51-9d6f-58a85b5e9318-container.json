@@ -1,1 +1,13 @@
-{"uuid": "e5a00e33-83b7-4f47-9d91-b50fa7e4721c", "befores": [{"name": "tagid", "status": "passed", "start": 1634660509829, "stop": 1634660509829}], "start": 1634660509829, "stop": 1634660510330}
+{
+  "uuid": "e5a00e33-83b7-4f47-9d91-b50fa7e4721c",
+  "befores": [
+    {
+      "name": "tagid",
+      "status": "passed",
+      "start": 1634660509829,
+      "stop": 1634660509829
+    }
+  ],
+  "start": 1634660509829,
+  "stop": 1634660510330
+}

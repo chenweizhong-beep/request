@@ -1,1 +1,77 @@
-{"name": "test_get_tag_member[tagid为空，获取标签成功]", "status": "passed", "attachments": [{"name": "log", "source": "91da5b91-9a9f-4c07-a9e4-b8f4da8f5a94-attachment.txt", "type": "text/plain"}], "parameters": [{"name": "tagid", "value": "''"}, {"name": "errcode", "value": "40068"}, {"name": "errmsg", "value": "'invalid tagid'"}], "start": 1634660520095, "stop": 1634660520530, "uuid": "a8af33a8-bd10-4228-9654-3bfaa1939e81", "historyId": "7367f803913f21c20d2bc73c6f307a71", "testCaseId": "cc035f3e79eee8bfb1852953a4fc9929", "fullName": "contact.tag.test_tag.TestTag#test_get_tag_member", "labels": [{"name": "severity", "value": "normal"}, {"name": "feature", "value": "标签增删改查等接口"}, {"name": "story", "value": "获取标签成员接口"}, {"name": "parentSuite", "value": "contact.tag"}, {"name": "suite", "value": "test_tag"}, {"name": "subSuite", "value": "TestTag"}, {"name": "host", "value": "DESKTOP-EOQ4GM0"}, {"name": "thread", "value": "1768-MainThread"}, {"name": "framework", "value": "pytest"}, {"name": "language", "value": "cpython3"}, {"name": "package", "value": "contact.tag.test_tag"}]}
+{
+  "name": "test_get_tag_member[tagid为空，获取标签成功]",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "91da5b91-9a9f-4c07-a9e4-b8f4da8f5a94-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "tagid",
+      "value": "''"
+    },
+    {
+      "name": "errcode",
+      "value": "40068"
+    },
+    {
+      "name": "errmsg",
+      "value": "'invalid tagid'"
+    }
+  ],
+  "start": 1634660520095,
+  "stop": 1634660520530,
+  "uuid": "a8af33a8-bd10-4228-9654-3bfaa1939e81",
+  "historyId": "7367f803913f21c20d2bc73c6f307a71",
+  "testCaseId": "cc035f3e79eee8bfb1852953a4fc9929",
+  "fullName": "contact.tag.test_tag.TestTag#test_get_tag_member",
+  "labels": [
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "feature",
+      "value": "标签增删改查等接口"
+    },
+    {
+      "name": "story",
+      "value": "获取标签成员接口"
+    },
+    {
+      "name": "parentSuite",
+      "value": "contact.tag"
+    },
+    {
+      "name": "suite",
+      "value": "test_tag"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestTag"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-EOQ4GM0"
+    },
+    {
+      "name": "thread",
+      "value": "1768-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "contact.tag.test_tag"
+    }
+  ]
+}

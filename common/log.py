@@ -71,6 +71,8 @@ class Log:
         self.set_stream()
         self.set_file()
         return self.logger
+
+
 '''
 单例模式
 '''
@@ -80,4 +82,3 @@ if __name__ == '__main__':
     log.error("222")
     log.warning("333")
     log.debug("444")
-

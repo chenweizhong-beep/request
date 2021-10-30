@@ -1,1 +1,13 @@
-{"uuid": "72f0e50f-4280-4fac-a566-549deacf3c29", "befores": [{"name": "errmsg", "status": "passed", "start": 1634660504857, "stop": 1634660504857}], "start": 1634660504857, "stop": 1634660505191}
+{
+  "uuid": "72f0e50f-4280-4fac-a566-549deacf3c29",
+  "befores": [
+    {
+      "name": "errmsg",
+      "status": "passed",
+      "start": 1634660504857,
+      "stop": 1634660504857
+    }
+  ],
+  "start": 1634660504857,
+  "stop": 1634660505191
+}

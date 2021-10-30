@@ -10,7 +10,7 @@ get_calender:
     - 案例2：查寻不存在的日历，查询失败
   data:
     - [ 0,"ok",null ]
-    - [0,"ok",0]
+    - [ 0,"ok",0 ]
     - [ 40058,"cal_id_list count 0",8 ]
 update_calender:
   ids:
@@ -18,16 +18,16 @@ update_calender:
     - 案例2：cal_id输入错误，修改日历失败
     - 案例3：cal_is输入为空，修改日历失败
   data:
-    - [0,"测试修改日历一","1000FF","update日历1","sign1",0,0,"ok"]
-    - [0,"测试修改日历一","1000FF","update日历1","sign1",5,40058,"invalid characters"]
-    - [0,"测试修改日历一","1000FF","update日历1","sign1",null,40058,"invalid characters"]
+    - [ 0,"测试修改日历一","1000FF","update日历1","sign1",0,0,"ok" ]
+    - [ 0,"测试修改日历一","1000FF","update日历1","sign1",5,40058,"invalid characters" ]
+    - [ 0,"测试修改日历一","1000FF","update日历1","sign1",null,40058,"invalid characters" ]
 delete_calender:
   ids:
     - 案例1：cal_id输入正确，删除日历成功
     - 案例2：cal_id输入错误，删除日历失败
     - 案例3：cal_id输入为空，删除日历失败
   data:
-    - [0,0,"ok"]
-    - [5,40058,"formatcal_id missing"]
-    - [null,40058,"formatcal_id missing"]
+    - [ 0,0,"ok" ]
+    - [ 5,40058,"formatcal_id missing" ]
+    - [ null,40058,"formatcal_id missing" ]
 

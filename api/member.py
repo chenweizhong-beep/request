@@ -52,4 +52,3 @@ class Member(BaseApi):
         d_data = {"token": token, "size_type": size_type}
         res = self.send_api_data(self.path, d_data, "invite")
         return res
-

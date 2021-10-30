@@ -17,7 +17,6 @@ class Calender(BaseApi):
         data_list = [i[0] for i in data_touple]
         return data_list
 
-
     def create_calender(self, token, organizer, readonly, set_as_default, summary, color, description, userid, userid1):
         d_data = {"token": token, "organizer": organizer, "readonly": readonly, "set_as_default": set_as_default,
                   "summary": summary, "color": color, "description": description, "userid": userid, "userid1": userid1}

@@ -1,1 +1,85 @@
-{"name": "test_delete_tag_member[tagid为空，userlist存在并被添加过，user标签删除失败]", "status": "passed", "attachments": [{"name": "log", "source": "11c45bb9-616b-4758-8452-4d3e83137566-attachment.txt", "type": "text/plain"}], "parameters": [{"name": "tagid", "value": "''"}, {"name": "userlist", "value": "['sign3', 'sign4']"}, {"name": "partylist", "value": "''"}, {"name": "errcode", "value": "41017"}, {"name": "errmsg", "value": "'missing tagid'"}], "start": 1634660514563, "stop": 1634660514920, "uuid": "8d5f98e4-6f11-46ad-b036-c324184ac69c", "historyId": "31e8ba75315716851935caff1bb86a8e", "testCaseId": "e26fcf906b90bf581040892930bea900", "fullName": "contact.tag.test_tag.TestTag#test_delete_tag_member", "labels": [{"name": "feature", "value": "标签增删改查等接口"}, {"name": "story", "value": "删除标签成员接口"}, {"name": "severity", "value": "critical"}, {"name": "parentSuite", "value": "contact.tag"}, {"name": "suite", "value": "test_tag"}, {"name": "subSuite", "value": "TestTag"}, {"name": "host", "value": "DESKTOP-EOQ4GM0"}, {"name": "thread", "value": "1768-MainThread"}, {"name": "framework", "value": "pytest"}, {"name": "language", "value": "cpython3"}, {"name": "package", "value": "contact.tag.test_tag"}]}
+{
+  "name": "test_delete_tag_member[tagid为空，userlist存在并被添加过，user标签删除失败]",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "11c45bb9-616b-4758-8452-4d3e83137566-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "tagid",
+      "value": "''"
+    },
+    {
+      "name": "userlist",
+      "value": "['sign3', 'sign4']"
+    },
+    {
+      "name": "partylist",
+      "value": "''"
+    },
+    {
+      "name": "errcode",
+      "value": "41017"
+    },
+    {
+      "name": "errmsg",
+      "value": "'missing tagid'"
+    }
+  ],
+  "start": 1634660514563,
+  "stop": 1634660514920,
+  "uuid": "8d5f98e4-6f11-46ad-b036-c324184ac69c",
+  "historyId": "31e8ba75315716851935caff1bb86a8e",
+  "testCaseId": "e26fcf906b90bf581040892930bea900",
+  "fullName": "contact.tag.test_tag.TestTag#test_delete_tag_member",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "标签增删改查等接口"
+    },
+    {
+      "name": "story",
+      "value": "删除标签成员接口"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "parentSuite",
+      "value": "contact.tag"
+    },
+    {
+      "name": "suite",
+      "value": "test_tag"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestTag"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-EOQ4GM0"
+    },
+    {
+      "name": "thread",
+      "value": "1768-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "contact.tag.test_tag"
+    }
+  ]
+}

@@ -1,1 +1,13 @@
-{"uuid": "d1fdeffa-deef-4d9e-91fd-35d9099d0b1b", "befores": [{"name": "logname", "status": "passed", "start": 1634660499857, "stop": 1634660499857}], "start": 1634660499857, "stop": 1634660500329}
+{
+  "uuid": "d1fdeffa-deef-4d9e-91fd-35d9099d0b1b",
+  "befores": [
+    {
+      "name": "logname",
+      "status": "passed",
+      "start": 1634660499857,
+      "stop": 1634660499857
+    }
+  ],
+  "start": 1634660499857,
+  "stop": 1634660500329
+}

@@ -1,1 +1,13 @@
-{"uuid": "666babd6-45d4-4e2f-b8d8-13bb8ce4b827", "befores": [{"name": "userlist", "status": "passed", "start": 1634660512230, "stop": 1634660512230}], "start": 1634660512230, "stop": 1634660512591}
+{
+  "uuid": "666babd6-45d4-4e2f-b8d8-13bb8ce4b827",
+  "befores": [
+    {
+      "name": "userlist",
+      "status": "passed",
+      "start": 1634660512230,
+      "stop": 1634660512230
+    }
+  ],
+  "start": 1634660512230,
+  "stop": 1634660512591
+}

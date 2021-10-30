@@ -17,7 +17,7 @@ create_room:
     - [ "会议室3",10,"","陈氏集团1号楼","10F",[ 1,2,3,4,5 ],40058,"missing city/building/floor info" ]
     - [ "会议室4",10,"北京","","10F",[ 1,2,3,4,5 ],40058,"missing city/building/floor info" ]
     - [ "会议室5",10,"北京","陈氏集团1号楼","",[ 1,2,3,4,5 ],40058,"missing city/building/floor info" ]
-    - [ "会议室6",10,"北京","陈氏集团1号楼","10F",[],0,"ok" ]
+    - [ "会议室6",10,"北京","陈氏集团1号楼","10F",[ ],0,"ok" ]
     - [ "会议室1",10,"北京","陈氏集团1号楼","10F",[ 1,2,3,4, ],40058,"meetingroom name exist" ]
 get_room:
   ids:
@@ -30,13 +30,13 @@ get_room:
     - 案例7：会议室所在城市，楼宇输入正确，楼层输入错误，查询失败
     - 案例8：会议室位置信息输入为空，支持设备输入错误，查询失败
   data:
-    - ["","","",[],0,"ok"]
-    - ["北京","","",[],0,"ok"]
-    - ["","陈氏集团1号楼","",[],40058,"missing city/building/floor info"]
-    - ["","","10F",[],40058,"missing city/building/floor info"]
-    - ["","","",[1,2,3,4,5 ],0,"ok"]
-    - ["北京","错误楼号","",[],40058,"invalid city/building/floor"]
-    - ["北京","陈氏集团1号楼","11F",[],40058,"invalid city/building/floor"]
+    - [ "","","",[ ],0,"ok" ]
+    - [ "北京","","",[ ],0,"ok" ]
+    - [ "","陈氏集团1号楼","",[ ],40058,"missing city/building/floor info" ]
+    - [ "","","10F",[ ],40058,"missing city/building/floor info" ]
+    - [ "","","",[ 1,2,3,4,5 ],0,"ok" ]
+    - [ "北京","错误楼号","",[ ],40058,"invalid city/building/floor" ]
+    - [ "北京","陈氏集团1号楼","11F",[ ],40058,"invalid city/building/floor" ]
     - [ "","","",[ 6 ],600039,"device type not support" ]
 update_room:
   ids:
@@ -49,20 +49,20 @@ update_room:
     - 案例7：会议室id输入正确，只输入楼层信息，修改会议室信息失败
     - 案例8：会议室id输入正确，只输入设备列表，修改会议室信息成功
   data:
-    - [6,"","","","","",[],0,"ok"]
-    - [8,"修改会议室","11","成都1","陈氏集团总部2号楼","21F",[1,2,3],0,"ok"]
-    - [100,"修改会议室","11","成都","陈氏集团总部1号楼","21F",[1,2],40058,"invalid meeting roomid"]
-    - ["","修改会议室","11","成都","陈氏集团总部1号楼","21F",[1,2],40058,"missing meeting roomid"]
-    - [6,"","","上海","","",[],40058,"missing city/building/floor info"]
-    - [6,"","","","陈氏集团总部2号楼","",[],40058,"missing city/building/floor info"]
-    - [6,"","","","","25F",[],40058,"missing city/building/floor info"]
-    - [6,"","","","","",[1,2,3,4],0,"ok"]
+    - [ 6,"","","","","",[ ],0,"ok" ]
+    - [ 8,"修改会议室","11","成都1","陈氏集团总部2号楼","21F",[ 1,2,3 ],0,"ok" ]
+    - [ 100,"修改会议室","11","成都","陈氏集团总部1号楼","21F",[ 1,2 ],40058,"invalid meeting roomid" ]
+    - [ "","修改会议室","11","成都","陈氏集团总部1号楼","21F",[ 1,2 ],40058,"missing meeting roomid" ]
+    - [ 6,"","","上海","","",[ ],40058,"missing city/building/floor info" ]
+    - [ 6,"","","","陈氏集团总部2号楼","",[ ],40058,"missing city/building/floor info" ]
+    - [ 6,"","","","","25F",[ ],40058,"missing city/building/floor info" ]
+    - [ 6,"","","","","",[ 1,2,3,4 ],0,"ok" ]
 delete_room:
   ids:
     - 案例1：会议室id输入正确，删除会议室成功
     - 案例2：会议室id输入为空，删除会议室失败
     - 案例3：会议室id输入错误，删除会议室失败
   data:
-    - [6,0,"ok"]
-    - ["",40058,"missing meeting roomid"]
-    - [77,0,"ok"]
+    - [ 6,0,"ok" ]
+    - [ "",40058,"missing meeting roomid" ]
+    - [ 77,0,"ok" ]

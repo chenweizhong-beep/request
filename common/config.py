@@ -11,6 +11,7 @@ class ConfigIn:
     # print(BASE_PATH)
     # 拼接配置文件对的路径
     CONFIG_INI_PATH = os.path.join(BASE_PATH, 'config.ini')
+
     # print(CONFIG_INI_PATH)
 
     def __init__(self, file_name=CONFIG_INI_PATH):
@@ -49,4 +50,3 @@ cf = ConfigIn()
 if __name__ == '__main__':
     cf.set_value('logs', 'file_name', 'r')
     print(cf.get_value('logs', 'file_name'))
-

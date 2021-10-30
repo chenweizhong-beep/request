@@ -1,1 +1,85 @@
-{"name": "test_update_tag[tagid存在，tagname重复，标签修改失败]", "status": "passed", "attachments": [{"name": "log", "source": "188472d0-4787-4a8c-9a3a-54f1fd1fbaf7-attachment.txt", "type": "text/plain"}], "parameters": [{"name": "tagid", "value": "2"}, {"name": "tagname", "value": "'update00'"}, {"name": "errcode", "value": "40071"}, {"name": "errmsg", "value": "'UserTag Name Already Exist'"}, {"name": "logname", "value": "'tagid存在，tagname重复，标签修改失败'"}], "start": 1634660501136, "stop": 1634660501578, "uuid": "b92c02bb-d948-43a7-823e-5b9004b8defa", "historyId": "03b43e73fd9193a05dce6660e38869dc", "testCaseId": "97b4184cfd51cfcab2228a9786e2e3ee", "fullName": "contact.tag.test_tag.TestTag#test_update_tag", "labels": [{"name": "story", "value": "修改标签接口"}, {"name": "feature", "value": "标签增删改查等接口"}, {"name": "severity", "value": "critical"}, {"name": "parentSuite", "value": "contact.tag"}, {"name": "suite", "value": "test_tag"}, {"name": "subSuite", "value": "TestTag"}, {"name": "host", "value": "DESKTOP-EOQ4GM0"}, {"name": "thread", "value": "1768-MainThread"}, {"name": "framework", "value": "pytest"}, {"name": "language", "value": "cpython3"}, {"name": "package", "value": "contact.tag.test_tag"}]}
+{
+  "name": "test_update_tag[tagid存在，tagname重复，标签修改失败]",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "log",
+      "source": "188472d0-4787-4a8c-9a3a-54f1fd1fbaf7-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "tagid",
+      "value": "2"
+    },
+    {
+      "name": "tagname",
+      "value": "'update00'"
+    },
+    {
+      "name": "errcode",
+      "value": "40071"
+    },
+    {
+      "name": "errmsg",
+      "value": "'UserTag Name Already Exist'"
+    },
+    {
+      "name": "logname",
+      "value": "'tagid存在，tagname重复，标签修改失败'"
+    }
+  ],
+  "start": 1634660501136,
+  "stop": 1634660501578,
+  "uuid": "b92c02bb-d948-43a7-823e-5b9004b8defa",
+  "historyId": "03b43e73fd9193a05dce6660e38869dc",
+  "testCaseId": "97b4184cfd51cfcab2228a9786e2e3ee",
+  "fullName": "contact.tag.test_tag.TestTag#test_update_tag",
+  "labels": [
+    {
+      "name": "story",
+      "value": "修改标签接口"
+    },
+    {
+      "name": "feature",
+      "value": "标签增删改查等接口"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "parentSuite",
+      "value": "contact.tag"
+    },
+    {
+      "name": "suite",
+      "value": "test_tag"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestTag"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-EOQ4GM0"
+    },
+    {
+      "name": "thread",
+      "value": "1768-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "contact.tag.test_tag"
+    }
+  ]
+}
