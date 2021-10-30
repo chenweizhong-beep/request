@@ -3,8 +3,6 @@
 # ***
 import requests
 
-from day04_reqursts.api.member import Member
-
 if __name__ == '__main__':
     URl = "https://qyapi.weixin.qq.com/cgi-bin/gettoken"
     # 参数（corpid，corpsecret ）
