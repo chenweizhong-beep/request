@@ -3,8 +3,8 @@
 # ***
 import pytest
 
-from day04_reqursts.api.wework import WeWork
-from day04_reqursts.common.config import cf
+from api.wework import WeWork
+from common.config import cf
 
 
 @pytest.fixture(scope="session")
