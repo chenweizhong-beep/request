@@ -1,0 +1,70 @@
+{
+  "total" : 6,
+  "items" : [ {
+    "uid" : "747dacf07e6d402915fa455ceff439f2",
+    "name" : "meeing_room.meeting_room",
+    "statistic" : {
+      "failed" : 6,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 22,
+      "unknown" : 0,
+      "total" : 28
+    }
+  }, {
+    "uid" : "a5b757c7f7792ed2129b144690f060eb",
+    "name" : "contact.member",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 37,
+      "unknown" : 0,
+      "total" : 37
+    }
+  }, {
+    "uid" : "2d7c2f2319639cb49a34a05ba1d52795",
+    "name" : "contact.tag",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 36,
+      "unknown" : 0,
+      "total" : 36
+    }
+  }, {
+    "uid" : "2ef5da6487298100e83c1b8d67f2992f",
+    "name" : "contact.department",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 19,
+      "unknown" : 0,
+      "total" : 19
+    }
+  }, {
+    "uid" : "ac2ef3de1a3dc9d9870b972948d6a126",
+    "name" : "calender.calender_1",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "caa44cd50ad8977dfcdbd9a3c27f0f7d",
+    "name" : "calender.schedule",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 8
+    }
+  } ]
+}

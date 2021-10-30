@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "2d7c2f2319639cb49a34a05ba1d52795",
+    "name" : "contact.tag",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 36,
+      "unknown" : 0,
+      "total" : 36
+    }
+  } ]
+}

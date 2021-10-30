@@ -1,0 +1,126 @@
+{
+  "uid" : "6c160b0738d87e5",
+  "name" : "test_creat_tag[标签添加成功0]",
+  "fullName" : "contact.tag.test_tag.TestTag#test_creat_tag",
+  "historyId" : "c2e86d3ebf73606d74e3cc1ea731d660",
+  "time" : {
+    "start" : 1634660493092,
+    "stop" : 1634660493570,
+    "duration" : 478
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "token",
+    "time" : {
+      "start" : 1634660490591,
+      "stop" : 1634660491030,
+      "duration" : 439
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "create_tag",
+    "time" : {
+      "start" : 1634660491031,
+      "stop" : 1634660492022,
+      "duration" : 991
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "49a4961075491e9e",
+      "name" : "log",
+      "source" : "49a4961075491e9e.txt",
+      "type" : "text/plain",
+      "size" : 920
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "标签增删改查等接口"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "增加标签接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "contact.tag"
+  }, {
+    "name" : "suite",
+    "value" : "test_tag"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTag"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EOQ4GM0"
+  }, {
+    "name" : "thread",
+    "value" : "1768-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "contact.tag.test_tag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "errcode",
+    "value" : "0"
+  }, {
+    "name" : "errmsg",
+    "value" : "'created'"
+  }, {
+    "name" : "logname",
+    "value" : "'标签添加成功'"
+  }, {
+    "name" : "tagid",
+    "value" : "3"
+  }, {
+    "name" : "tagname",
+    "value" : "'add3'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c160b0738d87e5.json",
+  "parameterValues" : [ "0", "'created'", "'标签添加成功'", "3", "'add3'" ]
+}

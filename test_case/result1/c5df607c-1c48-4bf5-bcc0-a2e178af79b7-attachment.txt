@@ -1,0 +1,22 @@
+2021-10-27-23:06|[32mINFO  [0m|test_meeting_room.py:46 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": null,
+    "equipment": [
+      6
+    ],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=JkXkCCIptCWmmKndKz8vfxOr3h7uQo_KdNacgvGNCmdcXuML_UIPX-hwQ_f2y38B7ST9PT8iqp0oUi23LLhs5uqjrpPCG4WNwYUWFJYAMMBp_CRTZzhkpPQUX5Da10GpR6SfaRXl2BDDdvVKm6laOPVdd8C6x_lMYaehOiA1n9vEYNRGQC2VDBznYZOpKrde09qprvT705hFSz1BKebucg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 600039,
+  "errmsg": "device type not support, hint: [1635347213_232_428637c3c5995ca8750ab11606077235], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=600039",
+  "meetingroom_list": []
+}
+2021-10-27-23:06|[32mINFO  [0m|test_meeting_room.py:48 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

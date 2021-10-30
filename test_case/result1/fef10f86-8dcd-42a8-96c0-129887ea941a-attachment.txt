@@ -1,0 +1,88 @@
+2021-10-27-23:06|[32mINFO  [0m|test_meeting_room.py:68 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试删除会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 77
+  },
+  "method": "post",
+  "params": "access_token=JkXkCCIptCWmmKndKz8vfxOr3h7uQo_KdNacgvGNCmdcXuML_UIPX-hwQ_f2y38B7ST9PT8iqp0oUi23LLhs5uqjrpPCG4WNwYUWFJYAMMBp_CRTZzhkpPQUX5Da10GpR6SfaRXl2BDDdvVKm6laOPVdd8C6x_lMYaehOiA1n9vEYNRGQC2VDBznYZOpKrde09qprvT705hFSz1BKebucg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-27-23:06|[32mINFO  [0m|test_meeting_room.py:70 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "method": "get",
+  "params": "access_token=IK5ErRA6zTLgwTudN6GtX3c1YOyfisrzJBQIvMtAfdxMy1iLjovQF2oXxgn_LEdtSUe-9OHcsCBr4meH0DlFldAP_nQ83Hg2LD0WuKSmY63oCyj1p149MBEr6G0tYlbX81vubGFr_ivjS8xuau3Ulj7txdsNZltepUVaBXjsgHJcHtg3mzl7MHlxVLIivZYpD5fgTIg4fi0W971Q8QnVyw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/list"
+}
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "taglist": [
+    {
+      "tagid": 1,
+      "tagname": "add1"
+    },
+    {
+      "tagid": 2,
+      "tagname": "add2"
+    },
+    {
+      "tagid": 3,
+      "tagname": "add3"
+    }
+  ]
+}
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "method": "get",
+  "params": "access_token=IK5ErRA6zTLgwTudN6GtX3c1YOyfisrzJBQIvMtAfdxMy1iLjovQF2oXxgn_LEdtSUe-9OHcsCBr4meH0DlFldAP_nQ83Hg2LD0WuKSmY63oCyj1p149MBEr6G0tYlbX81vubGFr_ivjS8xuau3Ulj7txdsNZltepUVaBXjsgHJcHtg3mzl7MHlxVLIivZYpD5fgTIg4fi0W971Q8QnVyw&tagid=1",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/delete"
+}
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "deleted"
+}
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "method": "get",
+  "params": "access_token=IK5ErRA6zTLgwTudN6GtX3c1YOyfisrzJBQIvMtAfdxMy1iLjovQF2oXxgn_LEdtSUe-9OHcsCBr4meH0DlFldAP_nQ83Hg2LD0WuKSmY63oCyj1p149MBEr6G0tYlbX81vubGFr_ivjS8xuau3Ulj7txdsNZltepUVaBXjsgHJcHtg3mzl7MHlxVLIivZYpD5fgTIg4fi0W971Q8QnVyw&tagid=2",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/delete"
+}
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "deleted"
+}
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "method": "get",
+  "params": "access_token=IK5ErRA6zTLgwTudN6GtX3c1YOyfisrzJBQIvMtAfdxMy1iLjovQF2oXxgn_LEdtSUe-9OHcsCBr4meH0DlFldAP_nQ83Hg2LD0WuKSmY63oCyj1p149MBEr6G0tYlbX81vubGFr_ivjS8xuau3Ulj7txdsNZltepUVaBXjsgHJcHtg3mzl7MHlxVLIivZYpD5fgTIg4fi0W971Q8QnVyw&tagid=3",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/delete"
+}
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "deleted"
+}
+2021-10-27-23:06|[32mINFO  [0m|conftest.py:59 |************************开始获取成员的后置条件*****************************************
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "method": "get",
+  "params": "access_token=IK5ErRA6zTLgwTudN6GtX3c1YOyfisrzJBQIvMtAfdxMy1iLjovQF2oXxgn_LEdtSUe-9OHcsCBr4meH0DlFldAP_nQ83Hg2LD0WuKSmY63oCyj1p149MBEr6G0tYlbX81vubGFr_ivjS8xuau3Ulj7txdsNZltepUVaBXjsgHJcHtg3mzl7MHlxVLIivZYpD5fgTIg4fi0W971Q8QnVyw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/list"
+}
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "taglist": []
+}
+2021-10-27-23:06|[32mINFO  [0m|conftest.py:61 |************************开始获取成员的后置条件结束*****************************************

@@ -1,0 +1,23 @@
+2021-10-28-13:55|[32mINFO  [0m|test_calender.py:70 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试删除日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-28-13:55|[32mINFO  [0m|mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-28-13:55|[32mINFO  [0m|calendar.py:67 |报错信息是：list indices must be integers or slices, not NoneType
+2021-10-28-13:55|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id": [
+      "wcj9N2BwAAGm0XGPUTsToWTXKZlw7mUA",
+      "wcj9N2BwAAamuNRjMBabOUxhhPc3K_iQ"
+    ]
+  },
+  "method": "post",
+  "params": "access_token=lENR6q0Gmp_6b8dFXyF_l1zAKBV7wW-7t_APvqoE6CcZkiTTa84_aVK3byBri-WL2oGbO38vg1rOUVyq2OY1cZIg6OZAqfdqFvrrSLXUdERIug9vMcHEPOc2RtQ_iRfSugbsKQ2YNwlgRKSchW9tlewGLN3UHU9xY5KqtQGq8fWgYIgTkcvTp2XQnZfvmcpSlE4V_PeGOUwgJPucvfT-nw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/del"
+}
+2021-10-28-13:55|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "Warning: wrong json formatcal_id missing. Invalid input invalid Request Parameter, hint: [1635400512_169_6e51ad5b3f241102f8ff99d981e82b3e], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-28-13:55|[32mINFO  [0m|mysql.py:96 |delete语句为delete from calender where cal_id = '['wcj9N2BwAAGm0XGPUTsToWTXKZlw7mUA', 'wcj9N2BwAAamuNRjMBabOUxhhPc3K_iQ']'
+2021-10-28-13:55|[1m[31mERROR [0m|mysql.py:102|delete语句错误，错误原因是(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wcj9N2BwAAGm0XGPUTsToWTXKZlw7mUA', 'wcj9N2BwAAamuNRjMBabOUxhhPc3K_iQ']'' at line 1")
+2021-10-28-13:55|[32mINFO  [0m|test_calender.py:72 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

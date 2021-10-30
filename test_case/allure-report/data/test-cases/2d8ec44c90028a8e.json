@@ -1,0 +1,130 @@
+{
+  "uid" : "2d8ec44c90028a8e",
+  "name" : "test_creat_tag[tagid不重复，tagname重复，标签添加失败]",
+  "fullName" : "contact.tag.test_tag.TestTag#test_creat_tag",
+  "historyId" : "ae253bee51214804d9090f1c3ddb6541",
+  "time" : {
+    "start" : 1635347190235,
+    "stop" : 1635347190500,
+    "duration" : 265
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "create_tag",
+    "time" : {
+      "start" : 1635347188219,
+      "stop" : 1635347188815,
+      "duration" : 596
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "token",
+    "time" : {
+      "start" : 1635347159999,
+      "stop" : 1635347160322,
+      "duration" : 323
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "47164d718f9e2e98",
+      "name" : "log",
+      "source" : "47164d718f9e2e98.txt",
+      "type" : "text/plain",
+      "size" : 1370
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "标签增删改查等接口测试"
+  }, {
+    "name" : "story",
+    "value" : "增加标签接口"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "contact.tag"
+  }, {
+    "name" : "suite",
+    "value" : "test_tag"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTag"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EOQ4GM0"
+  }, {
+    "name" : "thread",
+    "value" : "10132-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "contact.tag.test_tag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "errcode",
+    "value" : "40071"
+  }, {
+    "name" : "errmsg",
+    "value" : "'UserTag Name Already Exist'"
+  }, {
+    "name" : "logname",
+    "value" : "'tagid不重复，tagname重复，标签添加失败'"
+  }, {
+    "name" : "tagid",
+    "value" : "5"
+  }, {
+    "name" : "tagname",
+    "value" : "'add1'"
+  } ],
+  "links" : [ {
+    "name" : "api地址",
+    "url" : "https://work.weixin.qq.com/api/doc/90000/90135/90195",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2d8ec44c90028a8e.json",
+  "parameterValues" : [ "40071", "'UserTag Name Already Exist'", "'tagid不重复，tagname重复，标签添加失败'", "5", "'add1'" ]
+}

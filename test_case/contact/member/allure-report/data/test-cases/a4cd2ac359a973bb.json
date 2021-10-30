@@ -1,0 +1,109 @@
+{
+  "uid" : "a4cd2ac359a973bb",
+  "name" : "test_active_status[data大于如今日期，断言失败]",
+  "fullName" : "test_member.TestMember#test_active_status",
+  "historyId" : "607ceb23ac366b40fc0aba15518d89af",
+  "time" : {
+    "start" : 1634477132592,
+    "stop" : 1634477132960,
+    "duration" : 368
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "token",
+    "time" : {
+      "start" : 1634477108065,
+      "stop" : 1634477108417,
+      "duration" : 352
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9b19ea1d9ba97d96",
+      "name" : "log",
+      "source" : "9b19ea1d9ba97d96.txt",
+      "type" : "text/plain",
+      "size" : 1943
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "通讯录人员的增删改查等接口测试"
+  }, {
+    "name" : "story",
+    "value" : "查看企业微信活跃度"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite",
+    "value" : "test_member"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMember"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EOQ4GM0"
+  }, {
+    "name" : "thread",
+    "value" : "16684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_member"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "'2035-10-10'"
+  }, {
+    "name" : "errcode",
+    "value" : "40058"
+  }, {
+    "name" : "errmsg",
+    "value" : "'invalid Request Parameter'"
+  }, {
+    "name" : "logname",
+    "value" : "'data大于如今日期，断言失败'"
+  } ],
+  "links" : [ {
+    "name" : "api地址",
+    "url" : "https://work.weixin.qq.com/api/doc/90000/90135/90195",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a4cd2ac359a973bb.json",
+  "parameterValues" : [ "'2035-10-10'", "40058", "'invalid Request Parameter'", "'data大于如今日期，断言失败'" ]
+}

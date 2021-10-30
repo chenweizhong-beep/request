@@ -1,0 +1,109 @@
+{
+  "uid" : "6e19e4bbeed168bb",
+  "name" : "test_delete_department[部门id为空，删除失败]",
+  "fullName" : "contact.department.test_department.TestDepartment#test_delete_department",
+  "historyId" : "f1a27b9ac0aa153fc980da52490c2a23",
+  "time" : {
+    "start" : 1635347167086,
+    "stop" : 1635347167358,
+    "duration" : 272
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "token",
+    "time" : {
+      "start" : 1635347159999,
+      "stop" : 1635347160322,
+      "duration" : 323
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "25210987c1d88979",
+      "name" : "log",
+      "source" : "25210987c1d88979.txt",
+      "type" : "text/plain",
+      "size" : 1338
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "删除部门接口"
+  }, {
+    "name" : "feature",
+    "value" : "部门增删改查等接口测试"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "contact.department"
+  }, {
+    "name" : "suite",
+    "value" : "test_department"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDepartment"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EOQ4GM0"
+  }, {
+    "name" : "thread",
+    "value" : "10132-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "contact.department.test_department"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "errcode",
+    "value" : "40058"
+  }, {
+    "name" : "errmsg",
+    "value" : "'invalid Request Parameter'"
+  }, {
+    "name" : "id",
+    "value" : "''"
+  } ],
+  "links" : [ {
+    "name" : "api地址",
+    "url" : "https://work.weixin.qq.com/api/doc/90000/90135/90195",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6e19e4bbeed168bb.json",
+  "parameterValues" : [ "40058", "'invalid Request Parameter'", "''" ]
+}

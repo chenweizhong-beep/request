@@ -1,0 +1,45 @@
+2021-10-28-13:55|[32mINFO  [0m|test_department.py:46 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试查询部门>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-28-13:55|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "method": "get",
+  "params": "access_token=lX_Tq1AkR9eFeAsWIn4r4T5wO3r3Jx99u7mIO6ofCC0h2z6MOFi3v5cU3vIkLGQATWvJ0d4n2uUG1PqCSHDXHsX1rYN1KciJxbEzdl-goNlPm5C1OuU-VDESiREUTRCh71AiInMCeGGKkdX4x98_CzLsZDsSdLFw7CKyvBVxKtecOJ6AROoGhNhqOuh-Cn9iaUTWm42q9meaeZ-i7y5EaQ&id=1",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/list"
+}
+2021-10-28-13:55|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "department": [
+    {
+      "id": 1,
+      "name": "陈氏集团",
+      "parentid": 0,
+      "order": 100000000
+    },
+    {
+      "id": 3,
+      "name": "smoke2",
+      "parentid": 1,
+      "order": 99999000
+    },
+    {
+      "id": 2,
+      "name": "smoke1",
+      "parentid": 1,
+      "order": 100000000
+    },
+    {
+      "id": 4,
+      "name": "上海研究中心",
+      "parentid": 1,
+      "order": 99998000
+    },
+    {
+      "id": 5,
+      "name": "add",
+      "parentid": 1,
+      "order": 99997000
+    }
+  ]
+}
+2021-10-28-13:55|[32mINFO  [0m|test_department.py:48 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<查询部门测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

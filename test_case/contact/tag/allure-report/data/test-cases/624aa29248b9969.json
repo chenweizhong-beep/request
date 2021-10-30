@@ -1,0 +1,126 @@
+{
+  "uid" : "624aa29248b9969",
+  "name" : "test_create_tag_member[tagid存在，userlist不存在，user添加标签失败]",
+  "fullName" : "contact.tag.test_tag.TestTag#test_create_tag_member",
+  "historyId" : "57b05716e31bec16315b9b941af4a3f7",
+  "time" : {
+    "start" : 1634660511553,
+    "stop" : 1634660511931,
+    "duration" : 378
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "token",
+    "time" : {
+      "start" : 1634660490591,
+      "stop" : 1634660491030,
+      "duration" : 439
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "create_tag_member",
+    "time" : {
+      "start" : 1634660506867,
+      "stop" : 1634660509829,
+      "duration" : 2962
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "91fbc627661cd82",
+      "name" : "log",
+      "source" : "91fbc627661cd82.txt",
+      "type" : "text/plain",
+      "size" : 1025
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "增加标签成员接口"
+  }, {
+    "name" : "feature",
+    "value" : "标签增删改查等接口"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "contact.tag"
+  }, {
+    "name" : "suite",
+    "value" : "test_tag"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTag"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EOQ4GM0"
+  }, {
+    "name" : "thread",
+    "value" : "1768-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "contact.tag.test_tag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "errcode",
+    "value" : "40070"
+  }, {
+    "name" : "errmsg",
+    "value" : "'list all invalid'"
+  }, {
+    "name" : "partylist",
+    "value" : "''"
+  }, {
+    "name" : "tagid",
+    "value" : "1"
+  }, {
+    "name" : "userlist",
+    "value" : "['signggg']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "624aa29248b9969.json",
+  "parameterValues" : [ "40070", "'list all invalid'", "''", "1", "['signggg']" ]
+}

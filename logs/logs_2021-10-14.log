@@ -1,0 +1,2154 @@
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "userid": "tong"
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w&userid=tong",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/delete"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "deleted"
+}
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "userid": "tong5"
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w&userid=tong5",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/delete"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "deleted"
+}
+2021-10-14-00:10|INFO  |test_member.py:36 |------开始测试创建成员:输入非重复的userid，name，mobile，断言成功------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "name": "aaa",
+  "userid": "tong",
+  "mobile": "13222261165"
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "department": [
+      1,
+      3
+    ],
+    "mobile": 13222261165,
+    "name": "aaa",
+    "userid": "tong"
+  },
+  "method": "post",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/create"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "created. Warning: wrong json format. "
+}
+2021-10-14-00:10|INFO  |test_member.py:38 |打印相应的结果：{'errcode': 0, 'errmsg': 'created. Warning: wrong json format. '}
+2021-10-14-00:10|INFO  |test_member.py:39 |------创建成员测试结束------
+2021-10-14-00:10|INFO  |test_member.py:36 |------开始测试创建成员:没有name,创建失败------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "name": "",
+  "userid": "tong1",
+  "mobile": "13221661164"
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "department": [
+      1,
+      3
+    ],
+    "mobile": 13221661164,
+    "name": null,
+    "userid": "tong1"
+  },
+  "method": "post",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/create"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60112,
+  "errmsg": "Warning: wrong json format. invalid name, hint: [1634141429_161_9896b501150d5f9f1aec8e23c6f105c4], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60112"
+}
+2021-10-14-00:10|INFO  |test_member.py:38 |打印相应的结果：{'errcode': 60112, 'errmsg': 'Warning: wrong json format. invalid name, hint: [1634141429_161_9896b501150d5f9f1aec8e23c6f105c4], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60112'}
+2021-10-14-00:10|INFO  |test_member.py:39 |------创建成员测试结束------
+2021-10-14-00:10|INFO  |test_member.py:36 |------开始测试创建成员:没有userid，断言失败------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "name": "bbb",
+  "userid": "",
+  "mobile": "13221661163"
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "department": [
+      1,
+      3
+    ],
+    "mobile": 13221661163,
+    "name": "bbb",
+    "userid": null
+  },
+  "method": "post",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/create"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 41009,
+  "errmsg": "Warning: wrong json format. missing userid, hint: [1634141430_161_2adc41d039a8d664a7e8a9ace9aaa6a3], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=41009"
+}
+2021-10-14-00:10|INFO  |test_member.py:38 |打印相应的结果：{'errcode': 41009, 'errmsg': 'Warning: wrong json format. missing userid, hint: [1634141430_161_2adc41d039a8d664a7e8a9ace9aaa6a3], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=41009'}
+2021-10-14-00:10|INFO  |test_member.py:39 |------创建成员测试结束------
+2021-10-14-00:10|INFO  |test_member.py:36 |------开始测试创建成员:没有电话，断言失败------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "name": "ccc",
+  "userid": "tong3",
+  "mobile": ""
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "department": [
+      1,
+      3
+    ],
+    "mobile": null,
+    "name": "ccc",
+    "userid": "tong3"
+  },
+  "method": "post",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/create"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60129,
+  "errmsg": "missing mobile or email, hint: [1634141430_161_48f80229457a39ca137e4fb52bd381be], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60129"
+}
+2021-10-14-00:10|INFO  |test_member.py:38 |打印相应的结果：{'errcode': 60129, 'errmsg': 'missing mobile or email, hint: [1634141430_161_48f80229457a39ca137e4fb52bd381be], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60129'}
+2021-10-14-00:10|INFO  |test_member.py:39 |------创建成员测试结束------
+2021-10-14-00:10|INFO  |test_member.py:36 |------开始测试创建成员:userid重复，断言失败------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "name": "ddd",
+  "userid": "tong",
+  "mobile": "13222661172"
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "department": [
+      1,
+      3
+    ],
+    "mobile": 13222661172,
+    "name": "ddd",
+    "userid": "tong"
+  },
+  "method": "post",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/create"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60102,
+  "errmsg": "Warning: wrong json format. userid existed, hint: [1634141430_161_f5e94ac2fc3c81333c1c59c591aef5be], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60102"
+}
+2021-10-14-00:10|INFO  |test_member.py:38 |打印相应的结果：{'errcode': 60102, 'errmsg': 'Warning: wrong json format. userid existed, hint: [1634141430_161_f5e94ac2fc3c81333c1c59c591aef5be], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60102'}
+2021-10-14-00:10|INFO  |test_member.py:39 |------创建成员测试结束------
+2021-10-14-00:10|INFO  |test_member.py:36 |------开始测试创建成员:name重复，断言成功------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "name": "aaa",
+  "userid": "tong5",
+  "mobile": "13222661161"
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "department": [
+      1,
+      3
+    ],
+    "mobile": 13222661161,
+    "name": "aaa",
+    "userid": "tong5"
+  },
+  "method": "post",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/create"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "created. Warning: wrong json format. "
+}
+2021-10-14-00:10|INFO  |test_member.py:38 |打印相应的结果：{'errcode': 0, 'errmsg': 'created. Warning: wrong json format. '}
+2021-10-14-00:10|INFO  |test_member.py:39 |------创建成员测试结束------
+2021-10-14-00:10|INFO  |test_member.py:36 |------开始测试创建成员:电话重复，断言失败------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "name": "tong6",
+  "userid": "tong6",
+  "mobile": "13222261165"
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "department": [
+      1,
+      3
+    ],
+    "mobile": 13222261165,
+    "name": "tong6",
+    "userid": "tong6"
+  },
+  "method": "post",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/create"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60104,
+  "errmsg": "Warning: wrong json format. mobile existed:tong"
+}
+2021-10-14-00:10|INFO  |test_member.py:38 |打印相应的结果：{'errcode': 60104, 'errmsg': 'Warning: wrong json format. mobile existed:tong'}
+2021-10-14-00:10|INFO  |test_member.py:39 |------创建成员测试结束------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "name": "name",
+  "userid": "edit",
+  "mobile": "15172222165"
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "department": [
+      1,
+      3
+    ],
+    "mobile": 15172222165,
+    "name": "name",
+    "userid": "edit"
+  },
+  "method": "post",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/create"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60102,
+  "errmsg": "Warning: wrong json format. userid existed, hint: [1634141432_161_5a7e394667dd607b0721826117b08576], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60102"
+}
+2021-10-14-00:10|INFO  |test_member.py:45 |------开始测试修改成员userid存在，name不为空，电话不重复，断言成功------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "name": "edit",
+  "userid": "edit",
+  "mobile": "15172999999"
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "department": [
+      1,
+      3
+    ],
+    "mobile": 15172999999,
+    "name": "edit",
+    "userid": "edit"
+  },
+  "method": "post",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/update"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "updated. Warning: wrong json format. "
+}
+2021-10-14-00:10|INFO  |test_member.py:47 |------打印的相应结果：{'errcode': 0, 'errmsg': 'updated. Warning: wrong json format. '}------
+2021-10-14-00:10|INFO  |test_member.py:48 |------修改成员测试结束------
+2021-10-14-00:10|INFO  |test_member.py:45 |------开始测试修改成员userid存在，name为空，断言失败------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "name": "",
+  "userid": "edit",
+  "mobile": "15172661165"
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "department": [
+      1,
+      3
+    ],
+    "mobile": 15172661165,
+    "name": null,
+    "userid": "edit"
+  },
+  "method": "post",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/update"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "updated. Warning: wrong json format. "
+}
+2021-10-14-00:10|INFO  |test_member.py:47 |------打印的相应结果：{'errcode': 0, 'errmsg': 'updated. Warning: wrong json format. '}------
+2021-10-14-00:10|INFO  |test_member.py:48 |------修改成员测试结束------
+2021-10-14-00:10|INFO  |test_member.py:45 |------开始测试修改成员userid不存在，断言失败------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "name": "edit1",
+  "userid": "edit1",
+  "mobile": "15172661165"
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "department": [
+      1,
+      3
+    ],
+    "mobile": 15172661165,
+    "name": "edit1",
+    "userid": "edit1"
+  },
+  "method": "post",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/update"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60111,
+  "errmsg": "Warning: wrong json format. userid not found, hint: [1634141434_161_1a3d4487d8b1149b7f47c54e423e622e], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60111"
+}
+2021-10-14-00:10|INFO  |test_member.py:47 |------打印的相应结果：{'errcode': 60111, 'errmsg': 'Warning: wrong json format. userid not found, hint: [1634141434_161_1a3d4487d8b1149b7f47c54e423e622e], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60111'}------
+2021-10-14-00:10|INFO  |test_member.py:48 |------修改成员测试结束------
+2021-10-14-00:10|INFO  |test_member.py:45 |------开始测试修改成员userid为空，断言失败------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "name": "edit1",
+  "userid": "",
+  "mobile": "15172661165"
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "department": [
+      1,
+      3
+    ],
+    "mobile": 15172661165,
+    "name": "edit1",
+    "userid": null
+  },
+  "method": "post",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/update"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60111,
+  "errmsg": "Warning: wrong json format. userid not found, hint: [1634141434_161_fdb5841ab726710b54655060706afd66], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60111"
+}
+2021-10-14-00:10|INFO  |test_member.py:47 |------打印的相应结果：{'errcode': 60111, 'errmsg': 'Warning: wrong json format. userid not found, hint: [1634141434_161_fdb5841ab726710b54655060706afd66], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60111'}------
+2021-10-14-00:10|INFO  |test_member.py:48 |------修改成员测试结束------
+2021-10-14-00:10|INFO  |test_member.py:45 |------开始测试修改成员修改后的mobile重复，断言失败------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "name": "edit",
+  "userid": "edit",
+  "mobile": "13222661161"
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "department": [
+      1,
+      3
+    ],
+    "mobile": 13222661161,
+    "name": "edit",
+    "userid": "edit"
+  },
+  "method": "post",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/update"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60104,
+  "errmsg": "Warning: wrong json format. mobile existed:tong5"
+}
+2021-10-14-00:10|INFO  |test_member.py:47 |------打印的相应结果：{'errcode': 60104, 'errmsg': 'Warning: wrong json format. mobile existed:tong5'}------
+2021-10-14-00:10|INFO  |test_member.py:48 |------修改成员测试结束------
+2021-10-14-00:10|INFO  |test_member.py:54 |------开始测试获取成员userid存在，断言成功------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "userid": "edit"
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w&userid=edit",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/get"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "ok",
+  "userid": "edit",
+  "name": "edit",
+  "department": [
+    1,
+    3
+  ],
+  "position": "",
+  "mobile": "15172661165",
+  "gender": "0",
+  "email": "",
+  "avatar": "",
+  "status": 4,
+  "isleader": 0,
+  "extattr": {
+    "attrs": []
+  },
+  "telephone": "",
+  "enable": 1,
+  "hide_mobile": 0,
+  "order": [
+    0,
+    0
+  ],
+  "main_department": 1,
+  "qr_code": "https://open.work.weixin.qq.com/wwopen/userQRCode?vcode=vc85d16e0b27a10f72",
+  "alias": "",
+  "is_leader_in_dept": [
+    0,
+    0
+  ],
+  "thumb_avatar": ""
+}
+2021-10-14-00:10|INFO  |test_member.py:56 |打印的相应结果是：{'errcode': 0, 'errmsg': 'ok', 'userid': 'edit', 'name': 'edit', 'department': [1, 3], 'position': '', 'mobile': '15172661165', 'gender': '0', 'email': '', 'avatar': '', 'status': 4, 'isleader': 0, 'extattr': {'attrs': []}, 'telephone': '', 'enable': 1, 'hide_mobile': 0, 'order': [0, 0], 'main_department': 1, 'qr_code': 'https://open.work.weixin.qq.com/wwopen/userQRCode?vcode=vc85d16e0b27a10f72', 'alias': '', 'is_leader_in_dept': [0, 0], 'thumb_avatar': ''}
+2021-10-14-00:10|INFO  |test_member.py:57 |------获取成员测试结束------
+2021-10-14-00:10|INFO  |test_member.py:54 |------开始测试获取成员userid为空，断言失败------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "userid": ""
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w&userid=",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/get"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 41009,
+  "errmsg": "missing userid, hint: [1634141435_161_8c0ca7d81ef5103ac7c569d6b6cd240b], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=41009",
+  "department": [],
+  "order": [],
+  "is_leader_in_dept": []
+}
+2021-10-14-00:10|INFO  |test_member.py:56 |打印的相应结果是：{'errcode': 41009, 'errmsg': 'missing userid, hint: [1634141435_161_8c0ca7d81ef5103ac7c569d6b6cd240b], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=41009', 'department': [], 'order': [], 'is_leader_in_dept': []}
+2021-10-14-00:10|INFO  |test_member.py:57 |------获取成员测试结束------
+2021-10-14-00:10|INFO  |test_member.py:54 |------开始测试获取成员userid不存在，断言失败------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "userid": "get1"
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w&userid=get1",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/get"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60111,
+  "errmsg": "userid not found, hint: [1634141436_161_35a84d10eaa386fffab7adf4dc23757d], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60111",
+  "department": [],
+  "order": [],
+  "is_leader_in_dept": []
+}
+2021-10-14-00:10|INFO  |test_member.py:56 |打印的相应结果是：{'errcode': 60111, 'errmsg': 'userid not found, hint: [1634141436_161_35a84d10eaa386fffab7adf4dc23757d], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60111', 'department': [], 'order': [], 'is_leader_in_dept': []}
+2021-10-14-00:10|INFO  |test_member.py:57 |------获取成员测试结束------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "name": "delete",
+  "userid": "delete",
+  "mobile": "15894143201"
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "department": [
+      1,
+      3
+    ],
+    "mobile": 15894143201,
+    "name": "delete",
+    "userid": "delete"
+  },
+  "method": "post",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/create"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "created. Warning: wrong json format. "
+}
+2021-10-14-00:10|INFO  |test_member.py:63 |------开始测试删除成员userid存在，不为空，断言成功------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "userid": "delete"
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w&userid=delete",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/delete"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "deleted"
+}
+2021-10-14-00:10|INFO  |test_member.py:65 |打印的相应结果：{'errcode': 0, 'errmsg': 'deleted'}
+2021-10-14-00:10|INFO  |test_member.py:66 |------删除成员测试结束------
+2021-10-14-00:10|INFO  |test_member.py:63 |------开始测试删除成员userid为空，断言失败------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "userid": "tongd"
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w&userid=tongd",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/delete"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60111,
+  "errmsg": "userid not found, hint: [1634141437_161_85ea3524c3832e7f41fa7c4f00eef62d], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60111"
+}
+2021-10-14-00:10|INFO  |test_member.py:65 |打印的相应结果：{'errcode': 60111, 'errmsg': 'userid not found, hint: [1634141437_161_85ea3524c3832e7f41fa7c4f00eef62d], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60111'}
+2021-10-14-00:10|INFO  |test_member.py:66 |------删除成员测试结束------
+2021-10-14-00:10|INFO  |test_member.py:63 |------开始测试删除成员userid不存在，断言失败------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "userid": ""
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w&userid=",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/delete"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60111,
+  "errmsg": "userid not found, hint: [1634141437_161_08ba68e74c7afb15ecc911f84b4d34a7], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60111"
+}
+2021-10-14-00:10|INFO  |test_member.py:65 |打印的相应结果：{'errcode': 60111, 'errmsg': 'userid not found, hint: [1634141437_161_08ba68e74c7afb15ecc911f84b4d34a7], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60111'}
+2021-10-14-00:10|INFO  |test_member.py:66 |------删除成员测试结束------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "name": "delete1",
+  "userid": "delete1",
+  "mobile": "15310232145"
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "department": [
+      1,
+      3
+    ],
+    "mobile": 15310232145,
+    "name": "delete1",
+    "userid": "delete1"
+  },
+  "method": "post",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/create"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "created. Warning: wrong json format. "
+}
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "name": "delete2",
+  "userid": "delete2",
+  "mobile": "15310232146"
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "department": [
+      1,
+      3
+    ],
+    "mobile": 15310232146,
+    "name": "delete2",
+    "userid": "delete2"
+  },
+  "method": "post",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/create"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "created. Warning: wrong json format. "
+}
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "name": "delete3",
+  "userid": "delete3",
+  "mobile": "15310232147"
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "department": [
+      1,
+      3
+    ],
+    "mobile": 15310232147,
+    "name": "delete3",
+    "userid": "delete3"
+  },
+  "method": "post",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/create"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60104,
+  "errmsg": "Warning: wrong json format. mobile existed:delete3"
+}
+2021-10-14-00:10|INFO  |test_member.py:72 |------开始测试批量删除成员------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "useridlist": [
+    "delete1",
+    "delete2"
+  ]
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "useridlist": [
+      "delete1",
+      "delete2"
+    ]
+  },
+  "method": "post",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/batchdelete"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "deleted"
+}
+2021-10-14-00:10|INFO  |test_member.py:74 |打印的相应结果是：{'errcode': 0, 'errmsg': 'deleted'}
+2021-10-14-00:10|INFO  |test_member.py:75 |------批量删除成员测试结束------
+2021-10-14-00:10|INFO  |test_member.py:72 |------开始测试批量删除成员------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "useridlist": []
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "useridlist": []
+  },
+  "method": "post",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/batchdelete"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 40063,
+  "errmsg": "some parameters are empty, hint: [1634141440_161_e494d5a20076c52a56448cee990ae591], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40063"
+}
+2021-10-14-00:10|INFO  |test_member.py:74 |打印的相应结果是：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634141440_161_e494d5a20076c52a56448cee990ae591], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-14-00:10|INFO  |test_member.py:75 |------批量删除成员测试结束------
+2021-10-14-00:10|INFO  |test_member.py:72 |------开始测试批量删除成员------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "useridlist": [
+    "delet1",
+    "delet2",
+    "delet3"
+  ]
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "useridlist": [
+      "delet1",
+      "delet2",
+      "delet3"
+    ]
+  },
+  "method": "post",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/batchdelete"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 40031,
+  "errmsg": "invalid userid list:delet1,delet2,delet3"
+}
+2021-10-14-00:10|INFO  |test_member.py:74 |打印的相应结果是：{'errcode': 40031, 'errmsg': 'invalid userid list:delet1,delet2,delet3'}
+2021-10-14-00:10|INFO  |test_member.py:75 |------批量删除成员测试结束------
+2021-10-14-00:10|INFO  |test_member.py:72 |------开始测试批量删除成员------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "useridlist": [
+    "delete3",
+    "delet1"
+  ]
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "useridlist": [
+      "delete3",
+      "delet1"
+    ]
+  },
+  "method": "post",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/batchdelete"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 40031,
+  "errmsg": "invalid userid list:delet1"
+}
+2021-10-14-00:10|INFO  |test_member.py:74 |打印的相应结果是：{'errcode': 40031, 'errmsg': 'invalid userid list:delet1'}
+2021-10-14-00:10|INFO  |test_member.py:75 |------批量删除成员测试结束------
+2021-10-14-00:10|INFO  |test_member.py:82 |------开始测试获取简单部门成员信息department_id和fetch_child为1存在合法，断言成功------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "department_id": 1,
+  "fetch_child": 1
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w&department_id=1&fetch_child=1",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "ok",
+  "userlist": [
+    {
+      "userid": "ChenWeiZhong",
+      "name": "陈魏钟",
+      "department": [
+        1
+      ]
+    },
+    {
+      "userid": "delete3",
+      "name": "delete3",
+      "department": [
+        3,
+        1
+      ]
+    },
+    {
+      "userid": "111",
+      "name": "test02",
+      "department": [
+        1
+      ]
+    },
+    {
+      "userid": "1842375247",
+      "name": "cwz",
+      "department": [
+        2
+      ]
+    },
+    {
+      "userid": "wufang",
+      "name": "吴芳",
+      "department": [
+        4
+      ]
+    },
+    {
+      "userid": "edit",
+      "name": "edit",
+      "department": [
+        1,
+        3
+      ]
+    },
+    {
+      "userid": "tong",
+      "name": "aaa",
+      "department": [
+        3,
+        1
+      ]
+    },
+    {
+      "userid": "tong5",
+      "name": "aaa",
+      "department": [
+        3,
+        1
+      ]
+    }
+  ]
+}
+2021-10-14-00:10|INFO  |test_member.py:84 |------打印的相应结果：{'errcode': 0, 'errmsg': 'ok', 'userlist': [{'userid': 'ChenWeiZhong', 'name': '陈魏钟', 'department': [1]}, {'userid': 'delete3', 'name': 'delete3', 'department': [3, 1]}, {'userid': '111', 'name': 'test02', 'department': [1]}, {'userid': '1842375247', 'name': 'cwz', 'department': [2]}, {'userid': 'wufang', 'name': '吴芳', 'department': [4]}, {'userid': 'edit', 'name': 'edit', 'department': [1, 3]}, {'userid': 'tong', 'name': 'aaa', 'department': [3, 1]}, {'userid': 'tong5', 'name': 'aaa', 'department': [3, 1]}]}------
+2021-10-14-00:10|INFO  |test_member.py:85 |------获取部门成员简单信息测试结束------
+2021-10-14-00:10|INFO  |test_member.py:82 |------开始测试获取简单部门成员信息department_id合法，fetch_child为0，断言失败------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "department_id": 2,
+  "fetch_child": 0
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w&department_id=2&fetch_child=0",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "ok",
+  "userlist": [
+    {
+      "userid": "1842375247",
+      "name": "cwz",
+      "department": [
+        2
+      ]
+    }
+  ]
+}
+2021-10-14-00:10|INFO  |test_member.py:84 |------打印的相应结果：{'errcode': 0, 'errmsg': 'ok', 'userlist': [{'userid': '1842375247', 'name': 'cwz', 'department': [2]}]}------
+2021-10-14-00:10|INFO  |test_member.py:85 |------获取部门成员简单信息测试结束------
+2021-10-14-00:10|INFO  |test_member.py:82 |------开始测试获取简单部门成员信息department_id合法，fetch_child为空，断言失败------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "department_id": 1,
+  "fetch_child": "None"
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w&department_id=1&fetch_child=None",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "ok",
+  "userlist": [
+    {
+      "userid": "ChenWeiZhong",
+      "name": "陈魏钟",
+      "department": [
+        1
+      ]
+    },
+    {
+      "userid": "delete3",
+      "name": "delete3",
+      "department": [
+        3,
+        1
+      ]
+    },
+    {
+      "userid": "111",
+      "name": "test02",
+      "department": [
+        1
+      ]
+    },
+    {
+      "userid": "edit",
+      "name": "edit",
+      "department": [
+        1,
+        3
+      ]
+    },
+    {
+      "userid": "tong",
+      "name": "aaa",
+      "department": [
+        3,
+        1
+      ]
+    },
+    {
+      "userid": "tong5",
+      "name": "aaa",
+      "department": [
+        3,
+        1
+      ]
+    }
+  ]
+}
+2021-10-14-00:10|INFO  |test_member.py:84 |------打印的相应结果：{'errcode': 0, 'errmsg': 'ok', 'userlist': [{'userid': 'ChenWeiZhong', 'name': '陈魏钟', 'department': [1]}, {'userid': 'delete3', 'name': 'delete3', 'department': [3, 1]}, {'userid': '111', 'name': 'test02', 'department': [1]}, {'userid': 'edit', 'name': 'edit', 'department': [1, 3]}, {'userid': 'tong', 'name': 'aaa', 'department': [3, 1]}, {'userid': 'tong5', 'name': 'aaa', 'department': [3, 1]}]}------
+2021-10-14-00:10|INFO  |test_member.py:85 |------获取部门成员简单信息测试结束------
+2021-10-14-00:10|INFO  |test_member.py:82 |------开始测试获取简单部门成员信息department_id为空，fetch_child合法，断言失败------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "department_id": "None",
+  "fetch_child": 1
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w&department_id=None&fetch_child=1",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1634141442_161_a02918646cc1f561b1a384f6a556ad1d], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60003",
+  "userlist": []
+}
+2021-10-14-00:10|INFO  |test_member.py:84 |------打印的相应结果：{'errcode': 60003, 'errmsg': 'department not found, hint: [1634141442_161_a02918646cc1f561b1a384f6a556ad1d], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60003', 'userlist': []}------
+2021-10-14-00:10|INFO  |test_member.py:85 |------获取部门成员简单信息测试结束------
+2021-10-14-00:10|INFO  |test_member.py:82 |------开始测试获取简单部门成员信息department_id非法，fetch_child合法，断言失败------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "department_id": 100,
+  "fetch_child": 1
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w&department_id=100&fetch_child=1",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1634141442_147_7de2be5d1a271e516b7eaea0a70f23c7], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60003",
+  "userlist": []
+}
+2021-10-14-00:10|INFO  |test_member.py:84 |------打印的相应结果：{'errcode': 60003, 'errmsg': 'department not found, hint: [1634141442_147_7de2be5d1a271e516b7eaea0a70f23c7], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60003', 'userlist': []}------
+2021-10-14-00:10|INFO  |test_member.py:85 |------获取部门成员简单信息测试结束------
+2021-10-14-00:10|INFO  |test_member.py:92 |------开始获取详细部门成员信息department_id和fetch_child存在合法，断言成功------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "department_id": 1,
+  "fetch_child": 3
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w&department_id=1&fetch_child=3",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "ok",
+  "userlist": [
+    {
+      "userid": "ChenWeiZhong",
+      "name": "陈魏钟",
+      "department": [
+        1
+      ]
+    },
+    {
+      "userid": "delete3",
+      "name": "delete3",
+      "department": [
+        3,
+        1
+      ]
+    },
+    {
+      "userid": "111",
+      "name": "test02",
+      "department": [
+        1
+      ]
+    },
+    {
+      "userid": "1842375247",
+      "name": "cwz",
+      "department": [
+        2
+      ]
+    },
+    {
+      "userid": "wufang",
+      "name": "吴芳",
+      "department": [
+        4
+      ]
+    },
+    {
+      "userid": "edit",
+      "name": "edit",
+      "department": [
+        1,
+        3
+      ]
+    },
+    {
+      "userid": "tong",
+      "name": "aaa",
+      "department": [
+        3,
+        1
+      ]
+    },
+    {
+      "userid": "tong5",
+      "name": "aaa",
+      "department": [
+        3,
+        1
+      ]
+    }
+  ]
+}
+2021-10-14-00:10|INFO  |test_member.py:94 |------打印的相应结果：{'errcode': 0, 'errmsg': 'ok', 'userlist': [{'userid': 'ChenWeiZhong', 'name': '陈魏钟', 'department': [1]}, {'userid': 'delete3', 'name': 'delete3', 'department': [3, 1]}, {'userid': '111', 'name': 'test02', 'department': [1]}, {'userid': '1842375247', 'name': 'cwz', 'department': [2]}, {'userid': 'wufang', 'name': '吴芳', 'department': [4]}, {'userid': 'edit', 'name': 'edit', 'department': [1, 3]}, {'userid': 'tong', 'name': 'aaa', 'department': [3, 1]}, {'userid': 'tong5', 'name': 'aaa', 'department': [3, 1]}]}------
+2021-10-14-00:10|INFO  |test_member.py:95 |------获取部门成员详细信息测试结束------
+2021-10-14-00:10|INFO  |test_member.py:92 |------开始获取详细部门成员信息department_id合法，fetch_child非法，断言失败------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "department_id": 1,
+  "fetch_child": 100
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w&department_id=1&fetch_child=100",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "ok",
+  "userlist": [
+    {
+      "userid": "ChenWeiZhong",
+      "name": "陈魏钟",
+      "department": [
+        1
+      ]
+    },
+    {
+      "userid": "delete3",
+      "name": "delete3",
+      "department": [
+        3,
+        1
+      ]
+    },
+    {
+      "userid": "111",
+      "name": "test02",
+      "department": [
+        1
+      ]
+    },
+    {
+      "userid": "1842375247",
+      "name": "cwz",
+      "department": [
+        2
+      ]
+    },
+    {
+      "userid": "wufang",
+      "name": "吴芳",
+      "department": [
+        4
+      ]
+    },
+    {
+      "userid": "edit",
+      "name": "edit",
+      "department": [
+        1,
+        3
+      ]
+    },
+    {
+      "userid": "tong",
+      "name": "aaa",
+      "department": [
+        3,
+        1
+      ]
+    },
+    {
+      "userid": "tong5",
+      "name": "aaa",
+      "department": [
+        3,
+        1
+      ]
+    }
+  ]
+}
+2021-10-14-00:10|INFO  |test_member.py:94 |------打印的相应结果：{'errcode': 0, 'errmsg': 'ok', 'userlist': [{'userid': 'ChenWeiZhong', 'name': '陈魏钟', 'department': [1]}, {'userid': 'delete3', 'name': 'delete3', 'department': [3, 1]}, {'userid': '111', 'name': 'test02', 'department': [1]}, {'userid': '1842375247', 'name': 'cwz', 'department': [2]}, {'userid': 'wufang', 'name': '吴芳', 'department': [4]}, {'userid': 'edit', 'name': 'edit', 'department': [1, 3]}, {'userid': 'tong', 'name': 'aaa', 'department': [3, 1]}, {'userid': 'tong5', 'name': 'aaa', 'department': [3, 1]}]}------
+2021-10-14-00:10|INFO  |test_member.py:95 |------获取部门成员详细信息测试结束------
+2021-10-14-00:10|INFO  |test_member.py:92 |------开始获取详细部门成员信息department_id合法，fetch_child为空，断言失败------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "department_id": 1,
+  "fetch_child": "None"
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w&department_id=1&fetch_child=None",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "ok",
+  "userlist": [
+    {
+      "userid": "ChenWeiZhong",
+      "name": "陈魏钟",
+      "department": [
+        1
+      ]
+    },
+    {
+      "userid": "delete3",
+      "name": "delete3",
+      "department": [
+        3,
+        1
+      ]
+    },
+    {
+      "userid": "111",
+      "name": "test02",
+      "department": [
+        1
+      ]
+    },
+    {
+      "userid": "edit",
+      "name": "edit",
+      "department": [
+        1,
+        3
+      ]
+    },
+    {
+      "userid": "tong",
+      "name": "aaa",
+      "department": [
+        3,
+        1
+      ]
+    },
+    {
+      "userid": "tong5",
+      "name": "aaa",
+      "department": [
+        3,
+        1
+      ]
+    }
+  ]
+}
+2021-10-14-00:10|INFO  |test_member.py:94 |------打印的相应结果：{'errcode': 0, 'errmsg': 'ok', 'userlist': [{'userid': 'ChenWeiZhong', 'name': '陈魏钟', 'department': [1]}, {'userid': 'delete3', 'name': 'delete3', 'department': [3, 1]}, {'userid': '111', 'name': 'test02', 'department': [1]}, {'userid': 'edit', 'name': 'edit', 'department': [1, 3]}, {'userid': 'tong', 'name': 'aaa', 'department': [3, 1]}, {'userid': 'tong5', 'name': 'aaa', 'department': [3, 1]}]}------
+2021-10-14-00:10|INFO  |test_member.py:95 |------获取部门成员详细信息测试结束------
+2021-10-14-00:10|INFO  |test_member.py:92 |------开始获取详细部门成员信息department_id为空，fetch_child合法，断言失败------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "department_id": "None",
+  "fetch_child": 1
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w&department_id=None&fetch_child=1",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1634141444_161_c4fff82e0fffc409d445bd11f7628f73], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60003",
+  "userlist": []
+}
+2021-10-14-00:10|INFO  |test_member.py:94 |------打印的相应结果：{'errcode': 60003, 'errmsg': 'department not found, hint: [1634141444_161_c4fff82e0fffc409d445bd11f7628f73], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60003', 'userlist': []}------
+2021-10-14-00:10|INFO  |test_member.py:95 |------获取部门成员详细信息测试结束------
+2021-10-14-00:10|INFO  |test_member.py:92 |------开始获取详细部门成员信息department_id非法，fetch_child合法，断言失败------
+2021-10-14-00:10|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "department_id": 100,
+  "fetch_child": 1
+}
+2021-10-14-00:10|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w&department_id=100&fetch_child=1",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist"
+}
+2021-10-14-00:10|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1634141445_147_d05a2b21ff0b2463940421979dfdcca2], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60003",
+  "userlist": []
+}
+2021-10-14-00:10|INFO  |test_member.py:94 |------打印的相应结果：{'errcode': 60003, 'errmsg': 'department not found, hint: [1634141445_147_d05a2b21ff0b2463940421979dfdcca2], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60003', 'userlist': []}------
+2021-10-14-00:10|INFO  |test_member.py:95 |------获取部门成员详细信息测试结束------
+2021-10-14-00:13|INFO  |test_member.py:92 |------开始获取详细部门成员信息department_id和fetch_child存在合法，断言成功------
+2021-10-14-00:13|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "department_id": 1,
+  "fetch_child": 3
+}
+2021-10-14-00:13|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w&department_id=1&fetch_child=3",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist"
+}
+2021-10-14-00:13|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "ok",
+  "userlist": [
+    {
+      "userid": "ChenWeiZhong",
+      "name": "陈魏钟",
+      "department": [
+        1
+      ]
+    },
+    {
+      "userid": "delete3",
+      "name": "delete3",
+      "department": [
+        3,
+        1
+      ]
+    },
+    {
+      "userid": "111",
+      "name": "test02",
+      "department": [
+        1
+      ]
+    },
+    {
+      "userid": "1842375247",
+      "name": "cwz",
+      "department": [
+        2
+      ]
+    },
+    {
+      "userid": "wufang",
+      "name": "吴芳",
+      "department": [
+        4
+      ]
+    },
+    {
+      "userid": "edit",
+      "name": "edit",
+      "department": [
+        1,
+        3
+      ]
+    },
+    {
+      "userid": "tong",
+      "name": "aaa",
+      "department": [
+        3,
+        1
+      ]
+    },
+    {
+      "userid": "tong5",
+      "name": "aaa",
+      "department": [
+        3,
+        1
+      ]
+    }
+  ]
+}
+2021-10-14-00:13|INFO  |test_member.py:94 |------打印的相应结果：{'errcode': 0, 'errmsg': 'ok', 'userlist': [{'userid': 'ChenWeiZhong', 'name': '陈魏钟', 'department': [1]}, {'userid': 'delete3', 'name': 'delete3', 'department': [3, 1]}, {'userid': '111', 'name': 'test02', 'department': [1]}, {'userid': '1842375247', 'name': 'cwz', 'department': [2]}, {'userid': 'wufang', 'name': '吴芳', 'department': [4]}, {'userid': 'edit', 'name': 'edit', 'department': [1, 3]}, {'userid': 'tong', 'name': 'aaa', 'department': [3, 1]}, {'userid': 'tong5', 'name': 'aaa', 'department': [3, 1]}]}------
+2021-10-14-00:13|INFO  |test_member.py:95 |------获取部门成员详细信息测试结束------
+2021-10-14-00:13|INFO  |test_member.py:92 |------开始获取详细部门成员信息department_id合法，fetch_child非法，断言失败------
+2021-10-14-00:13|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "department_id": 1,
+  "fetch_child": 100
+}
+2021-10-14-00:13|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w&department_id=1&fetch_child=100",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist"
+}
+2021-10-14-00:13|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "ok",
+  "userlist": [
+    {
+      "userid": "ChenWeiZhong",
+      "name": "陈魏钟",
+      "department": [
+        1
+      ]
+    },
+    {
+      "userid": "delete3",
+      "name": "delete3",
+      "department": [
+        3,
+        1
+      ]
+    },
+    {
+      "userid": "111",
+      "name": "test02",
+      "department": [
+        1
+      ]
+    },
+    {
+      "userid": "1842375247",
+      "name": "cwz",
+      "department": [
+        2
+      ]
+    },
+    {
+      "userid": "wufang",
+      "name": "吴芳",
+      "department": [
+        4
+      ]
+    },
+    {
+      "userid": "edit",
+      "name": "edit",
+      "department": [
+        1,
+        3
+      ]
+    },
+    {
+      "userid": "tong",
+      "name": "aaa",
+      "department": [
+        3,
+        1
+      ]
+    },
+    {
+      "userid": "tong5",
+      "name": "aaa",
+      "department": [
+        3,
+        1
+      ]
+    }
+  ]
+}
+2021-10-14-00:13|INFO  |test_member.py:94 |------打印的相应结果：{'errcode': 0, 'errmsg': 'ok', 'userlist': [{'userid': 'ChenWeiZhong', 'name': '陈魏钟', 'department': [1]}, {'userid': 'delete3', 'name': 'delete3', 'department': [3, 1]}, {'userid': '111', 'name': 'test02', 'department': [1]}, {'userid': '1842375247', 'name': 'cwz', 'department': [2]}, {'userid': 'wufang', 'name': '吴芳', 'department': [4]}, {'userid': 'edit', 'name': 'edit', 'department': [1, 3]}, {'userid': 'tong', 'name': 'aaa', 'department': [3, 1]}, {'userid': 'tong5', 'name': 'aaa', 'department': [3, 1]}]}------
+2021-10-14-00:13|INFO  |test_member.py:95 |------获取部门成员详细信息测试结束------
+2021-10-14-00:13|INFO  |test_member.py:92 |------开始获取详细部门成员信息department_id合法，fetch_child为空，断言失败------
+2021-10-14-00:13|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "department_id": 1,
+  "fetch_child": "None"
+}
+2021-10-14-00:13|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w&department_id=1&fetch_child=None",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist"
+}
+2021-10-14-00:13|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "ok",
+  "userlist": [
+    {
+      "userid": "ChenWeiZhong",
+      "name": "陈魏钟",
+      "department": [
+        1
+      ]
+    },
+    {
+      "userid": "delete3",
+      "name": "delete3",
+      "department": [
+        3,
+        1
+      ]
+    },
+    {
+      "userid": "111",
+      "name": "test02",
+      "department": [
+        1
+      ]
+    },
+    {
+      "userid": "edit",
+      "name": "edit",
+      "department": [
+        1,
+        3
+      ]
+    },
+    {
+      "userid": "tong",
+      "name": "aaa",
+      "department": [
+        3,
+        1
+      ]
+    },
+    {
+      "userid": "tong5",
+      "name": "aaa",
+      "department": [
+        3,
+        1
+      ]
+    }
+  ]
+}
+2021-10-14-00:13|INFO  |test_member.py:94 |------打印的相应结果：{'errcode': 0, 'errmsg': 'ok', 'userlist': [{'userid': 'ChenWeiZhong', 'name': '陈魏钟', 'department': [1]}, {'userid': 'delete3', 'name': 'delete3', 'department': [3, 1]}, {'userid': '111', 'name': 'test02', 'department': [1]}, {'userid': 'edit', 'name': 'edit', 'department': [1, 3]}, {'userid': 'tong', 'name': 'aaa', 'department': [3, 1]}, {'userid': 'tong5', 'name': 'aaa', 'department': [3, 1]}]}------
+2021-10-14-00:13|INFO  |test_member.py:95 |------获取部门成员详细信息测试结束------
+2021-10-14-00:13|INFO  |test_member.py:92 |------开始获取详细部门成员信息department_id为空，fetch_child合法，断言失败------
+2021-10-14-00:13|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "department_id": "None",
+  "fetch_child": 1
+}
+2021-10-14-00:13|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w&department_id=None&fetch_child=1",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist"
+}
+2021-10-14-00:13|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1634141599_161_910ffc380c4e0b9215d96641a83e81fd], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60003",
+  "userlist": []
+}
+2021-10-14-00:13|INFO  |test_member.py:94 |------打印的相应结果：{'errcode': 60003, 'errmsg': 'department not found, hint: [1634141599_161_910ffc380c4e0b9215d96641a83e81fd], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60003', 'userlist': []}------
+2021-10-14-00:13|INFO  |test_member.py:95 |------获取部门成员详细信息测试结束------
+2021-10-14-00:13|INFO  |test_member.py:92 |------开始获取详细部门成员信息department_id非法，fetch_child合法，断言失败------
+2021-10-14-00:13|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w",
+  "department_id": 100,
+  "fetch_child": 1
+}
+2021-10-14-00:13|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=stNqPlnSlIYYE6dbSTYoA88uql90he4DktbjxjDTqlfA4if4usDrETfj2FW7wNtRKWZ6whxcT7-io1GZuV7CpoEUhiM9_vwCGa-hQlt42kB8yeA8vtSixUNUOsd34VMkd4zY7rvmmi7cq4i0XwLHtjt-jMjoSKiH9Ph1W-j6d9p8D5qgqj4DuSbX2zoIV-JstawQHbRnOv-z2TGhCOLR1w&department_id=100&fetch_child=1",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist"
+}
+2021-10-14-00:13|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1634141599_147_325eb9bea113427fbed807a4b8ba996e], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60003",
+  "userlist": []
+}
+2021-10-14-00:13|INFO  |test_member.py:94 |------打印的相应结果：{'errcode': 60003, 'errmsg': 'department not found, hint: [1634141599_147_325eb9bea113427fbed807a4b8ba996e], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60003', 'userlist': []}------
+2021-10-14-00:13|INFO  |test_member.py:95 |------获取部门成员详细信息测试结束------
+2021-10-14-20:05|INFO  |test_member.py:95 |------开始获取详细部门成员信息department_id和fetch_child存在合法，断言成功------
+2021-10-14-20:05|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "department_id": 1,
+  "fetch_child": 3
+}
+2021-10-14-20:05|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg&department_id=1&fetch_child=3",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist"
+}
+2021-10-14-20:05|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "ok",
+  "userlist": [
+    {
+      "userid": "ChenWeiZhong",
+      "name": "陈魏钟",
+      "department": [
+        1
+      ]
+    },
+    {
+      "userid": "delete3",
+      "name": "delete3",
+      "department": [
+        1,
+        3
+      ]
+    },
+    {
+      "userid": "111",
+      "name": "test02",
+      "department": [
+        1
+      ]
+    },
+    {
+      "userid": "1842375247",
+      "name": "cwz",
+      "department": [
+        2
+      ]
+    },
+    {
+      "userid": "wufang",
+      "name": "吴芳",
+      "department": [
+        4
+      ]
+    },
+    {
+      "userid": "edit",
+      "name": "edit",
+      "department": [
+        1,
+        3
+      ]
+    },
+    {
+      "userid": "tong",
+      "name": "aaa",
+      "department": [
+        1,
+        3
+      ]
+    },
+    {
+      "userid": "tong5",
+      "name": "aaa",
+      "department": [
+        1,
+        3
+      ]
+    }
+  ]
+}
+2021-10-14-20:05|INFO  |test_member.py:97 |------打印的相应结果：{'errcode': 0, 'errmsg': 'ok', 'userlist': [{'userid': 'ChenWeiZhong', 'name': '陈魏钟', 'department': [1]}, {'userid': 'delete3', 'name': 'delete3', 'department': [1, 3]}, {'userid': '111', 'name': 'test02', 'department': [1]}, {'userid': '1842375247', 'name': 'cwz', 'department': [2]}, {'userid': 'wufang', 'name': '吴芳', 'department': [4]}, {'userid': 'edit', 'name': 'edit', 'department': [1, 3]}, {'userid': 'tong', 'name': 'aaa', 'department': [1, 3]}, {'userid': 'tong5', 'name': 'aaa', 'department': [1, 3]}]}------
+2021-10-14-20:05|INFO  |test_member.py:98 |------获取部门成员详细信息测试结束------
+2021-10-14-20:05|INFO  |test_member.py:95 |------开始获取详细部门成员信息department_id合法，fetch_child非法，断言失败------
+2021-10-14-20:05|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "department_id": 1,
+  "fetch_child": 100
+}
+2021-10-14-20:05|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg&department_id=1&fetch_child=100",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist"
+}
+2021-10-14-20:05|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "ok",
+  "userlist": [
+    {
+      "userid": "ChenWeiZhong",
+      "name": "陈魏钟",
+      "department": [
+        1
+      ]
+    },
+    {
+      "userid": "delete3",
+      "name": "delete3",
+      "department": [
+        1,
+        3
+      ]
+    },
+    {
+      "userid": "111",
+      "name": "test02",
+      "department": [
+        1
+      ]
+    },
+    {
+      "userid": "1842375247",
+      "name": "cwz",
+      "department": [
+        2
+      ]
+    },
+    {
+      "userid": "wufang",
+      "name": "吴芳",
+      "department": [
+        4
+      ]
+    },
+    {
+      "userid": "edit",
+      "name": "edit",
+      "department": [
+        1,
+        3
+      ]
+    },
+    {
+      "userid": "tong",
+      "name": "aaa",
+      "department": [
+        1,
+        3
+      ]
+    },
+    {
+      "userid": "tong5",
+      "name": "aaa",
+      "department": [
+        1,
+        3
+      ]
+    }
+  ]
+}
+2021-10-14-20:05|INFO  |test_member.py:97 |------打印的相应结果：{'errcode': 0, 'errmsg': 'ok', 'userlist': [{'userid': 'ChenWeiZhong', 'name': '陈魏钟', 'department': [1]}, {'userid': 'delete3', 'name': 'delete3', 'department': [1, 3]}, {'userid': '111', 'name': 'test02', 'department': [1]}, {'userid': '1842375247', 'name': 'cwz', 'department': [2]}, {'userid': 'wufang', 'name': '吴芳', 'department': [4]}, {'userid': 'edit', 'name': 'edit', 'department': [1, 3]}, {'userid': 'tong', 'name': 'aaa', 'department': [1, 3]}, {'userid': 'tong5', 'name': 'aaa', 'department': [1, 3]}]}------
+2021-10-14-20:05|INFO  |test_member.py:98 |------获取部门成员详细信息测试结束------
+2021-10-14-20:05|INFO  |test_member.py:95 |------开始获取详细部门成员信息department_id合法，fetch_child为空，断言失败------
+2021-10-14-20:05|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "department_id": 1,
+  "fetch_child": "None"
+}
+2021-10-14-20:05|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg&department_id=1&fetch_child=None",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist"
+}
+2021-10-14-20:05|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "ok",
+  "userlist": [
+    {
+      "userid": "ChenWeiZhong",
+      "name": "陈魏钟",
+      "department": [
+        1
+      ]
+    },
+    {
+      "userid": "delete3",
+      "name": "delete3",
+      "department": [
+        1,
+        3
+      ]
+    },
+    {
+      "userid": "111",
+      "name": "test02",
+      "department": [
+        1
+      ]
+    },
+    {
+      "userid": "edit",
+      "name": "edit",
+      "department": [
+        1,
+        3
+      ]
+    },
+    {
+      "userid": "tong",
+      "name": "aaa",
+      "department": [
+        1,
+        3
+      ]
+    },
+    {
+      "userid": "tong5",
+      "name": "aaa",
+      "department": [
+        1,
+        3
+      ]
+    }
+  ]
+}
+2021-10-14-20:05|INFO  |test_member.py:97 |------打印的相应结果：{'errcode': 0, 'errmsg': 'ok', 'userlist': [{'userid': 'ChenWeiZhong', 'name': '陈魏钟', 'department': [1]}, {'userid': 'delete3', 'name': 'delete3', 'department': [1, 3]}, {'userid': '111', 'name': 'test02', 'department': [1]}, {'userid': 'edit', 'name': 'edit', 'department': [1, 3]}, {'userid': 'tong', 'name': 'aaa', 'department': [1, 3]}, {'userid': 'tong5', 'name': 'aaa', 'department': [1, 3]}]}------
+2021-10-14-20:05|INFO  |test_member.py:98 |------获取部门成员详细信息测试结束------
+2021-10-14-20:05|INFO  |test_member.py:95 |------开始获取详细部门成员信息department_id为空，fetch_child合法，断言失败------
+2021-10-14-20:05|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "department_id": "None",
+  "fetch_child": 1
+}
+2021-10-14-20:05|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg&department_id=None&fetch_child=1",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist"
+}
+2021-10-14-20:05|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1634213157_147_ddfb05b9e929dfe425763998db62e233], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60003",
+  "userlist": []
+}
+2021-10-14-20:05|INFO  |test_member.py:97 |------打印的相应结果：{'errcode': 60003, 'errmsg': 'department not found, hint: [1634213157_147_ddfb05b9e929dfe425763998db62e233], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60003', 'userlist': []}------
+2021-10-14-20:05|INFO  |test_member.py:98 |------获取部门成员详细信息测试结束------
+2021-10-14-20:05|INFO  |test_member.py:95 |------开始获取详细部门成员信息department_id非法，fetch_child合法，断言失败------
+2021-10-14-20:05|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "department_id": 100,
+  "fetch_child": 1
+}
+2021-10-14-20:05|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg&department_id=100&fetch_child=1",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist"
+}
+2021-10-14-20:05|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1634213158_147_4cf83c4398142cc7b205b49eab4641b4], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60003",
+  "userlist": []
+}
+2021-10-14-20:05|INFO  |test_member.py:97 |------打印的相应结果：{'errcode': 60003, 'errmsg': 'department not found, hint: [1634213158_147_4cf83c4398142cc7b205b49eab4641b4], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=60003', 'userlist': []}------
+2021-10-14-20:05|INFO  |test_member.py:98 |------获取部门成员详细信息测试结束------
+2021-10-14-20:06|INFO  |test_member.py:104|------开始测试获取活跃成员date为2020-01-01，断言成功------
+2021-10-14-20:06|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "2020-10-10"
+}
+2021-10-14-20:06|INFO  |test_member.py:104|------开始测试获取活跃成员data大于如今日期，断言失败------
+2021-10-14-20:06|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "2035-10-10"
+}
+2021-10-14-20:06|INFO  |test_member.py:104|------开始测试获取活跃成员data为空，断言失败------
+2021-10-14-20:06|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": ""
+}
+2021-10-14-20:06|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "date": null
+  },
+  "method": "post",
+  "params": "access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat"
+}
+2021-10-14-20:06|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 40063,
+  "errmsg": "some parameters are empty, hint: [1634213161_161_123c825f7a3b8e27bd355ff3717a4757], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40063"
+}
+2021-10-14-20:06|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634213161_161_123c825f7a3b8e27bd355ff3717a4757], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-14-20:06|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-14-20:06|INFO  |test_member.py:104|------开始测试获取活跃成员data格式不正确，断言失败------
+2021-10-14-20:06|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "abcd"
+}
+2021-10-14-20:06|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "date": "abcd"
+  },
+  "method": "post",
+  "params": "access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat"
+}
+2021-10-14-20:06|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 40058,
+  "errmsg": "invalid Request Parameter, hint: [1634213162_161_770594c2327f22ba81535adcf045bcc6], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-14-20:06|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634213162_161_770594c2327f22ba81535adcf045bcc6], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-14-20:06|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-14-20:07|INFO  |test_member.py:104|------开始测试获取活跃成员date为2020-01-01，断言成功------
+2021-10-14-20:07|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "2021-10-14"
+}
+2021-10-14-20:07|INFO  |test_member.py:104|------开始测试获取活跃成员data大于如今日期，断言失败------
+2021-10-14-20:07|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "2035-10-10"
+}
+2021-10-14-20:08|INFO  |test_member.py:104|------开始测试获取活跃成员date为2020-01-01，断言成功------
+2021-10-14-20:08|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "20211014"
+}
+2021-10-14-20:08|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "date": 20211014
+  },
+  "method": "post",
+  "params": "access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat"
+}
+2021-10-14-20:08|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 40058,
+  "errmsg": "Warning: wrong json format. invalid Request Parameter, hint: [1634213338_161_fc084eb387f81bba96ccaadb6b92cb64], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-14-20:08|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40058, 'errmsg': 'Warning: wrong json format. invalid Request Parameter, hint: [1634213338_161_fc084eb387f81bba96ccaadb6b92cb64], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-14-20:08|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-14-20:08|INFO  |test_member.py:104|------开始测试获取活跃成员data大于如今日期，断言失败------
+2021-10-14-20:08|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "2035-10-10"
+}
+2021-10-14-20:09|INFO  |test_member.py:104|------开始测试获取活跃成员date为2020-01-01，断言成功------
+2021-10-14-20:09|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "2021-10-14"
+}
+2021-10-14-20:09|INFO  |test_member.py:104|------开始测试获取活跃成员data大于如今日期，断言失败------
+2021-10-14-20:09|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "2035-10-10"
+}
+2021-10-14-20:12|INFO  |test_member.py:104|------开始测试获取活跃成员date为2020-01-01，断言成功------
+2021-10-14-20:12|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "2021-10-14"
+}
+2021-10-14-20:12|INFO  |test_member.py:104|------开始测试获取活跃成员data大于如今日期，断言失败------
+2021-10-14-20:12|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "2035-10-10"
+}
+2021-10-14-20:15|INFO  |test_member.py:104|------开始测试获取活跃成员date为2020-01-01，断言成功------
+2021-10-14-20:15|INFO  |base_api.py:114|api变化的模板参数是:{'token': 'MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'date': '2021-10-14'}
+2021-10-14-20:15|INFO  |base_api.py:125|请求修改后的数据是：{'json': {'date': datetime.date(2021, 10, 14)}, 'method': 'post', 'params': 'access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat'}
+2021-10-14-20:15|INFO  |test_member.py:104|------开始测试获取活跃成员data大于如今日期，断言失败------
+2021-10-14-20:15|INFO  |base_api.py:114|api变化的模板参数是:{'token': 'MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'date': '2035-10-10'}
+2021-10-14-20:15|INFO  |base_api.py:125|请求修改后的数据是：{'json': {'date': datetime.date(2035, 10, 10)}, 'method': 'post', 'params': 'access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat'}
+2021-10-14-20:15|INFO  |test_member.py:104|------开始测试获取活跃成员data为空，断言失败------
+2021-10-14-20:15|INFO  |base_api.py:114|api变化的模板参数是:{'token': 'MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'date': ''}
+2021-10-14-20:15|INFO  |base_api.py:125|请求修改后的数据是：{'json': {'date': None}, 'method': 'post', 'params': 'access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat'}
+2021-10-14-20:15|INFO  |base_api.py:127|返回的数据为：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634213726_161_30f954e509fba9d743b8e7001b72815a], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-14-20:15|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634213726_161_30f954e509fba9d743b8e7001b72815a], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-14-20:15|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-14-20:15|INFO  |test_member.py:104|------开始测试获取活跃成员data格式不正确，断言失败------
+2021-10-14-20:15|INFO  |base_api.py:114|api变化的模板参数是:{'token': 'MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'date': 'abcd'}
+2021-10-14-20:15|INFO  |base_api.py:125|请求修改后的数据是：{'json': {'date': 'abcd'}, 'method': 'post', 'params': 'access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat'}
+2021-10-14-20:15|INFO  |base_api.py:127|返回的数据为：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634213727_161_ff478336a36976ddb52c70c3d981f88b], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-14-20:15|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634213727_161_ff478336a36976ddb52c70c3d981f88b], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-14-20:15|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-14-20:18|INFO  |test_member.py:104|------开始测试获取活跃成员date为2020-01-01，断言成功------
+2021-10-14-20:18|INFO  |base_api.py:114|api变化的模板参数是:{'token': 'MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'date': '2021-10-14'}
+2021-10-14-20:18|INFO  |base_api.py:125|请求修改后的数据是：{'json': {'date': datetime.date(2021, 10, 14)}, 'method': 'post', 'params': 'access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat'}
+2021-10-14-20:18|INFO  |test_member.py:104|------开始测试获取活跃成员data大于如今日期，断言失败------
+2021-10-14-20:18|INFO  |base_api.py:114|api变化的模板参数是:{'token': 'MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'date': '2035-10-10'}
+2021-10-14-20:18|INFO  |base_api.py:125|请求修改后的数据是：{'json': {'date': datetime.date(2035, 10, 10)}, 'method': 'post', 'params': 'access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat'}
+2021-10-14-20:18|INFO  |test_member.py:104|------开始测试获取活跃成员data为空，断言失败------
+2021-10-14-20:18|INFO  |base_api.py:114|api变化的模板参数是:{'token': 'MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'date': ''}
+2021-10-14-20:18|INFO  |base_api.py:125|请求修改后的数据是：{'json': {'date': None}, 'method': 'post', 'params': 'access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat'}
+2021-10-14-20:18|INFO  |base_api.py:127|返回的数据为：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634213921_161_056ce47044c02a0d0b87c0fe4dd14287], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-14-20:18|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634213921_161_056ce47044c02a0d0b87c0fe4dd14287], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-14-20:18|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-14-20:18|INFO  |test_member.py:104|------开始测试获取活跃成员data格式不正确，断言失败------
+2021-10-14-20:18|INFO  |base_api.py:114|api变化的模板参数是:{'token': 'MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'date': 'abcd'}
+2021-10-14-20:18|INFO  |base_api.py:125|请求修改后的数据是：{'json': {'date': 'abcd'}, 'method': 'post', 'params': 'access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat'}
+2021-10-14-20:18|INFO  |base_api.py:127|返回的数据为：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634213921_161_7835f8f740849ef315d890743740d112], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-14-20:18|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634213921_161_7835f8f740849ef315d890743740d112], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-14-20:18|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-14-20:23|INFO  |test_member.py:104|------开始测试获取活跃成员date为2020-01-01，断言成功------
+2021-10-14-20:23|INFO  |base_api.py:114|api变化的模板参数是:{'token': 'MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'date': '2021-10-14'}
+2021-10-14-20:23|INFO  |base_api.py:125|请求修改后的数据是：{'json': {'date': datetime.date(2021, 10, 14)}, 'method': 'post', 'params': 'access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat'}
+2021-10-14-20:23|INFO  |test_member.py:104|------开始测试获取活跃成员data大于如今日期，断言失败------
+2021-10-14-20:23|INFO  |base_api.py:114|api变化的模板参数是:{'token': 'MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'date': '2035-10-10'}
+2021-10-14-20:23|INFO  |base_api.py:125|请求修改后的数据是：{'json': {'date': datetime.date(2035, 10, 10)}, 'method': 'post', 'params': 'access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat'}
+2021-10-14-20:23|INFO  |test_member.py:104|------开始测试获取活跃成员data为空，断言失败------
+2021-10-14-20:23|INFO  |base_api.py:114|api变化的模板参数是:{'token': 'MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'date': ''}
+2021-10-14-20:23|INFO  |base_api.py:125|请求修改后的数据是：{'json': {'date': None}, 'method': 'post', 'params': 'access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat'}
+2021-10-14-20:23|INFO  |base_api.py:127|返回的数据为：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634214217_161_00a29b690930f9a7213d021347ad97fd], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-14-20:23|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634214217_161_00a29b690930f9a7213d021347ad97fd], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-14-20:23|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-14-20:23|INFO  |test_member.py:104|------开始测试获取活跃成员data格式不正确，断言失败------
+2021-10-14-20:23|INFO  |base_api.py:114|api变化的模板参数是:{'token': 'MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'date': 'abcd'}
+2021-10-14-20:23|INFO  |base_api.py:125|请求修改后的数据是：{'json': {'date': 'abcd'}, 'method': 'post', 'params': 'access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat'}
+2021-10-14-20:23|INFO  |base_api.py:127|返回的数据为：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634214217_161_0568bf0be223fa3bbdc33440c46532e1], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-14-20:23|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634214217_161_0568bf0be223fa3bbdc33440c46532e1], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-14-20:23|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-14-20:35|INFO  |test_member.py:104|------开始测试获取活跃成员date为2020-01-01，断言成功------
+2021-10-14-20:35|INFO  |base_api.py:114|api变化的模板参数是:{'token': 'MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'date': '2021-10-14'}
+2021-10-14-20:35|INFO  |base_api.py:125|请求修改后的数据是：{'json': {'date': datetime.date(2021, 10, 14)}, 'method': 'post', 'params': 'access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat'}
+2021-10-14-20:35|INFO  |test_member.py:104|------开始测试获取活跃成员data大于如今日期，断言失败------
+2021-10-14-20:35|INFO  |base_api.py:114|api变化的模板参数是:{'token': 'MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'date': '2035-10-10'}
+2021-10-14-20:35|INFO  |base_api.py:125|请求修改后的数据是：{'json': {'date': datetime.date(2035, 10, 10)}, 'method': 'post', 'params': 'access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat'}
+2021-10-14-20:35|INFO  |test_member.py:104|------开始测试获取活跃成员data为空，断言失败------
+2021-10-14-20:35|INFO  |base_api.py:114|api变化的模板参数是:{'token': 'MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'date': ''}
+2021-10-14-20:35|INFO  |base_api.py:125|请求修改后的数据是：{'json': {'date': None}, 'method': 'post', 'params': 'access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat'}
+2021-10-14-20:35|INFO  |base_api.py:127|返回的数据为：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634214930_161_bc60a5ee4fc811ecab220c69c16c4358], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-14-20:35|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634214930_161_bc60a5ee4fc811ecab220c69c16c4358], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-14-20:35|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-14-20:35|INFO  |test_member.py:104|------开始测试获取活跃成员data格式不正确，断言失败------
+2021-10-14-20:35|INFO  |base_api.py:114|api变化的模板参数是:{'token': 'MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'date': 'abcd'}
+2021-10-14-20:35|INFO  |base_api.py:125|请求修改后的数据是：{'json': {'date': 'abcd'}, 'method': 'post', 'params': 'access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'url': 'https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat'}
+2021-10-14-20:35|INFO  |base_api.py:127|返回的数据为：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634214930_161_658cf97e7f6faf90b805efd7a0f4ede4], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-14-20:35|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634214930_161_658cf97e7f6faf90b805efd7a0f4ede4], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-14-20:35|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-14-20:39|INFO  |test_member.py:104|------开始测试获取活跃成员date为2020-01-01，断言成功------
+2021-10-14-20:39|INFO  |test_member.py:104|------开始测试获取活跃成员data大于如今日期，断言失败------
+2021-10-14-20:39|INFO  |test_member.py:104|------开始测试获取活跃成员data为空，断言失败------
+2021-10-14-20:39|INFO  |test_member.py:104|------开始测试获取活跃成员data格式不正确，断言失败------
+2021-10-14-20:41|INFO  |test_member.py:104|------开始测试获取活跃成员date为2020-01-01，断言成功------
+2021-10-14-20:41|INFO  |base_api.py:115|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "2021-10-14"
+}
+2021-10-14-20:41|INFO  |base_api.py:116|api变化的模板参数是:{'token': 'MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'date': '2021-10-14'}
+2021-10-14-20:41|INFO  |test_member.py:104|------开始测试获取活跃成员data大于如今日期，断言失败------
+2021-10-14-20:41|INFO  |base_api.py:115|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "2035-10-10"
+}
+2021-10-14-20:41|INFO  |base_api.py:116|api变化的模板参数是:{'token': 'MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'date': '2035-10-10'}
+2021-10-14-20:41|INFO  |test_member.py:104|------开始测试获取活跃成员data为空，断言失败------
+2021-10-14-20:41|INFO  |base_api.py:115|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": ""
+}
+2021-10-14-20:41|INFO  |base_api.py:116|api变化的模板参数是:{'token': 'MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'date': ''}
+2021-10-14-20:41|INFO  |test_member.py:104|------开始测试获取活跃成员data格式不正确，断言失败------
+2021-10-14-20:41|INFO  |base_api.py:115|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "abcd"
+}
+2021-10-14-20:41|INFO  |base_api.py:116|api变化的模板参数是:{'token': 'MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg', 'date': 'abcd'}
+2021-10-14-20:44|INFO  |test_member.py:95 |------开始获取详细部门成员信息department_id和fetch_child存在合法，断言成功------
+2021-10-14-20:44|INFO  |base_api.py:114|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "department_id": 1,
+  "fetch_child": 3
+}
+2021-10-14-20:44|INFO  |test_member.py:95 |------开始获取详细部门成员信息department_id合法，fetch_child非法，断言失败------
+2021-10-14-20:44|INFO  |base_api.py:114|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "department_id": 1,
+  "fetch_child": 100
+}
+2021-10-14-20:44|INFO  |test_member.py:95 |------开始获取详细部门成员信息department_id合法，fetch_child为空，断言失败------
+2021-10-14-20:44|INFO  |base_api.py:114|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "department_id": 1,
+  "fetch_child": "None"
+}
+2021-10-14-20:44|INFO  |test_member.py:95 |------开始获取详细部门成员信息department_id为空，fetch_child合法，断言失败------
+2021-10-14-20:44|INFO  |base_api.py:114|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "department_id": "None",
+  "fetch_child": 1
+}
+2021-10-14-20:44|INFO  |test_member.py:95 |------开始获取详细部门成员信息department_id非法，fetch_child合法，断言失败------
+2021-10-14-20:44|INFO  |base_api.py:114|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "department_id": 100,
+  "fetch_child": 1
+}
+2021-10-14-20:44|INFO  |test_member.py:85 |------开始测试获取简单部门成员信息department_id和fetch_child为1存在合法，断言成功------
+2021-10-14-20:44|INFO  |base_api.py:114|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "department_id": 1,
+  "fetch_child": 1
+}
+2021-10-14-20:44|INFO  |test_member.py:85 |------开始测试获取简单部门成员信息department_id合法，fetch_child为0，断言失败------
+2021-10-14-20:44|INFO  |base_api.py:114|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "department_id": 2,
+  "fetch_child": 0
+}
+2021-10-14-20:44|INFO  |test_member.py:85 |------开始测试获取简单部门成员信息department_id合法，fetch_child为空，断言失败------
+2021-10-14-20:44|INFO  |base_api.py:114|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "department_id": 1,
+  "fetch_child": "None"
+}
+2021-10-14-20:44|INFO  |test_member.py:85 |------开始测试获取简单部门成员信息department_id为空，fetch_child合法，断言失败------
+2021-10-14-20:44|INFO  |base_api.py:114|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "department_id": "None",
+  "fetch_child": 1
+}
+2021-10-14-20:44|INFO  |test_member.py:85 |------开始测试获取简单部门成员信息department_id非法，fetch_child合法，断言失败------
+2021-10-14-20:44|INFO  |base_api.py:114|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "department_id": 100,
+  "fetch_child": 1
+}
+2021-10-14-20:45|INFO  |test_member.py:104|------开始测试获取活跃成员date为2020-01-01，断言成功------
+2021-10-14-20:45|INFO  |base_api.py:114|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "2021-10-14"
+}
+2021-10-14-20:45|INFO  |test_member.py:104|------开始测试获取活跃成员data大于如今日期，断言失败------
+2021-10-14-20:45|INFO  |base_api.py:114|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "2035-10-10"
+}
+2021-10-14-20:45|INFO  |test_member.py:104|------开始测试获取活跃成员data为空，断言失败------
+2021-10-14-20:45|INFO  |base_api.py:114|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": ""
+}
+2021-10-14-20:45|INFO  |base_api.py:125|请求修改后的数据是：{
+  "json": {
+    "date": null
+  },
+  "method": "post",
+  "params": "access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat"
+}
+2021-10-14-20:45|INFO  |base_api.py:128|返回的数据为：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634215522_161_95f666de280c3bd40cc884cef1aa451a], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-14-20:45|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634215522_161_95f666de280c3bd40cc884cef1aa451a], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-14-20:45|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-14-20:45|INFO  |test_member.py:104|------开始测试获取活跃成员data格式不正确，断言失败------
+2021-10-14-20:45|INFO  |base_api.py:114|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "abcd"
+}
+2021-10-14-20:45|INFO  |base_api.py:125|请求修改后的数据是：{
+  "json": {
+    "date": "abcd"
+  },
+  "method": "post",
+  "params": "access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat"
+}
+2021-10-14-20:45|INFO  |base_api.py:128|返回的数据为：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634215522_161_c2f5abbfd0459daf3fc1cc2be86c9272], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-14-20:45|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634215522_161_c2f5abbfd0459daf3fc1cc2be86c9272], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-14-20:45|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-14-20:46|INFO  |test_member.py:104|------开始测试获取活跃成员date为2020-01-01，断言成功------
+2021-10-14-20:46|INFO  |base_api.py:114|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "2021-10-14"
+}
+2021-10-14-20:46|INFO  |test_member.py:104|------开始测试获取活跃成员data大于如今日期，断言失败------
+2021-10-14-20:46|INFO  |base_api.py:114|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "2035-10-10"
+}
+2021-10-14-20:46|INFO  |test_member.py:104|------开始测试获取活跃成员data为空，断言失败------
+2021-10-14-20:46|INFO  |base_api.py:114|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": ""
+}
+2021-10-14-20:46|INFO  |base_api.py:125|请求修改后的数据是：{
+  "json": {
+    "date": null
+  },
+  "method": "post",
+  "params": "access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat"
+}
+2021-10-14-20:46|INFO  |base_api.py:128|返回的数据为：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634215606_161_6505c6f1dd7d52134b0f0e5205fae129], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-14-20:46|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634215606_161_6505c6f1dd7d52134b0f0e5205fae129], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-14-20:46|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-14-20:46|INFO  |test_member.py:104|------开始测试获取活跃成员data格式不正确，断言失败------
+2021-10-14-20:46|INFO  |base_api.py:114|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "abcd"
+}
+2021-10-14-20:46|INFO  |base_api.py:125|请求修改后的数据是：{
+  "json": {
+    "date": "abcd"
+  },
+  "method": "post",
+  "params": "access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat"
+}
+2021-10-14-20:46|INFO  |base_api.py:128|返回的数据为：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634215606_161_eb5ddab6eafbd4a41294c7215ebde756], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-14-20:46|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634215606_161_eb5ddab6eafbd4a41294c7215ebde756], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-14-20:46|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-14-20:47|INFO  |test_member.py:104|------开始测试获取活跃成员date为2020-01-01，断言成功------
+2021-10-14-20:47|INFO  |base_api.py:115|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "2021-10-14"
+}
+2021-10-14-20:47|INFO  |test_member.py:104|------开始测试获取活跃成员data大于如今日期，断言失败------
+2021-10-14-20:47|INFO  |base_api.py:115|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "2035-10-10"
+}
+2021-10-14-20:47|INFO  |test_member.py:104|------开始测试获取活跃成员data为空，断言失败------
+2021-10-14-20:47|INFO  |base_api.py:115|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": ""
+}
+2021-10-14-20:47|INFO  |base_api.py:126|请求修改后的数据是：{
+  "json": {
+    "date": null
+  },
+  "method": "post",
+  "params": "access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat"
+}
+2021-10-14-20:47|INFO  |base_api.py:129|返回的数据为：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634215662_161_1c868953375b6f394f1bb0b9600b881d], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-14-20:47|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634215662_161_1c868953375b6f394f1bb0b9600b881d], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-14-20:47|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-14-20:47|INFO  |test_member.py:104|------开始测试获取活跃成员data格式不正确，断言失败------
+2021-10-14-20:47|INFO  |base_api.py:115|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "abcd"
+}
+2021-10-14-20:47|INFO  |base_api.py:126|请求修改后的数据是：{
+  "json": {
+    "date": "abcd"
+  },
+  "method": "post",
+  "params": "access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat"
+}
+2021-10-14-20:47|INFO  |base_api.py:129|返回的数据为：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634215662_161_8e64446e3d976cdaa6fae9db0c49c7a8], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-14-20:47|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634215662_161_8e64446e3d976cdaa6fae9db0c49c7a8], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-14-20:47|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-14-20:48|INFO  |test_member.py:104|------开始测试获取活跃成员date为2020-01-01，断言成功------
+2021-10-14-20:48|INFO  |base_api.py:115|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "2021-10-14"
+}
+2021-10-14-20:48|INFO  |test_member.py:104|------开始测试获取活跃成员data大于如今日期，断言失败------
+2021-10-14-20:48|INFO  |base_api.py:115|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "2035-10-10"
+}
+2021-10-14-20:48|INFO  |test_member.py:104|------开始测试获取活跃成员data为空，断言失败------
+2021-10-14-20:48|INFO  |base_api.py:115|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": ""
+}
+2021-10-14-20:48|INFO  |base_api.py:126|请求修改后的数据是：{
+  "json": {
+    "date": null
+  },
+  "method": "post",
+  "params": "access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat"
+}
+2021-10-14-20:48|INFO  |base_api.py:129|返回的数据为：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634215713_161_bc8b3ef39cc2e68eeff1bc952a0e1d91], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-14-20:48|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634215713_161_bc8b3ef39cc2e68eeff1bc952a0e1d91], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-14-20:48|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-14-20:48|INFO  |test_member.py:104|------开始测试获取活跃成员data格式不正确，断言失败------
+2021-10-14-20:48|INFO  |base_api.py:115|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "abcd"
+}
+2021-10-14-20:48|INFO  |base_api.py:126|请求修改后的数据是：{
+  "json": {
+    "date": "abcd"
+  },
+  "method": "post",
+  "params": "access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat"
+}
+2021-10-14-20:48|INFO  |base_api.py:129|返回的数据为：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634215713_161_86e4ebba33a9f6935919dfaa2af18305], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-14-20:48|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634215713_161_86e4ebba33a9f6935919dfaa2af18305], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-14-20:48|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-14-20:49|INFO  |test_member.py:104|------开始测试获取活跃成员date为2020-01-01，断言成功------
+2021-10-14-20:49|INFO  |base_api.py:115|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "2021-10-14"
+}
+2021-10-14-20:49|INFO  |test_member.py:104|------开始测试获取活跃成员data大于如今日期，断言失败------
+2021-10-14-20:49|INFO  |base_api.py:115|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "2035-10-10"
+}
+2021-10-14-20:49|INFO  |test_member.py:104|------开始测试获取活跃成员data为空，断言失败------
+2021-10-14-20:49|INFO  |base_api.py:115|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": ""
+}
+2021-10-14-20:49|INFO  |base_api.py:126|请求修改后的数据是：{
+  "json": {
+    "date": null
+  },
+  "method": "post",
+  "params": "access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat"
+}
+2021-10-14-20:49|INFO  |base_api.py:129|返回的数据为：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634215770_161_bf524d87fc7d3954779f905b5f68a717], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-14-20:49|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634215770_161_bf524d87fc7d3954779f905b5f68a717], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-14-20:49|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-14-20:49|INFO  |test_member.py:104|------开始测试获取活跃成员data格式不正确，断言失败------
+2021-10-14-20:49|INFO  |base_api.py:115|api变化的模板参数是:{
+  "token": "MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "date": "abcd"
+}
+2021-10-14-20:49|INFO  |base_api.py:126|请求修改后的数据是：{
+  "json": {
+    "date": "abcd"
+  },
+  "method": "post",
+  "params": "access_token=MHjanqXu3p79JuEu5XuOpU-6HaZ2XtYQdAzOJSJZoFOj9TFJsBDg67EHN4qB9Bru-3wY-UfCYIAi0IyCpjvCMJ8f_kgCHF07ZH5F6aJG31pu801IWNybiRI21iExbaS90W51EnoSsROdzMhDAtbTc1eoXPmBh0nMaNDSXihFe-E8ufH-MbFztZjr70ZFHnivQgKfRTpDuckOrabt-Px7Sg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat"
+}
+2021-10-14-20:49|INFO  |base_api.py:129|返回的数据为：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634215771_161_0161e2ecbba849b3eb83197dd3850c0f], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-14-20:49|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634215771_161_0161e2ecbba849b3eb83197dd3850c0f], from ip: 222.212.125.79, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-14-20:49|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------

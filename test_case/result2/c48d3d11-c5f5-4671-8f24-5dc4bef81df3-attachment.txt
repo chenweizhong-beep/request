@@ -1,0 +1,93 @@
+2021-10-28-13:55|[32mINFO  [0m|test_member.py:112|<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取联系人详细信息>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-28-13:55|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "method": "get",
+  "params": "access_token=lX_Tq1AkR9eFeAsWIn4r4T5wO3r3Jx99u7mIO6ofCC0h2z6MOFi3v5cU3vIkLGQATWvJ0d4n2uUG1PqCSHDXHsX1rYN1KciJxbEzdl-goNlPm5C1OuU-VDESiREUTRCh71AiInMCeGGKkdX4x98_CzLsZDsSdLFw7CKyvBVxKtecOJ6AROoGhNhqOuh-Cn9iaUTWm42q9meaeZ-i7y5EaQ&department_id=1&fetch_child=None",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist"
+}
+2021-10-28-13:55|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "userlist": [
+    {
+      "userid": "cwz",
+      "name": "陈魏钟",
+      "department": [
+        1
+      ]
+    },
+    {
+      "userid": "delete3",
+      "name": "delete3",
+      "department": [
+        1,
+        3
+      ]
+    },
+    {
+      "userid": "111",
+      "name": "test02",
+      "department": [
+        1
+      ]
+    },
+    {
+      "userid": "sign1",
+      "name": "sign1",
+      "department": [
+        1,
+        3
+      ]
+    },
+    {
+      "userid": "sign2",
+      "name": "sign2",
+      "department": [
+        1,
+        3
+      ]
+    },
+    {
+      "userid": "sign3",
+      "name": "sign3",
+      "department": [
+        3,
+        1
+      ]
+    },
+    {
+      "userid": "sign4",
+      "name": "sign4",
+      "department": [
+        3,
+        1
+      ]
+    },
+    {
+      "userid": "tong",
+      "name": "aaa",
+      "department": [
+        3,
+        1
+      ]
+    },
+    {
+      "userid": "tong5",
+      "name": "aaa",
+      "department": [
+        3,
+        1
+      ]
+    },
+    {
+      "userid": "edit",
+      "name": "edit",
+      "department": [
+        3,
+        1
+      ]
+    }
+  ]
+}
+2021-10-28-13:55|[32mINFO  [0m|test_member.py:114|<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取联系人详细信息测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

@@ -1,0 +1,22 @@
+2021-10-28-13:56|[32mINFO  [0m|test_meeting_room.py:58 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试修改会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-28-13:56|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "capacity": null,
+    "city": null,
+    "equipment": [],
+    "floor": null,
+    "meetingroom_id": 6,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=Zhb1T16rCt66JYbL2W85uIMyW1BDTB1FhgRFfdMHSMEwmHs3DwFiMUrGMinavmRfTGLKoIS140dpJGvCjlXvPH9Q76kaz-dylXSZudAZltkQs7odUi07tC5_ta9sa_ut4ABwCfK0pjOo5xsg1EZSBYf_X3l2B9l_zqRDcVHVoiJnv9hRzEs6lU67rPyeHMsYu10TyONcqm5V95VFy3xoYw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-28-13:56|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1635400587_164_385efd6711d3b91c5c388b9e92697545], from ip: 171.219.71.255, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-28-13:56|[32mINFO  [0m|test_meeting_room.py:60 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

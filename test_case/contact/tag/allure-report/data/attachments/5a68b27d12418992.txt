@@ -1,0 +1,22 @@
+2021-10-20-00:21|[32mINFO  [0m|test_tag.py:90 |==========开始测试增加标签成员==========
+2021-10-20-00:21|[32mINFO  [0m|base_api.py:135|**********请求修改后的数据是：
+{
+  "json": {
+    "partylist": null,
+    "tagid": null,
+    "userlist": [
+      "sign5",
+      "sign6"
+    ]
+  },
+  "method": "post",
+  "params": "access_token=NrfaIrMmJ7mVMmX5xBdOeZmXCMDXlW8bYXixkQRqYNfskfsoVXcfkUCFHa_UT9I2Ei4WGkIlq_0VPtyQzA7KRCbwDh53bJpgIV9DQYvL2uF9dl6NRDAu6HikQzAjEzBuqtkwq5uZBkEMePyBJ4nflO7jX8CXUL-h2nyO1eauP3b3odyX6zS9Ip-O4gxhtRllVZbrEK-xcjJjwaRxqMZ18A",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/addtagusers"
+}
+2021-10-20-00:21|[32mINFO  [0m|base_api.py:137|**********返回的数据为：
+{
+  "errcode": 41017,
+  "errmsg": "missing tagid, hint: [1634660511_161_c112ae09227f0accf1601f77f4f5496d], from ip: 222.212.179.224, more info at https://open.work.weixin.qq.com/devtool/query?e=41017",
+  "invalidparty": []
+}
+2021-10-20-00:21|[32mINFO  [0m|test_tag.py:93 |==========增加标签成员测试结束==========

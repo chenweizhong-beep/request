@@ -1,0 +1,18 @@
+2021-10-17-21:56|[32mINFO  [0m|test_member.py:115|------开始获取详细部门成员信息department_id非法，fetch_child合法，断言失败------
+2021-10-17-21:56|[32mINFO  [0m|base_api.py:125|api变化的模板参数是:{
+  "token": "FTsumt3j6txqKydN103S6fHcMRa4JADvDUohu_kLMIzcLDopz407TMV-D1f9Vj8GPd1NSgneHDGFv_tbyxxKusx6qmYWXogj2iseIpbpq7ukAMNCqnUjFhROLqMnRmDQBUwCzlam62jzXrWnMQG-I_aWRFCOy79g_Smh1ZTgTlXpV7HGYMvP2SzDoHepdMTb1pygm58991iWJdFT007M3w",
+  "department_id": 100,
+  "fetch_child": 1
+}
+2021-10-17-21:56|[32mINFO  [0m|base_api.py:135|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=FTsumt3j6txqKydN103S6fHcMRa4JADvDUohu_kLMIzcLDopz407TMV-D1f9Vj8GPd1NSgneHDGFv_tbyxxKusx6qmYWXogj2iseIpbpq7ukAMNCqnUjFhROLqMnRmDQBUwCzlam62jzXrWnMQG-I_aWRFCOy79g_Smh1ZTgTlXpV7HGYMvP2SzDoHepdMTb1pygm58991iWJdFT007M3w&department_id=100&fetch_child=1",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist"
+}
+2021-10-17-21:56|[32mINFO  [0m|base_api.py:137|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1634478981_147_f97fa6b7f8870948ffa5d71ff97df423], from ip: 222.212.179.224, more info at https://open.work.weixin.qq.com/devtool/query?e=60003",
+  "userlist": []
+}
+2021-10-17-21:56|[32mINFO  [0m|test_member.py:117|------打印的相应结果：{'errcode': 60003, 'errmsg': 'department not found, hint: [1634478981_147_f97fa6b7f8870948ffa5d71ff97df423], from ip: 222.212.179.224, more info at https://open.work.weixin.qq.com/devtool/query?e=60003', 'userlist': []}------
+2021-10-17-21:56|[32mINFO  [0m|test_member.py:118|------获取部门成员详细信息测试结束------

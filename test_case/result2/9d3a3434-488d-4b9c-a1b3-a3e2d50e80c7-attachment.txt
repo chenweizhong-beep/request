@@ -1,0 +1,76 @@
+2021-10-28-13:56|[32mINFO  [0m|conftest.py:54 |************************开始获取成员的前置条件*****************************************
+2021-10-28-13:56|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "tagid": 1,
+    "tagname": "add1"
+  },
+  "method": "post",
+  "params": "access_token=lX_Tq1AkR9eFeAsWIn4r4T5wO3r3Jx99u7mIO6ofCC0h2z6MOFi3v5cU3vIkLGQATWvJ0d4n2uUG1PqCSHDXHsX1rYN1KciJxbEzdl-goNlPm5C1OuU-VDESiREUTRCh71AiInMCeGGKkdX4x98_CzLsZDsSdLFw7CKyvBVxKtecOJ6AROoGhNhqOuh-Cn9iaUTWm42q9meaeZ-i7y5EaQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/create"
+}
+2021-10-28-13:56|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "created",
+  "tagid": 1
+}
+2021-10-28-13:56|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "tagid": 2,
+    "tagname": "add2"
+  },
+  "method": "post",
+  "params": "access_token=lX_Tq1AkR9eFeAsWIn4r4T5wO3r3Jx99u7mIO6ofCC0h2z6MOFi3v5cU3vIkLGQATWvJ0d4n2uUG1PqCSHDXHsX1rYN1KciJxbEzdl-goNlPm5C1OuU-VDESiREUTRCh71AiInMCeGGKkdX4x98_CzLsZDsSdLFw7CKyvBVxKtecOJ6AROoGhNhqOuh-Cn9iaUTWm42q9meaeZ-i7y5EaQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/create"
+}
+2021-10-28-13:56|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "created",
+  "tagid": 2
+}
+2021-10-28-13:56|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "tagid": 3,
+    "tagname": "add3"
+  },
+  "method": "post",
+  "params": "access_token=lX_Tq1AkR9eFeAsWIn4r4T5wO3r3Jx99u7mIO6ofCC0h2z6MOFi3v5cU3vIkLGQATWvJ0d4n2uUG1PqCSHDXHsX1rYN1KciJxbEzdl-goNlPm5C1OuU-VDESiREUTRCh71AiInMCeGGKkdX4x98_CzLsZDsSdLFw7CKyvBVxKtecOJ6AROoGhNhqOuh-Cn9iaUTWm42q9meaeZ-i7y5EaQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/create"
+}
+2021-10-28-13:56|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "created",
+  "tagid": 3
+}
+2021-10-28-13:56|[32mINFO  [0m|test_tag.py:78 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取所有标签>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-28-13:56|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "method": "get",
+  "params": "access_token=lX_Tq1AkR9eFeAsWIn4r4T5wO3r3Jx99u7mIO6ofCC0h2z6MOFi3v5cU3vIkLGQATWvJ0d4n2uUG1PqCSHDXHsX1rYN1KciJxbEzdl-goNlPm5C1OuU-VDESiREUTRCh71AiInMCeGGKkdX4x98_CzLsZDsSdLFw7CKyvBVxKtecOJ6AROoGhNhqOuh-Cn9iaUTWm42q9meaeZ-i7y5EaQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/list"
+}
+2021-10-28-13:56|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "taglist": [
+    {
+      "tagid": 1,
+      "tagname": "add1"
+    },
+    {
+      "tagid": 2,
+      "tagname": "add2"
+    },
+    {
+      "tagid": 3,
+      "tagname": "add3"
+    }
+  ]
+}
+2021-10-28-13:56|[32mINFO  [0m|test_tag.py:80 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取所有标签结束测试>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

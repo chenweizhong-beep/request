@@ -1,0 +1,361 @@
+[ {
+  "uid" : "3ffea6469b14c47c",
+  "name" : "test_active_status[data为空，断言失败]",
+  "time" : {
+    "start" : 1634477132974,
+    "stop" : 1634477133240,
+    "duration" : 266
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5680b30dd9f1d874",
+  "name" : "test_update_member[userid不存在，断言失败]",
+  "time" : {
+    "start" : 1634477116069,
+    "stop" : 1634477116715,
+    "duration" : 646
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5ec6529e20a95008",
+  "name" : "test_creat_member[输入非重复的userid，name，mobile，断言成功]",
+  "time" : {
+    "start" : 1634477109851,
+    "stop" : 1634477110645,
+    "duration" : 794
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c4aa3e31806828dd",
+  "name" : "test_delete_member[userid为空，断言失败]",
+  "time" : {
+    "start" : 1634477122118,
+    "stop" : 1634477122484,
+    "duration" : 366
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "86ce19db03ef92be",
+  "name" : "test_depart_explicit[department_id为空，fetch_child合法，断言失败]",
+  "time" : {
+    "start" : 1634477131501,
+    "stop" : 1634477131870,
+    "duration" : 369
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65736e5f46a10d3a",
+  "name" : "test_creat_member[name重复，断言成功]",
+  "time" : {
+    "start" : 1634477112714,
+    "stop" : 1634477113396,
+    "duration" : 682
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "25148132f4aab25d",
+  "name" : "test_depart_explicit[department_id合法，fetch_child非法，断言失败]",
+  "time" : {
+    "start" : 1634477130523,
+    "stop" : 1634477130909,
+    "duration" : 386
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "753b9a80a2112c22",
+  "name" : "test_batch_delete_member[userid_list存在，断言成功]",
+  "time" : {
+    "start" : 1634477124845,
+    "stop" : 1634477125778,
+    "duration" : 933
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c3bbf646d1b4ab49",
+  "name" : "test_update_member[userid存在，name为空，断言失败]",
+  "time" : {
+    "start" : 1634477115267,
+    "stop" : 1634477116054,
+    "duration" : 787
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "eaa7dc792cf31f29",
+  "name" : "test_depart_simple[department_id合法，fetch_child非法，断言失败]",
+  "time" : {
+    "start" : 1634477128785,
+    "stop" : 1634477129110,
+    "duration" : 325
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7d81e2666f4ecf2",
+  "name" : "test_depart_simple[department_id和fetch_child存在合法，断言成功]",
+  "time" : {
+    "start" : 1634477128436,
+    "stop" : 1634477128770,
+    "duration" : 334
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30d71c61ae0ba128",
+  "name" : "test_depart_simple[department_id合法，fetch_child为空，断言失败]",
+  "time" : {
+    "start" : 1634477129212,
+    "stop" : 1634477129597,
+    "duration" : 385
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aeb51d5ba81864ae",
+  "name" : "test_get_member[userid存在，断言成功]",
+  "time" : {
+    "start" : 1634477119335,
+    "stop" : 1634477119863,
+    "duration" : 528
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4cd2ac359a973bb",
+  "name" : "test_active_status[data大于如今日期，断言失败]",
+  "time" : {
+    "start" : 1634477132592,
+    "stop" : 1634477132960,
+    "duration" : 368
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9f015239eeb44f2",
+  "name" : "test_update_member[修改后的mobile重复，断言失败]",
+  "time" : {
+    "start" : 1634477118413,
+    "stop" : 1634477119319,
+    "duration" : 906
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b0fdae77ef51ba58",
+  "name" : "test_get_member[userid不存在，断言失败]",
+  "time" : {
+    "start" : 1634477120276,
+    "stop" : 1634477120618,
+    "duration" : 342
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "656156a929a62ab7",
+  "name" : "test_delete_member[userid不存在，断言失败]",
+  "time" : {
+    "start" : 1634477122498,
+    "stop" : 1634477122936,
+    "duration" : 438
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a878fda34ee95fc7",
+  "name" : "test_creat_member[userid重复，断言失败]",
+  "time" : {
+    "start" : 1634477112157,
+    "stop" : 1634477112697,
+    "duration" : 540
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3361f5775857b0d6",
+  "name" : "test_creat_member[没有userid，断言失败]",
+  "time" : {
+    "start" : 1634477111078,
+    "stop" : 1634477111523,
+    "duration" : 445
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "13061c8c2d836335",
+  "name" : "test_creat_member[没有电话，断言失败]",
+  "time" : {
+    "start" : 1634477111550,
+    "stop" : 1634477112043,
+    "duration" : 493
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "25694f485cdcdaee",
+  "name" : "test_creat_member[没有name,创建失败]",
+  "time" : {
+    "start" : 1634477110660,
+    "stop" : 1634477111063,
+    "duration" : 403
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b0c015f3b5ebc82d",
+  "name" : "test_depart_explicit[department_id和fetch_child存在合法，断言成功]",
+  "time" : {
+    "start" : 1634477130190,
+    "stop" : 1634477130497,
+    "duration" : 307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "291d6d8228e41635",
+  "name" : "test_creat_member[电话重复，断言失败]",
+  "time" : {
+    "start" : 1634477113511,
+    "stop" : 1634477113913,
+    "duration" : 402
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ded742f12cf00f4e",
+  "name" : "test_depart_simple[department_id非法，fetch_child合法，断言失败]",
+  "time" : {
+    "start" : 1634477129905,
+    "stop" : 1634477130175,
+    "duration" : 270
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "463d1ebf5a472039",
+  "name" : "test_batch_delete_member[userid_list为空，断言失败]",
+  "time" : {
+    "start" : 1634477125884,
+    "stop" : 1634477127550,
+    "duration" : 1666
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "24421edf7e39b171",
+  "name" : "test_update_member[userid存在，name不为空，电话不重复，断言成功]",
+  "time" : {
+    "start" : 1634477114415,
+    "stop" : 1634477115251,
+    "duration" : 836
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9825a4a407f444ea",
+  "name" : "test_batch_delete_member[userid_list有一个不存在，其他存在，断言失败]",
+  "time" : {
+    "start" : 1634477128089,
+    "stop" : 1634477128423,
+    "duration" : 334
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ba0cc262e677ea52",
+  "name" : "test_depart_simple[department_id为空，fetch_child合法，断言失败]",
+  "time" : {
+    "start" : 1634477129619,
+    "stop" : 1634477129890,
+    "duration" : 271
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af193ddde915abb4",
+  "name" : "test_get_member[userid为空，断言失败]",
+  "time" : {
+    "start" : 1634477119894,
+    "stop" : 1634477120263,
+    "duration" : 369
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e24b3a315a18c70c",
+  "name" : "test_batch_delete_member[userid_list都不存在，断言失败]",
+  "time" : {
+    "start" : 1634477127564,
+    "stop" : 1634477128075,
+    "duration" : 511
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "dcc2f5ccce5adaed",
+  "name" : "test_active_status[data格式不正确，断言失败]",
+  "time" : {
+    "start" : 1634477133255,
+    "stop" : 1634477133587,
+    "duration" : 332
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "941e3e2f16167755",
+  "name" : "test_depart_explicit[department_id非法，fetch_child合法，断言失败]",
+  "time" : {
+    "start" : 1634477131888,
+    "stop" : 1634477132204,
+    "duration" : 316
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9cea3fd141d6c857",
+  "name" : "test_update_member[userid为空，断言失败]",
+  "time" : {
+    "start" : 1634477116735,
+    "stop" : 1634477118397,
+    "duration" : 1662
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c5b0af0cf08afa5",
+  "name" : "test_delete_member[userid存在，不为空，断言成功]",
+  "time" : {
+    "start" : 1634477121370,
+    "stop" : 1634477122104,
+    "duration" : 734
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9f64164ff28bfc73",
+  "name" : "test_active_status[date为2020-01-01，断言成功]",
+  "time" : {
+    "start" : 1634477132222,
+    "stop" : 1634477132577,
+    "duration" : 355
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc3667f68b21cb1e",
+  "name" : "test_depart_explicit[department_id合法，fetch_child为空，断言失败]",
+  "time" : {
+    "start" : 1634477130923,
+    "stop" : 1634477131388,
+    "duration" : 465
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,18 @@
+2021-10-20-00:21|[32mINFO  [0m|test_tag.py:54 |======开始测试修改标签tagid存在，tagname重复，标签修改失败======
+2021-10-20-00:21|[32mINFO  [0m|base_api.py:135|**********请求修改后的数据是：
+{
+  "json": {
+    "tagid": 2,
+    "tagname": "update00"
+  },
+  "method": "post",
+  "params": "access_token=NrfaIrMmJ7mVMmX5xBdOeZmXCMDXlW8bYXixkQRqYNfskfsoVXcfkUCFHa_UT9I2Ei4WGkIlq_0VPtyQzA7KRCbwDh53bJpgIV9DQYvL2uF9dl6NRDAu6HikQzAjEzBuqtkwq5uZBkEMePyBJ4nflO7jX8CXUL-h2nyO1eauP3b3odyX6zS9Ip-O4gxhtRllVZbrEK-xcjJjwaRxqMZ18A",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/update"
+}
+2021-10-20-00:21|[32mINFO  [0m|base_api.py:137|**********返回的数据为：
+{
+  "errcode": 40071,
+  "errmsg": "UserTag Name Already Exist, hint: [1634660501_161_3372790b67da510ad3e1fe5d8f04d1ee], from ip: 222.212.179.224, more info at https://open.work.weixin.qq.com/devtool/query?e=40071"
+}
+2021-10-20-00:21|[32mINFO  [0m|test_tag.py:56 |打印的相应结果是： {'errcode': 40071, 'errmsg': 'UserTag Name Already Exist, hint: [1634660501_161_3372790b67da510ad3e1fe5d8f04d1ee], from ip: 222.212.179.224, more info at https://open.work.weixin.qq.com/devtool/query?e=40071'}
+2021-10-20-00:21|[32mINFO  [0m|test_tag.py:57 |======修改标签测试结束======

@@ -1,0 +1,124 @@
+{
+  "uid" : "656156a929a62ab7",
+  "name" : "test_delete_member[userid不存在，断言失败]",
+  "fullName" : "test_member.TestMember#test_delete_member",
+  "historyId" : "df58ab3206f281b073c04afa403e953e",
+  "time" : {
+    "start" : 1634477122498,
+    "stop" : 1634477122936,
+    "duration" : 438
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "token",
+    "time" : {
+      "start" : 1634477108065,
+      "stop" : 1634477108417,
+      "duration" : 352
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "delete",
+    "time" : {
+      "start" : 1634477120630,
+      "stop" : 1634477121369,
+      "duration" : 739
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d552e91fed85b443",
+      "name" : "log",
+      "source" : "d552e91fed85b443.txt",
+      "type" : "text/plain",
+      "size" : 1433
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "通讯录人员的增删改查等接口测试"
+  }, {
+    "name" : "story",
+    "value" : "删除联系人接口"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite",
+    "value" : "test_member"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMember"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EOQ4GM0"
+  }, {
+    "name" : "thread",
+    "value" : "16684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_member"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "errcode",
+    "value" : "60111"
+  }, {
+    "name" : "errmsg",
+    "value" : "'userid not found'"
+  }, {
+    "name" : "logname",
+    "value" : "'userid不存在，断言失败'"
+  }, {
+    "name" : "userid",
+    "value" : "''"
+  } ],
+  "links" : [ {
+    "name" : "api地址",
+    "url" : "https://work.weixin.qq.com/api/doc/90000/90135/90195",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "656156a929a62ab7.json",
+  "parameterValues" : [ "60111", "'userid not found'", "'userid不存在，断言失败'", "''" ]
+}

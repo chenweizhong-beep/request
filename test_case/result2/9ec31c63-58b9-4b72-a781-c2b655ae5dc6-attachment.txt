@@ -1,0 +1,47 @@
+2021-10-28-13:56|[32mINFO  [0m|test_meeting_room.py:46 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-28-13:56|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": null,
+    "equipment": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=Zhb1T16rCt66JYbL2W85uIMyW1BDTB1FhgRFfdMHSMEwmHs3DwFiMUrGMinavmRfTGLKoIS140dpJGvCjlXvPH9Q76kaz-dylXSZudAZltkQs7odUi07tC5_ta9sa_ut4ABwCfK0pjOo5xsg1EZSBYf_X3l2B9l_zqRDcVHVoiJnv9hRzEs6lU67rPyeHMsYu10TyONcqm5V95VFy3xoYw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-28-13:56|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "meetingroom_list": [
+    {
+      "meetingroom_id": 11,
+      "name": "会议室1",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团1号楼",
+      "floor": "10F",
+      "equipment": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    }
+  ]
+}
+2021-10-28-13:56|[32mINFO  [0m|test_meeting_room.py:48 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

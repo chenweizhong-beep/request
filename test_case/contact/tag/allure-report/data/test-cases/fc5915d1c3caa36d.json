@@ -1,0 +1,132 @@
+{
+  "uid" : "fc5915d1c3caa36d",
+  "name" : "test_get_tag[获取全部列表成功]",
+  "fullName" : "contact.tag.test_tag.TestTag#test_get_tag",
+  "historyId" : "6c08a248bb3405f805f3509409f3a3e0",
+  "time" : {
+    "start" : 1634660506545,
+    "stop" : 1634660506858,
+    "duration" : 313
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_all_tag",
+    "time" : {
+      "start" : 1634660505203,
+      "stop" : 1634660506544,
+      "duration" : 1341
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "token",
+    "time" : {
+      "start" : 1634660490591,
+      "stop" : 1634660491030,
+      "duration" : 439
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5b115d9208a452b7",
+      "name" : "log",
+      "source" : "5b115d9208a452b7.txt",
+      "type" : "text/plain",
+      "size" : 3163
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "get_all_tag::0",
+    "time" : {
+      "start" : 1634660522580,
+      "stop" : 1634660522950,
+      "duration" : 370
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "标签增删改查等接口"
+  }, {
+    "name" : "story",
+    "value" : "获取所有标签接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "contact.tag"
+  }, {
+    "name" : "suite",
+    "value" : "test_tag"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTag"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EOQ4GM0"
+  }, {
+    "name" : "thread",
+    "value" : "1768-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "contact.tag.test_tag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "errcode",
+    "value" : "0"
+  }, {
+    "name" : "errmsg",
+    "value" : "'ok'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fc5915d1c3caa36d.json",
+  "parameterValues" : [ "0", "'ok'" ]
+}

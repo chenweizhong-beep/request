@@ -1,0 +1,26 @@
+2021-10-27-23:06|[32mINFO  [0m|test_meeting_room.py:36 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "capacity": 10,
+    "city": "北京",
+    "equipment": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "floor": "10F",
+    "name": "会议室1"
+  },
+  "method": "post",
+  "params": "access_token=JkXkCCIptCWmmKndKz8vfxOr3h7uQo_KdNacgvGNCmdcXuML_UIPX-hwQ_f2y38B7ST9PT8iqp0oUi23LLhs5uqjrpPCG4WNwYUWFJYAMMBp_CRTZzhkpPQUX5Da10GpR6SfaRXl2BDDdvVKm6laOPVdd8C6x_lMYaehOiA1n9vEYNRGQC2VDBznYZOpKrde09qprvT705hFSz1BKebucg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/add"
+}
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "meetingroom name exist, hint: [1635347210_231_7cbfe852dc1a4dd980620ae6842274b1], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-27-23:06|[32mINFO  [0m|test_meeting_room.py:38 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

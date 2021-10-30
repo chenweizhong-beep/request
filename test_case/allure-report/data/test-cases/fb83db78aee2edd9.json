@@ -1,0 +1,130 @@
+{
+  "uid" : "fb83db78aee2edd9",
+  "name" : "test_update_tag[tagid，tagname正确，标签修改成功]",
+  "fullName" : "contact.tag.test_tag.TestTag#test_update_tag",
+  "historyId" : "21f108e0a68e71bac927fc3cd7a7120c",
+  "time" : {
+    "start" : 1635347193732,
+    "stop" : 1635347194037,
+    "duration" : 305
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "update_tag",
+    "time" : {
+      "start" : 1635347191120,
+      "stop" : 1635347193731,
+      "duration" : 2611
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "token",
+    "time" : {
+      "start" : 1635347159999,
+      "stop" : 1635347160322,
+      "duration" : 323
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "932106e573e75c75",
+      "name" : "log",
+      "source" : "932106e573e75c75.txt",
+      "type" : "text/plain",
+      "size" : 8675
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "标签增删改查等接口测试"
+  }, {
+    "name" : "story",
+    "value" : "修改标签接口"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "contact.tag"
+  }, {
+    "name" : "suite",
+    "value" : "test_tag"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTag"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EOQ4GM0"
+  }, {
+    "name" : "thread",
+    "value" : "10132-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "contact.tag.test_tag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "errcode",
+    "value" : "0"
+  }, {
+    "name" : "errmsg",
+    "value" : "'update'"
+  }, {
+    "name" : "logname",
+    "value" : "'tagid，tagname正确，标签修改成功'"
+  }, {
+    "name" : "tagid",
+    "value" : "1"
+  }, {
+    "name" : "tagname",
+    "value" : "'update00'"
+  } ],
+  "links" : [ {
+    "name" : "api地址",
+    "url" : "https://work.weixin.qq.com/api/doc/90000/90135/90195",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fb83db78aee2edd9.json",
+  "parameterValues" : [ "0", "'update'", "'tagid，tagname正确，标签修改成功'", "1", "'update00'" ]
+}

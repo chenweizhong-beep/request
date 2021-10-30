@@ -1,0 +1,18 @@
+[32mINFO    [0m logs:test_member.py:115 ------开始获取详细部门成员信息department_id为空，fetch_child合法，断言失败------
+[32mINFO    [0m logs:base_api.py:125 api变化的模板参数是:{
+  "token": "FTsumt3j6txqKydN103S6fHcMRa4JADvDUohu_kLMIzcLDopz407TMV-D1f9Vj8GPd1NSgneHDGFv_tbyxxKusx6qmYWXogj2iseIpbpq7ukAMNCqnUjFhROLqMnRmDQBUwCzlam62jzXrWnMQG-I_aWRFCOy79g_Smh1ZTgTlXpV7HGYMvP2SzDoHepdMTb1pygm58991iWJdFT007M3w",
+  "department_id": "None",
+  "fetch_child": 1
+}
+[32mINFO    [0m logs:base_api.py:135 请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=FTsumt3j6txqKydN103S6fHcMRa4JADvDUohu_kLMIzcLDopz407TMV-D1f9Vj8GPd1NSgneHDGFv_tbyxxKusx6qmYWXogj2iseIpbpq7ukAMNCqnUjFhROLqMnRmDQBUwCzlam62jzXrWnMQG-I_aWRFCOy79g_Smh1ZTgTlXpV7HGYMvP2SzDoHepdMTb1pygm58991iWJdFT007M3w&department_id=None&fetch_child=1",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist"
+}
+[32mINFO    [0m logs:base_api.py:137 返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1634477131_161_af2394a2a992715f9cf7e3211bad6227], from ip: 222.212.179.224, more info at https://open.work.weixin.qq.com/devtool/query?e=60003",
+  "userlist": []
+}
+[32mINFO    [0m logs:test_member.py:117 ------打印的相应结果：{'errcode': 60003, 'errmsg': 'department not found, hint: [1634477131_161_af2394a2a992715f9cf7e3211bad6227], from ip: 222.212.179.224, more info at https://open.work.weixin.qq.com/devtool/query?e=60003', 'userlist': []}------
+[32mINFO    [0m logs:test_member.py:118 ------获取部门成员详细信息测试结束------

@@ -1,0 +1,105 @@
+2021-09-27-00:57|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "bDAoLfVqLayUtd_B2_m2BlUiETRLRJdL1DFAUsTd6EMJI1T1KC7alEjffotEaJU0HyL5vb3_TdaRUdVZsq0LxHJPCTzHXGTcFB0G1ebjMatXnJbyqT2qTtc7ljnFTo5NkRqOozBsHI41vZVVLgra5yzuGGHS2Rm4PgFCIoXU_RB4xEAz2tbxExuIkO7O_EGn3uvrr72Rm-wnCWbskZMOLg",
+  "id": 2
+}
+2021-09-27-00:57|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=bDAoLfVqLayUtd_B2_m2BlUiETRLRJdL1DFAUsTd6EMJI1T1KC7alEjffotEaJU0HyL5vb3_TdaRUdVZsq0LxHJPCTzHXGTcFB0G1ebjMatXnJbyqT2qTtc7ljnFTo5NkRqOozBsHI41vZVVLgra5yzuGGHS2Rm4PgFCIoXU_RB4xEAz2tbxExuIkO7O_EGn3uvrr72Rm-wnCWbskZMOLg&id=2",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/delete"
+}
+2021-09-27-00:57|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "deleted"
+}
+2021-09-27-00:57|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "bDAoLfVqLayUtd_B2_m2BlUiETRLRJdL1DFAUsTd6EMJI1T1KC7alEjffotEaJU0HyL5vb3_TdaRUdVZsq0LxHJPCTzHXGTcFB0G1ebjMatXnJbyqT2qTtc7ljnFTo5NkRqOozBsHI41vZVVLgra5yzuGGHS2Rm4PgFCIoXU_RB4xEAz2tbxExuIkO7O_EGn3uvrr72Rm-wnCWbskZMOLg",
+  "id": 3
+}
+2021-09-27-00:57|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=bDAoLfVqLayUtd_B2_m2BlUiETRLRJdL1DFAUsTd6EMJI1T1KC7alEjffotEaJU0HyL5vb3_TdaRUdVZsq0LxHJPCTzHXGTcFB0G1ebjMatXnJbyqT2qTtc7ljnFTo5NkRqOozBsHI41vZVVLgra5yzuGGHS2Rm4PgFCIoXU_RB4xEAz2tbxExuIkO7O_EGn3uvrr72Rm-wnCWbskZMOLg&id=3",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/delete"
+}
+2021-09-27-00:57|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60123,
+  "errmsg": "invalid party id, hint: [1632675446_161_a27098a5a000c81a2f0af49349610905], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60123"
+}
+2021-09-27-00:57|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "bDAoLfVqLayUtd_B2_m2BlUiETRLRJdL1DFAUsTd6EMJI1T1KC7alEjffotEaJU0HyL5vb3_TdaRUdVZsq0LxHJPCTzHXGTcFB0G1ebjMatXnJbyqT2qTtc7ljnFTo5NkRqOozBsHI41vZVVLgra5yzuGGHS2Rm4PgFCIoXU_RB4xEAz2tbxExuIkO7O_EGn3uvrr72Rm-wnCWbskZMOLg",
+  "id": 7
+}
+2021-09-27-00:57|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=bDAoLfVqLayUtd_B2_m2BlUiETRLRJdL1DFAUsTd6EMJI1T1KC7alEjffotEaJU0HyL5vb3_TdaRUdVZsq0LxHJPCTzHXGTcFB0G1ebjMatXnJbyqT2qTtc7ljnFTo5NkRqOozBsHI41vZVVLgra5yzuGGHS2Rm4PgFCIoXU_RB4xEAz2tbxExuIkO7O_EGn3uvrr72Rm-wnCWbskZMOLg&id=7",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/delete"
+}
+2021-09-27-00:57|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60123,
+  "errmsg": "invalid party id, hint: [1632675447_161_b3934807a78aecc81d16a67b6b40ddee], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60123"
+}
+2021-09-27-00:57|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "bDAoLfVqLayUtd_B2_m2BlUiETRLRJdL1DFAUsTd6EMJI1T1KC7alEjffotEaJU0HyL5vb3_TdaRUdVZsq0LxHJPCTzHXGTcFB0G1ebjMatXnJbyqT2qTtc7ljnFTo5NkRqOozBsHI41vZVVLgra5yzuGGHS2Rm4PgFCIoXU_RB4xEAz2tbxExuIkO7O_EGn3uvrr72Rm-wnCWbskZMOLg",
+  "name": "smoke1",
+  "parentid": 1
+}
+2021-09-27-00:57|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "name": "smoke1",
+    "parentid": 1
+  },
+  "method": "post",
+  "params": "access_token=bDAoLfVqLayUtd_B2_m2BlUiETRLRJdL1DFAUsTd6EMJI1T1KC7alEjffotEaJU0HyL5vb3_TdaRUdVZsq0LxHJPCTzHXGTcFB0G1ebjMatXnJbyqT2qTtc7ljnFTo5NkRqOozBsHI41vZVVLgra5yzuGGHS2Rm4PgFCIoXU_RB4xEAz2tbxExuIkO7O_EGn3uvrr72Rm-wnCWbskZMOLg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/create"
+}
+2021-09-27-00:57|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "created",
+  "id": 2
+}
+2021-09-27-00:57|INFO  |test_department.py:65 |======开始冒烟增加部门测试======
+2021-09-27-00:57|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "bDAoLfVqLayUtd_B2_m2BlUiETRLRJdL1DFAUsTd6EMJI1T1KC7alEjffotEaJU0HyL5vb3_TdaRUdVZsq0LxHJPCTzHXGTcFB0G1ebjMatXnJbyqT2qTtc7ljnFTo5NkRqOozBsHI41vZVVLgra5yzuGGHS2Rm4PgFCIoXU_RB4xEAz2tbxExuIkO7O_EGn3uvrr72Rm-wnCWbskZMOLg",
+  "name": "smoke2",
+  "parentid": 1
+}
+2021-09-27-00:57|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "name": "smoke2",
+    "parentid": 1
+  },
+  "method": "post",
+  "params": "access_token=bDAoLfVqLayUtd_B2_m2BlUiETRLRJdL1DFAUsTd6EMJI1T1KC7alEjffotEaJU0HyL5vb3_TdaRUdVZsq0LxHJPCTzHXGTcFB0G1ebjMatXnJbyqT2qTtc7ljnFTo5NkRqOozBsHI41vZVVLgra5yzuGGHS2Rm4PgFCIoXU_RB4xEAz2tbxExuIkO7O_EGn3uvrr72Rm-wnCWbskZMOLg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/create"
+}
+2021-09-27-00:57|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "created",
+  "id": 3
+}
+2021-09-27-00:57|INFO  |test_department.py:67 |======结束冒烟增加部门测试======
+2021-09-27-00:57|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "bDAoLfVqLayUtd_B2_m2BlUiETRLRJdL1DFAUsTd6EMJI1T1KC7alEjffotEaJU0HyL5vb3_TdaRUdVZsq0LxHJPCTzHXGTcFB0G1ebjMatXnJbyqT2qTtc7ljnFTo5NkRqOozBsHI41vZVVLgra5yzuGGHS2Rm4PgFCIoXU_RB4xEAz2tbxExuIkO7O_EGn3uvrr72Rm-wnCWbskZMOLg",
+  "id": 5
+}
+2021-09-27-00:57|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=bDAoLfVqLayUtd_B2_m2BlUiETRLRJdL1DFAUsTd6EMJI1T1KC7alEjffotEaJU0HyL5vb3_TdaRUdVZsq0LxHJPCTzHXGTcFB0G1ebjMatXnJbyqT2qTtc7ljnFTo5NkRqOozBsHI41vZVVLgra5yzuGGHS2Rm4PgFCIoXU_RB4xEAz2tbxExuIkO7O_EGn3uvrr72Rm-wnCWbskZMOLg&id=5",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/delete"
+}
+2021-09-27-00:57|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60123,
+  "errmsg": "invalid party id, hint: [1632675448_161_2ddaa5378e39db278f96c1430d28e52b], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60123"
+}
+2021-09-27-00:57|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "bDAoLfVqLayUtd_B2_m2BlUiETRLRJdL1DFAUsTd6EMJI1T1KC7alEjffotEaJU0HyL5vb3_TdaRUdVZsq0LxHJPCTzHXGTcFB0G1ebjMatXnJbyqT2qTtc7ljnFTo5NkRqOozBsHI41vZVVLgra5yzuGGHS2Rm4PgFCIoXU_RB4xEAz2tbxExuIkO7O_EGn3uvrr72Rm-wnCWbskZMOLg",
+  "id": 6
+}
+2021-09-27-00:57|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=bDAoLfVqLayUtd_B2_m2BlUiETRLRJdL1DFAUsTd6EMJI1T1KC7alEjffotEaJU0HyL5vb3_TdaRUdVZsq0LxHJPCTzHXGTcFB0G1ebjMatXnJbyqT2qTtc7ljnFTo5NkRqOozBsHI41vZVVLgra5yzuGGHS2Rm4PgFCIoXU_RB4xEAz2tbxExuIkO7O_EGn3uvrr72Rm-wnCWbskZMOLg&id=6",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/delete"
+}
+2021-09-27-00:57|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60123,
+  "errmsg": "invalid party id, hint: [1632675448_161_17bb2b2db76a289710d9a0d003ac6be4], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60123"
+}

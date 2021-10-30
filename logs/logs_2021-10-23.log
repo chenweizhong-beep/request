@@ -1,0 +1,2445 @@
+2021-10-23-17:31|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-17:31|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": null,
+    "equipment": [],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=BUD7uI9TJ4jPGmx542tBew-VeEy1N8z90kHdA8PyHkW49CZcQV_E-UVUNMPZ9WTSzK2JTtcalF0zN_fMgpXI1w0W0XYqq2Mio6Xt7Vmy7SxTwPPgap6D7UHftrTVJBx_c90p0AQDUC5spPlYvhXDR_JV2FAdQe3cRY7gB0SALx6EB_9ITCvwJO59fht_yIpepQrGpMoiMO9yS3rToAwx6w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-23-17:31|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "meetingroom_list": [
+    {
+      "meetingroom_id": 11,
+      "name": "会议室1",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团1号楼",
+      "floor": "10F",
+      "equipment": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    },
+    {
+      "meetingroom_id": 12,
+      "name": "会议室6",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团1号楼",
+      "floor": "10F",
+      "equipment": [],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    }
+  ]
+}
+2021-10-23-17:31|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-17:31|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-17:31|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": "北京",
+    "equipment": [],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=BUD7uI9TJ4jPGmx542tBew-VeEy1N8z90kHdA8PyHkW49CZcQV_E-UVUNMPZ9WTSzK2JTtcalF0zN_fMgpXI1w0W0XYqq2Mio6Xt7Vmy7SxTwPPgap6D7UHftrTVJBx_c90p0AQDUC5spPlYvhXDR_JV2FAdQe3cRY7gB0SALx6EB_9ITCvwJO59fht_yIpepQrGpMoiMO9yS3rToAwx6w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-23-17:31|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "meetingroom_list": [
+    {
+      "meetingroom_id": 11,
+      "name": "会议室1",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团1号楼",
+      "floor": "10F",
+      "equipment": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    },
+    {
+      "meetingroom_id": 12,
+      "name": "会议室6",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团1号楼",
+      "floor": "10F",
+      "equipment": [],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    }
+  ]
+}
+2021-10-23-17:31|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-17:31|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-17:31|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "city": null,
+    "equipment": [],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=BUD7uI9TJ4jPGmx542tBew-VeEy1N8z90kHdA8PyHkW49CZcQV_E-UVUNMPZ9WTSzK2JTtcalF0zN_fMgpXI1w0W0XYqq2Mio6Xt7Vmy7SxTwPPgap6D7UHftrTVJBx_c90p0AQDUC5spPlYvhXDR_JV2FAdQe3cRY7gB0SALx6EB_9ITCvwJO59fht_yIpepQrGpMoiMO9yS3rToAwx6w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-23-17:31|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1634981469_169_cde6aa9adc6e979621e80b7e3c53e615], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "meetingroom_list": []
+}
+2021-10-23-17:31|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-17:31|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-17:31|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": null,
+    "equipment": [],
+    "floor": "10F"
+  },
+  "method": "post",
+  "params": "access_token=BUD7uI9TJ4jPGmx542tBew-VeEy1N8z90kHdA8PyHkW49CZcQV_E-UVUNMPZ9WTSzK2JTtcalF0zN_fMgpXI1w0W0XYqq2Mio6Xt7Vmy7SxTwPPgap6D7UHftrTVJBx_c90p0AQDUC5spPlYvhXDR_JV2FAdQe3cRY7gB0SALx6EB_9ITCvwJO59fht_yIpepQrGpMoiMO9yS3rToAwx6w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-23-17:31|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1634981470_231_030d88b1e910581363a8e5576ed8128b], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "meetingroom_list": []
+}
+2021-10-23-17:31|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-17:31|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-17:31|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": null,
+    "equipment": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=BUD7uI9TJ4jPGmx542tBew-VeEy1N8z90kHdA8PyHkW49CZcQV_E-UVUNMPZ9WTSzK2JTtcalF0zN_fMgpXI1w0W0XYqq2Mio6Xt7Vmy7SxTwPPgap6D7UHftrTVJBx_c90p0AQDUC5spPlYvhXDR_JV2FAdQe3cRY7gB0SALx6EB_9ITCvwJO59fht_yIpepQrGpMoiMO9yS3rToAwx6w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-23-17:31|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "meetingroom_list": [
+    {
+      "meetingroom_id": 11,
+      "name": "会议室1",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团1号楼",
+      "floor": "10F",
+      "equipment": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    }
+  ]
+}
+2021-10-23-17:31|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-17:31|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-17:31|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "错误楼号",
+    "city": "北京",
+    "equipment": [],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=BUD7uI9TJ4jPGmx542tBew-VeEy1N8z90kHdA8PyHkW49CZcQV_E-UVUNMPZ9WTSzK2JTtcalF0zN_fMgpXI1w0W0XYqq2Mio6Xt7Vmy7SxTwPPgap6D7UHftrTVJBx_c90p0AQDUC5spPlYvhXDR_JV2FAdQe3cRY7gB0SALx6EB_9ITCvwJO59fht_yIpepQrGpMoiMO9yS3rToAwx6w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-23-17:31|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid city/building/floor, hint: [1634981470_231_ce2d49d5eef5743d6bb411538b1b2b81], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "meetingroom_list": []
+}
+2021-10-23-17:31|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-17:31|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-17:31|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "city": "北京",
+    "equipment": [],
+    "floor": "11F"
+  },
+  "method": "post",
+  "params": "access_token=BUD7uI9TJ4jPGmx542tBew-VeEy1N8z90kHdA8PyHkW49CZcQV_E-UVUNMPZ9WTSzK2JTtcalF0zN_fMgpXI1w0W0XYqq2Mio6Xt7Vmy7SxTwPPgap6D7UHftrTVJBx_c90p0AQDUC5spPlYvhXDR_JV2FAdQe3cRY7gB0SALx6EB_9ITCvwJO59fht_yIpepQrGpMoiMO9yS3rToAwx6w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-23-17:31|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid city/building/floor, hint: [1634981470_171_3cbde5457c8759e7b959c2cf6a851148], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "meetingroom_list": []
+}
+2021-10-23-17:31|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-17:31|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-17:31|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": null,
+    "equipment": [
+      6
+    ],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=BUD7uI9TJ4jPGmx542tBew-VeEy1N8z90kHdA8PyHkW49CZcQV_E-UVUNMPZ9WTSzK2JTtcalF0zN_fMgpXI1w0W0XYqq2Mio6Xt7Vmy7SxTwPPgap6D7UHftrTVJBx_c90p0AQDUC5spPlYvhXDR_JV2FAdQe3cRY7gB0SALx6EB_9ITCvwJO59fht_yIpepQrGpMoiMO9yS3rToAwx6w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-23-17:31|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 600039,
+  "errmsg": "device type not support, hint: [1634981471_231_fc3766b2a5cfbb3f4b7121a602a4754c], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=600039",
+  "meetingroom_list": []
+}
+2021-10-23-17:31|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-19:11|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-19:11|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 6
+  },
+  "method": "post",
+  "params": "access_token=BUD7uI9TJ4jPGmx542tBew-VeEy1N8z90kHdA8PyHkW49CZcQV_E-UVUNMPZ9WTSzK2JTtcalF0zN_fMgpXI1w0W0XYqq2Mio6Xt7Vmy7SxTwPPgap6D7UHftrTVJBx_c90p0AQDUC5spPlYvhXDR_JV2FAdQe3cRY7gB0SALx6EB_9ITCvwJO59fht_yIpepQrGpMoiMO9yS3rToAwx6w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-23-19:11|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1634987461_171_a558f8df0e2ca62cc47a1e8169af4b4d], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-23-19:11|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-19:11|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-19:11|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": null
+  },
+  "method": "post",
+  "params": "access_token=BUD7uI9TJ4jPGmx542tBew-VeEy1N8z90kHdA8PyHkW49CZcQV_E-UVUNMPZ9WTSzK2JTtcalF0zN_fMgpXI1w0W0XYqq2Mio6Xt7Vmy7SxTwPPgap6D7UHftrTVJBx_c90p0AQDUC5spPlYvhXDR_JV2FAdQe3cRY7gB0SALx6EB_9ITCvwJO59fht_yIpepQrGpMoiMO9yS3rToAwx6w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-23-19:11|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing meeting roomid, hint: [1634987462_171_075dd765bf7200bd227ab7ed4248bfce], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-23-19:11|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-19:11|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-19:11|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 6
+  },
+  "method": "post",
+  "params": "access_token=BUD7uI9TJ4jPGmx542tBew-VeEy1N8z90kHdA8PyHkW49CZcQV_E-UVUNMPZ9WTSzK2JTtcalF0zN_fMgpXI1w0W0XYqq2Mio6Xt7Vmy7SxTwPPgap6D7UHftrTVJBx_c90p0AQDUC5spPlYvhXDR_JV2FAdQe3cRY7gB0SALx6EB_9ITCvwJO59fht_yIpepQrGpMoiMO9yS3rToAwx6w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-23-19:11|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1634987462_232_6758efc328be2c856eceb3e6b021f452], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-23-19:11|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-19:11|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-19:11|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 6
+  },
+  "method": "post",
+  "params": "access_token=BUD7uI9TJ4jPGmx542tBew-VeEy1N8z90kHdA8PyHkW49CZcQV_E-UVUNMPZ9WTSzK2JTtcalF0zN_fMgpXI1w0W0XYqq2Mio6Xt7Vmy7SxTwPPgap6D7UHftrTVJBx_c90p0AQDUC5spPlYvhXDR_JV2FAdQe3cRY7gB0SALx6EB_9ITCvwJO59fht_yIpepQrGpMoiMO9yS3rToAwx6w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-23-19:11|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1634987495_169_bb61e68a66836e7bb7bd494c60503445], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-23-19:11|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-19:11|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-19:11|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": null
+  },
+  "method": "post",
+  "params": "access_token=BUD7uI9TJ4jPGmx542tBew-VeEy1N8z90kHdA8PyHkW49CZcQV_E-UVUNMPZ9WTSzK2JTtcalF0zN_fMgpXI1w0W0XYqq2Mio6Xt7Vmy7SxTwPPgap6D7UHftrTVJBx_c90p0AQDUC5spPlYvhXDR_JV2FAdQe3cRY7gB0SALx6EB_9ITCvwJO59fht_yIpepQrGpMoiMO9yS3rToAwx6w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-23-19:11|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing meeting roomid, hint: [1634987496_231_1cd027c2fed4317a9b3e269b313dcd84], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-23-19:11|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-19:11|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-19:11|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 77
+  },
+  "method": "post",
+  "params": "access_token=BUD7uI9TJ4jPGmx542tBew-VeEy1N8z90kHdA8PyHkW49CZcQV_E-UVUNMPZ9WTSzK2JTtcalF0zN_fMgpXI1w0W0XYqq2Mio6Xt7Vmy7SxTwPPgap6D7UHftrTVJBx_c90p0AQDUC5spPlYvhXDR_JV2FAdQe3cRY7gB0SALx6EB_9ITCvwJO59fht_yIpepQrGpMoiMO9yS3rToAwx6w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-23-19:11|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-23-19:11|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-21:04|INFO  |test_calender.py:21 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-21:07|INFO  |test_calender.py:21 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-21:07|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "calendar": {
+      "color": null,
+      "description": "测试数据1",
+      "organizer": "calender_1",
+      "readonly": 1,
+      "set_as_default": 1,
+      "summary": "创建日历1成功"
+    }
+  },
+  "meathod": "post",
+  "params": "access_token=ILxVQmjkMHQ418b_fqOAngd0DNO18skvQRlL4ssxRwhon6vfBOf7jKq-fPLy5juQg6H0kJfgKZ3V4sQ8JM0v598Qz6-uxbNPgvw6hTlVCnoVqJwzA9GStvnjga8LMUty45lVvJ8MeL3YLH0AnBYGQ9_ixrAxdwdNcbqmYOcdkw6xm-RvEJhlNOcgKkl60J60xcrUhSPfxz76ir855WZjlg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/add"
+}
+2021-10-23-21:07|INFO  |test_calender.py:21 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-21:07|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "calendar": {
+      "color": null,
+      "description": "测试数据1",
+      "organizer": "calender_1",
+      "readonly": 1,
+      "set_as_default": 1,
+      "summary": "创建日历1成功"
+    }
+  },
+  "method": "post",
+  "params": "access_token=ILxVQmjkMHQ418b_fqOAngd0DNO18skvQRlL4ssxRwhon6vfBOf7jKq-fPLy5juQg6H0kJfgKZ3V4sQ8JM0v598Qz6-uxbNPgvw6hTlVCnoVqJwzA9GStvnjga8LMUty45lVvJ8MeL3YLH0AnBYGQ9_ixrAxdwdNcbqmYOcdkw6xm-RvEJhlNOcgKkl60J60xcrUhSPfxz76ir855WZjlg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/add"
+}
+2021-10-23-21:07|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing paramters color, hint: [1634994454_231_aa4fd46089df9f2d40c2a5d427b2c2ce], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-23-21:07|INFO  |test_calender.py:23 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-21:09|INFO  |test_calender.py:21 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-21:09|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "calendar": {
+      "color": "FF3030",
+      "description": "测试数据1",
+      "organizer": "calender_1",
+      "readonly": 1,
+      "set_as_default": 1,
+      "summary": "创建日历1成功"
+    }
+  },
+  "method": "post",
+  "params": "access_token=ILxVQmjkMHQ418b_fqOAngd0DNO18skvQRlL4ssxRwhon6vfBOf7jKq-fPLy5juQg6H0kJfgKZ3V4sQ8JM0v598Qz6-uxbNPgvw6hTlVCnoVqJwzA9GStvnjga8LMUty45lVvJ8MeL3YLH0AnBYGQ9_ixrAxdwdNcbqmYOcdkw6xm-RvEJhlNOcgKkl60J60xcrUhSPfxz76ir855WZjlg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/add"
+}
+2021-10-23-21:09|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40031,
+  "errmsg": "invalid userid list, hint: [1634994554_169_0f2f19bb0e16995d4b9e8cc50419141f], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40031"
+}
+2021-10-23-21:09|INFO  |test_calender.py:23 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-21:11|INFO  |test_calender.py:21 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-21:11|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "calendar": {
+      "color": "FF3030",
+      "description": "测试数据1",
+      "organizer": "cwz",
+      "readonly": 1,
+      "set_as_default": 1,
+      "summary": "创建日历1成功"
+    }
+  },
+  "method": "post",
+  "params": "access_token=ILxVQmjkMHQ418b_fqOAngd0DNO18skvQRlL4ssxRwhon6vfBOf7jKq-fPLy5juQg6H0kJfgKZ3V4sQ8JM0v598Qz6-uxbNPgvw6hTlVCnoVqJwzA9GStvnjga8LMUty45lVvJ8MeL3YLH0AnBYGQ9_ixrAxdwdNcbqmYOcdkw6xm-RvEJhlNOcgKkl60J60xcrUhSPfxz76ir855WZjlg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/add"
+}
+2021-10-23-21:11|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40031,
+  "errmsg": "invalid userid list, hint: [1634994697_171_b0248389dd7f36d14f884633f0196cda], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40031"
+}
+2021-10-23-21:11|INFO  |test_calender.py:23 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-21:13|INFO  |test_calender.py:21 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-21:13|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "calendar": {
+      "color": "FF3030",
+      "description": "测试数据1",
+      "organizer": [
+        "cwz"
+      ],
+      "readonly": 1,
+      "set_as_default": 1,
+      "summary": "创建日历1成功"
+    }
+  },
+  "method": "post",
+  "params": "access_token=ILxVQmjkMHQ418b_fqOAngd0DNO18skvQRlL4ssxRwhon6vfBOf7jKq-fPLy5juQg6H0kJfgKZ3V4sQ8JM0v598Qz6-uxbNPgvw6hTlVCnoVqJwzA9GStvnjga8LMUty45lVvJ8MeL3YLH0AnBYGQ9_ixrAxdwdNcbqmYOcdkw6xm-RvEJhlNOcgKkl60J60xcrUhSPfxz76ir855WZjlg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/add"
+}
+2021-10-23-21:13|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "Warning: wrong json format. missing paramters organizer, hint: [1634994831_170_17b6584aa333031092bc7ff18c27aa1a], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-23-21:13|INFO  |test_calender.py:23 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-21:22|INFO  |test_calender.py:22 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-21:22|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "calendar": {
+      "color": "FF3030",
+      "description": "测试数据1",
+      "organizer": "calender_1",
+      "readonly": 1,
+      "set_as_default": 1,
+      "shares": {
+        "userid": "wufang"
+      },
+      "summary": "创建日历1成功"
+    }
+  },
+  "method": "post",
+  "params": "access_token=ILxVQmjkMHQ418b_fqOAngd0DNO18skvQRlL4ssxRwhon6vfBOf7jKq-fPLy5juQg6H0kJfgKZ3V4sQ8JM0v598Qz6-uxbNPgvw6hTlVCnoVqJwzA9GStvnjga8LMUty45lVvJ8MeL3YLH0AnBYGQ9_ixrAxdwdNcbqmYOcdkw6xm-RvEJhlNOcgKkl60J60xcrUhSPfxz76ir855WZjlg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/add"
+}
+2021-10-23-21:22|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40031,
+  "errmsg": "Warning: wrong json format. invalid userid list, hint: [1634995354_169_71b66f923b9056fc6fa2938b08a161a7], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40031"
+}
+2021-10-23-21:22|INFO  |test_calender.py:25 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-21:23|INFO  |test_calender.py:22 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-21:23|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "calendar": {
+      "color": "FF3030",
+      "description": "测试数据1",
+      "organizer": "calender_1",
+      "readonly": 1,
+      "set_as_default": 1,
+      "shares": [
+        {
+          "userid": "wufang"
+        }
+      ],
+      "summary": "创建日历1成功"
+    }
+  },
+  "method": "post",
+  "params": "access_token=ILxVQmjkMHQ418b_fqOAngd0DNO18skvQRlL4ssxRwhon6vfBOf7jKq-fPLy5juQg6H0kJfgKZ3V4sQ8JM0v598Qz6-uxbNPgvw6hTlVCnoVqJwzA9GStvnjga8LMUty45lVvJ8MeL3YLH0AnBYGQ9_ixrAxdwdNcbqmYOcdkw6xm-RvEJhlNOcgKkl60J60xcrUhSPfxz76ir855WZjlg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/add"
+}
+2021-10-23-21:23|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40031,
+  "errmsg": "invalid userid list, hint: [1634995433_231_87b615f3d50970cade5a03ed91fb634b], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40031"
+}
+2021-10-23-21:23|INFO  |test_calender.py:25 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-21:26|INFO  |test_calender.py:22 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-21:26|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "calendar": {
+      "color": "FF3030",
+      "description": "测试数据1",
+      "organizer": "calender_1",
+      "readonly": 1,
+      "set_as_default": 1,
+      "shares": [
+        {
+          "userid": [
+            "wufang"
+          ]
+        }
+      ],
+      "summary": "创建日历1成功"
+    }
+  },
+  "method": "post",
+  "params": "access_token=ILxVQmjkMHQ418b_fqOAngd0DNO18skvQRlL4ssxRwhon6vfBOf7jKq-fPLy5juQg6H0kJfgKZ3V4sQ8JM0v598Qz6-uxbNPgvw6hTlVCnoVqJwzA9GStvnjga8LMUty45lVvJ8MeL3YLH0AnBYGQ9_ixrAxdwdNcbqmYOcdkw6xm-RvEJhlNOcgKkl60J60xcrUhSPfxz76ir855WZjlg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/add"
+}
+2021-10-23-21:26|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40031,
+  "errmsg": "Warning: wrong json format. invalid userid list, hint: [1634995579_171_dc10e1b4896da25c3ef8160cae3c4274], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40031"
+}
+2021-10-23-21:26|INFO  |test_calender.py:25 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-21:26|INFO  |test_calender.py:22 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-21:26|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "calendar": {
+      "color": "FF3030",
+      "description": "测试数据1",
+      "organizer": "calender_1",
+      "readonly": 1,
+      "set_as_default": 1,
+      "shares": {
+        "userid": [
+          "wufang"
+        ]
+      },
+      "summary": "创建日历1成功"
+    }
+  },
+  "method": "post",
+  "params": "access_token=ILxVQmjkMHQ418b_fqOAngd0DNO18skvQRlL4ssxRwhon6vfBOf7jKq-fPLy5juQg6H0kJfgKZ3V4sQ8JM0v598Qz6-uxbNPgvw6hTlVCnoVqJwzA9GStvnjga8LMUty45lVvJ8MeL3YLH0AnBYGQ9_ixrAxdwdNcbqmYOcdkw6xm-RvEJhlNOcgKkl60J60xcrUhSPfxz76ir855WZjlg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/add"
+}
+2021-10-23-21:26|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40031,
+  "errmsg": "Warning: wrong json format. invalid userid list, hint: [1634995619_231_a790d26d8e02e07261b595c1f9f7735e], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40031"
+}
+2021-10-23-21:26|INFO  |test_calender.py:25 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-21:28|INFO  |test_calender.py:22 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-21:28|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "calendar": {
+      "color": "FF3030",
+      "description": "测试数据1",
+      "organizer": "calender_1",
+      "readonly": 1,
+      "set_as_default": 1,
+      "shares": [
+        {
+          "userid": "wufang"
+        }
+      ],
+      "summary": "创建日历1成功"
+    }
+  },
+  "method": "post",
+  "params": "access_token=ILxVQmjkMHQ418b_fqOAngd0DNO18skvQRlL4ssxRwhon6vfBOf7jKq-fPLy5juQg6H0kJfgKZ3V4sQ8JM0v598Qz6-uxbNPgvw6hTlVCnoVqJwzA9GStvnjga8LMUty45lVvJ8MeL3YLH0AnBYGQ9_ixrAxdwdNcbqmYOcdkw6xm-RvEJhlNOcgKkl60J60xcrUhSPfxz76ir855WZjlg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/add"
+}
+2021-10-23-21:28|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40031,
+  "errmsg": "invalid userid list, hint: [1634995685_164_76918dfca471e4a7d5a1f7c7e7c119c1], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40031"
+}
+2021-10-23-21:28|INFO  |test_calender.py:25 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-21:29|INFO  |test_calender.py:22 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-21:29|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "calendar": {
+      "color": "FF3030",
+      "description": "测试数据1",
+      "organizer": "cwz",
+      "readonly": 1,
+      "set_as_default": 1,
+      "shares": [
+        {
+          "userid": "wufang"
+        }
+      ],
+      "summary": "创建日历1成功"
+    }
+  },
+  "method": "post",
+  "params": "access_token=ILxVQmjkMHQ418b_fqOAngd0DNO18skvQRlL4ssxRwhon6vfBOf7jKq-fPLy5juQg6H0kJfgKZ3V4sQ8JM0v598Qz6-uxbNPgvw6hTlVCnoVqJwzA9GStvnjga8LMUty45lVvJ8MeL3YLH0AnBYGQ9_ixrAxdwdNcbqmYOcdkw6xm-RvEJhlNOcgKkl60J60xcrUhSPfxz76ir855WZjlg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/add"
+}
+2021-10-23-21:29|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "cal_id": "wcj9N2BwAAEE2M2HUaXnePJkAqUO2qaQ"
+}
+2021-10-23-21:29|INFO  |test_calender.py:25 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-21:34|INFO  |test_calender.py:22 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-21:34|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "calendar": {
+      "color": "FF3030",
+      "description": "测试数据1",
+      "organizer": "cwz",
+      "readonly": 1,
+      "set_as_default": 1,
+      "shares": [
+        {
+          "userid": "wufang"
+        }
+      ],
+      "summary": "创建日历1成功"
+    }
+  },
+  "method": "post",
+  "params": "access_token=ILxVQmjkMHQ418b_fqOAngd0DNO18skvQRlL4ssxRwhon6vfBOf7jKq-fPLy5juQg6H0kJfgKZ3V4sQ8JM0v598Qz6-uxbNPgvw6hTlVCnoVqJwzA9GStvnjga8LMUty45lVvJ8MeL3YLH0AnBYGQ9_ixrAxdwdNcbqmYOcdkw6xm-RvEJhlNOcgKkl60J60xcrUhSPfxz76ir855WZjlg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/add"
+}
+2021-10-23-21:34|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "cal_id": "wcj9N2BwAAulN8HAj9jcjR3bx7mvS-XQ"
+}
+2021-10-23-21:34|INFO  |test_calender.py:25 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-22:20|INFO  |test_calender.py:25 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-22:20|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "calendar": {
+      "color": "FF3030",
+      "description": "测试数据1",
+      "organizer": "cwz",
+      "readonly": 1,
+      "set_as_default": 1,
+      "shares": [
+        {
+          "userid": "wufang"
+        }
+      ],
+      "summary": "创建日历1成功"
+    }
+  },
+  "method": "post",
+  "params": "access_token=ILxVQmjkMHQ418b_fqOAngd0DNO18skvQRlL4ssxRwhon6vfBOf7jKq-fPLy5juQg6H0kJfgKZ3V4sQ8JM0v598Qz6-uxbNPgvw6hTlVCnoVqJwzA9GStvnjga8LMUty45lVvJ8MeL3YLH0AnBYGQ9_ixrAxdwdNcbqmYOcdkw6xm-RvEJhlNOcgKkl60J60xcrUhSPfxz76ir855WZjlg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/add"
+}
+2021-10-23-22:20|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "cal_id": "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg"
+}
+2021-10-23-22:20|INFO  |mysql.py:81 |insert语句为INSERT INTO calender (user_id,readonly,set_as_deafult,summary,color,description,cal_id) VALUES ('cwz', 1, 1, '创建日历1成功', 'FF3030', '测试数据1', 'wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg') ;
+2021-10-23-22:20|INFO  |test_calender.py:28 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-22:30|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-22:31|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-22:31|INFO  |test_calender.py:25 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-22:31|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "calendar": {
+      "color": "FF3030",
+      "description": "测试数据1",
+      "organizer": "cwz",
+      "readonly": 1,
+      "set_as_default": 1,
+      "shares": [
+        {
+          "userid": "wufang"
+        }
+      ],
+      "summary": "创建日历1成功"
+    }
+  },
+  "method": "post",
+  "params": "access_token=ILxVQmjkMHQ418b_fqOAngd0DNO18skvQRlL4ssxRwhon6vfBOf7jKq-fPLy5juQg6H0kJfgKZ3V4sQ8JM0v598Qz6-uxbNPgvw6hTlVCnoVqJwzA9GStvnjga8LMUty45lVvJ8MeL3YLH0AnBYGQ9_ixrAxdwdNcbqmYOcdkw6xm-RvEJhlNOcgKkl60J60xcrUhSPfxz76ir855WZjlg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/add"
+}
+2021-10-23-22:31|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "cal_id": "wcj9N2BwAAk0aZ2kWnp2Y6nbVpxpy9Dw"
+}
+2021-10-23-22:31|INFO  |mysql.py:81 |insert语句为INSERT INTO calender (user_id,readonly,set_as_deafult,summary,color,description,cal_id) VALUES ('cwz', 1, 1, '创建日历1成功', 'FF3030', '测试数据1', 'wcj9N2BwAAk0aZ2kWnp2Y6nbVpxpy9Dw') ;
+2021-10-23-22:31|INFO  |test_calender.py:28 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-22:31|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-22:32|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-22:32|INFO  |test_calender.py:25 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-22:32|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "calendar": {
+      "color": "FF3030",
+      "description": "测试数据1",
+      "organizer": "cwz",
+      "readonly": 1,
+      "set_as_default": 1,
+      "shares": [
+        {
+          "userid": "wufang"
+        }
+      ],
+      "summary": "创建日历1成功"
+    }
+  },
+  "method": "post",
+  "params": "access_token=ILxVQmjkMHQ418b_fqOAngd0DNO18skvQRlL4ssxRwhon6vfBOf7jKq-fPLy5juQg6H0kJfgKZ3V4sQ8JM0v598Qz6-uxbNPgvw6hTlVCnoVqJwzA9GStvnjga8LMUty45lVvJ8MeL3YLH0AnBYGQ9_ixrAxdwdNcbqmYOcdkw6xm-RvEJhlNOcgKkl60J60xcrUhSPfxz76ir855WZjlg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/add"
+}
+2021-10-23-22:32|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "cal_id": "wcj9N2BwAAttAnVhmq8elkmd9bwY7XEA"
+}
+2021-10-23-22:32|INFO  |mysql.py:81 |insert语句为INSERT INTO calender (user_id,readonly,set_as_deafult,summary,color,description,cal_id) VALUES ('cwz', 1, 1, '创建日历1成功', 'FF3030', '测试数据1', 'wcj9N2BwAAttAnVhmq8elkmd9bwY7XEA') ;
+2021-10-23-22:32|INFO  |test_calender.py:28 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-22:33|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-22:34|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-22:34|INFO  |mysql.py:42 |select语句是select * from dept;
+2021-10-23-22:39|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-22:40|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-22:40|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-22:54|INFO  |test_calender.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-22:54|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-22:54|INFO  |test_calender.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-22:54|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-22:57|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-22:57|INFO  |test_calender.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-22:57|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:00|INFO  |test_calender.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:00|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:04|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:05|INFO  |test_calender.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:05|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:06|INFO  |test_calender.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:06|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:06|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": [
+      "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg",
+      "wcj9N2BwAAk0aZ2kWnp2Y6nbVpxpy9Dw",
+      "wcj9N2BwAAttAnVhmq8elkmd9bwY7XEA"
+    ]
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:06|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "calendar_list": [
+    {
+      "cal_id": "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    },
+    {
+      "cal_id": "wcj9N2BwAAk0aZ2kWnp2Y6nbVpxpy9Dw",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    },
+    {
+      "cal_id": "wcj9N2BwAAttAnVhmq8elkmd9bwY7XEA",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    }
+  ]
+}
+2021-10-23-23:06|INFO  |test_calender.py:35 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:07|INFO  |test_calender.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:07|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:07|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": [
+      "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg",
+      "wcj9N2BwAAk0aZ2kWnp2Y6nbVpxpy9Dw",
+      "wcj9N2BwAAttAnVhmq8elkmd9bwY7XEA"
+    ]
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:07|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "calendar_list": [
+    {
+      "cal_id": "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    },
+    {
+      "cal_id": "wcj9N2BwAAk0aZ2kWnp2Y6nbVpxpy9Dw",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    },
+    {
+      "cal_id": "wcj9N2BwAAttAnVhmq8elkmd9bwY7XEA",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    }
+  ]
+}
+2021-10-23-23:07|INFO  |test_calender.py:35 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:07|INFO  |test_calender.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:07|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:07|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": [
+      "wcj9N2BwAAttAnVhmq8elkmd9bwY7XEA"
+    ]
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:07|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "calendar_list": [
+    {
+      "cal_id": "wcj9N2BwAAttAnVhmq8elkmd9bwY7XEA",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    }
+  ]
+}
+2021-10-23-23:07|INFO  |test_calender.py:35 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:07|INFO  |test_calender.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:07|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:07|ERROR |calendar.py:38 |报错信息是：list index out of range
+2021-10-23-23:07|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": []
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:07|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "cal_id_list count 0, required at least 1. Invalid input invalid Request Parameter, hint: [1635001658_232_c1b33bee3b13a92066fe0e6f955398ac], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "calendar_list": []
+}
+2021-10-23-23:07|INFO  |test_calender.py:35 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:14|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:14|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:14|ERROR |calendar.py:38 |报错信息是：list indices must be integers or slices, not str
+2021-10-23-23:14|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": []
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:14|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "cal_id_list count 0, required at least 1. Invalid input invalid Request Parameter, hint: [1635002056_231_9311bfb4ac86023f9a7d3d5f5859436f], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "calendar_list": []
+}
+2021-10-23-23:14|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:14|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:14|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:14|ERROR |calendar.py:38 |报错信息是：list index out of range
+2021-10-23-23:14|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": []
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:14|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "cal_id_list count 0, required at least 1. Invalid input invalid Request Parameter, hint: [1635002057_170_1c3ea387c525939496052a2ca2cba060], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "calendar_list": []
+}
+2021-10-23-23:14|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:15|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:15|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:15|ERROR |calendar.py:38 |报错信息是：list indices must be integers or slices, not str
+2021-10-23-23:15|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": []
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:15|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "cal_id_list count 0, required at least 1. Invalid input invalid Request Parameter, hint: [1635002132_164_de4b0a1ebbb49127973d51188a165f93], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "calendar_list": []
+}
+2021-10-23-23:15|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:15|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:15|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:15|ERROR |calendar.py:38 |报错信息是：list index out of range
+2021-10-23-23:15|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": []
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:15|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "cal_id_list count 0, required at least 1. Invalid input invalid Request Parameter, hint: [1635002133_231_ad57ca087035fe07f4368e21575d7f1c], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "calendar_list": []
+}
+2021-10-23-23:15|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:21|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:21|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:21|ERROR |calendar.py:38 |报错信息是：list indices must be integers or slices, not str
+2021-10-23-23:21|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": []
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:21|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "cal_id_list count 0, required at least 1. Invalid input invalid Request Parameter, hint: [1635002482_231_988b0b024f77ddfa50729f340e6021e7], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "calendar_list": []
+}
+2021-10-23-23:21|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:21|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:21|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:21|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": [
+      "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg"
+    ]
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:21|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "calendar_list": [
+    {
+      "cal_id": "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    }
+  ]
+}
+2021-10-23-23:21|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:21|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:21|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:21|ERROR |calendar.py:38 |报错信息是：list index out of range
+2021-10-23-23:21|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": []
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:21|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "cal_id_list count 0, required at least 1. Invalid input invalid Request Parameter, hint: [1635002483_171_6d92bdee71b326fe0441d4708dd1ecd5], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "calendar_list": []
+}
+2021-10-23-23:21|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:23|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:23|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:23|ERROR |calendar.py:38 |报错信息是：list indices must be integers or slices, not list
+2021-10-23-23:23|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": []
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:23|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "cal_id_list count 0, required at least 1. Invalid input invalid Request Parameter, hint: [1635002595_170_bd87b9a47ade7ae5b3371512c66b7116], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "calendar_list": []
+}
+2021-10-23-23:23|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:24|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:24|INFO  |calendar.py:33 |index的值是：
+2021-10-23-23:24|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:24|ERROR |calendar.py:39 |报错信息是：list indices must be integers or slices, not str
+2021-10-23-23:24|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": []
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:24|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "cal_id_list count 0, required at least 1. Invalid input invalid Request Parameter, hint: [1635002678_171_4910af0971cee7f00bd0141b03e850cf], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "calendar_list": []
+}
+2021-10-23-23:24|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:24|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:24|INFO  |calendar.py:33 |index的值是：0
+2021-10-23-23:24|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:24|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": [
+      "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg"
+    ]
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:24|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "calendar_list": [
+    {
+      "cal_id": "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    }
+  ]
+}
+2021-10-23-23:24|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:24|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:24|INFO  |calendar.py:33 |index的值是：8
+2021-10-23-23:24|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:24|ERROR |calendar.py:39 |报错信息是：list index out of range
+2021-10-23-23:24|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": []
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:24|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "cal_id_list count 0, required at least 1. Invalid input invalid Request Parameter, hint: [1635002679_231_01de5b66c1dbdb93fd410f08d00bce2b], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "calendar_list": []
+}
+2021-10-23-23:24|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:25|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:25|INFO  |calendar.py:33 |index的值是：None
+2021-10-23-23:25|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:25|ERROR |calendar.py:39 |报错信息是：list indices must be integers or slices, not str
+2021-10-23-23:25|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": []
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:25|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "cal_id_list count 0, required at least 1. Invalid input invalid Request Parameter, hint: [1635002720_170_d5751a4b78a91b5608c6e618a7bc4a56], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "calendar_list": []
+}
+2021-10-23-23:25|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:25|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:25|INFO  |calendar.py:33 |index的值是：0
+2021-10-23-23:25|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:25|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": [
+      "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg"
+    ]
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:25|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "calendar_list": [
+    {
+      "cal_id": "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    }
+  ]
+}
+2021-10-23-23:25|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:25|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:25|INFO  |calendar.py:33 |index的值是：8
+2021-10-23-23:25|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:25|ERROR |calendar.py:39 |报错信息是：list index out of range
+2021-10-23-23:25|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": []
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:25|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "cal_id_list count 0, required at least 1. Invalid input invalid Request Parameter, hint: [1635002721_231_568a208046824ba508efacc2332ef9ec], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "calendar_list": []
+}
+2021-10-23-23:25|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:26|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:26|INFO  |calendar.py:33 |index的值是：None
+2021-10-23-23:26|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:26|ERROR |calendar.py:39 |报错信息是：list indices must be integers or slices, not str
+2021-10-23-23:26|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": []
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:26|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "cal_id_list count 0, required at least 1. Invalid input invalid Request Parameter, hint: [1635002770_170_35a7f9f21bc489f5044c7447e586ea8e], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "calendar_list": []
+}
+2021-10-23-23:26|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:26|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:26|INFO  |calendar.py:33 |index的值是：0
+2021-10-23-23:26|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:26|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": [
+      "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg"
+    ]
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:26|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "calendar_list": [
+    {
+      "cal_id": "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    }
+  ]
+}
+2021-10-23-23:26|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:26|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:26|INFO  |calendar.py:33 |index的值是：8
+2021-10-23-23:26|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:26|ERROR |calendar.py:39 |报错信息是：list index out of range
+2021-10-23-23:26|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": []
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:26|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "cal_id_list count 0, required at least 1. Invalid input invalid Request Parameter, hint: [1635002773_171_df22aeb0deb4115dba528f94f67fe79e], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "calendar_list": []
+}
+2021-10-23-23:26|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:32|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:32|INFO  |calendar.py:33 |index的值是：None
+2021-10-23-23:32|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:32|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": [
+      "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg",
+      "wcj9N2BwAAk0aZ2kWnp2Y6nbVpxpy9Dw",
+      "wcj9N2BwAAttAnVhmq8elkmd9bwY7XEA"
+    ]
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:33|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "calendar_list": [
+    {
+      "cal_id": "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    },
+    {
+      "cal_id": "wcj9N2BwAAk0aZ2kWnp2Y6nbVpxpy9Dw",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    },
+    {
+      "cal_id": "wcj9N2BwAAttAnVhmq8elkmd9bwY7XEA",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    }
+  ]
+}
+2021-10-23-23:33|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:33|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:33|INFO  |calendar.py:33 |index的值是：0
+2021-10-23-23:33|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:33|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": [
+      "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg"
+    ]
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:33|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "calendar_list": [
+    {
+      "cal_id": "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    }
+  ]
+}
+2021-10-23-23:33|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:33|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:33|INFO  |calendar.py:33 |index的值是：8
+2021-10-23-23:33|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:33|ERROR |calendar.py:39 |报错信息是：list index out of range
+2021-10-23-23:33|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": []
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:33|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "cal_id_list count 0, required at least 1. Invalid input invalid Request Parameter, hint: [1635003183_231_2e2aa33b2d66139c05d30a89582c728a], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "calendar_list": []
+}
+2021-10-23-23:33|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:37|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:37|INFO  |calendar.py:33 |index的值是：None
+2021-10-23-23:37|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:37|ERROR |calendar.py:41 |报错信息是：list indices must be integers or slices, not str
+2021-10-23-23:37|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": []
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:37|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "cal_id_list count 0, required at least 1. Invalid input invalid Request Parameter, hint: [1635003442_171_778c24ca5af0564eeabaf3071babc6ad], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "calendar_list": []
+}
+2021-10-23-23:37|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:37|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:37|INFO  |calendar.py:33 |index的值是：0
+2021-10-23-23:37|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:37|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": [
+      "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg"
+    ]
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:37|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "calendar_list": [
+    {
+      "cal_id": "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    }
+  ]
+}
+2021-10-23-23:37|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:37|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:37|INFO  |calendar.py:33 |index的值是：8
+2021-10-23-23:37|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:37|ERROR |calendar.py:41 |报错信息是：list index out of range
+2021-10-23-23:37|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": []
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:37|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "cal_id_list count 0, required at least 1. Invalid input invalid Request Parameter, hint: [1635003443_164_29b374ea2bb61a89fb08830942946403], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "calendar_list": []
+}
+2021-10-23-23:37|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:37|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:37|INFO  |calendar.py:33 |index的值是：None
+2021-10-23-23:37|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:37|ERROR |calendar.py:41 |报错信息是：list indices must be integers or slices, not str
+2021-10-23-23:37|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": []
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:37|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "cal_id_list count 0, required at least 1. Invalid input invalid Request Parameter, hint: [1635003458_169_ed0d71f18cdc72b6c77e6b60d6bf1f58], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "calendar_list": []
+}
+2021-10-23-23:37|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:38|INFO  |test_calender.py:28 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:38|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "calendar": {
+      "color": "FF3030",
+      "description": "测试数据1",
+      "organizer": "cwz",
+      "readonly": 1,
+      "set_as_default": 1,
+      "shares": [
+        {
+          "userid": "wufang"
+        }
+      ],
+      "summary": "创建日历1成功"
+    }
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/add"
+}
+2021-10-23-23:38|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "cal_id": "wcj9N2BwAA3FM40uKG9WAGr4pVUqhl8g"
+}
+2021-10-23-23:38|INFO  |mysql.py:81 |insert语句为INSERT INTO calender (user_id,readonly,set_as_deafult,summary,color,description,cal_id) VALUES ('cwz', 1, 1, '创建日历1成功', 'FF3030', '测试数据1', 'wcj9N2BwAA3FM40uKG9WAGr4pVUqhl8g') ;
+2021-10-23-23:38|INFO  |test_calender.py:31 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:38|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:38|INFO  |calendar.py:33 |index的值是：None
+2021-10-23-23:38|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:38|ERROR |calendar.py:41 |报错信息是：list indices must be integers or slices, not str
+2021-10-23-23:38|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": []
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:38|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "cal_id_list count 0, required at least 1. Invalid input invalid Request Parameter, hint: [1635003501_232_5ddf29f28378c4e1f2b64fbe7f2c6fa3], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "calendar_list": []
+}
+2021-10-23-23:38|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:38|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:38|INFO  |calendar.py:33 |index的值是：0
+2021-10-23-23:38|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:38|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": [
+      "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg"
+    ]
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:38|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "calendar_list": [
+    {
+      "cal_id": "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    }
+  ]
+}
+2021-10-23-23:38|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:38|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:38|INFO  |calendar.py:33 |index的值是：8
+2021-10-23-23:38|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:38|ERROR |calendar.py:41 |报错信息是：list index out of range
+2021-10-23-23:38|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": []
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:38|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "cal_id_list count 0, required at least 1. Invalid input invalid Request Parameter, hint: [1635003502_232_8b99efff9a96655e80d2992e31122a81], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "calendar_list": []
+}
+2021-10-23-23:38|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:38|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:38|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": null,
+    "equipment": [],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=YaOUXO6TqV7-uJEzGS0gmLVeGiJ_lT9tGdHEwTAwoQ-zAC_E2a-f9Tk1h1N8n0oPe_mm1TENZ84eV-IHTclPxNGwVf8cVde_QfUWrH-eJtEuPF26h09_Dh6brXVDPuyEelyZ0bnOzbIlDk7j88vvqpU1bF-2IhhW1bTt3_AAAJSnoTodiXSU_3axmjAAM7MEsTgXSQPAM9P4W4SVRaqDQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-23-23:38|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "meetingroom_list": [
+    {
+      "meetingroom_id": 11,
+      "name": "会议室1",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团1号楼",
+      "floor": "10F",
+      "equipment": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    },
+    {
+      "meetingroom_id": 12,
+      "name": "会议室6",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团1号楼",
+      "floor": "10F",
+      "equipment": [],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    }
+  ]
+}
+2021-10-23-23:38|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:38|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:38|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": "北京",
+    "equipment": [],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=YaOUXO6TqV7-uJEzGS0gmLVeGiJ_lT9tGdHEwTAwoQ-zAC_E2a-f9Tk1h1N8n0oPe_mm1TENZ84eV-IHTclPxNGwVf8cVde_QfUWrH-eJtEuPF26h09_Dh6brXVDPuyEelyZ0bnOzbIlDk7j88vvqpU1bF-2IhhW1bTt3_AAAJSnoTodiXSU_3axmjAAM7MEsTgXSQPAM9P4W4SVRaqDQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-23-23:38|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "meetingroom_list": [
+    {
+      "meetingroom_id": 11,
+      "name": "会议室1",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团1号楼",
+      "floor": "10F",
+      "equipment": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    },
+    {
+      "meetingroom_id": 12,
+      "name": "会议室6",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团1号楼",
+      "floor": "10F",
+      "equipment": [],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    }
+  ]
+}
+2021-10-23-23:38|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:38|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:38|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "city": null,
+    "equipment": [],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=YaOUXO6TqV7-uJEzGS0gmLVeGiJ_lT9tGdHEwTAwoQ-zAC_E2a-f9Tk1h1N8n0oPe_mm1TENZ84eV-IHTclPxNGwVf8cVde_QfUWrH-eJtEuPF26h09_Dh6brXVDPuyEelyZ0bnOzbIlDk7j88vvqpU1bF-2IhhW1bTt3_AAAJSnoTodiXSU_3axmjAAM7MEsTgXSQPAM9P4W4SVRaqDQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-23-23:38|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1635003525_169_8001442be991d98023ba382f958b5cea], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "meetingroom_list": []
+}
+2021-10-23-23:38|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:38|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:38|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": null,
+    "equipment": [],
+    "floor": "10F"
+  },
+  "method": "post",
+  "params": "access_token=YaOUXO6TqV7-uJEzGS0gmLVeGiJ_lT9tGdHEwTAwoQ-zAC_E2a-f9Tk1h1N8n0oPe_mm1TENZ84eV-IHTclPxNGwVf8cVde_QfUWrH-eJtEuPF26h09_Dh6brXVDPuyEelyZ0bnOzbIlDk7j88vvqpU1bF-2IhhW1bTt3_AAAJSnoTodiXSU_3axmjAAM7MEsTgXSQPAM9P4W4SVRaqDQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-23-23:38|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1635003526_170_245a68a336b038995f7795e057164389], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "meetingroom_list": []
+}
+2021-10-23-23:38|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:38|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:38|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": null,
+    "equipment": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=YaOUXO6TqV7-uJEzGS0gmLVeGiJ_lT9tGdHEwTAwoQ-zAC_E2a-f9Tk1h1N8n0oPe_mm1TENZ84eV-IHTclPxNGwVf8cVde_QfUWrH-eJtEuPF26h09_Dh6brXVDPuyEelyZ0bnOzbIlDk7j88vvqpU1bF-2IhhW1bTt3_AAAJSnoTodiXSU_3axmjAAM7MEsTgXSQPAM9P4W4SVRaqDQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-23-23:38|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "meetingroom_list": [
+    {
+      "meetingroom_id": 11,
+      "name": "会议室1",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团1号楼",
+      "floor": "10F",
+      "equipment": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    }
+  ]
+}
+2021-10-23-23:38|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:38|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:38|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "错误楼号",
+    "city": "北京",
+    "equipment": [],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=YaOUXO6TqV7-uJEzGS0gmLVeGiJ_lT9tGdHEwTAwoQ-zAC_E2a-f9Tk1h1N8n0oPe_mm1TENZ84eV-IHTclPxNGwVf8cVde_QfUWrH-eJtEuPF26h09_Dh6brXVDPuyEelyZ0bnOzbIlDk7j88vvqpU1bF-2IhhW1bTt3_AAAJSnoTodiXSU_3axmjAAM7MEsTgXSQPAM9P4W4SVRaqDQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-23-23:38|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid city/building/floor, hint: [1635003526_170_014cd64557b7b747c2a6f80368b2543d], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "meetingroom_list": []
+}
+2021-10-23-23:38|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:38|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:38|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "city": "北京",
+    "equipment": [],
+    "floor": "11F"
+  },
+  "method": "post",
+  "params": "access_token=YaOUXO6TqV7-uJEzGS0gmLVeGiJ_lT9tGdHEwTAwoQ-zAC_E2a-f9Tk1h1N8n0oPe_mm1TENZ84eV-IHTclPxNGwVf8cVde_QfUWrH-eJtEuPF26h09_Dh6brXVDPuyEelyZ0bnOzbIlDk7j88vvqpU1bF-2IhhW1bTt3_AAAJSnoTodiXSU_3axmjAAM7MEsTgXSQPAM9P4W4SVRaqDQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-23-23:38|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid city/building/floor, hint: [1635003527_170_47e63e82bb72b5783e4502a214f985aa], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "meetingroom_list": []
+}
+2021-10-23-23:38|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:38|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:38|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": null,
+    "equipment": [
+      6
+    ],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=YaOUXO6TqV7-uJEzGS0gmLVeGiJ_lT9tGdHEwTAwoQ-zAC_E2a-f9Tk1h1N8n0oPe_mm1TENZ84eV-IHTclPxNGwVf8cVde_QfUWrH-eJtEuPF26h09_Dh6brXVDPuyEelyZ0bnOzbIlDk7j88vvqpU1bF-2IhhW1bTt3_AAAJSnoTodiXSU_3axmjAAM7MEsTgXSQPAM9P4W4SVRaqDQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-23-23:38|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 600039,
+  "errmsg": "device type not support, hint: [1635003527_231_9230d75afdbe169c9ebee6890815e294], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=600039",
+  "meetingroom_list": []
+}
+2021-10-23-23:38|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:41|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:41|INFO  |calendar.py:33 |index的值是：None
+2021-10-23-23:41|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:41|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": [
+      "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg",
+      "wcj9N2BwAAk0aZ2kWnp2Y6nbVpxpy9Dw",
+      "wcj9N2BwAAttAnVhmq8elkmd9bwY7XEA",
+      "wcj9N2BwAA3FM40uKG9WAGr4pVUqhl8g"
+    ]
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:41|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "calendar_list": [
+    {
+      "cal_id": "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    },
+    {
+      "cal_id": "wcj9N2BwAAk0aZ2kWnp2Y6nbVpxpy9Dw",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    },
+    {
+      "cal_id": "wcj9N2BwAAttAnVhmq8elkmd9bwY7XEA",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    },
+    {
+      "cal_id": "wcj9N2BwAA3FM40uKG9WAGr4pVUqhl8g",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    }
+  ]
+}
+2021-10-23-23:41|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:41|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:41|INFO  |calendar.py:33 |index的值是：0
+2021-10-23-23:41|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:41|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": [
+      "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg"
+    ]
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:41|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "calendar_list": [
+    {
+      "cal_id": "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    }
+  ]
+}
+2021-10-23-23:41|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:41|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:41|INFO  |calendar.py:33 |index的值是：8
+2021-10-23-23:41|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:41|ERROR |calendar.py:41 |报错信息是：list index out of range
+2021-10-23-23:41|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": []
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:41|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "cal_id_list count 0, required at least 1. Invalid input invalid Request Parameter, hint: [1635003665_171_fe4873a3e69bc638efb0e4c5c3053a5c], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "calendar_list": []
+}
+2021-10-23-23:41|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:54|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:54|INFO  |calendar.py:35 |index的值是：None
+2021-10-23-23:54|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM1 calender;
+2021-10-23-23:54|ERROR |mysql.py:51 |select语句错误，错误原因是(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'calender' at line 1")
+2021-10-23-23:54|ERROR |calendar.py:44 |报错信息是：'NoneType' object is not iterable
+2021-10-23-23:54|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": []
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:54|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "cal_id_list count 0, required at least 1. Invalid input invalid Request Parameter, hint: [1635004490_164_8f73dca326b74afa3e73f89cf8afe020], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "calendar_list": []
+}
+2021-10-23-23:54|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:54|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:54|INFO  |calendar.py:35 |index的值是：0
+2021-10-23-23:54|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM1 calender;
+2021-10-23-23:54|ERROR |mysql.py:51 |select语句错误，错误原因是(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'calender' at line 1")
+2021-10-23-23:54|ERROR |calendar.py:44 |报错信息是：'NoneType' object is not iterable
+2021-10-23-23:54|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": []
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:54|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "cal_id_list count 0, required at least 1. Invalid input invalid Request Parameter, hint: [1635004491_171_e49aaf457af74865d1f40a483107b903], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "calendar_list": []
+}
+2021-10-23-23:54|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:54|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:54|INFO  |calendar.py:35 |index的值是：8
+2021-10-23-23:54|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM1 calender;
+2021-10-23-23:54|ERROR |mysql.py:51 |select语句错误，错误原因是(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'calender' at line 1")
+2021-10-23-23:54|ERROR |calendar.py:44 |报错信息是：'NoneType' object is not iterable
+2021-10-23-23:54|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": []
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:54|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "cal_id_list count 0, required at least 1. Invalid input invalid Request Parameter, hint: [1635004492_231_da0f82c0152d82366136bc9756dd5727], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "calendar_list": []
+}
+2021-10-23-23:54|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:55|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:55|INFO  |calendar.py:35 |index的值是：None
+2021-10-23-23:55|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:55|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": [
+      "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg",
+      "wcj9N2BwAAk0aZ2kWnp2Y6nbVpxpy9Dw",
+      "wcj9N2BwAAttAnVhmq8elkmd9bwY7XEA",
+      "wcj9N2BwAA3FM40uKG9WAGr4pVUqhl8g"
+    ]
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:55|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "calendar_list": [
+    {
+      "cal_id": "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    },
+    {
+      "cal_id": "wcj9N2BwAAk0aZ2kWnp2Y6nbVpxpy9Dw",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    },
+    {
+      "cal_id": "wcj9N2BwAAttAnVhmq8elkmd9bwY7XEA",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    },
+    {
+      "cal_id": "wcj9N2BwAA3FM40uKG9WAGr4pVUqhl8g",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    }
+  ]
+}
+2021-10-23-23:55|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:55|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:55|INFO  |calendar.py:35 |index的值是：0
+2021-10-23-23:55|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:55|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": [
+      "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg"
+    ]
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:55|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "calendar_list": [
+    {
+      "cal_id": "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    }
+  ]
+}
+2021-10-23-23:55|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:55|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:55|INFO  |calendar.py:35 |index的值是：8
+2021-10-23-23:55|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:55|ERROR |calendar.py:44 |报错信息是：list index out of range
+2021-10-23-23:55|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": []
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:55|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "cal_id_list count 0, required at least 1. Invalid input invalid Request Parameter, hint: [1635004532_169_8d98997db1a41d3ae259139a0851139d], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "calendar_list": []
+}
+2021-10-23-23:55|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:57|INFO  |test_calender.py:28 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "calendar": {
+      "color": "FF3030",
+      "description": "测试数据1",
+      "organizer": "cwz",
+      "readonly": 1,
+      "set_as_default": 1,
+      "shares": [
+        {
+          "userid": "wufang"
+        }
+      ],
+      "summary": "创建日历1成功"
+    }
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/add"
+}
+2021-10-23-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "cal_id": "wcj9N2BwAA8dIeUwj5FLXlCr_t7v4-cA"
+}
+2021-10-23-23:57|INFO  |mysql.py:81 |insert语句为INSERT INTO1 calender (user_id,readonly,set_as_deafult,summary,color,description,cal_id) VALUES ('cwz', 1, 1, '创建日历1成功', 'FF3030', '测试数据1', 'wcj9N2BwAA8dIeUwj5FLXlCr_t7v4-cA') ;
+2021-10-23-23:57|ERROR |mysql.py:87 |insert语句错误，错误原因是(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'calender (user_id,readonly,set_as_deafult,summary,color,description,cal_id) VALU' at line 1")
+2021-10-23-23:57|INFO  |test_calender.py:31 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:58|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:58|INFO  |calendar.py:33 |index的值是：None
+2021-10-23-23:58|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:58|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": [
+      "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg",
+      "wcj9N2BwAAk0aZ2kWnp2Y6nbVpxpy9Dw",
+      "wcj9N2BwAAttAnVhmq8elkmd9bwY7XEA",
+      "wcj9N2BwAA3FM40uKG9WAGr4pVUqhl8g"
+    ]
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:58|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "calendar_list": [
+    {
+      "cal_id": "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    },
+    {
+      "cal_id": "wcj9N2BwAAk0aZ2kWnp2Y6nbVpxpy9Dw",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    },
+    {
+      "cal_id": "wcj9N2BwAAttAnVhmq8elkmd9bwY7XEA",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    },
+    {
+      "cal_id": "wcj9N2BwAA3FM40uKG9WAGr4pVUqhl8g",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    }
+  ]
+}
+2021-10-23-23:58|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:58|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:58|INFO  |calendar.py:33 |index的值是：0
+2021-10-23-23:58|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:58|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": [
+      "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg"
+    ]
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:58|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "calendar_list": [
+    {
+      "cal_id": "wcj9N2BwAA8RV1xVI3X-K3a0TueWpWIg",
+      "organizer": "cwz",
+      "summary": "创建日历1成功",
+      "color": "#FF3030",
+      "description": "测试数据1",
+      "shares": [
+        {
+          "userid": "wufang",
+          "readonly": 1
+        }
+      ],
+      "readonly": 1
+    }
+  ]
+}
+2021-10-23-23:58|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:58|INFO  |test_calender.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-23-23:58|INFO  |calendar.py:33 |index的值是：8
+2021-10-23-23:58|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-23-23:58|ERROR |calendar.py:42 |报错信息是：list index out of range
+2021-10-23-23:58|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id_list": []
+  },
+  "method": "post",
+  "params": "access_token=NFRy5Lx8EzNihWLB9RzrO4VhTLXtk_KDT40LEZG2xKvtJ6vkJ_iB31T5--CDZ3Q3ROID6quzgbaycRVt3mLHhGu5acUFWNnxjdNjMfncPTb7wKaTmEbIjsmshE8jbaqRh-8n7Rgiw00f3dQhbP_70JpchrBAVQlXNjUFTPbC2VEBGA4FCS9cvzguZ94V26tUSNrOle7TUfXbZMJDxDm-ew",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+}
+2021-10-23-23:58|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "cal_id_list count 0, required at least 1. Invalid input invalid Request Parameter, hint: [1635004689_169_7ccc4d92aa2ef7ed53c87ea0e761bcd2], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "calendar_list": []
+}
+2021-10-23-23:58|INFO  |test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

@@ -1,0 +1,16 @@
+2021-10-27-23:06|[32mINFO  [0m|test_meeting_room.py:68 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试删除会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 6
+  },
+  "method": "post",
+  "params": "access_token=JkXkCCIptCWmmKndKz8vfxOr3h7uQo_KdNacgvGNCmdcXuML_UIPX-hwQ_f2y38B7ST9PT8iqp0oUi23LLhs5uqjrpPCG4WNwYUWFJYAMMBp_CRTZzhkpPQUX5Da10GpR6SfaRXl2BDDdvVKm6laOPVdd8C6x_lMYaehOiA1n9vEYNRGQC2VDBznYZOpKrde09qprvT705hFSz1BKebucg",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1635347216_170_7bb40c2d098b07d154433673c4666dbc], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-27-23:06|[32mINFO  [0m|test_meeting_room.py:70 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

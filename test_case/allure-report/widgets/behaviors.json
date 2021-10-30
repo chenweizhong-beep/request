@@ -1,0 +1,70 @@
+{
+  "total" : 6,
+  "items" : [ {
+    "uid" : "4e4c6a145d6db24d022168c47a2d12d3",
+    "name" : "会议室增删改查等接口",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "cc15c6dbd1e11a115f69b76e0543d27b",
+    "name" : "通讯录人员的增删改查等接口测试",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "6607f6de563ef84c752360f6ee12cae4",
+    "name" : "标签增删改查等接口测试",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "a93db10b85744ad9c30ddae0aefa2378",
+    "name" : "日程增删改查等接口测试",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "8ea50384c2ee7309ed194fe426e81a25",
+    "name" : "日历增删改查等接口测试",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "5d74a656808e3097f68e43e67e30aef8",
+    "name" : "部门增删改查等接口测试",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  } ]
+}

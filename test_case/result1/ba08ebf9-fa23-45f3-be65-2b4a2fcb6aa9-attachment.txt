@@ -1,0 +1,22 @@
+2021-10-27-23:06|[32mINFO  [0m|test_member.py:50 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建成员>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "department": [
+      1,
+      3
+    ],
+    "mobile": null,
+    "name": "ccc",
+    "userid": "tong3"
+  },
+  "method": "post",
+  "params": "access_token=IK5ErRA6zTLgwTudN6GtX3c1YOyfisrzJBQIvMtAfdxMy1iLjovQF2oXxgn_LEdtSUe-9OHcsCBr4meH0DlFldAP_nQ83Hg2LD0WuKSmY63oCyj1p149MBEr6G0tYlbX81vubGFr_ivjS8xuau3Ulj7txdsNZltepUVaBXjsgHJcHtg3mzl7MHlxVLIivZYpD5fgTIg4fi0W971Q8QnVyw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/create"
+}
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 60129,
+  "errmsg": "missing mobile or email, hint: [1635347169_161_2eb1620977f8f2500a47536852e1dcec], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=60129"
+}
+2021-10-27-23:06|[32mINFO  [0m|test_member.py:52 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建成员测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

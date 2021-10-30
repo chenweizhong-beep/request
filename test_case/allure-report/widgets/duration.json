@@ -1,0 +1,1381 @@
+[ {
+  "uid" : "359be89560ca5a2e",
+  "name" : "test_update_tag[tagid存在，tagname为空，标签修改失败]",
+  "time" : {
+    "start" : 1635347194912,
+    "stop" : 1635347195145,
+    "duration" : 233
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7752ce97a4ad1740",
+  "name" : "test_update_meeting_room[案例5：会议室id输入正确，只输入城市信息，修改会议室信息失败]",
+  "time" : {
+    "start" : 1635347215448,
+    "stop" : 1635347215757,
+    "duration" : 309
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e6404520e31728e0",
+  "name" : "test_delete_department[部门id存在，存在成员，删除失败]",
+  "time" : {
+    "start" : 1635347166064,
+    "stop" : 1635347166353,
+    "duration" : 289
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f9dd2b62e36c2e4d",
+  "name" : "test_delete_tag_member[tagid为空，userlist存在并被添加过，user标签删除失败]",
+  "time" : {
+    "start" : 1635347204397,
+    "stop" : 1635347204677,
+    "duration" : 280
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "59e7bb150ac8b9db",
+  "name" : "test_creat_member[输入非重复的userid，name，mobile，断言成功]",
+  "time" : {
+    "start" : 1635347168625,
+    "stop" : 1635347169416,
+    "duration" : 791
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9f4b3f371cd9ebd4",
+  "name" : "test_get_calender[案例1：查询所有存在的日历，查询成功]",
+  "time" : {
+    "start" : 1635347153065,
+    "stop" : 1635347153441,
+    "duration" : 376
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2520a8b7e5bdf072",
+  "name" : "test_creat_member[没有电话，断言失败]",
+  "time" : {
+    "start" : 1635347170314,
+    "stop" : 1635347170735,
+    "duration" : 421
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c770afb528e2ed45",
+  "name" : "test_update_meeting_room[案例8：会议室id输入正确，只输入设备列表，修改会议室信息成功]",
+  "time" : {
+    "start" : 1635347216345,
+    "stop" : 1635347216590,
+    "duration" : 245
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "5747db0d8d9af8ca",
+  "name" : "test_depart_explicit[department_id和fetch_child存在合法，断言成功]",
+  "time" : {
+    "start" : 1635347184042,
+    "stop" : 1635347184425,
+    "duration" : 383
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "846d45b24f7c18d2",
+  "name" : "test_batch_delete_member[userid_list为空，断言失败]",
+  "time" : {
+    "start" : 1635347181304,
+    "stop" : 1635347181604,
+    "duration" : 300
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9e04598b9393f21a",
+  "name" : "test_get_all_schedule[案例1：查询index1日历的所有日程成功]",
+  "time" : {
+    "start" : 1635347157267,
+    "stop" : 1635347157615,
+    "duration" : 348
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6c6440e896d04cc7",
+  "name" : "test_create_tag_member[tagid存在，userlist未被添加过，user添加标签成功]",
+  "time" : {
+    "start" : 1635347201030,
+    "stop" : 1635347201304,
+    "duration" : 274
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "29c43808e0d6c37e",
+  "name" : "test_get_meeting_room[案例3：会议室所在楼宇输入正确，查询失败]",
+  "time" : {
+    "start" : 1635347212239,
+    "stop" : 1635347212547,
+    "duration" : 308
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "62d215a028de7c86",
+  "name" : "test_get_schedule[案例1：查询所有日程详细信息成功]",
+  "time" : {
+    "start" : 1635347158855,
+    "stop" : 1635347159179,
+    "duration" : 324
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e1b3960c6f8f79a",
+  "name" : "test_create_tag_member[tagid为空，userlist未被添加过，user添加标签失败]",
+  "time" : {
+    "start" : 1635347201641,
+    "stop" : 1635347201884,
+    "duration" : 243
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "36d659ac84e06a16",
+  "name" : "test_creat_member[name重复，断言成功]",
+  "time" : {
+    "start" : 1635347171242,
+    "stop" : 1635347171970,
+    "duration" : 728
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "53dca3ac0c10aa6d",
+  "name" : "test_add_department[parentid存在，name为空，增加部门失败]",
+  "time" : {
+    "start" : 1635347161437,
+    "stop" : 1635347161782,
+    "duration" : 345
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fb83db78aee2edd9",
+  "name" : "test_update_tag[tagid，tagname正确，标签修改成功]",
+  "time" : {
+    "start" : 1635347193732,
+    "stop" : 1635347194037,
+    "duration" : 305
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ddb71cac26c50a37",
+  "name" : "test_get_meeting_room[案例4：会议室所在楼层输入正确，查询失败]",
+  "time" : {
+    "start" : 1635347212585,
+    "stop" : 1635347212872,
+    "duration" : 287
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7b2c29e6ed8df709",
+  "name" : "test_get_calender[案例2：查寻不存在的日历，查询失败]",
+  "time" : {
+    "start" : 1635347153822,
+    "stop" : 1635347154067,
+    "duration" : 245
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1b8d571e596deb51",
+  "name" : "test_update_tag[tagid不存在，tagname正确，标签修改失败]",
+  "time" : {
+    "start" : 1635347194349,
+    "stop" : 1635347194608,
+    "duration" : 259
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6e19e4bbeed168bb",
+  "name" : "test_delete_department[部门id为空，删除失败]",
+  "time" : {
+    "start" : 1635347167086,
+    "stop" : 1635347167358,
+    "duration" : 272
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c547a176e12f0cfd",
+  "name" : "test_depart_simple[department_id合法，fetch_child为空，断言失败]",
+  "time" : {
+    "start" : 1635347183009,
+    "stop" : 1635347183363,
+    "duration" : 354
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "774201e213359d1e",
+  "name" : "test_update_department[部门存在，名字不为空，部门修改成功]",
+  "time" : {
+    "start" : 1635347163316,
+    "stop" : 1635347163919,
+    "duration" : 603
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "199b9f80dd22a97a",
+  "name" : "test_update_meeting_room[案例3：会议室id输入错误，修改会议室信息失败]",
+  "time" : {
+    "start" : 1635347214902,
+    "stop" : 1635347215173,
+    "duration" : 271
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ad1386ebf39a96b2",
+  "name" : "test_add_department[parentid为空，增加部门失败]",
+  "time" : {
+    "start" : 1635347160784,
+    "stop" : 1635347161047,
+    "duration" : 263
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3478c1c3ca396d53",
+  "name" : "test_depart_explicit[department_id合法，fetch_child为空，断言失败]",
+  "time" : {
+    "start" : 1635347184786,
+    "stop" : 1635347185141,
+    "duration" : 355
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d2155675f55defc",
+  "name" : "test_creat_member[userid重复，断言失败]",
+  "time" : {
+    "start" : 1635347170756,
+    "stop" : 1635347171225,
+    "duration" : 469
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ce1c3c3c09e2cbbc",
+  "name" : "test_delete_department[部门id存在，存在子部门，删除失败]",
+  "time" : {
+    "start" : 1635347166379,
+    "stop" : 1635347166756,
+    "duration" : 377
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b1e66f8cbb8a8788",
+  "name" : "test_delete_member[userid为空，断言失败]",
+  "time" : {
+    "start" : 1635347177896,
+    "stop" : 1635347178143,
+    "duration" : 247
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "90587607148a0328",
+  "name" : "test_depart_explicit[department_id为空，fetch_child合法，断言失败]",
+  "time" : {
+    "start" : 1635347185165,
+    "stop" : 1635347186424,
+    "duration" : 1259
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db2938b74f528ebd",
+  "name" : "test_delete_calender[案例3：cal_id输入为空，删除日历失败]",
+  "time" : {
+    "start" : 1635347156280,
+    "stop" : 1635347156683,
+    "duration" : 403
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a975117f9ec8e4f3",
+  "name" : "test_update_calender[案例2：cal_id输入错误，修改日历失败]",
+  "time" : {
+    "start" : 1635347154513,
+    "stop" : 1635347154893,
+    "duration" : 380
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5041ab9954aa5008",
+  "name" : "test_depart_simple[department_id非法，fetch_child合法，断言失败]",
+  "time" : {
+    "start" : 1635347183714,
+    "stop" : 1635347184026,
+    "duration" : 312
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42732e8914bf4e6f",
+  "name" : "test_get_meeting_room[案例1：会议室所在位置输入为空，查询成功]",
+  "time" : {
+    "start" : 1635347211677,
+    "stop" : 1635347211928,
+    "duration" : 251
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6be7495fa022267",
+  "name" : "test_get_member[userid为空，断言失败]",
+  "time" : {
+    "start" : 1635347175801,
+    "stop" : 1635347176334,
+    "duration" : 533
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a607e7903d00e9b8",
+  "name" : "test_update_meeting_room[案例7：会议室id输入正确，只输入楼层信息，修改会议室信息失败]",
+  "time" : {
+    "start" : 1635347216060,
+    "stop" : 1635347216320,
+    "duration" : 260
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3a1ebfaf333c42fd",
+  "name" : "test_depart_simple[department_id为空，fetch_child合法，断言失败]",
+  "time" : {
+    "start" : 1635347183379,
+    "stop" : 1635347183694,
+    "duration" : 315
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afd80b0c954b8f55",
+  "name" : "test_delete_tag[tagid不存在，标签删除失败]",
+  "time" : {
+    "start" : 1635347197376,
+    "stop" : 1635347197633,
+    "duration" : 257
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fff5250788027e27",
+  "name" : "test_get_department[部门id不存在，无法查询部门]",
+  "time" : {
+    "start" : 1635347163008,
+    "stop" : 1635347163289,
+    "duration" : 281
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5f81af821d327c66",
+  "name" : "test_delete_calender[案例2：cal_id输入错误，删除日历失败]",
+  "time" : {
+    "start" : 1635347155852,
+    "stop" : 1635347156269,
+    "duration" : 417
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "81a5417796900a98",
+  "name" : "test_get_tag_member[获取标签成功]",
+  "time" : {
+    "start" : 1635347207118,
+    "stop" : 1635347207386,
+    "duration" : 268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7609f16dc05b58fb",
+  "name" : "test_get_meeting_room[案例2：会议室所在城市输入正确，查询成功]",
+  "time" : {
+    "start" : 1635347211945,
+    "stop" : 1635347212216,
+    "duration" : 271
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c48dde5a969dc603",
+  "name" : "test_creat_tag[tagid，tagname正确，标签添加成功]",
+  "time" : {
+    "start" : 1635347188817,
+    "stop" : 1635347189118,
+    "duration" : 301
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "786cb81aacd6839c",
+  "name" : "test_create_meeting_room[案例9：会议室名称重复，创建会议室失败]",
+  "time" : {
+    "start" : 1635347211314,
+    "stop" : 1635347211648,
+    "duration" : 334
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "646e7c073537c23c",
+  "name" : "test_delete_meeting_room[案例3：会议室id输入错误，删除会议室失败]",
+  "time" : {
+    "start" : 1635347217225,
+    "stop" : 1635347217517,
+    "duration" : 292
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2868359d523c04ed",
+  "name" : "test_delete_calender[案例1：cal_id输入正确，删除日历成功]",
+  "time" : {
+    "start" : 1635347155313,
+    "stop" : 1635347155818,
+    "duration" : 505
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c96e5384640e2810",
+  "name" : "test_create_meeting_room[案例8：会议室支持地设备列表为空，创建会议室成功]",
+  "time" : {
+    "start" : 1635347210927,
+    "stop" : 1635347211232,
+    "duration" : 305
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "4461a32011869313",
+  "name" : "test_get_all_schedule[案例2：查询index2日历的所有日程成功]",
+  "time" : {
+    "start" : 1635347157646,
+    "stop" : 1635347158031,
+    "duration" : 385
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b645e95cf4b5c7a3",
+  "name" : "test_create_meeting_room[案例7：会议室所在楼层输入为空，创建会议室失败]",
+  "time" : {
+    "start" : 1635347210636,
+    "stop" : 1635347210909,
+    "duration" : 273
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b1edacf81a9188ec",
+  "name" : "test_update_member[修改后的mobile重复，断言失败]",
+  "time" : {
+    "start" : 1635347175043,
+    "stop" : 1635347175363,
+    "duration" : 320
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c9fcde69c358ce3b",
+  "name" : "test_get_tag_member[tagid为空，获取标签成功]",
+  "time" : {
+    "start" : 1635347207636,
+    "stop" : 1635347207898,
+    "duration" : 262
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "614d25f79a276846",
+  "name" : "test_get_department[部门id存在，查询特定的部门ok]",
+  "time" : {
+    "start" : 1635347162454,
+    "stop" : 1635347162724,
+    "duration" : 270
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d3e4c65373f907f7",
+  "name" : "test_depart_simple[department_id和fetch_child存在合法，断言成功]",
+  "time" : {
+    "start" : 1635347182248,
+    "stop" : 1635347182622,
+    "duration" : 374
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2db7bce682872f0e",
+  "name" : "test_create_tag_member[tagid存在，userlist有一个不存在，user添加标签成功]",
+  "time" : {
+    "start" : 1635347202705,
+    "stop" : 1635347203124,
+    "duration" : 419
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "10671e247f969338",
+  "name" : "test_update_department[部门不存在，部门修改失败]",
+  "time" : {
+    "start" : 1635347164991,
+    "stop" : 1635347165308,
+    "duration" : 317
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6163ed52b99c5883",
+  "name" : "test_update_calender[案例3：cal_is输入为空，修改日历失败]",
+  "time" : {
+    "start" : 1635347154910,
+    "stop" : 1635347155296,
+    "duration" : 386
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c9fdaed375b7ed47",
+  "name" : "test_get_member[userid不存在，断言失败]",
+  "time" : {
+    "start" : 1635347176346,
+    "stop" : 1635347176586,
+    "duration" : 240
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4bde2bc3b39ebfd",
+  "name" : "test_create_tag_member[tagid存在，userlist已被添加过，user添加标签成功]",
+  "time" : {
+    "start" : 1635347201321,
+    "stop" : 1635347201614,
+    "duration" : 293
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "73b6f9c71827474e",
+  "name" : "test_update_schedule[案例1： 所有信息输入正确，日程信息修改成功]",
+  "time" : {
+    "start" : 1635347158305,
+    "stop" : 1635347158836,
+    "duration" : 531
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "cf5a0e8d41e53d4f",
+  "name" : "test_batch_delete_member[userid_list有一个不存在，其他存在，断言失败]",
+  "time" : {
+    "start" : 1635347181940,
+    "stop" : 1635347182220,
+    "duration" : 280
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fd6759c8b7d7777d",
+  "name" : "test_delete_member[userid存在，不为空，断言成功]",
+  "time" : {
+    "start" : 1635347177289,
+    "stop" : 1635347177883,
+    "duration" : 594
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3ec38457f7f4237c",
+  "name" : "test_delete_tag_member[tagid存在，userlist不存在，user标签删除失败]",
+  "time" : {
+    "start" : 1635347204932,
+    "stop" : 1635347205201,
+    "duration" : 269
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "47dc3d9bd272db7e",
+  "name" : "test_creat_member[没有userid，断言失败]",
+  "time" : {
+    "start" : 1635347169881,
+    "stop" : 1635347170297,
+    "duration" : 416
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5c51f4129814086a",
+  "name" : "test_get_tag_member[tagid不存在，获取标签成功]",
+  "time" : {
+    "start" : 1635347207399,
+    "stop" : 1635347207623,
+    "duration" : 224
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "96f9cc224a070279",
+  "name" : "test_update_meeting_room[案例6：会议是id输入正确，只输入楼宇信息，修改会议室信息失败]",
+  "time" : {
+    "start" : 1635347215778,
+    "stop" : 1635347216036,
+    "duration" : 258
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "310b589738b1addb",
+  "name" : "test_update_member[userid存在，name为空，断言失败]",
+  "time" : {
+    "start" : 1635347173818,
+    "stop" : 1635347174417,
+    "duration" : 599
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "dd6357e9be0adbfe",
+  "name" : "test_creat_tag[标签添加成功0]",
+  "time" : {
+    "start" : 1635347189527,
+    "stop" : 1635347189821,
+    "duration" : 294
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "14481363bc3692e",
+  "name" : "test_add_department[parentid存在，name非法，增加部门失败]",
+  "time" : {
+    "start" : 1635347161801,
+    "stop" : 1635347162079,
+    "duration" : 278
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "26709954d954b15b",
+  "name" : "test_active_status[data为空，断言失败]",
+  "time" : {
+    "start" : 1635347187365,
+    "stop" : 1635347187613,
+    "duration" : 248
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dca5519fefdacdee",
+  "name" : "test_update_meeting_room[案例2：会议室id，会议室名称，所在城市，所在楼宇，所在楼层，支持设备列表输入正确，会议室 信息修改成功]",
+  "time" : {
+    "start" : 1635347214602,
+    "stop" : 1635347214856,
+    "duration" : 254
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "e4eea7d5d20cbdaa",
+  "name" : "test_depart_simple[department_id合法，fetch_child非法，断言失败]",
+  "time" : {
+    "start" : 1635347182644,
+    "stop" : 1635347182985,
+    "duration" : 341
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2bbb35990ace669f",
+  "name" : "test_creat_tag[标签添加成功1]",
+  "time" : {
+    "start" : 1635347189866,
+    "stop" : 1635347190221,
+    "duration" : 355
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b62028dbb45dfbcf",
+  "name" : "test_get_tag[获取全部列表成功]",
+  "time" : {
+    "start" : 1635347198618,
+    "stop" : 1635347198850,
+    "duration" : 232
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29e1ebeab44c528c",
+  "name" : "test_get_invite[二维码尺寸为1，断言成功]",
+  "time" : {
+    "start" : 1635347187910,
+    "stop" : 1635347188204,
+    "duration" : 294
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b934e2b83d21790f",
+  "name" : "test_get_meeting_room[案例7：会议室所在城市，楼宇输入正确，楼层输入错误，查询失败]",
+  "time" : {
+    "start" : 1635347213636,
+    "stop" : 1635347213961,
+    "duration" : 325
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "77c0b13bf507decb",
+  "name" : "test_delete_tag_member[tagid存在，userlist为空，partylist存在，user标签删除成功]",
+  "time" : {
+    "start" : 1635347205822,
+    "stop" : 1635347206121,
+    "duration" : 299
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8a633ff4b885c68f",
+  "name" : "test_update_member[userid为空，断言失败]",
+  "time" : {
+    "start" : 1635347174743,
+    "stop" : 1635347175027,
+    "duration" : 284
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "beff396758b6467d",
+  "name" : "test_delete_meeting_room[案例2：会议室id输入为空，删除会议室失败]",
+  "time" : {
+    "start" : 1635347216959,
+    "stop" : 1635347217206,
+    "duration" : 247
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b3d39d50e7868ba2",
+  "name" : "test_active_status[data格式不正确，断言失败]",
+  "time" : {
+    "start" : 1635347187627,
+    "stop" : 1635347187892,
+    "duration" : 265
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fce62957c5ef47cc",
+  "name" : "test_create_tag_member[userlist为空，partylist为1，user添加标签失败]",
+  "time" : {
+    "start" : 1635347203140,
+    "stop" : 1635347203460,
+    "duration" : 320
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c07b1ab96bd4257b",
+  "name" : "test_update_meeting_room[案例4：会议室id输入为空，修改会议室信息失败]",
+  "time" : {
+    "start" : 1635347215199,
+    "stop" : 1635347215429,
+    "duration" : 230
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5880b8ab8a66ac5c",
+  "name" : "test_depart_explicit[department_id合法，fetch_child非法，断言失败]",
+  "time" : {
+    "start" : 1635347184440,
+    "stop" : 1635347184770,
+    "duration" : 330
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f9d0da85ccaeddc",
+  "name" : "test_update_department[部门存在，名字为空，部门修改失败]",
+  "time" : {
+    "start" : 1635347163932,
+    "stop" : 1635347164517,
+    "duration" : 585
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7df7e3803a120cc1",
+  "name" : "test_get_meeting_room[案例8：会议室位置信息输入为空，支持设备输入错误，查询失败]",
+  "time" : {
+    "start" : 1635347213978,
+    "stop" : 1635347214254,
+    "duration" : 276
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d0189bc6b07e79bf",
+  "name" : "test_create_meeting_room[案例4：会议室人数为空，创建会议室失败]",
+  "time" : {
+    "start" : 1635347209761,
+    "stop" : 1635347210048,
+    "duration" : 287
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "47d029cc96e05fe4",
+  "name" : "test_delete_member[userid不存在，断言失败]",
+  "time" : {
+    "start" : 1635347178272,
+    "stop" : 1635347178576,
+    "duration" : 304
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8a61c99a608972ae",
+  "name" : "test_add_department[parentid不存在，增加部门失败]",
+  "time" : {
+    "start" : 1635347161066,
+    "stop" : 1635347161402,
+    "duration" : 336
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c89b87af46dbe50a",
+  "name" : "test_creat_member[电话重复，断言失败]",
+  "time" : {
+    "start" : 1635347171997,
+    "stop" : 1635347172470,
+    "duration" : 473
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3093d2bfae55f397",
+  "name" : "test_update_member[userid不存在，断言失败]",
+  "time" : {
+    "start" : 1635347174452,
+    "stop" : 1635347174727,
+    "duration" : 275
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5bb0de69c3eedef8",
+  "name" : "test_get_tag_member[tagid存在，获取部门得标签成功]",
+  "time" : {
+    "start" : 1635347207913,
+    "stop" : 1635347208207,
+    "duration" : 294
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d8b6144b0ecd1ef",
+  "name" : "test_batch_delete_member[userid_list都不存在，断言失败]",
+  "time" : {
+    "start" : 1635347181621,
+    "stop" : 1635347181928,
+    "duration" : 307
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2e490e3819fe4973",
+  "name" : "test_creat_member[没有name,创建失败]",
+  "time" : {
+    "start" : 1635347169441,
+    "stop" : 1635347169850,
+    "duration" : 409
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "24ff33f01cefed56",
+  "name" : "test_add_department[parentid存在，name存在不唯一，增加部门成功]",
+  "time" : {
+    "start" : 1635347160326,
+    "stop" : 1635347160765,
+    "duration" : 439
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "29e966db2a65058b",
+  "name" : "test_delete_department[部门id存在，不存在成员和子部门，删除成功]",
+  "time" : {
+    "start" : 1635347165605,
+    "stop" : 1635347166040,
+    "duration" : 435
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "36a67709054468da",
+  "name" : "test_get_calender[案例2：查询第一个创建的日历，查询成功]",
+  "time" : {
+    "start" : 1635347153479,
+    "stop" : 1635347153811,
+    "duration" : 332
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8e354ab40d666cce",
+  "name" : "test_add_department[parentid存在，name重复，增加部门失败]",
+  "time" : {
+    "start" : 1635347162094,
+    "stop" : 1635347162433,
+    "duration" : 339
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ef86d8bbc5d8b136",
+  "name" : "test_update_tag[tagid存在，tagname重复，标签修改失败]",
+  "time" : {
+    "start" : 1635347194623,
+    "stop" : 1635347194890,
+    "duration" : 267
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fd7fa0039de7025c",
+  "name" : "test_active_status[data大于如今日期，断言失败]",
+  "time" : {
+    "start" : 1635347187053,
+    "stop" : 1635347187342,
+    "duration" : 289
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4884e18eef93d63",
+  "name" : "test_update_department[部门为空，部门修改失败]",
+  "time" : {
+    "start" : 1635347165321,
+    "stop" : 1635347165594,
+    "duration" : 273
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5654b782f205c5b4",
+  "name" : "test_active_status[date为2020-01-01，断言成功]",
+  "time" : {
+    "start" : 1635347186753,
+    "stop" : 1635347187019,
+    "duration" : 266
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56da60c1ddbb309f",
+  "name" : "test_delete_tag[tagid正确，标签删除成功]",
+  "time" : {
+    "start" : 1635347196672,
+    "stop" : 1635347196964,
+    "duration" : 292
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8e7f35bbad638d03",
+  "name" : "test_update_meeting_room[案例1：会议室id输入正确，修改会议室信息成功]",
+  "time" : {
+    "start" : 1635347214269,
+    "stop" : 1635347214558,
+    "duration" : 289
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "29fb83fc672b4160",
+  "name" : "test_batch_delete_member[userid_list存在，断言成功]",
+  "time" : {
+    "start" : 1635347180493,
+    "stop" : 1635347181181,
+    "duration" : 688
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ef55800e0f4c0b6c",
+  "name" : "test_delete_schedule[案例1：信息输入正确，日程信息取消成功]",
+  "time" : {
+    "start" : 1635347159544,
+    "stop" : 1635347159986,
+    "duration" : 442
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "881789f42f1dbc86",
+  "name" : "test_creat_tag[tagid不重复，tagname为空，标签添加失败]",
+  "time" : {
+    "start" : 1635347190536,
+    "stop" : 1635347190805,
+    "duration" : 269
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4cf95e4dfaaab00b",
+  "name" : "test_create_meeting_room[案例5：会议室城市输入为空，创建会议室失败]",
+  "time" : {
+    "start" : 1635347210092,
+    "stop" : 1635347210358,
+    "duration" : 266
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c8fbe6f3ab40eb76",
+  "name" : "test_get_all_schedule[案例3：查询错误]",
+  "time" : {
+    "start" : 1635347158050,
+    "stop" : 1635347158289,
+    "duration" : 239
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "29e3f2e3eca0b6f",
+  "name" : "test_delete_tag_member[tagid存在，userlist存在但没有被添加过，user标签删除失败]",
+  "time" : {
+    "start" : 1635347205216,
+    "stop" : 1635347205483,
+    "duration" : 267
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2013e0bde3fd79a0",
+  "name" : "test_update_tag[tagid为空，tagname正确，标签修改失败]",
+  "time" : {
+    "start" : 1635347194067,
+    "stop" : 1635347194331,
+    "duration" : 264
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f5f5d2c1624aa567",
+  "name" : "test_create_tag_member[tagid存在，userlist不存在，user添加标签失败]",
+  "time" : {
+    "start" : 1635347202162,
+    "stop" : 1635347202435,
+    "duration" : 273
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a37079b9d52a4f0",
+  "name" : "test_creat_tag[tagid重复，tagname不重复，标签添加失败]",
+  "time" : {
+    "start" : 1635347190834,
+    "stop" : 1635347191106,
+    "duration" : 272
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "22d43993437777",
+  "name" : "test_update_department[部门存在，名字重复，部门修改失败]",
+  "time" : {
+    "start" : 1635347164551,
+    "stop" : 1635347164977,
+    "duration" : 426
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9321a9ad6132b562",
+  "name" : "test_delete_department[部门id不存在，删除失败]",
+  "time" : {
+    "start" : 1635347166780,
+    "stop" : 1635347167070,
+    "duration" : 290
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a6046f2e1b4976f9",
+  "name" : "test_delete_tag[tagid为空，标签删除失败]",
+  "time" : {
+    "start" : 1635347197088,
+    "stop" : 1635347197362,
+    "duration" : 274
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "55e63e9462c2633f",
+  "name" : "test_get_member[userid存在，断言成功]",
+  "time" : {
+    "start" : 1635347175401,
+    "stop" : 1635347175787,
+    "duration" : 386
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42f4db629f67199b",
+  "name" : "test_depart_explicit[department_id非法，fetch_child合法，断言失败]",
+  "time" : {
+    "start" : 1635347186438,
+    "stop" : 1635347186732,
+    "duration" : 294
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9dff9bcbe7abbf57",
+  "name" : "test_create_meeting_room[案例1：会议室所有要素正确，创建会议室成功]",
+  "time" : {
+    "start" : 1635347208506,
+    "stop" : 1635347208850,
+    "duration" : 344
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "d4f27ae3f89e3f8",
+  "name" : "test_delete_tag_member[tagid存在，userlist有一个没有被添加过，有一个被添加过，user标签删除失败]",
+  "time" : {
+    "start" : 1635347205498,
+    "stop" : 1635347205773,
+    "duration" : 275
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7aa5462824bc403d",
+  "name" : "test_get_department[部门id为空，查询全部的部门]",
+  "time" : {
+    "start" : 1635347162735,
+    "stop" : 1635347162995,
+    "duration" : 260
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "de559d512f33bb2",
+  "name" : "test_delete_meeting_room[案例1：会议室id输入正确，删除会议室成功]",
+  "time" : {
+    "start" : 1635347216629,
+    "stop" : 1635347216921,
+    "duration" : 292
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "9d0b3c2a0471c42a",
+  "name" : "test_create_meeting_room[案例6：会议室所在楼宇输入为空，创建会议室失败]",
+  "time" : {
+    "start" : 1635347210377,
+    "stop" : 1635347210616,
+    "duration" : 239
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "cc367292848b92a4",
+  "name" : "test_delete_tag_member[tagid不存在，userlist存在并被添加过，user标签删除失败]",
+  "time" : {
+    "start" : 1635347204140,
+    "stop" : 1635347204383,
+    "duration" : 243
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f357437d3345d618",
+  "name" : "test_creat_tag[tagid为空，自动生成tagid，tagname不重复，标签添加成功]",
+  "time" : {
+    "start" : 1635347189133,
+    "stop" : 1635347189511,
+    "duration" : 378
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ee02136b79381281",
+  "name" : "test_get_schedule[案例2：查询指定日程详细信息成功]",
+  "time" : {
+    "start" : 1635347159195,
+    "stop" : 1635347159518,
+    "duration" : 323
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8ed7d44d2c40ba27",
+  "name" : "test_get_meeting_room[案例6：会议室所在城市输入正确，楼宇输入错误，查询失败]",
+  "time" : {
+    "start" : 1635347213335,
+    "stop" : 1635347213618,
+    "duration" : 283
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "baf8eabae67113b9",
+  "name" : "test_create_meeting_room[案例2：会议室名称为空，创建会议室失败]",
+  "time" : {
+    "start" : 1635347209178,
+    "stop" : 1635347209440,
+    "duration" : 262
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2be1bea197f8a014",
+  "name" : "test_create_tag_member[tagid存在，userlist为空，user添加标签失败]",
+  "time" : {
+    "start" : 1635347202467,
+    "stop" : 1635347202690,
+    "duration" : 223
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d80f7c377e4f4e1c",
+  "name" : "test_update_member[userid存在，name不为空，电话不重复，断言成功]",
+  "time" : {
+    "start" : 1635347172969,
+    "stop" : 1635347173802,
+    "duration" : 833
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c499044640340483",
+  "name" : "test_create_calender[所有信息输入正确，日历创建成功]",
+  "time" : {
+    "start" : 1635347152542,
+    "stop" : 1635347153032,
+    "duration" : 490
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9b496761e70a5efc",
+  "name" : "test_update_calender[案例1：所有项输入正确，修改日历成功]",
+  "time" : {
+    "start" : 1635347154078,
+    "stop" : 1635347154494,
+    "duration" : 416
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b6a7b8d41a4aeed8",
+  "name" : "test_delete_tag_member[tagid存在，userlist存在并被添加过，user标签删除成功]",
+  "time" : {
+    "start" : 1635347203802,
+    "stop" : 1635347204124,
+    "duration" : 322
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c620c790812efb21",
+  "name" : "test_create_tag_member[tagid不存在，userlist未被添加过，user添加标签失败]",
+  "time" : {
+    "start" : 1635347201899,
+    "stop" : 1635347202142,
+    "duration" : 243
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3c3c584afac83378",
+  "name" : "test_delete_tag_member[tagid存在，userlist为空，user标签删除失败]",
+  "time" : {
+    "start" : 1635347204694,
+    "stop" : 1635347204916,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "35b3ede5818494b4",
+  "name" : "test_create_meeting_room[案例3：会议室名称超长，创建会议室失败]",
+  "time" : {
+    "start" : 1635347209459,
+    "stop" : 1635347209741,
+    "duration" : 282
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2d8ec44c90028a8e",
+  "name" : "test_creat_tag[tagid不重复，tagname重复，标签添加失败]",
+  "time" : {
+    "start" : 1635347190235,
+    "stop" : 1635347190500,
+    "duration" : 265
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "808c8b4594888a4a",
+  "name" : "test_create_schedule[案例1：所有信息输入正确，日程建立成功]",
+  "time" : {
+    "start" : 1635347156699,
+    "stop" : 1635347157250,
+    "duration" : 551
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e8778a27dfb765f2",
+  "name" : "test_get_meeting_room[案例5：会议室支持设备输入正确，查询成功]",
+  "time" : {
+    "start" : 1635347212905,
+    "stop" : 1635347213301,
+    "duration" : 396
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

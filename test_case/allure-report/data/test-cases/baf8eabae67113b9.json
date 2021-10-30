@@ -1,0 +1,124 @@
+{
+  "uid" : "baf8eabae67113b9",
+  "name" : "test_create_meeting_room[案例2：会议室名称为空，创建会议室失败]",
+  "fullName" : "meeing_room.meeting_room.test_meeting_room.TestMeetingRoom#test_create_meeting_room",
+  "historyId" : "535b629796ddbf374867d91792f496a8",
+  "time" : {
+    "start" : 1635347209178,
+    "stop" : 1635347209440,
+    "duration" : 262
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "token",
+    "time" : {
+      "start" : 1635347208224,
+      "stop" : 1635347208500,
+      "duration" : 276
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cda59333f4efa93e",
+      "name" : "log",
+      "source" : "cda59333f4efa93e.txt",
+      "type" : "text/plain",
+      "size" : 1548
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "创建会议室接口"
+  }, {
+    "name" : "feature",
+    "value" : "会议室增删改查等接口"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "meeing_room.meeting_room"
+  }, {
+    "name" : "suite",
+    "value" : "test_meeting_room"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMeetingRoom"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EOQ4GM0"
+  }, {
+    "name" : "thread",
+    "value" : "10132-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "meeing_room.meeting_room.test_meeting_room"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "building",
+    "value" : "'陈氏集团1号楼'"
+  }, {
+    "name" : "capacity",
+    "value" : "10"
+  }, {
+    "name" : "city",
+    "value" : "'北京'"
+  }, {
+    "name" : "equipment",
+    "value" : "[1, 2, 3, 4, 5]"
+  }, {
+    "name" : "errcode",
+    "value" : "40058"
+  }, {
+    "name" : "errmsg",
+    "value" : "'missing paramters name'"
+  }, {
+    "name" : "floor",
+    "value" : "'10F'"
+  }, {
+    "name" : "name",
+    "value" : "''"
+  } ],
+  "links" : [ {
+    "name" : "api地址",
+    "url" : "https://work.weixin.qq.com/api/doc/90000/90135/90195",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "baf8eabae67113b9.json",
+  "parameterValues" : [ "'陈氏集团1号楼'", "10", "'北京'", "[1, 2, 3, 4, 5]", "40058", "'missing paramters name'", "'10F'", "''" ]
+}

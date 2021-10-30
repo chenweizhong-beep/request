@@ -1,0 +1,1508 @@
+2021-09-24-00:12|INFO  |test_department.py:35 |------查询部门开始测试------
+2021-09-24-00:12|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 1
+}
+2021-09-24-00:12|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw&id=1",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/list"
+}
+2021-09-24-00:12|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "ok",
+  "department": [
+    {
+      "id": 1,
+      "name": "陈氏集团",
+      "parentid": 0,
+      "order": 100000000
+    },
+    {
+      "id": 2,
+      "name": "add",
+      "parentid": 1,
+      "order": 100000000
+    }
+  ]
+}
+2021-09-24-00:12|INFO  |test_department.py:37 |------查询部门测试结束------
+2021-09-24-00:12|INFO  |test_department.py:35 |------查询部门开始测试------
+2021-09-24-00:12|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": ""
+}
+2021-09-24-00:12|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw&id=",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/list"
+}
+2021-09-24-00:12|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "ok",
+  "department": [
+    {
+      "id": 1,
+      "name": "陈氏集团",
+      "parentid": 0,
+      "order": 100000000
+    },
+    {
+      "id": 2,
+      "name": "add",
+      "parentid": 1,
+      "order": 100000000
+    }
+  ]
+}
+2021-09-24-00:12|INFO  |test_department.py:37 |------查询部门测试结束------
+2021-09-24-00:12|INFO  |test_department.py:35 |------查询部门开始测试------
+2021-09-24-00:12|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 200
+}
+2021-09-24-00:12|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw&id=200",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/list"
+}
+2021-09-24-00:12|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60123,
+  "errmsg": "invalid party id, hint: [1632413561_161_6074a49baab9078c33eda65057948d6f], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60123",
+  "department": []
+}
+2021-09-24-00:12|INFO  |test_department.py:37 |------查询部门测试结束------
+2021-09-24-00:13|INFO  |test_department.py:35 |------查询部门开始测试------
+2021-09-24-00:13|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 1
+}
+2021-09-24-00:13|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw&id=1",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/list"
+}
+2021-09-24-00:13|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "ok",
+  "department": [
+    {
+      "id": 1,
+      "name": "陈氏集团",
+      "parentid": 0,
+      "order": 100000000
+    },
+    {
+      "id": 2,
+      "name": "add",
+      "parentid": 1,
+      "order": 100000000
+    }
+  ]
+}
+2021-09-24-00:13|INFO  |test_department.py:38 |------查询部门测试结束------
+2021-09-24-00:13|INFO  |test_department.py:35 |------查询部门开始测试------
+2021-09-24-00:13|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": ""
+}
+2021-09-24-00:13|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw&id=",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/list"
+}
+2021-09-24-00:13|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "ok",
+  "department": [
+    {
+      "id": 1,
+      "name": "陈氏集团",
+      "parentid": 0,
+      "order": 100000000
+    },
+    {
+      "id": 2,
+      "name": "add",
+      "parentid": 1,
+      "order": 100000000
+    }
+  ]
+}
+2021-09-24-00:13|INFO  |test_department.py:38 |------查询部门测试结束------
+2021-09-24-00:13|INFO  |test_department.py:35 |------查询部门开始测试------
+2021-09-24-00:13|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 200
+}
+2021-09-24-00:13|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw&id=200",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/list"
+}
+2021-09-24-00:13|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60123,
+  "errmsg": "invalid party id, hint: [1632413581_147_21545580cdca94248089307d3eb30bb1], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60123",
+  "department": []
+}
+2021-09-24-00:13|INFO  |test_department.py:38 |------查询部门测试结束------
+2021-09-24-00:32|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:32|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 5,
+  "name": "edit"
+}
+2021-09-24-00:32|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 5,
+    "name": "edit"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:32|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1632414751_161_57910fa391e72f9e2bd35f97619e5826], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60003"
+}
+2021-09-24-00:32|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:32|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:32|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 4,
+  "name": ""
+}
+2021-09-24-00:32|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 4,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:32|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1632414752_161_91ad9cbe368d41a24d7ad6c4b22f49d8], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60003"
+}
+2021-09-24-00:32|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:32|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:32|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 5,
+  "name": "aaa"
+}
+2021-09-24-00:32|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 5,
+    "name": "aaa"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:32|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1632414752_161_60b220733cb9e69d890860f92f09678e], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60003"
+}
+2021-09-24-00:32|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:32|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:32|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 100,
+  "name": "edit12"
+}
+2021-09-24-00:32|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 100,
+    "name": "edit12"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:32|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1632414752_161_c6bba7a7cbc5be88008b1fe0a30f9999], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60003"
+}
+2021-09-24-00:32|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:32|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:32|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": "",
+  "name": "edit2"
+}
+2021-09-24-00:32|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": null,
+    "name": "edit2"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:32|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1632414753_161_b5fa9a1743ce3af6a2550d283d4bd45c], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60003"
+}
+2021-09-24-00:32|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:33|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:33|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 2,
+  "name": "edit"
+}
+2021-09-24-00:33|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 2,
+    "name": "edit"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:33|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "updated"
+}
+2021-09-24-00:33|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:33|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:33|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 4,
+  "name": ""
+}
+2021-09-24-00:33|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 4,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:33|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1632414803_161_abf33cef582e65f6cc9c46f2a2251ee7], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60003"
+}
+2021-09-24-00:33|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:33|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:33|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 5,
+  "name": "aaa"
+}
+2021-09-24-00:33|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 5,
+    "name": "aaa"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:33|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1632414805_161_bec635a9da2f06e26c37002b91b616a0], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60003"
+}
+2021-09-24-00:33|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:33|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:33|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 100,
+  "name": "edit12"
+}
+2021-09-24-00:33|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 100,
+    "name": "edit12"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:33|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1632414805_161_b361bc4d306f119078ebc8d7bc89050b], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60003"
+}
+2021-09-24-00:33|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:33|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:33|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": "",
+  "name": "edit2"
+}
+2021-09-24-00:33|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": null,
+    "name": "edit2"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:33|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1632414805_161_971e28134b8bf87aeaab946a8d0ac172], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60003"
+}
+2021-09-24-00:33|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:33|INFO  |test_department.py:38 |------查询部门开始测试------
+2021-09-24-00:33|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 1
+}
+2021-09-24-00:33|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw&id=1",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/list"
+}
+2021-09-24-00:33|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "ok",
+  "department": [
+    {
+      "id": 1,
+      "name": "陈氏集团",
+      "parentid": 0,
+      "order": 100000000
+    },
+    {
+      "id": 2,
+      "name": "edit",
+      "parentid": 1,
+      "order": 100000000
+    }
+  ]
+}
+2021-09-24-00:33|INFO  |test_department.py:41 |------查询部门测试结束------
+2021-09-24-00:33|INFO  |test_department.py:38 |------查询部门开始测试------
+2021-09-24-00:33|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": ""
+}
+2021-09-24-00:33|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw&id=",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/list"
+}
+2021-09-24-00:33|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "ok",
+  "department": [
+    {
+      "id": 1,
+      "name": "陈氏集团",
+      "parentid": 0,
+      "order": 100000000
+    },
+    {
+      "id": 2,
+      "name": "edit",
+      "parentid": 1,
+      "order": 100000000
+    }
+  ]
+}
+2021-09-24-00:33|INFO  |test_department.py:41 |------查询部门测试结束------
+2021-09-24-00:33|INFO  |test_department.py:38 |------查询部门开始测试------
+2021-09-24-00:33|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 200
+}
+2021-09-24-00:33|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw&id=200",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/list"
+}
+2021-09-24-00:33|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60123,
+  "errmsg": "invalid party id, hint: [1632414822_161_8d22a0ca02ffd90d96fd66e82dbb073d], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60123",
+  "department": []
+}
+2021-09-24-00:33|INFO  |test_department.py:41 |------查询部门测试结束------
+2021-09-24-00:34|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:34|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 2,
+  "name": "edit"
+}
+2021-09-24-00:34|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 2,
+    "name": "edit"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:34|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "updated"
+}
+2021-09-24-00:34|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:34|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:34|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 2,
+  "name": ""
+}
+2021-09-24-00:34|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 2,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:34|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "updated"
+}
+2021-09-24-00:34|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:34|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:34|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 2,
+  "name": "edit"
+}
+2021-09-24-00:34|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 2,
+    "name": "edit"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:34|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "updated"
+}
+2021-09-24-00:34|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:34|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:34|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 100,
+  "name": "edit12"
+}
+2021-09-24-00:34|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 100,
+    "name": "edit12"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:34|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1632414887_161_c5659c5d3597f3568d9a37e2d125066b], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60003"
+}
+2021-09-24-00:34|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:34|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:34|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": "",
+  "name": "edit2"
+}
+2021-09-24-00:34|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": null,
+    "name": "edit2"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:34|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1632414888_161_76574c84e62916b04bdbc2b4129a01ff], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60003"
+}
+2021-09-24-00:34|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:35|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:35|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 2,
+  "name": "edit"
+}
+2021-09-24-00:35|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 2,
+    "name": "edit"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:35|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "updated"
+}
+2021-09-24-00:35|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:35|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:35|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 2,
+  "name": ""
+}
+2021-09-24-00:35|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 2,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:35|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "updated"
+}
+2021-09-24-00:35|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:35|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:35|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 2,
+  "name": "陈氏集团"
+}
+2021-09-24-00:35|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 2,
+    "name": "陈氏集团"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:35|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "updated"
+}
+2021-09-24-00:35|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:35|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:35|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 100,
+  "name": "edit12"
+}
+2021-09-24-00:35|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 100,
+    "name": "edit12"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:35|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1632414938_161_1d8a2e2bd21bd726181b3534fc292fca], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60003"
+}
+2021-09-24-00:35|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:35|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:35|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": "",
+  "name": "edit2"
+}
+2021-09-24-00:35|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": null,
+    "name": "edit2"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:35|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1632414938_161_1a1559b62961cf670767981be16bff2e], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60003"
+}
+2021-09-24-00:35|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:37|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:37|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 2,
+  "name": "edit"
+}
+2021-09-24-00:37|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 2,
+    "name": "edit"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:37|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "updated"
+}
+2021-09-24-00:37|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:37|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:37|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 2,
+  "name": ""
+}
+2021-09-24-00:37|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 2,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:37|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "updated"
+}
+2021-09-24-00:37|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:37|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:37|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 2,
+  "name": "陈氏集团"
+}
+2021-09-24-00:37|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 2,
+    "name": "陈氏集团"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:37|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "updated"
+}
+2021-09-24-00:37|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:37|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:37|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 100,
+  "name": "edit12"
+}
+2021-09-24-00:37|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 100,
+    "name": "edit12"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:37|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1632415039_161_c6e4e44a22841c5a6feda7801fe9e3bb], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60003"
+}
+2021-09-24-00:37|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:37|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:37|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": "",
+  "name": "edit2"
+}
+2021-09-24-00:37|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": null,
+    "name": "edit2"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:37|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1632415039_161_8bd00e6c18733be78e17f612a43f8388], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60003"
+}
+2021-09-24-00:37|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:38|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:38|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 2,
+  "name": "edit"
+}
+2021-09-24-00:38|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 2,
+    "name": "edit"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:38|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "updated"
+}
+2021-09-24-00:38|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:38|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:38|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 2,
+  "name": ""
+}
+2021-09-24-00:38|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 2,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:38|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "updated"
+}
+2021-09-24-00:38|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:38|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:38|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 2,
+  "name": "陈氏集团"
+}
+2021-09-24-00:38|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 2,
+    "name": "陈氏集团"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:38|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "updated"
+}
+2021-09-24-00:38|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:38|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:38|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 100,
+  "name": "edit12"
+}
+2021-09-24-00:38|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 100,
+    "name": "edit12"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:38|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1632415081_161_16dd36dd393444a8d1e19d8ddef5e1fe], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60003"
+}
+2021-09-24-00:38|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:38|INFO  |test_department.py:47 |------修改部门测试开始------
+2021-09-24-00:38|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": "",
+  "name": "edit2"
+}
+2021-09-24-00:38|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": null,
+    "name": "edit2"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:38|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1632415082_161_5d33a1bc10c44f0f7a9742a0e8501275], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60003"
+}
+2021-09-24-00:38|INFO  |test_department.py:49 |------修改部门测试结束------
+2021-09-24-00:47|INFO  |test_department.py:58 |------删除部门测试开始------
+2021-09-24-00:47|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 2
+}
+2021-09-24-00:47|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw&id=2",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/delete"
+}
+2021-09-24-00:47|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "deleted"
+}
+2021-09-24-00:47|INFO  |test_department.py:60 |------删除部门测试结束------
+2021-09-24-00:47|INFO  |test_department.py:58 |------删除部门测试开始------
+2021-09-24-00:47|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 5
+}
+2021-09-24-00:47|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw&id=5",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/delete"
+}
+2021-09-24-00:47|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60123,
+  "errmsg": "invalid party id, hint: [1632415656_161_2115dacc502a2ff9e21fe3f4041e3c3d], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60123"
+}
+2021-09-24-00:47|INFO  |test_department.py:60 |------删除部门测试结束------
+2021-09-24-00:47|INFO  |test_department.py:58 |------删除部门测试开始------
+2021-09-24-00:47|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 3
+}
+2021-09-24-00:47|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw&id=3",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/delete"
+}
+2021-09-24-00:47|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60123,
+  "errmsg": "invalid party id, hint: [1632415657_161_73a2f439d4a3efe6bcc4231c6ea91489], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60123"
+}
+2021-09-24-00:47|INFO  |test_department.py:60 |------删除部门测试结束------
+2021-09-24-00:47|INFO  |test_department.py:58 |------删除部门测试开始------
+2021-09-24-00:47|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 100
+}
+2021-09-24-00:47|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw&id=100",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/delete"
+}
+2021-09-24-00:47|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60123,
+  "errmsg": "invalid party id, hint: [1632415657_161_85b54708390c14cdce3eacc00398220f], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60123"
+}
+2021-09-24-00:47|INFO  |test_department.py:60 |------删除部门测试结束------
+2021-09-24-00:47|INFO  |test_department.py:58 |------删除部门测试开始------
+2021-09-24-00:47|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": ""
+}
+2021-09-24-00:47|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw&id=",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/delete"
+}
+2021-09-24-00:47|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 40058,
+  "errmsg": "invalid Request Parameter, hint: [1632415657_161_2d7a536cd4ade2c1c34b160424cddfa8], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-09-24-00:47|INFO  |test_department.py:60 |------删除部门测试结束------
+2021-09-24-00:48|INFO  |test_department.py:32 |------增加部门开始测试------
+2021-09-24-00:48|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "name": "add",
+  "parentid": 1
+}
+2021-09-24-00:48|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "name": "add",
+    "parentid": 1
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/create"
+}
+2021-09-24-00:48|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "created",
+  "id": 2
+}
+2021-09-24-00:48|INFO  |test_department.py:35 |------增加部门测试结束------
+2021-09-24-00:48|INFO  |test_department.py:32 |------增加部门开始测试------
+2021-09-24-00:48|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "name": "add1",
+  "parentid": ""
+}
+2021-09-24-00:48|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "name": "add1",
+    "parentid": null
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/create"
+}
+2021-09-24-00:48|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60004,
+  "errmsg": "parent department not found, hint: [1632415725_161_9687c8079f126447277f90d1d3ea1585], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60004"
+}
+2021-09-24-00:48|INFO  |test_department.py:35 |------增加部门测试结束------
+2021-09-24-00:48|INFO  |test_department.py:32 |------增加部门开始测试------
+2021-09-24-00:48|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "name": "add2",
+  "parentid": 100
+}
+2021-09-24-00:48|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "name": "add2",
+    "parentid": 100
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/create"
+}
+2021-09-24-00:48|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60004,
+  "errmsg": "parent department not found, hint: [1632415726_161_56b3ddbbc67878702663cbc376043fd6], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60004"
+}
+2021-09-24-00:48|INFO  |test_department.py:35 |------增加部门测试结束------
+2021-09-24-00:48|INFO  |test_department.py:32 |------增加部门开始测试------
+2021-09-24-00:48|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "name": "",
+  "parentid": 1
+}
+2021-09-24-00:48|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "name": null,
+    "parentid": 1
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/create"
+}
+2021-09-24-00:48|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60001,
+  "errmsg": "department invalid length, hint: [1632415726_161_0ebfc876a5994c0fa45719b8e0f07fd5], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60001"
+}
+2021-09-24-00:48|INFO  |test_department.py:35 |------增加部门测试结束------
+2021-09-24-00:48|INFO  |test_department.py:32 |------增加部门开始测试------
+2021-09-24-00:48|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "name": "add<>!?:/",
+  "parentid": 1
+}
+2021-09-24-00:48|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "name": "add<>!?:/",
+    "parentid": 1
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/create"
+}
+2021-09-24-00:48|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60009,
+  "errmsg": "department name include invalid char, hint: [1632415726_161_d486115b5f4fcbc641b642ac74a7fdf4], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60009"
+}
+2021-09-24-00:48|INFO  |test_department.py:35 |------增加部门测试结束------
+2021-09-24-00:48|INFO  |test_department.py:32 |------增加部门开始测试------
+2021-09-24-00:48|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "name": "add",
+  "parentid": 1
+}
+2021-09-24-00:48|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "name": "add",
+    "parentid": 1
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/create"
+}
+2021-09-24-00:48|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60008,
+  "errmsg": "department existed, hint: [1632415727_161_00dbbbc898ea54485a527efc0f08e55d], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60008"
+}
+2021-09-24-00:48|INFO  |test_department.py:35 |------增加部门测试结束------
+2021-09-24-00:48|INFO  |test_department.py:41 |------查询部门开始测试------
+2021-09-24-00:48|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 1
+}
+2021-09-24-00:48|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw&id=1",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/list"
+}
+2021-09-24-00:48|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "ok",
+  "department": [
+    {
+      "id": 1,
+      "name": "陈氏集团",
+      "parentid": 0,
+      "order": 100000000
+    },
+    {
+      "id": 2,
+      "name": "add",
+      "parentid": 1,
+      "order": 100000000
+    }
+  ]
+}
+2021-09-24-00:48|INFO  |test_department.py:44 |------查询部门测试结束------
+2021-09-24-00:48|INFO  |test_department.py:41 |------查询部门开始测试------
+2021-09-24-00:48|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": ""
+}
+2021-09-24-00:48|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw&id=",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/list"
+}
+2021-09-24-00:48|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "ok",
+  "department": [
+    {
+      "id": 1,
+      "name": "陈氏集团",
+      "parentid": 0,
+      "order": 100000000
+    },
+    {
+      "id": 2,
+      "name": "add",
+      "parentid": 1,
+      "order": 100000000
+    }
+  ]
+}
+2021-09-24-00:48|INFO  |test_department.py:44 |------查询部门测试结束------
+2021-09-24-00:48|INFO  |test_department.py:41 |------查询部门开始测试------
+2021-09-24-00:48|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 200
+}
+2021-09-24-00:48|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw&id=200",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/list"
+}
+2021-09-24-00:48|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60123,
+  "errmsg": "invalid party id, hint: [1632415728_147_8bcad6d49cd26cd97e48cc3bcd996c23], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60123",
+  "department": []
+}
+2021-09-24-00:48|INFO  |test_department.py:44 |------查询部门测试结束------
+2021-09-24-00:48|INFO  |test_department.py:50 |------修改部门测试开始------
+2021-09-24-00:48|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 2,
+  "name": "edit"
+}
+2021-09-24-00:48|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 2,
+    "name": "edit"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:48|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "updated"
+}
+2021-09-24-00:48|INFO  |test_department.py:52 |------修改部门测试结束------
+2021-09-24-00:48|INFO  |test_department.py:50 |------修改部门测试开始------
+2021-09-24-00:48|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 2,
+  "name": ""
+}
+2021-09-24-00:48|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 2,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:48|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "updated"
+}
+2021-09-24-00:48|INFO  |test_department.py:52 |------修改部门测试结束------
+2021-09-24-00:48|INFO  |test_department.py:50 |------修改部门测试开始------
+2021-09-24-00:48|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 2,
+  "name": "陈氏集团"
+}
+2021-09-24-00:48|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 2,
+    "name": "陈氏集团"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:48|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "updated"
+}
+2021-09-24-00:48|INFO  |test_department.py:52 |------修改部门测试结束------
+2021-09-24-00:48|INFO  |test_department.py:50 |------修改部门测试开始------
+2021-09-24-00:48|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 100,
+  "name": "edit12"
+}
+2021-09-24-00:48|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": 100,
+    "name": "edit12"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:48|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1632415729_161_91eb5cbc086449f8127a9b8e7bd92a19], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60003"
+}
+2021-09-24-00:48|INFO  |test_department.py:52 |------修改部门测试结束------
+2021-09-24-00:48|INFO  |test_department.py:50 |------修改部门测试开始------
+2021-09-24-00:48|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": "",
+  "name": "edit2"
+}
+2021-09-24-00:48|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "id": null,
+    "name": "edit2"
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+}
+2021-09-24-00:48|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60003,
+  "errmsg": "department not found, hint: [1632415729_161_053226d7132973be799b8d56c8ef01a7], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60003"
+}
+2021-09-24-00:48|INFO  |test_department.py:52 |------修改部门测试结束------
+2021-09-24-00:48|INFO  |test_department.py:58 |------删除部门测试开始------
+2021-09-24-00:48|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 2
+}
+2021-09-24-00:48|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw&id=2",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/delete"
+}
+2021-09-24-00:48|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "deleted"
+}
+2021-09-24-00:48|INFO  |test_department.py:60 |------删除部门测试结束------
+2021-09-24-00:48|INFO  |test_department.py:58 |------删除部门测试开始------
+2021-09-24-00:48|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 5
+}
+2021-09-24-00:48|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw&id=5",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/delete"
+}
+2021-09-24-00:48|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60123,
+  "errmsg": "invalid party id, hint: [1632415730_161_5587c48c85e46c2301e9b9d6f1d0f5f3], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60123"
+}
+2021-09-24-00:48|INFO  |test_department.py:60 |------删除部门测试结束------
+2021-09-24-00:48|INFO  |test_department.py:58 |------删除部门测试开始------
+2021-09-24-00:48|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 3
+}
+2021-09-24-00:48|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw&id=3",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/delete"
+}
+2021-09-24-00:48|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60123,
+  "errmsg": "invalid party id, hint: [1632415731_161_0520a986bce7bca1a60eb375a804a43c], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60123"
+}
+2021-09-24-00:48|INFO  |test_department.py:60 |------删除部门测试结束------
+2021-09-24-00:48|INFO  |test_department.py:58 |------删除部门测试开始------
+2021-09-24-00:48|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": 100
+}
+2021-09-24-00:48|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw&id=100",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/delete"
+}
+2021-09-24-00:48|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60123,
+  "errmsg": "invalid party id, hint: [1632415731_161_dc75f6c97933ad9884a3057ae0a0f706], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60123"
+}
+2021-09-24-00:48|INFO  |test_department.py:60 |------删除部门测试结束------
+2021-09-24-00:48|INFO  |test_department.py:58 |------删除部门测试开始------
+2021-09-24-00:48|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "id": ""
+}
+2021-09-24-00:48|INFO  |base_api.py:123|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw&id=",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/delete"
+}
+2021-09-24-00:48|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 40058,
+  "errmsg": "invalid Request Parameter, hint: [1632415732_161_36360e6e90c781f50c9ff84224182829], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-09-24-00:48|INFO  |test_department.py:60 |------删除部门测试结束------
+2021-09-24-00:58|INFO  |test_department.py:32 |------增加部门开始测试:parentid存在，name存在不唯一，增加部门成功------
+2021-09-24-00:58|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "name": "add",
+  "parentid": 1
+}
+2021-09-24-00:58|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "name": "add",
+    "parentid": 1
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/create"
+}
+2021-09-24-00:58|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "created",
+  "id": 2
+}
+2021-09-24-00:58|INFO  |test_department.py:35 |------增加部门测试结束------
+2021-09-24-00:58|INFO  |test_department.py:32 |------增加部门开始测试:parentid存在，name存在不唯一，增加部门成功------
+2021-09-24-00:58|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "name": "add1",
+  "parentid": ""
+}
+2021-09-24-00:58|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "name": "add1",
+    "parentid": null
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/create"
+}
+2021-09-24-00:58|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60004,
+  "errmsg": "parent department not found, hint: [1632416324_161_f33c8817614b561dd6147026c7639152], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60004"
+}
+2021-09-24-00:58|INFO  |test_department.py:35 |------增加部门测试结束------
+2021-09-24-00:58|INFO  |test_department.py:32 |------增加部门开始测试:parentid存在，name存在不唯一，增加部门成功------
+2021-09-24-00:58|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "name": "add2",
+  "parentid": 100
+}
+2021-09-24-00:58|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "name": "add2",
+    "parentid": 100
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/create"
+}
+2021-09-24-00:58|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60004,
+  "errmsg": "parent department not found, hint: [1632416324_161_964c48d47501bef852a261f362fc475d], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60004"
+}
+2021-09-24-00:58|INFO  |test_department.py:35 |------增加部门测试结束------
+2021-09-24-00:58|INFO  |test_department.py:32 |------增加部门开始测试:parentid存在，name存在不唯一，增加部门成功------
+2021-09-24-00:58|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "name": "",
+  "parentid": 1
+}
+2021-09-24-00:58|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "name": null,
+    "parentid": 1
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/create"
+}
+2021-09-24-00:58|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60001,
+  "errmsg": "department invalid length, hint: [1632416324_161_75a33894e373e9ccd779c94233253776], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60001"
+}
+2021-09-24-00:58|INFO  |test_department.py:35 |------增加部门测试结束------
+2021-09-24-00:58|INFO  |test_department.py:32 |------增加部门开始测试:parentid存在，name存在不唯一，增加部门成功------
+2021-09-24-00:58|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "name": "add<>!?:/",
+  "parentid": 1
+}
+2021-09-24-00:58|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "name": "add<>!?:/",
+    "parentid": 1
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/create"
+}
+2021-09-24-00:58|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60009,
+  "errmsg": "department name include invalid char, hint: [1632416324_161_7daa45dd74e6bedbbb493a8b38dbf928], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60009"
+}
+2021-09-24-00:58|INFO  |test_department.py:35 |------增加部门测试结束------
+2021-09-24-00:58|INFO  |test_department.py:32 |------增加部门开始测试:parentid存在，name存在不唯一，增加部门成功------
+2021-09-24-00:58|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "name": "add",
+  "parentid": 1
+}
+2021-09-24-00:58|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "name": "add",
+    "parentid": 1
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/create"
+}
+2021-09-24-00:58|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60008,
+  "errmsg": "department existed, hint: [1632416325_161_fcc7f356d313f6d57176c17cf201319a], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60008"
+}
+2021-09-24-00:58|INFO  |test_department.py:35 |------增加部门测试结束------
+2021-09-24-01:00|INFO  |test_department.py:32 |------增加部门开始测试:parentid存在，name存在不唯一，增加部门成功------
+2021-09-24-01:00|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "name": "add",
+  "parentid": 1
+}
+2021-09-24-01:00|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "name": "add",
+    "parentid": 1
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/create"
+}
+2021-09-24-01:00|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60008,
+  "errmsg": "department existed, hint: [1632416452_161_7731fdd4fc50d2871627a1e86de94adc], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60008"
+}
+2021-09-24-01:00|INFO  |test_department.py:35 |------增加部门测试结束------
+2021-09-24-01:00|INFO  |test_department.py:32 |------增加部门开始测试:parentid为空，增加部门失败------
+2021-09-24-01:00|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "name": "add1",
+  "parentid": ""
+}
+2021-09-24-01:00|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "name": "add1",
+    "parentid": null
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/create"
+}
+2021-09-24-01:00|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60004,
+  "errmsg": "parent department not found, hint: [1632416453_161_b1e19dade6df44e4a2030bef5a229415], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60004"
+}
+2021-09-24-01:00|INFO  |test_department.py:35 |------增加部门测试结束------
+2021-09-24-01:00|INFO  |test_department.py:32 |------增加部门开始测试:parentid不存在，增加部门失败------
+2021-09-24-01:00|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "name": "add2",
+  "parentid": 100
+}
+2021-09-24-01:00|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "name": "add2",
+    "parentid": 100
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/create"
+}
+2021-09-24-01:00|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60004,
+  "errmsg": "parent department not found, hint: [1632416453_161_903df58a38e10fdc7a00ae673c5bff63], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60004"
+}
+2021-09-24-01:00|INFO  |test_department.py:35 |------增加部门测试结束------
+2021-09-24-01:00|INFO  |test_department.py:32 |------增加部门开始测试:parentid存在，name为空，增加部门失败------
+2021-09-24-01:00|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "name": "",
+  "parentid": 1
+}
+2021-09-24-01:00|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "name": null,
+    "parentid": 1
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/create"
+}
+2021-09-24-01:00|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60001,
+  "errmsg": "department invalid length, hint: [1632416453_161_977513192d0de1a6e61be394d62b9713], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60001"
+}
+2021-09-24-01:00|INFO  |test_department.py:35 |------增加部门测试结束------
+2021-09-24-01:00|INFO  |test_department.py:32 |------增加部门开始测试:parentid存在，name非法，增加部门失败------
+2021-09-24-01:00|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "name": "add<>!?:/",
+  "parentid": 1
+}
+2021-09-24-01:00|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "name": "add<>!?:/",
+    "parentid": 1
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/create"
+}
+2021-09-24-01:00|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60009,
+  "errmsg": "department name include invalid char, hint: [1632416454_161_f651ebe44958e3ee063c6d45716440cf], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60009"
+}
+2021-09-24-01:00|INFO  |test_department.py:35 |------增加部门测试结束------
+2021-09-24-01:00|INFO  |test_department.py:32 |------增加部门开始测试:parentid存在，name重复，增加部门失败------
+2021-09-24-01:00|INFO  |base_api.py:113|api变化的模板参数是:{
+  "token": "1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "name": "add",
+  "parentid": 1
+}
+2021-09-24-01:00|INFO  |base_api.py:123|请求修改后的数据是：{
+  "json": {
+    "name": "add",
+    "parentid": 1
+  },
+  "method": "post",
+  "params": "access_token=1X1dflC9J6MA3xvKGXBAgqwjqxLdlmhnay_2PpjjWHAAQIqnfEVIZGqbAsLeAUuLaji4gUlY1YKo4xvvi0xcmhgk_L0RZaQEnNAKLonnWgFNg0zjaLnNTe1kW2thHwVOZaZ0Rm9zv9u6KBynsVHKi_31s1eynLO22C-FdHPJ6BwSpvh6snaR7JXx9kOf6ZIDSKgp3fsF5kmhRDofMekAQw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/create"
+}
+2021-09-24-01:00|INFO  |base_api.py:125|返回的数据为：{
+  "errcode": 60008,
+  "errmsg": "department existed, hint: [1632416454_161_7d734ab125ba09fde689a6114abe5d63], from ip: 171.221.136.78, more info at https://open.work.weixin.qq.com/devtool/query?e=60008"
+}
+2021-09-24-01:00|INFO  |test_department.py:35 |------增加部门测试结束------

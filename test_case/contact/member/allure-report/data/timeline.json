@@ -1,0 +1,481 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-EOQ4GM0",
+    "children" : [ {
+      "name" : "16684-MainThread",
+      "children" : [ {
+        "name" : "test_update_member[userid为空，断言失败]",
+        "uid" : "9cea3fd141d6c857",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477116735,
+          "stop" : 1634477118397,
+          "duration" : 1662
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60111", "'userid not found'", "'userid为空，断言失败'", "'15172661165'", "'edit1'", "''" ]
+      }, {
+        "name" : "test_creat_member[userid重复，断言失败]",
+        "uid" : "a878fda34ee95fc7",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477112157,
+          "stop" : 1634477112697,
+          "duration" : 540
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60102", "'userid existed'", "'userid重复，断言失败'", "'13222661172'", "'tong'", "'ddd'" ]
+      }, {
+        "name" : "test_depart_simple[department_id和fetch_child存在合法，断言成功]",
+        "uid" : "c7d81e2666f4ecf2",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477128436,
+          "stop" : 1634477128770,
+          "duration" : 334
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "0", "'ok'", "1", "'department_id和fetch_child为1存在合法，断言成功'" ]
+      }, {
+        "name" : "test_depart_explicit[department_id为空，fetch_child合法，断言失败]",
+        "uid" : "86ce19db03ef92be",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477131501,
+          "stop" : 1634477131870,
+          "duration" : 369
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'None'", "60003", "'department not found'", "1", "'department_id为空，fetch_child合法，断言失败'" ]
+      }, {
+        "name" : "test_batch_delete_member[userid_list都不存在，断言失败]",
+        "uid" : "e24b3a315a18c70c",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477127564,
+          "stop" : 1634477128075,
+          "duration" : 511
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40031", "'invalid userid list'", "['delet1', 'delet2', 'delet3']" ]
+      }, {
+        "name" : "test_depart_simple[department_id合法，fetch_child为空，断言失败]",
+        "uid" : "30d71c61ae0ba128",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477129212,
+          "stop" : 1634477129597,
+          "duration" : 385
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "0", "'ok'", "'None'", "'department_id合法，fetch_child为空，断言失败'" ]
+      }, {
+        "name" : "test_active_status[data为空，断言失败]",
+        "uid" : "3ffea6469b14c47c",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477132974,
+          "stop" : 1634477133240,
+          "duration" : 266
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "40063", "'some parameters are empty'", "'data为空，断言失败'" ]
+      }, {
+        "name" : "test_active_status[date为2020-01-01，断言成功]",
+        "uid" : "9f64164ff28bfc73",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477132222,
+          "stop" : 1634477132577,
+          "duration" : 355
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'2021-10-16'", "0", "'ok'", "'date为2020-01-01，断言成功'" ]
+      }, {
+        "name" : "test_get_member[userid不存在，断言失败]",
+        "uid" : "b0fdae77ef51ba58",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477120276,
+          "stop" : 1634477120618,
+          "duration" : 342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60111", "'userid not found'", "'userid不存在，断言失败'", "'get1'" ]
+      }, {
+        "name" : "test_active_status[data大于如今日期，断言失败]",
+        "uid" : "a4cd2ac359a973bb",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477132592,
+          "stop" : 1634477132960,
+          "duration" : 368
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'2035-10-10'", "40058", "'invalid Request Parameter'", "'data大于如今日期，断言失败'" ]
+      }, {
+        "name" : "test_creat_member[没有name,创建失败]",
+        "uid" : "25694f485cdcdaee",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477110660,
+          "stop" : 1634477111063,
+          "duration" : 403
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60112", "'invalid name'", "'没有name,创建失败'", "'13221661164'", "'tong1'", "''" ]
+      }, {
+        "name" : "test_update_member[userid不存在，断言失败]",
+        "uid" : "5680b30dd9f1d874",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477116069,
+          "stop" : 1634477116715,
+          "duration" : 646
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60111", "'userid not found'", "'userid不存在，断言失败'", "'15172661165'", "'edit1'", "'edit1'" ]
+      }, {
+        "name" : "test_update_member[userid存在，name不为空，电话不重复，断言成功]",
+        "uid" : "24421edf7e39b171",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477114415,
+          "stop" : 1634477115251,
+          "duration" : 836
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'updated'", "'userid存在，name不为空，电话不重复，断言成功'", "'15172999999'", "'edit'", "'edit'" ]
+      }, {
+        "name" : "test_depart_explicit[department_id和fetch_child存在合法，断言成功]",
+        "uid" : "b0c015f3b5ebc82d",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477130190,
+          "stop" : 1634477130497,
+          "duration" : 307
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "0", "'ok'", "3", "'department_id和fetch_child存在合法，断言成功'" ]
+      }, {
+        "name" : "test_delete_member[userid为空，断言失败]",
+        "uid" : "c4aa3e31806828dd",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477122118,
+          "stop" : 1634477122484,
+          "duration" : 366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60111", "'userid not found'", "'userid为空，断言失败'", "'tongd'" ]
+      }, {
+        "name" : "test_get_member[userid存在，断言成功]",
+        "uid" : "aeb51d5ba81864ae",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477119335,
+          "stop" : 1634477119863,
+          "duration" : 528
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'ok'", "'userid存在，断言成功'", "'edit'" ]
+      }, {
+        "name" : "test_delete_member[userid存在，不为空，断言成功]",
+        "uid" : "c5b0af0cf08afa5",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477121370,
+          "stop" : 1634477122104,
+          "duration" : 734
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'deleted'", "'userid存在，不为空，断言成功'", "'delete'" ]
+      }, {
+        "name" : "test_depart_simple[department_id非法，fetch_child合法，断言失败]",
+        "uid" : "ded742f12cf00f4e",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477129905,
+          "stop" : 1634477130175,
+          "duration" : 270
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "100", "60003", "'department not found'", "1", "'department_id非法，fetch_child合法，断言失败'" ]
+      }, {
+        "name" : "test_depart_simple[department_id为空，fetch_child合法，断言失败]",
+        "uid" : "ba0cc262e677ea52",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477129619,
+          "stop" : 1634477129890,
+          "duration" : 271
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'None'", "60003", "'department not found'", "1", "'department_id为空，fetch_child合法，断言失败'" ]
+      }, {
+        "name" : "test_depart_explicit[department_id合法，fetch_child为空，断言失败]",
+        "uid" : "bc3667f68b21cb1e",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477130923,
+          "stop" : 1634477131388,
+          "duration" : 465
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "0", "'ok'", "'None'", "'department_id合法，fetch_child为空，断言失败'" ]
+      }, {
+        "name" : "test_creat_member[电话重复，断言失败]",
+        "uid" : "291d6d8228e41635",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477113511,
+          "stop" : 1634477113913,
+          "duration" : 402
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60104", "'mobile existed'", "'电话重复，断言失败'", "'13222261165'", "'tong6'", "'tong6'" ]
+      }, {
+        "name" : "test_update_member[修改后的mobile重复，断言失败]",
+        "uid" : "c9f015239eeb44f2",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477118413,
+          "stop" : 1634477119319,
+          "duration" : 906
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60104", "'mobile existed'", "'修改后的mobile重复，断言失败'", "'13222661161'", "'edit'", "'edit'" ]
+      }, {
+        "name" : "test_active_status[data格式不正确，断言失败]",
+        "uid" : "dcc2f5ccce5adaed",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477133255,
+          "stop" : 1634477133587,
+          "duration" : 332
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'abcd'", "40058", "'invalid Request Parameter'", "'data格式不正确，断言失败'" ]
+      }, {
+        "name" : "test_depart_explicit[department_id非法，fetch_child合法，断言失败]",
+        "uid" : "941e3e2f16167755",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477131888,
+          "stop" : 1634477132204,
+          "duration" : 316
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "100", "60003", "'department not found'", "1", "'department_id非法，fetch_child合法，断言失败'" ]
+      }, {
+        "name" : "test_batch_delete_member[userid_list有一个不存在，其他存在，断言失败]",
+        "uid" : "9825a4a407f444ea",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477128089,
+          "stop" : 1634477128423,
+          "duration" : 334
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40031", "'invalid userid list'", "['delete3', 'delet1']" ]
+      }, {
+        "name" : "test_creat_member[没有userid，断言失败]",
+        "uid" : "3361f5775857b0d6",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477111078,
+          "stop" : 1634477111523,
+          "duration" : 445
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "41009", "'missing userid'", "'没有userid，断言失败'", "'13221661163'", "''", "'bbb'" ]
+      }, {
+        "name" : "test_batch_delete_member[userid_list存在，断言成功]",
+        "uid" : "753b9a80a2112c22",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477124845,
+          "stop" : 1634477125778,
+          "duration" : 933
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'deleted'", "['delete1', 'delete2']" ]
+      }, {
+        "name" : "test_depart_explicit[department_id合法，fetch_child非法，断言失败]",
+        "uid" : "25148132f4aab25d",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477130523,
+          "stop" : 1634477130909,
+          "duration" : 386
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "0", "'ok'", "100", "'department_id合法，fetch_child非法，断言失败'" ]
+      }, {
+        "name" : "test_update_member[userid存在，name为空，断言失败]",
+        "uid" : "c3bbf646d1b4ab49",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477115267,
+          "stop" : 1634477116054,
+          "duration" : 787
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'updated'", "'userid存在，name为空，断言失败'", "'15172661165'", "''", "'edit'" ]
+      }, {
+        "name" : "test_creat_member[没有电话，断言失败]",
+        "uid" : "13061c8c2d836335",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477111550,
+          "stop" : 1634477112043,
+          "duration" : 493
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60129", "'missing mobile or email'", "'没有电话，断言失败'", "''", "'tong3'", "'ccc'" ]
+      }, {
+        "name" : "test_creat_member[输入非重复的userid，name，mobile，断言成功]",
+        "uid" : "5ec6529e20a95008",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477109851,
+          "stop" : 1634477110645,
+          "duration" : 794
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'created'", "'输入非重复的userid，name，mobile，断言成功'", "'13222261165'", "'tong'", "'aaa'" ]
+      }, {
+        "name" : "test_creat_member[name重复，断言成功]",
+        "uid" : "65736e5f46a10d3a",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477112714,
+          "stop" : 1634477113396,
+          "duration" : 682
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'created'", "'name重复，断言成功'", "'13222661161'", "'tong5'", "'aaa'" ]
+      }, {
+        "name" : "test_batch_delete_member[userid_list为空，断言失败]",
+        "uid" : "463d1ebf5a472039",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477125884,
+          "stop" : 1634477127550,
+          "duration" : 1666
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40063", "'some parameters are empty'", "[]" ]
+      }, {
+        "name" : "test_depart_simple[department_id合法，fetch_child非法，断言失败]",
+        "uid" : "eaa7dc792cf31f29",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477128785,
+          "stop" : 1634477129110,
+          "duration" : 325
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "0", "'ok'", "0", "'department_id合法，fetch_child为0，断言失败'" ]
+      }, {
+        "name" : "test_get_member[userid为空，断言失败]",
+        "uid" : "af193ddde915abb4",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477119894,
+          "stop" : 1634477120263,
+          "duration" : 369
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "41009", "'missing userid'", "'userid为空，断言失败'", "''" ]
+      }, {
+        "name" : "test_delete_member[userid不存在，断言失败]",
+        "uid" : "656156a929a62ab7",
+        "parentUid" : "1a5ac429878528837a4bbec551f6e7f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634477122498,
+          "stop" : 1634477122936,
+          "duration" : 438
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60111", "'userid not found'", "'userid不存在，断言失败'", "''" ]
+      } ],
+      "uid" : "1a5ac429878528837a4bbec551f6e7f4"
+    } ],
+    "uid" : "70fceb9dabc7b27815bbba353aa80ef1"
+  } ]
+}

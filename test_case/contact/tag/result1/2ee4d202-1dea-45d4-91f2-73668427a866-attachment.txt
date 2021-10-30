@@ -1,0 +1,21 @@
+2021-10-20-00:21|[32mINFO  [0m|test_tag.py:102|==========开始测试删除标签成员==========
+2021-10-20-00:21|[32mINFO  [0m|base_api.py:135|**********请求修改后的数据是：
+{
+  "json": {
+    "partylist": [
+      1
+    ],
+    "tagid": 1,
+    "userlist": []
+  },
+  "method": "post",
+  "params": "access_token=NrfaIrMmJ7mVMmX5xBdOeZmXCMDXlW8bYXixkQRqYNfskfsoVXcfkUCFHa_UT9I2Ei4WGkIlq_0VPtyQzA7KRCbwDh53bJpgIV9DQYvL2uF9dl6NRDAu6HikQzAjEzBuqtkwq5uZBkEMePyBJ4nflO7jX8CXUL-h2nyO1eauP3b3odyX6zS9Ip-O4gxhtRllVZbrEK-xcjJjwaRxqMZ18A",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/deltagusers"
+}
+2021-10-20-00:21|[32mINFO  [0m|base_api.py:137|**********返回的数据为：
+{
+  "errcode": 0,
+  "errmsg": "deleted",
+  "invalidparty": []
+}
+2021-10-20-00:21|[32mINFO  [0m|test_tag.py:104|==========删除标签成员测试结束==========

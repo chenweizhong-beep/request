@@ -1,0 +1,20 @@
+2021-10-17-21:56|[32mINFO  [0m|test_member.py:126|------开始测试获取活跃成员data为空，断言失败------
+2021-10-17-21:56|[32mINFO  [0m|test_member.py:127|===================================================[['2021-10-16', 0, 'ok', 'date为2020-01-01，断言成功'], ['2035-10-10', 40058, 'invalid Request Parameter', 'data大于如今日期，断言失败'], ['', 40063, 'some parameters are empty', 'data为空，断言失败'], ['abcd', 40058, 'invalid Request Parameter', 'data格式不正确，断言失败']]
+2021-10-17-21:56|[32mINFO  [0m|base_api.py:125|api变化的模板参数是:{
+  "token": "FTsumt3j6txqKydN103S6fHcMRa4JADvDUohu_kLMIzcLDopz407TMV-D1f9Vj8GPd1NSgneHDGFv_tbyxxKusx6qmYWXogj2iseIpbpq7ukAMNCqnUjFhROLqMnRmDQBUwCzlam62jzXrWnMQG-I_aWRFCOy79g_Smh1ZTgTlXpV7HGYMvP2SzDoHepdMTb1pygm58991iWJdFT007M3w",
+  "data": ""
+}
+2021-10-17-21:56|[32mINFO  [0m|base_api.py:135|请求修改后的数据是：{
+  "json": {
+    "date": null
+  },
+  "method": "post",
+  "params": "access_token=FTsumt3j6txqKydN103S6fHcMRa4JADvDUohu_kLMIzcLDopz407TMV-D1f9Vj8GPd1NSgneHDGFv_tbyxxKusx6qmYWXogj2iseIpbpq7ukAMNCqnUjFhROLqMnRmDQBUwCzlam62jzXrWnMQG-I_aWRFCOy79g_Smh1ZTgTlXpV7HGYMvP2SzDoHepdMTb1pygm58991iWJdFT007M3w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat"
+}
+2021-10-17-21:56|[32mINFO  [0m|base_api.py:137|返回的数据为：{
+  "errcode": 40063,
+  "errmsg": "some parameters are empty, hint: [1634478982_161_d2dc5cc91df0192612eb0b8f22a0c6ff], from ip: 222.212.179.224, more info at https://open.work.weixin.qq.com/devtool/query?e=40063"
+}
+2021-10-17-21:56|[32mINFO  [0m|test_member.py:129|打印相应的结果是：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634478982_161_d2dc5cc91df0192612eb0b8f22a0c6ff], from ip: 222.212.179.224, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-17-21:56|[32mINFO  [0m|test_member.py:130|------获取活跃成员详细信息测试结束------

@@ -1,0 +1,185 @@
+2021-10-15-13:36|INFO  |test_member.py:104|------开始测试获取活跃成员date为2020-01-01，断言成功------
+2021-10-15-13:36|INFO  |base_api.py:115|api变化的模板参数是:{
+  "token": "1FCQ1fSIIMxwEQMvml1AaThCAhYTIu6dRkacRmoGyXuhPGAi3emOS1nbBrwJM7h2FQsDgkEVgEP6FmhDGPMW1wnS0Zj-a0lvCfX9txcZH3tVLCFXUPmmuhQFWnctUp4DOXpPFbsN7kus2uMpLWYm1VrRt9UHJmhVSilvUHr_J8w2Wy1QPOjduXnbEA_P7iiAg7AO-R7-evPKNQkBHo-puQ",
+  "date": "2021-10-14"
+}
+2021-10-15-13:36|INFO  |test_member.py:104|------开始测试获取活跃成员data大于如今日期，断言失败------
+2021-10-15-13:36|INFO  |base_api.py:115|api变化的模板参数是:{
+  "token": "1FCQ1fSIIMxwEQMvml1AaThCAhYTIu6dRkacRmoGyXuhPGAi3emOS1nbBrwJM7h2FQsDgkEVgEP6FmhDGPMW1wnS0Zj-a0lvCfX9txcZH3tVLCFXUPmmuhQFWnctUp4DOXpPFbsN7kus2uMpLWYm1VrRt9UHJmhVSilvUHr_J8w2Wy1QPOjduXnbEA_P7iiAg7AO-R7-evPKNQkBHo-puQ",
+  "date": "2035-10-10"
+}
+2021-10-15-13:36|INFO  |test_member.py:104|------开始测试获取活跃成员data为空，断言失败------
+2021-10-15-13:36|INFO  |base_api.py:115|api变化的模板参数是:{
+  "token": "1FCQ1fSIIMxwEQMvml1AaThCAhYTIu6dRkacRmoGyXuhPGAi3emOS1nbBrwJM7h2FQsDgkEVgEP6FmhDGPMW1wnS0Zj-a0lvCfX9txcZH3tVLCFXUPmmuhQFWnctUp4DOXpPFbsN7kus2uMpLWYm1VrRt9UHJmhVSilvUHr_J8w2Wy1QPOjduXnbEA_P7iiAg7AO-R7-evPKNQkBHo-puQ",
+  "date": ""
+}
+2021-10-15-13:36|INFO  |base_api.py:126|请求修改后的数据是：{
+  "json": {
+    "date": null
+  },
+  "method": "post",
+  "params": "access_token=1FCQ1fSIIMxwEQMvml1AaThCAhYTIu6dRkacRmoGyXuhPGAi3emOS1nbBrwJM7h2FQsDgkEVgEP6FmhDGPMW1wnS0Zj-a0lvCfX9txcZH3tVLCFXUPmmuhQFWnctUp4DOXpPFbsN7kus2uMpLWYm1VrRt9UHJmhVSilvUHr_J8w2Wy1QPOjduXnbEA_P7iiAg7AO-R7-evPKNQkBHo-puQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat"
+}
+2021-10-15-13:36|INFO  |base_api.py:129|返回的数据为：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634276199_161_6e7ab1e299cd96b1e55cfd1f5272dbf8], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-15-13:36|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634276199_161_6e7ab1e299cd96b1e55cfd1f5272dbf8], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-15-13:36|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-15-13:36|INFO  |test_member.py:104|------开始测试获取活跃成员data格式不正确，断言失败------
+2021-10-15-13:36|INFO  |base_api.py:115|api变化的模板参数是:{
+  "token": "1FCQ1fSIIMxwEQMvml1AaThCAhYTIu6dRkacRmoGyXuhPGAi3emOS1nbBrwJM7h2FQsDgkEVgEP6FmhDGPMW1wnS0Zj-a0lvCfX9txcZH3tVLCFXUPmmuhQFWnctUp4DOXpPFbsN7kus2uMpLWYm1VrRt9UHJmhVSilvUHr_J8w2Wy1QPOjduXnbEA_P7iiAg7AO-R7-evPKNQkBHo-puQ",
+  "date": "abcd"
+}
+2021-10-15-13:36|INFO  |base_api.py:126|请求修改后的数据是：{
+  "json": {
+    "date": "abcd"
+  },
+  "method": "post",
+  "params": "access_token=1FCQ1fSIIMxwEQMvml1AaThCAhYTIu6dRkacRmoGyXuhPGAi3emOS1nbBrwJM7h2FQsDgkEVgEP6FmhDGPMW1wnS0Zj-a0lvCfX9txcZH3tVLCFXUPmmuhQFWnctUp4DOXpPFbsN7kus2uMpLWYm1VrRt9UHJmhVSilvUHr_J8w2Wy1QPOjduXnbEA_P7iiAg7AO-R7-evPKNQkBHo-puQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat"
+}
+2021-10-15-13:36|INFO  |base_api.py:129|返回的数据为：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634276199_161_3fbc237f0a74d22de5a33f7c90e14f31], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-13:36|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634276199_161_3fbc237f0a74d22de5a33f7c90e14f31], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-13:36|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-15-13:48|INFO  |test_member.py:104|------开始测试获取活跃成员date为2020-01-01，断言成功------
+2021-10-15-13:48|INFO  |base_api.py:115|api变化的模板参数是:{
+  "token": "1FCQ1fSIIMxwEQMvml1AaThCAhYTIu6dRkacRmoGyXuhPGAi3emOS1nbBrwJM7h2FQsDgkEVgEP6FmhDGPMW1wnS0Zj-a0lvCfX9txcZH3tVLCFXUPmmuhQFWnctUp4DOXpPFbsN7kus2uMpLWYm1VrRt9UHJmhVSilvUHr_J8w2Wy1QPOjduXnbEA_P7iiAg7AO-R7-evPKNQkBHo-puQ",
+  "date": "2021-10-14"
+}
+2021-10-15-13:48|INFO  |test_member.py:104|------开始测试获取活跃成员data大于如今日期，断言失败------
+2021-10-15-13:48|INFO  |base_api.py:115|api变化的模板参数是:{
+  "token": "1FCQ1fSIIMxwEQMvml1AaThCAhYTIu6dRkacRmoGyXuhPGAi3emOS1nbBrwJM7h2FQsDgkEVgEP6FmhDGPMW1wnS0Zj-a0lvCfX9txcZH3tVLCFXUPmmuhQFWnctUp4DOXpPFbsN7kus2uMpLWYm1VrRt9UHJmhVSilvUHr_J8w2Wy1QPOjduXnbEA_P7iiAg7AO-R7-evPKNQkBHo-puQ",
+  "date": "2035-10-10"
+}
+2021-10-15-13:48|INFO  |test_member.py:104|------开始测试获取活跃成员data为空，断言失败------
+2021-10-15-13:48|INFO  |base_api.py:115|api变化的模板参数是:{
+  "token": "1FCQ1fSIIMxwEQMvml1AaThCAhYTIu6dRkacRmoGyXuhPGAi3emOS1nbBrwJM7h2FQsDgkEVgEP6FmhDGPMW1wnS0Zj-a0lvCfX9txcZH3tVLCFXUPmmuhQFWnctUp4DOXpPFbsN7kus2uMpLWYm1VrRt9UHJmhVSilvUHr_J8w2Wy1QPOjduXnbEA_P7iiAg7AO-R7-evPKNQkBHo-puQ",
+  "date": ""
+}
+2021-10-15-13:48|INFO  |base_api.py:126|请求修改后的数据是：{
+  "json": {
+    "date": null
+  },
+  "method": "post",
+  "params": "access_token=1FCQ1fSIIMxwEQMvml1AaThCAhYTIu6dRkacRmoGyXuhPGAi3emOS1nbBrwJM7h2FQsDgkEVgEP6FmhDGPMW1wnS0Zj-a0lvCfX9txcZH3tVLCFXUPmmuhQFWnctUp4DOXpPFbsN7kus2uMpLWYm1VrRt9UHJmhVSilvUHr_J8w2Wy1QPOjduXnbEA_P7iiAg7AO-R7-evPKNQkBHo-puQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat"
+}
+2021-10-15-13:48|INFO  |base_api.py:129|返回的数据为：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634276913_161_10112b0733ba415c792c1540db821cad], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-15-13:48|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634276913_161_10112b0733ba415c792c1540db821cad], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-15-13:48|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-15-13:48|INFO  |test_member.py:104|------开始测试获取活跃成员data格式不正确，断言失败------
+2021-10-15-13:48|INFO  |base_api.py:115|api变化的模板参数是:{
+  "token": "1FCQ1fSIIMxwEQMvml1AaThCAhYTIu6dRkacRmoGyXuhPGAi3emOS1nbBrwJM7h2FQsDgkEVgEP6FmhDGPMW1wnS0Zj-a0lvCfX9txcZH3tVLCFXUPmmuhQFWnctUp4DOXpPFbsN7kus2uMpLWYm1VrRt9UHJmhVSilvUHr_J8w2Wy1QPOjduXnbEA_P7iiAg7AO-R7-evPKNQkBHo-puQ",
+  "date": "abcd"
+}
+2021-10-15-13:48|INFO  |base_api.py:126|请求修改后的数据是：{
+  "json": {
+    "date": "abcd"
+  },
+  "method": "post",
+  "params": "access_token=1FCQ1fSIIMxwEQMvml1AaThCAhYTIu6dRkacRmoGyXuhPGAi3emOS1nbBrwJM7h2FQsDgkEVgEP6FmhDGPMW1wnS0Zj-a0lvCfX9txcZH3tVLCFXUPmmuhQFWnctUp4DOXpPFbsN7kus2uMpLWYm1VrRt9UHJmhVSilvUHr_J8w2Wy1QPOjduXnbEA_P7iiAg7AO-R7-evPKNQkBHo-puQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat"
+}
+2021-10-15-13:48|INFO  |base_api.py:129|返回的数据为：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634276913_161_cb17f26d7a82c97fc61fbfa0612ea85a], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-13:48|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634276913_161_cb17f26d7a82c97fc61fbfa0612ea85a], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-13:48|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-15-13:50|INFO  |test_member.py:104|------开始测试获取活跃成员date为2020-01-01，断言成功------
+2021-10-15-13:50|INFO  |base_api.py:116|api变化的模板参数是:{"token": "1FCQ1fSIIMxwEQMvml1AaThCAhYTIu6dRkacRmoGyXuhPGAi3emOS1nbBrwJM7h2FQsDgkEVgEP6FmhDGPMW1wnS0Zj-a0lvCfX9txcZH3tVLCFXUPmmuhQFWnctUp4DOXpPFbsN7kus2uMpLWYm1VrRt9UHJmhVSilvUHr_J8w2Wy1QPOjduXnbEA_P7iiAg7AO-R7-evPKNQkBHo-puQ", "date": "2021-10-14"}
+2021-10-15-13:50|INFO  |test_member.py:104|------开始测试获取活跃成员data大于如今日期，断言失败------
+2021-10-15-13:50|INFO  |base_api.py:116|api变化的模板参数是:{"token": "1FCQ1fSIIMxwEQMvml1AaThCAhYTIu6dRkacRmoGyXuhPGAi3emOS1nbBrwJM7h2FQsDgkEVgEP6FmhDGPMW1wnS0Zj-a0lvCfX9txcZH3tVLCFXUPmmuhQFWnctUp4DOXpPFbsN7kus2uMpLWYm1VrRt9UHJmhVSilvUHr_J8w2Wy1QPOjduXnbEA_P7iiAg7AO-R7-evPKNQkBHo-puQ", "date": "2035-10-10"}
+2021-10-15-13:50|INFO  |test_member.py:104|------开始测试获取活跃成员data为空，断言失败------
+2021-10-15-13:50|INFO  |base_api.py:116|api变化的模板参数是:{"token": "1FCQ1fSIIMxwEQMvml1AaThCAhYTIu6dRkacRmoGyXuhPGAi3emOS1nbBrwJM7h2FQsDgkEVgEP6FmhDGPMW1wnS0Zj-a0lvCfX9txcZH3tVLCFXUPmmuhQFWnctUp4DOXpPFbsN7kus2uMpLWYm1VrRt9UHJmhVSilvUHr_J8w2Wy1QPOjduXnbEA_P7iiAg7AO-R7-evPKNQkBHo-puQ", "date": ""}
+2021-10-15-13:50|INFO  |base_api.py:127|请求修改后的数据是：{"json": {"date": null}, "method": "post", "params": "access_token=1FCQ1fSIIMxwEQMvml1AaThCAhYTIu6dRkacRmoGyXuhPGAi3emOS1nbBrwJM7h2FQsDgkEVgEP6FmhDGPMW1wnS0Zj-a0lvCfX9txcZH3tVLCFXUPmmuhQFWnctUp4DOXpPFbsN7kus2uMpLWYm1VrRt9UHJmhVSilvUHr_J8w2Wy1QPOjduXnbEA_P7iiAg7AO-R7-evPKNQkBHo-puQ", "url": "https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat"}
+2021-10-15-13:50|INFO  |base_api.py:130|返回的数据为：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634277039_161_f394fce698f3a1b7c30bad8bbaed6fdc], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-15-13:50|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634277039_161_f394fce698f3a1b7c30bad8bbaed6fdc], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-15-13:50|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-15-13:50|INFO  |test_member.py:104|------开始测试获取活跃成员data格式不正确，断言失败------
+2021-10-15-13:50|INFO  |base_api.py:116|api变化的模板参数是:{"token": "1FCQ1fSIIMxwEQMvml1AaThCAhYTIu6dRkacRmoGyXuhPGAi3emOS1nbBrwJM7h2FQsDgkEVgEP6FmhDGPMW1wnS0Zj-a0lvCfX9txcZH3tVLCFXUPmmuhQFWnctUp4DOXpPFbsN7kus2uMpLWYm1VrRt9UHJmhVSilvUHr_J8w2Wy1QPOjduXnbEA_P7iiAg7AO-R7-evPKNQkBHo-puQ", "date": "abcd"}
+2021-10-15-13:50|INFO  |base_api.py:127|请求修改后的数据是：{"json": {"date": "abcd"}, "method": "post", "params": "access_token=1FCQ1fSIIMxwEQMvml1AaThCAhYTIu6dRkacRmoGyXuhPGAi3emOS1nbBrwJM7h2FQsDgkEVgEP6FmhDGPMW1wnS0Zj-a0lvCfX9txcZH3tVLCFXUPmmuhQFWnctUp4DOXpPFbsN7kus2uMpLWYm1VrRt9UHJmhVSilvUHr_J8w2Wy1QPOjduXnbEA_P7iiAg7AO-R7-evPKNQkBHo-puQ", "url": "https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat"}
+2021-10-15-13:50|INFO  |base_api.py:130|返回的数据为：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634277040_161_94dc270f6f9f001fd28a19639a889b02], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-13:50|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634277040_161_94dc270f6f9f001fd28a19639a889b02], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-13:50|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-15-13:52|INFO  |test_member.py:104|------开始测试获取活跃成员date为2020-01-01，断言成功------
+2021-10-15-13:52|INFO  |test_member.py:104|------开始测试获取活跃成员data大于如今日期，断言失败------
+2021-10-15-13:52|INFO  |test_member.py:104|------开始测试获取活跃成员data为空，断言失败------
+2021-10-15-13:52|INFO  |base_api.py:130|返回的数据为：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634277154_161_9626e8cc5a6d5f6eafe7a440fe3c9ec7], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-15-13:52|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634277154_161_9626e8cc5a6d5f6eafe7a440fe3c9ec7], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-15-13:52|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-15-13:52|INFO  |test_member.py:104|------开始测试获取活跃成员data格式不正确，断言失败------
+2021-10-15-13:52|INFO  |base_api.py:130|返回的数据为：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634277155_161_74f4b2b331da63995fb84741472af13f], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-13:52|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634277155_161_74f4b2b331da63995fb84741472af13f], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-13:52|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-15-13:56|INFO  |test_member.py:104|------开始测试获取活跃成员date为2020-01-01，断言成功------
+2021-10-15-13:56|INFO  |test_member.py:104|------开始测试获取活跃成员data大于如今日期，断言失败------
+2021-10-15-13:56|INFO  |test_member.py:104|------开始测试获取活跃成员data为空，断言失败------
+2021-10-15-13:56|INFO  |base_api.py:130|返回的数据为：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634277370_161_4af1d46bf3a91189f6b68830805f312f], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-15-13:56|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634277370_161_4af1d46bf3a91189f6b68830805f312f], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-15-13:56|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-15-13:56|INFO  |test_member.py:104|------开始测试获取活跃成员data格式不正确，断言失败------
+2021-10-15-13:56|INFO  |base_api.py:130|返回的数据为：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634277370_161_4c0fd81a8c4708879e6e4298c32f1b79], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-13:56|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634277370_161_4c0fd81a8c4708879e6e4298c32f1b79], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-13:56|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-15-13:59|INFO  |test_member.py:104|------开始测试获取活跃成员date为2020-01-01，断言成功------
+2021-10-15-13:59|INFO  |base_api.py:130|返回的数据为：{'errcode': 40058, 'errmsg': 'Warning: wrong json format. invalid Request Parameter, hint: [1634277591_161_4200aaea47831cf9ee9ce8e030fa3b51], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-13:59|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40058, 'errmsg': 'Warning: wrong json format. invalid Request Parameter, hint: [1634277591_161_4200aaea47831cf9ee9ce8e030fa3b51], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-13:59|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-15-13:59|INFO  |test_member.py:104|------开始测试获取活跃成员data大于如今日期，断言失败------
+2021-10-15-13:59|INFO  |test_member.py:104|------开始测试获取活跃成员data为空，断言失败------
+2021-10-15-13:59|INFO  |base_api.py:130|返回的数据为：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634277592_161_cd87e82ef115e87368d0891c44df396b], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-15-13:59|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634277592_161_cd87e82ef115e87368d0891c44df396b], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-15-13:59|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-15-13:59|INFO  |test_member.py:104|------开始测试获取活跃成员data格式不正确，断言失败------
+2021-10-15-13:59|INFO  |base_api.py:130|返回的数据为：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634277592_161_3837780a96db6b5570220a9afea8aff7], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-13:59|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634277592_161_3837780a96db6b5570220a9afea8aff7], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-13:59|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-15-13:59|INFO  |test_member.py:104|------开始测试获取活跃成员date为2020-01-01，断言成功------
+2021-10-15-13:59|INFO  |base_api.py:130|返回的数据为：{'errcode': 40058, 'errmsg': 'Warning: wrong json format. invalid Request Parameter, hint: [1634277595_161_d83743dea2d0abfa7d7067cfb170565b], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-13:59|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40058, 'errmsg': 'Warning: wrong json format. invalid Request Parameter, hint: [1634277595_161_d83743dea2d0abfa7d7067cfb170565b], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-13:59|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-15-13:59|INFO  |test_member.py:104|------开始测试获取活跃成员data大于如今日期，断言失败------
+2021-10-15-13:59|INFO  |test_member.py:104|------开始测试获取活跃成员data为空，断言失败------
+2021-10-15-13:59|INFO  |base_api.py:130|返回的数据为：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634277596_161_605374c22fc999a9b3c8e1e255b2b1e7], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-15-13:59|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634277596_161_605374c22fc999a9b3c8e1e255b2b1e7], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-15-13:59|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-15-13:59|INFO  |test_member.py:104|------开始测试获取活跃成员data格式不正确，断言失败------
+2021-10-15-13:59|INFO  |base_api.py:130|返回的数据为：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634277596_161_21632009f4a4a8fa27914d16ce767cbc], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-13:59|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634277596_161_21632009f4a4a8fa27914d16ce767cbc], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-13:59|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-15-13:59|INFO  |test_member.py:104|------开始测试获取活跃成员date为2020-01-01，断言成功------
+2021-10-15-13:59|INFO  |base_api.py:130|返回的数据为：{'errcode': 40058, 'errmsg': 'Warning: wrong json format. invalid Request Parameter, hint: [1634277599_161_c42838cbab2c27ad0f78f9f057fe6c71], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-13:59|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40058, 'errmsg': 'Warning: wrong json format. invalid Request Parameter, hint: [1634277599_161_c42838cbab2c27ad0f78f9f057fe6c71], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-13:59|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-15-13:59|INFO  |test_member.py:104|------开始测试获取活跃成员data大于如今日期，断言失败------
+2021-10-15-13:59|INFO  |test_member.py:104|------开始测试获取活跃成员data为空，断言失败------
+2021-10-15-13:59|INFO  |base_api.py:130|返回的数据为：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634277600_161_851a2991ebf4587797e2a60c0f9f57f5], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-15-13:59|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634277600_161_851a2991ebf4587797e2a60c0f9f57f5], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-15-14:00|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-15-14:00|INFO  |test_member.py:104|------开始测试获取活跃成员data格式不正确，断言失败------
+2021-10-15-14:00|INFO  |base_api.py:130|返回的数据为：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634277600_161_cb77745aa73211faf2464b3f1a6b3935], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-14:00|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634277600_161_cb77745aa73211faf2464b3f1a6b3935], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-14:00|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-15-14:00|INFO  |test_member.py:104|------开始测试获取活跃成员date为2020-01-01，断言成功------
+2021-10-15-14:00|INFO  |base_api.py:130|返回的数据为：{'errcode': 40058, 'errmsg': 'Warning: wrong json format. invalid Request Parameter, hint: [1634277610_161_9cf495ef0a8d8ecf2b194af857ae46fb], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-14:00|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40058, 'errmsg': 'Warning: wrong json format. invalid Request Parameter, hint: [1634277610_161_9cf495ef0a8d8ecf2b194af857ae46fb], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-14:00|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-15-14:00|INFO  |test_member.py:104|------开始测试获取活跃成员data大于如今日期，断言失败------
+2021-10-15-14:00|INFO  |test_member.py:104|------开始测试获取活跃成员data为空，断言失败------
+2021-10-15-14:00|INFO  |base_api.py:130|返回的数据为：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634277611_161_14ed6712fd6b988109b19831918fc94b], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-15-14:00|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634277611_161_14ed6712fd6b988109b19831918fc94b], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-15-14:00|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-15-14:00|INFO  |test_member.py:104|------开始测试获取活跃成员data格式不正确，断言失败------
+2021-10-15-14:00|INFO  |base_api.py:130|返回的数据为：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634277611_161_4d8e4ccaa5b468119669b5af345bb8e0], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-14:00|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634277611_161_4d8e4ccaa5b468119669b5af345bb8e0], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-14:00|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-15-14:02|INFO  |test_member.py:104|------开始测试获取活跃成员date为2020-01-01，断言成功------
+2021-10-15-14:02|INFO  |base_api.py:130|返回的数据为：{'errcode': 40058, 'errmsg': 'Warning: wrong json format. invalid Request Parameter, hint: [1634277725_161_cb621656a3f2a525469ef14bdac5a65e], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-14:02|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40058, 'errmsg': 'Warning: wrong json format. invalid Request Parameter, hint: [1634277725_161_cb621656a3f2a525469ef14bdac5a65e], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-14:02|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-15-14:02|INFO  |test_member.py:104|------开始测试获取活跃成员data大于如今日期，断言失败------
+2021-10-15-14:02|INFO  |test_member.py:104|------开始测试获取活跃成员data为空，断言失败------
+2021-10-15-14:02|INFO  |base_api.py:130|返回的数据为：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634277726_161_c9d15cf8dcb17bf95375b41a79e3dea2], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-15-14:02|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634277726_161_c9d15cf8dcb17bf95375b41a79e3dea2], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+2021-10-15-14:02|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------
+2021-10-15-14:02|INFO  |test_member.py:104|------开始测试获取活跃成员data格式不正确，断言失败------
+2021-10-15-14:02|INFO  |base_api.py:130|返回的数据为：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634277726_161_9d4746bd7e66d12b82678a5b1970b730], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-14:02|INFO  |test_member.py:106|打印相应的结果是：{'errcode': 40058, 'errmsg': 'invalid Request Parameter, hint: [1634277726_161_9d4746bd7e66d12b82678a5b1970b730], from ip: 171.218.126.184, more info at https://open.work.weixin.qq.com/devtool/query?e=40058'}
+2021-10-15-14:02|INFO  |test_member.py:107|------获取活跃成员详细信息测试结束------

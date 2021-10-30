@@ -1,0 +1,16 @@
+2021-10-28-13:55|[32mINFO  [0m|test_member.py:70 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取成员>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-28-13:55|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "method": "get",
+  "params": "access_token=lX_Tq1AkR9eFeAsWIn4r4T5wO3r3Jx99u7mIO6ofCC0h2z6MOFi3v5cU3vIkLGQATWvJ0d4n2uUG1PqCSHDXHsX1rYN1KciJxbEzdl-goNlPm5C1OuU-VDESiREUTRCh71AiInMCeGGKkdX4x98_CzLsZDsSdLFw7CKyvBVxKtecOJ6AROoGhNhqOuh-Cn9iaUTWm42q9meaeZ-i7y5EaQ&userid=get1",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/get"
+}
+2021-10-28-13:55|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 60111,
+  "errmsg": "userid not found, hint: [1635400537_161_8eeef2ec3c3bac05386c39fc026e1f0c], from ip: 171.219.71.255, more info at https://open.work.weixin.qq.com/devtool/query?e=60111",
+  "department": [],
+  "order": [],
+  "is_leader_in_dept": []
+}
+2021-10-28-13:55|[32mINFO  [0m|test_member.py:72 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取成员测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

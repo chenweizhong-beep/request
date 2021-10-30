@@ -1,0 +1,2816 @@
+2021-10-21-23:24|INFO  |test_meeting_room.py:37 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:24|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": null,
+    "equipment": [],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-21-23:24|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "meetingroom_list": [
+    {
+      "meetingroom_id": 6,
+      "name": "会议室1",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团1号楼",
+      "floor": "10F",
+      "equipment": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    },
+    {
+      "meetingroom_id": 7,
+      "name": "会议室6",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团1号楼",
+      "floor": "10F",
+      "equipment": [],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    },
+    {
+      "meetingroom_id": 8,
+      "name": "会议室1",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团2号楼",
+      "floor": "20F",
+      "equipment": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    }
+  ]
+}
+2021-10-21-23:24|INFO  |test_meeting_room.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:24|INFO  |test_meeting_room.py:37 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:24|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": "北京",
+    "equipment": [],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-21-23:24|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "meetingroom_list": [
+    {
+      "meetingroom_id": 6,
+      "name": "会议室1",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团1号楼",
+      "floor": "10F",
+      "equipment": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    },
+    {
+      "meetingroom_id": 7,
+      "name": "会议室6",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团1号楼",
+      "floor": "10F",
+      "equipment": [],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    },
+    {
+      "meetingroom_id": 8,
+      "name": "会议室1",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团2号楼",
+      "floor": "20F",
+      "equipment": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    }
+  ]
+}
+2021-10-21-23:24|INFO  |test_meeting_room.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:24|INFO  |test_meeting_room.py:37 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:24|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "city": null,
+    "equipment": [],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-21-23:24|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1634829886_232_e07e464ac648707a0cc979a41747c435], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "meetingroom_list": []
+}
+2021-10-21-23:24|INFO  |test_meeting_room.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:24|INFO  |test_meeting_room.py:37 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:24|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": null,
+    "equipment": [],
+    "floor": "10F"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-21-23:24|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1634829886_170_49e498d50363ae4c699f40baf26f16f4], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "meetingroom_list": []
+}
+2021-10-21-23:24|INFO  |test_meeting_room.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:24|INFO  |test_meeting_room.py:37 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:24|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": null,
+    "equipment": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-21-23:24|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "meetingroom_list": [
+    {
+      "meetingroom_id": 6,
+      "name": "会议室1",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团1号楼",
+      "floor": "10F",
+      "equipment": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    }
+  ]
+}
+2021-10-21-23:24|INFO  |test_meeting_room.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:24|INFO  |test_meeting_room.py:37 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:24|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "错误楼号",
+    "city": "北京",
+    "equipment": [],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-21-23:24|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid city/building/floor, hint: [1634829886_171_7062f96c3380180ab8ab3b4793f5913c], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "meetingroom_list": []
+}
+2021-10-21-23:24|INFO  |test_meeting_room.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:24|INFO  |test_meeting_room.py:37 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:24|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "city": "北京",
+    "equipment": [],
+    "floor": "11F"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-21-23:24|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid city/building/floor, hint: [1634829887_170_523adafa3a1988257b9c4d5862c58313], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "meetingroom_list": []
+}
+2021-10-21-23:24|INFO  |test_meeting_room.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:24|INFO  |test_meeting_room.py:37 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:24|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": null,
+    "equipment": [
+      6
+    ],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-21-23:24|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 600039,
+  "errmsg": "device type not support, hint: [1634829887_231_22159152a27a1595bdfdd3eedd90e9fa], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=600039",
+  "meetingroom_list": []
+}
+2021-10-21-23:24|INFO  |test_meeting_room.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:34|INFO  |test_meeting_room.py:50 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:34|INFO  |test_meeting_room.py:50 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:34|INFO  |test_meeting_room.py:50 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:34|INFO  |test_meeting_room.py:50 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:34|INFO  |test_meeting_room.py:50 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:34|INFO  |test_meeting_room.py:50 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:34|INFO  |test_meeting_room.py:50 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:34|INFO  |test_meeting_room.py:50 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:35|INFO  |test_meeting_room.py:50 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:35|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "capacity": null,
+    "city": null,
+    "equipment": [],
+    "floor": null,
+    "meetingroom_id": 6,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:35|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:35|INFO  |test_meeting_room.py:52 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:35|INFO  |test_meeting_room.py:50 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:35|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团总部2号楼",
+    "capacity": 11,
+    "city": "成都",
+    "equipment": [
+      1,
+      2
+    ],
+    "floor": "21F",
+    "meetingroom_id": 8,
+    "name": "修改会议室"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:35|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:35|INFO  |test_meeting_room.py:52 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:35|INFO  |test_meeting_room.py:50 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:35|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团总部1号楼",
+    "capacity": 11,
+    "city": "成都",
+    "equipment": [
+      1,
+      2
+    ],
+    "floor": "21F",
+    "meetingroom_id": 100,
+    "name": "修改会议室"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:35|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1634830544_170_0ef8e2d9f3b6eea7daa1acee2ac2b983], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:35|INFO  |test_meeting_room.py:52 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:35|INFO  |test_meeting_room.py:50 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:35|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团总部1号楼",
+    "capacity": 11,
+    "city": "成都",
+    "equipment": [
+      1,
+      2
+    ],
+    "floor": "21F",
+    "meetingroom_id": null,
+    "name": "修改会议室"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:35|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing meeting roomid, hint: [1634830544_164_53c327268404716fe027338cbc076f39], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:35|INFO  |test_meeting_room.py:52 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:35|INFO  |test_meeting_room.py:50 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:35|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "capacity": null,
+    "city": "上海",
+    "equipment": [],
+    "floor": null,
+    "meetingroom_id": 6,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:35|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1634830545_231_249b95d79a7b313016673c5ec323d750], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:35|INFO  |test_meeting_room.py:52 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:35|INFO  |test_meeting_room.py:50 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:35|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团总部2号楼",
+    "capacity": null,
+    "city": null,
+    "equipment": [],
+    "floor": null,
+    "meetingroom_id": 6,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:35|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1634830545_169_2a9a04997694d3f445487ccb23edc4d5], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:35|INFO  |test_meeting_room.py:52 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:35|INFO  |test_meeting_room.py:50 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:35|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "capacity": null,
+    "city": null,
+    "equipment": [],
+    "floor": "25F",
+    "meetingroom_id": 6,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:35|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1634830545_170_f9be4f7e5fcfacccf6f61cc152e1f749], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:35|INFO  |test_meeting_room.py:52 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:35|INFO  |test_meeting_room.py:50 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:35|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "capacity": null,
+    "city": null,
+    "equipment": [
+      1,
+      2,
+      3
+    ],
+    "floor": null,
+    "meetingroom_id": 6,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:35|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:35|INFO  |test_meeting_room.py:52 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:39|INFO  |test_meeting_room.py:50 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:39|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "capacity": null,
+    "city": null,
+    "equipment": [],
+    "floor": null,
+    "meetingroom_id": 6,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:39|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:39|INFO  |test_meeting_room.py:52 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:39|INFO  |test_meeting_room.py:50 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:39|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团总部2号楼",
+    "capacity": 11,
+    "city": "成都1",
+    "equipment": [
+      1,
+      2,
+      3
+    ],
+    "floor": "21F",
+    "meetingroom_id": 8,
+    "name": "修改会议室"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:39|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:39|INFO  |test_meeting_room.py:52 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:39|INFO  |test_meeting_room.py:50 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:39|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团总部1号楼",
+    "capacity": 11,
+    "city": "成都",
+    "equipment": [
+      1,
+      2
+    ],
+    "floor": "21F",
+    "meetingroom_id": 100,
+    "name": "修改会议室"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:39|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1634830780_171_13313f884e90296a84764816c91d6d0a], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:39|INFO  |test_meeting_room.py:52 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:39|INFO  |test_meeting_room.py:50 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:39|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团总部1号楼",
+    "capacity": 11,
+    "city": "成都",
+    "equipment": [
+      1,
+      2
+    ],
+    "floor": "21F",
+    "meetingroom_id": null,
+    "name": "修改会议室"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:39|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing meeting roomid, hint: [1634830780_171_cac726d895d4c43183d1da44a26814a5], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:39|INFO  |test_meeting_room.py:52 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:39|INFO  |test_meeting_room.py:50 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:39|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "capacity": null,
+    "city": "上海",
+    "equipment": [],
+    "floor": null,
+    "meetingroom_id": 6,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:39|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1634830780_232_ac4acf657431f17cf2102d8b7815ba78], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:39|INFO  |test_meeting_room.py:52 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:39|INFO  |test_meeting_room.py:50 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:39|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团总部2号楼",
+    "capacity": null,
+    "city": null,
+    "equipment": [],
+    "floor": null,
+    "meetingroom_id": 6,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:39|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1634830780_169_ac5a24287144811ae676d1f8a148c64b], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:39|INFO  |test_meeting_room.py:52 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:39|INFO  |test_meeting_room.py:50 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:39|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "capacity": null,
+    "city": null,
+    "equipment": [],
+    "floor": "25F",
+    "meetingroom_id": 6,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:39|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1634830781_169_5abd835b400d8b377e6e89aae571866b], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:39|INFO  |test_meeting_room.py:52 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:39|INFO  |test_meeting_room.py:50 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:39|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "capacity": null,
+    "city": null,
+    "equipment": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "floor": null,
+    "meetingroom_id": 6,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:39|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:39|INFO  |test_meeting_room.py:52 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:50|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:50|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:50|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:51|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:51|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 7
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:51|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:51|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:51|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:51|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:51|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing meeting roomid, hint: [1634831465_232_f1b703407369440d775e38b7ea164ee5], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:51|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:51|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:51|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 77
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:51|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:51|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:52|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:52|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 7
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:52|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1634831536_171_6add7c78684aac3b179df6921787c7a8], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:52|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:52|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:52|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:52|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing meeting roomid, hint: [1634831537_169_573e050d0acb8dec83b3e5ac20f2b0b2], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:52|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:52|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:52|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 88
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:52|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:52|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:53|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:53|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 77
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:53|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:53|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:53|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:53|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:53|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing meeting roomid, hint: [1634831588_232_42152d8b93f4162d60367fae8afca4bf], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:53|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:53|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:53|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 1
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:53|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1634831588_171_0044410e4de41828d006a7a007273b48], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:53|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:54|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:54|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 2
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:54|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1634831643_164_119dca4b74ea87a6e58617d6fabc1b2d], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:54|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:54|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:54|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 3
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:54|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1634831652_231_8bf2884a2b6f0f284c85f9471fd9ce52], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:54|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:54|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:54|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 4
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:54|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1634831660_171_67749b0fdd140585c5aa6e2318d65f6d], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:54|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:54|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:54|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 5
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:54|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1634831668_170_8942976149332faeb65bfa8aef264faf], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:54|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:54|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:54|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 6
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:54|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:54|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:54|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:54|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 77
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:54|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:54|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:54|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:54|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:54|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing meeting roomid, hint: [1634831689_164_8e6d2f3a3d7ea2a46ca6a4c42421dc34], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:54|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:54|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:54|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 6
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:54|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1634831689_170_aabd5d3a48a62195fc8a7c9d4742d8de], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:54|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:55|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:55|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 66
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:55|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:55|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 77
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:56|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:56|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:56|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing meeting roomid, hint: [1634831760_232_ce33d9e460e5a18fd7b46b10f318059c], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:56|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 7
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:56|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1634831761_232_87c5a60c57dfce69a643577fdd1cb0ef], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:56|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 7
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:56|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1634831767_170_5889df406eda2b622249a41ea8477928], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:56|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 8
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:56|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:56|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 77
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:56|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:56|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:56|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing meeting roomid, hint: [1634831781_164_b594487e84493759f7b605dcbd044634], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:56|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 8
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:56|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:56|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 77
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:56|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:56|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:56|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing meeting roomid, hint: [1634831791_170_5fa262dcaa4b3c42c5125820e1755cb8], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:56|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 8
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:56|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:56|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 8
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:56|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:56|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:56|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing meeting roomid, hint: [1634831802_169_85f3c509ecffe5ee527f056e063dbb14], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:56|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 8
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:56|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:56|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 7
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:56|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:56|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:56|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing meeting roomid, hint: [1634831817_169_56928bdd655ba62004d3db0c933ed9d5], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:56|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:56|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 6
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:56|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:56|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 6
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing meeting roomid, hint: [1634831837_164_48094679120a17fa445266862d6c6581], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 6
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 6
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing meeting roomid, hint: [1634831845_163_1295d6cd0dd080b673a91c56a946a19c], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 6
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "capacity": 10,
+    "city": "北京",
+    "equipment": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "floor": "10F",
+    "name": "会议室1"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/add"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "meetingroom_id": 9
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:35 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "capacity": 10,
+    "city": "北京",
+    "equipment": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "floor": "10F",
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/add"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing paramters name, hint: [1634831864_231_6195165c4976839633c824fff01e4038], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:35 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "capacity": null,
+    "city": "北京",
+    "equipment": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "floor": "10F",
+    "name": "会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/add"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "name exceed max utf8 words 30. Invalid input invalid Request Parameter, hint: [1634831864_232_ec17a272ba20a9e880f2320f606fc10e], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:35 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "capacity": null,
+    "city": "北京",
+    "equipment": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "floor": "10F",
+    "name": "会议室2"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/add"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing paramters capacity, hint: [1634831865_231_f040105571aa14631db8193774bb8442], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:35 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "capacity": 10,
+    "city": null,
+    "equipment": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "floor": "10F",
+    "name": "会议室3"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/add"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1634831865_169_733b5c351eebd6e7668fb5c31f499144], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:35 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "capacity": 10,
+    "city": "北京",
+    "equipment": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "floor": "10F",
+    "name": "会议室4"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/add"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1634831865_171_410da1d090a4a4a3634325551ae585ca], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:35 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "capacity": 10,
+    "city": "北京",
+    "equipment": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "floor": null,
+    "name": "会议室5"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/add"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1634831866_232_3378d26adf51d7a21201ffa69056d6d9], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:35 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "capacity": 10,
+    "city": "北京",
+    "equipment": [],
+    "floor": "10F",
+    "name": "会议室6"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/add"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "meetingroom_id": 10
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:35 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "capacity": 10,
+    "city": "北京",
+    "equipment": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "floor": "10F",
+    "name": "会议室1"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/add"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "meetingroom name exist, hint: [1634831867_231_20dd55acc78faebb73ad7d66179c542d], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:35 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": null,
+    "equipment": [],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "meetingroom_list": [
+    {
+      "meetingroom_id": 9,
+      "name": "会议室1",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团1号楼",
+      "floor": "10F",
+      "equipment": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    },
+    {
+      "meetingroom_id": 10,
+      "name": "会议室6",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团1号楼",
+      "floor": "10F",
+      "equipment": [],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    }
+  ]
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": "北京",
+    "equipment": [],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "meetingroom_list": [
+    {
+      "meetingroom_id": 9,
+      "name": "会议室1",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团1号楼",
+      "floor": "10F",
+      "equipment": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    },
+    {
+      "meetingroom_id": 10,
+      "name": "会议室6",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团1号楼",
+      "floor": "10F",
+      "equipment": [],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    }
+  ]
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "city": null,
+    "equipment": [],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1634831869_169_8350ae9c95ebf3712f7c9ecdaee13a8d], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "meetingroom_list": []
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": null,
+    "equipment": [],
+    "floor": "10F"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1634831869_231_fc270f2b5400091073d24e685974ba97], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "meetingroom_list": []
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": null,
+    "equipment": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "meetingroom_list": [
+    {
+      "meetingroom_id": 9,
+      "name": "会议室1",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团1号楼",
+      "floor": "10F",
+      "equipment": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    }
+  ]
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "错误楼号",
+    "city": "北京",
+    "equipment": [],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid city/building/floor, hint: [1634831870_232_e50d8b239decf8859102391453ea58e0], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "meetingroom_list": []
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "city": "北京",
+    "equipment": [],
+    "floor": "11F"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid city/building/floor, hint: [1634831870_231_537389400761142e34c51b8c2b0a2cb8], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "meetingroom_list": []
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": null,
+    "equipment": [
+      6
+    ],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 600039,
+  "errmsg": "device type not support, hint: [1634831870_169_d26ca46e8901303899c43e8e6973f100], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=600039",
+  "meetingroom_list": []
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:55 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "capacity": null,
+    "city": null,
+    "equipment": [],
+    "floor": null,
+    "meetingroom_id": 6,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1634831870_232_c3025e9ea99bf28eec273fb0ae280eae], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:57 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:55 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团总部2号楼",
+    "capacity": 11,
+    "city": "成都1",
+    "equipment": [
+      1,
+      2,
+      3
+    ],
+    "floor": "21F",
+    "meetingroom_id": 8,
+    "name": "修改会议室"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1634831871_169_a0b1d9fb15bdcacf3109de731081c747], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:57 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:55 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团总部1号楼",
+    "capacity": 11,
+    "city": "成都",
+    "equipment": [
+      1,
+      2
+    ],
+    "floor": "21F",
+    "meetingroom_id": 100,
+    "name": "修改会议室"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1634831872_169_ef3fee69abe54830aa4d08aeed08aa02], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:57 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:55 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团总部1号楼",
+    "capacity": 11,
+    "city": "成都",
+    "equipment": [
+      1,
+      2
+    ],
+    "floor": "21F",
+    "meetingroom_id": null,
+    "name": "修改会议室"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing meeting roomid, hint: [1634831872_171_aaedf818b5f884d6f3f548c49b388076], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:57 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:55 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "capacity": null,
+    "city": "上海",
+    "equipment": [],
+    "floor": null,
+    "meetingroom_id": 6,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1634831872_164_82f29eea26fc799ad3250808190bd173], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:57 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:55 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团总部2号楼",
+    "capacity": null,
+    "city": null,
+    "equipment": [],
+    "floor": null,
+    "meetingroom_id": 6,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1634831872_171_820a08288805aa2cb0fbb439280a633f], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:57 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:55 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "capacity": null,
+    "city": null,
+    "equipment": [],
+    "floor": "25F",
+    "meetingroom_id": 6,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1634831873_164_eed966f10d385accb63508bc7e78ddb8], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:57 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:55 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "capacity": null,
+    "city": null,
+    "equipment": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "floor": null,
+    "meetingroom_id": 6,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1634831873_163_9da896267a1c5f26074f6173c5441fc7], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:57 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 6
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1634831873_169_3e89cb3b181a4befe176127621fb0536], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing meeting roomid, hint: [1634831874_171_adf374501d1cb7eba6222ad7cc780b82], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:57|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 6
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:57|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1634831874_232_27e31864732b62e76ea6efa2d679c088], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:57|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:58|INFO  |test_meeting_room.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:58|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "capacity": 10,
+    "city": "北京",
+    "equipment": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "floor": "10F",
+    "name": "会议室1"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/add"
+}
+2021-10-21-23:58|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "meetingroom_id": 11
+}
+2021-10-21-23:58|INFO  |test_meeting_room.py:35 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:58|INFO  |test_meeting_room.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:58|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "capacity": 10,
+    "city": "北京",
+    "equipment": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "floor": "10F",
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/add"
+}
+2021-10-21-23:58|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing paramters name, hint: [1634831936_170_56e3df2158c7eee009e22646bf595d38], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:58|INFO  |test_meeting_room.py:35 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:58|INFO  |test_meeting_room.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:58|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "capacity": null,
+    "city": "北京",
+    "equipment": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "floor": "10F",
+    "name": "会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/add"
+}
+2021-10-21-23:58|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "name exceed max utf8 words 30. Invalid input invalid Request Parameter, hint: [1634831936_170_6e218b95148ae49f76e613e45add2611], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:58|INFO  |test_meeting_room.py:35 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:58|INFO  |test_meeting_room.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:58|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "capacity": null,
+    "city": "北京",
+    "equipment": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "floor": "10F",
+    "name": "会议室2"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/add"
+}
+2021-10-21-23:58|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing paramters capacity, hint: [1634831936_164_812df73d7c8b73b54fc40af22875040a], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:58|INFO  |test_meeting_room.py:35 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:58|INFO  |test_meeting_room.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:58|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "capacity": 10,
+    "city": null,
+    "equipment": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "floor": "10F",
+    "name": "会议室3"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/add"
+}
+2021-10-21-23:58|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1634831936_163_db4aa56b96ccf8a673fac7e5d6b085da], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:58|INFO  |test_meeting_room.py:35 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:58|INFO  |test_meeting_room.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:58|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "capacity": 10,
+    "city": "北京",
+    "equipment": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "floor": "10F",
+    "name": "会议室4"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/add"
+}
+2021-10-21-23:58|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1634831937_232_41a11608f925a5647acb3228e757d74c], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:58|INFO  |test_meeting_room.py:35 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:58|INFO  |test_meeting_room.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:58|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "capacity": 10,
+    "city": "北京",
+    "equipment": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "floor": null,
+    "name": "会议室5"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/add"
+}
+2021-10-21-23:58|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1634831937_170_7c31db3cb391c701e80794c026f7ce81], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:58|INFO  |test_meeting_room.py:35 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:58|INFO  |test_meeting_room.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:58|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "capacity": 10,
+    "city": "北京",
+    "equipment": [],
+    "floor": "10F",
+    "name": "会议室6"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/add"
+}
+2021-10-21-23:58|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "meetingroom_id": 12
+}
+2021-10-21-23:58|INFO  |test_meeting_room.py:35 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:58|INFO  |test_meeting_room.py:33 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:58|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "capacity": 10,
+    "city": "北京",
+    "equipment": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "floor": "10F",
+    "name": "会议室1"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/add"
+}
+2021-10-21-23:58|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "meetingroom name exist, hint: [1634831938_169_e67e3227a6bcd33fa355821c0ed84763], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:58|INFO  |test_meeting_room.py:35 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:58|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:58|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": null,
+    "equipment": [],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-21-23:59|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "meetingroom_list": [
+    {
+      "meetingroom_id": 11,
+      "name": "会议室1",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团1号楼",
+      "floor": "10F",
+      "equipment": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    },
+    {
+      "meetingroom_id": 12,
+      "name": "会议室6",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团1号楼",
+      "floor": "10F",
+      "equipment": [],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    }
+  ]
+}
+2021-10-21-23:59|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": "北京",
+    "equipment": [],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-21-23:59|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "meetingroom_list": [
+    {
+      "meetingroom_id": 11,
+      "name": "会议室1",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团1号楼",
+      "floor": "10F",
+      "equipment": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    },
+    {
+      "meetingroom_id": 12,
+      "name": "会议室6",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团1号楼",
+      "floor": "10F",
+      "equipment": [],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    }
+  ]
+}
+2021-10-21-23:59|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "city": null,
+    "equipment": [],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-21-23:59|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1634831939_231_c7b12abe1eb745d3d9efcaa15f0c3ead], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "meetingroom_list": []
+}
+2021-10-21-23:59|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": null,
+    "equipment": [],
+    "floor": "10F"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-21-23:59|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1634831940_231_744af1c47e82b73e12eb1a3df9aa0dfc], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "meetingroom_list": []
+}
+2021-10-21-23:59|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": null,
+    "equipment": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-21-23:59|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "meetingroom_list": [
+    {
+      "meetingroom_id": 11,
+      "name": "会议室1",
+      "capacity": 10,
+      "city": "北京",
+      "building": "陈氏集团1号楼",
+      "floor": "10F",
+      "equipment": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "coordinate": {
+        "longitude": "0.000000",
+        "latitude": "0.000000"
+      },
+      "need_approval": 0
+    }
+  ]
+}
+2021-10-21-23:59|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "错误楼号",
+    "city": "北京",
+    "equipment": [],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-21-23:59|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid city/building/floor, hint: [1634831940_164_dad935f2c18ee5947c6779d23bddd748], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "meetingroom_list": []
+}
+2021-10-21-23:59|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团1号楼",
+    "city": "北京",
+    "equipment": [],
+    "floor": "11F"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-21-23:59|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid city/building/floor, hint: [1634831941_170_6aa21a0486ff1de8dda88a7c7b9c01d5], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "meetingroom_list": []
+}
+2021-10-21-23:59|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |test_meeting_room.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "city": null,
+    "equipment": [
+      6
+    ],
+    "floor": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+}
+2021-10-21-23:59|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 600039,
+  "errmsg": "device type not support, hint: [1634831941_169_b1ed2902a7ed80ced25d09694d99d0b8], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=600039",
+  "meetingroom_list": []
+}
+2021-10-21-23:59|INFO  |test_meeting_room.py:45 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |test_meeting_room.py:55 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "capacity": null,
+    "city": null,
+    "equipment": [],
+    "floor": null,
+    "meetingroom_id": 6,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:59|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1634831941_164_e648d567b0672eb30c9ccd5c5dabab9e], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:59|INFO  |test_meeting_room.py:57 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |test_meeting_room.py:55 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团总部2号楼",
+    "capacity": 11,
+    "city": "成都1",
+    "equipment": [
+      1,
+      2,
+      3
+    ],
+    "floor": "21F",
+    "meetingroom_id": 8,
+    "name": "修改会议室"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:59|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1634831942_231_e81bd24f489b36f9567400463b250ff2], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:59|INFO  |test_meeting_room.py:57 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |test_meeting_room.py:55 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团总部1号楼",
+    "capacity": 11,
+    "city": "成都",
+    "equipment": [
+      1,
+      2
+    ],
+    "floor": "21F",
+    "meetingroom_id": 100,
+    "name": "修改会议室"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:59|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1634831942_231_3b83e8783b49947fa4655c19d2419b7d], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:59|INFO  |test_meeting_room.py:57 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |test_meeting_room.py:55 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团总部1号楼",
+    "capacity": 11,
+    "city": "成都",
+    "equipment": [
+      1,
+      2
+    ],
+    "floor": "21F",
+    "meetingroom_id": null,
+    "name": "修改会议室"
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:59|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing meeting roomid, hint: [1634831943_232_d976cb840955100313b88e3784822e54], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:59|INFO  |test_meeting_room.py:57 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |test_meeting_room.py:55 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "capacity": null,
+    "city": "上海",
+    "equipment": [],
+    "floor": null,
+    "meetingroom_id": 6,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:59|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1634831943_164_1fafa7c020e5b7817e4a58a517331f1b], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:59|INFO  |test_meeting_room.py:57 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |test_meeting_room.py:55 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": "陈氏集团总部2号楼",
+    "capacity": null,
+    "city": null,
+    "equipment": [],
+    "floor": null,
+    "meetingroom_id": 6,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:59|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1634831943_231_adcc871e67237a4252b06debe4beed74], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:59|INFO  |test_meeting_room.py:57 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |test_meeting_room.py:55 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "capacity": null,
+    "city": null,
+    "equipment": [],
+    "floor": "25F",
+    "meetingroom_id": 6,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:59|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing city/building/floor info, hint: [1634831943_171_1e387a36b1a288bd25a0fd835a582f7b], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:59|INFO  |test_meeting_room.py:57 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |test_meeting_room.py:55 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "building": null,
+    "capacity": null,
+    "city": null,
+    "equipment": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "floor": null,
+    "meetingroom_id": 6,
+    "name": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+}
+2021-10-21-23:59|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1634831944_171_158dc6953337414a8e520c09f6251859], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:59|INFO  |test_meeting_room.py:57 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 6
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:59|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1634831944_170_f272e85dfe80ddef0fbe0e8862b5ee85], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:59|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": null
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:59|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing meeting roomid, hint: [1634831944_169_757107afea07f31ad186cd471620f71f], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:59|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |test_meeting_room.py:63 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除测试获取会议室>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-21-23:59|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "meetingroom_id": 6
+  },
+  "method": "post",
+  "params": "access_token=qT__OCr3iQDt-mH8Rs05EPAB0CSwI0_ziXr1T25ZXIsnUqGqDYYmAOJiUGsUedxD8JF0DcXQq9sq9eA8Zyge-MvKOkUJShMIvzd2CXm3hr5gGUin32mrMXsDcOcJ2vkK2BLwWo060CA0xGD2mMs5PPzrVzT2HltiUH_4ZRUkVK5U5RjWnXhPWuFdN0quuXUmOzkF8sIU6UAxQVhcVyRy5g",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+}
+2021-10-21-23:59|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid meeting roomid, hint: [1634831944_232_8579e4309a1b92743ce564d0b922a65f], from ip: 171.221.138.59, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-21-23:59|INFO  |test_meeting_room.py:65 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除会议室测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

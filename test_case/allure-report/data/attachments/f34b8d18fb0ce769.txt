@@ -1,0 +1,18 @@
+2021-10-27-23:05|[32mINFO  [0m|test_calender.py:70 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试删除日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-27-23:05|[32mINFO  [0m|mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-27-23:05|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id": "wcj9N2BwAA8XHUBNzBAC5BNui5NpcLhA"
+  },
+  "method": "post",
+  "params": "access_token=CNgXO5EBr9AUg3UOS-4m5-kCmxHBtEHRkyWfHLMbr-Nsg9dEFmc9pFpa4JjQvtMd_eN_-8KyVc-QaZjiIsbYp6iY_2uhCZpfiaFQwlQdTI9OjPlYwZcfcRbjCwy3qd3FioaVGIo0gEubzIvKGwtdRasa5KshDs2BMan5UdRmlypNbQi-qJUk_dsI3oFiCsadG8pGud8f8ovZkOA11tDUdQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/del"
+}
+2021-10-27-23:05|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-27-23:05|[32mINFO  [0m|mysql.py:96 |delete语句为delete from calender where cal_id = 'wcj9N2BwAA8XHUBNzBAC5BNui5NpcLhA'
+2021-10-27-23:05|[32mINFO  [0m|test_calender.py:72 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

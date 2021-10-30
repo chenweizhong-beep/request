@@ -1,0 +1,33 @@
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "department": [
+      1,
+      3
+    ],
+    "mobile": 15894143301,
+    "name": "delete",
+    "userid": "delete"
+  },
+  "method": "post",
+  "params": "access_token=IK5ErRA6zTLgwTudN6GtX3c1YOyfisrzJBQIvMtAfdxMy1iLjovQF2oXxgn_LEdtSUe-9OHcsCBr4meH0DlFldAP_nQ83Hg2LD0WuKSmY63oCyj1p149MBEr6G0tYlbX81vubGFr_ivjS8xuau3Ulj7txdsNZltepUVaBXjsgHJcHtg3mzl7MHlxVLIivZYpD5fgTIg4fi0W971Q8QnVyw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/create"
+}
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "created. Warning: wrong json format. "
+}
+2021-10-27-23:06|[32mINFO  [0m|test_member.py:80 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试删除成员>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "method": "get",
+  "params": "access_token=IK5ErRA6zTLgwTudN6GtX3c1YOyfisrzJBQIvMtAfdxMy1iLjovQF2oXxgn_LEdtSUe-9OHcsCBr4meH0DlFldAP_nQ83Hg2LD0WuKSmY63oCyj1p149MBEr6G0tYlbX81vubGFr_ivjS8xuau3Ulj7txdsNZltepUVaBXjsgHJcHtg3mzl7MHlxVLIivZYpD5fgTIg4fi0W971Q8QnVyw&userid=delete",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/delete"
+}
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "deleted"
+}
+2021-10-27-23:06|[32mINFO  [0m|test_member.py:82 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除成员测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

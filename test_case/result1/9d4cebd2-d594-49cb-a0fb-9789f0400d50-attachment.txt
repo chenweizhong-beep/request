@@ -1,0 +1,24 @@
+2021-10-27-23:05|[32mINFO  [0m|test_schedule.py:51 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取日历下的日程列表>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-27-23:05|[32mINFO  [0m|mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-27-23:05|[32mINFO  [0m|schedule.py:51 |报错信息是:list index out of range
+2021-10-27-23:05|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id": [
+      "wcj9N2BwAAoWh7FDv6lwm3-nM2DSMEkg",
+      "wcj9N2BwAAGm0XGPUTsToWTXKZlw7mUA"
+    ],
+    "limit": 500,
+    "offset": 0
+  },
+  "method": "post",
+  "params": "access_token=CNgXO5EBr9AUg3UOS-4m5-kCmxHBtEHRkyWfHLMbr-Nsg9dEFmc9pFpa4JjQvtMd_eN_-8KyVc-QaZjiIsbYp6iY_2uhCZpfiaFQwlQdTI9OjPlYwZcfcRbjCwy3qd3FioaVGIo0gEubzIvKGwtdRasa5KshDs2BMan5UdRmlypNbQi-qJUk_dsI3oFiCsadG8pGud8f8ovZkOA11tDUdQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/get_by_calendar"
+}
+2021-10-27-23:05|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "Warning: wrong json formatcal_id missing. Invalid input invalid Request Parameter, hint: [1635347157_164_ed184b132bc7ae43c12ebe5d2e918d71], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "schedule_list": []
+}
+2021-10-27-23:05|[32mINFO  [0m|test_schedule.py:53 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取日历下的日程列表测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

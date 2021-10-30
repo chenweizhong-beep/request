@@ -1,0 +1,32 @@
+2021-10-28-13:55|[32mINFO  [0m|test_schedule.py:40 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日程>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-28-13:55|[32mINFO  [0m|mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-28-13:55|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "schedule": {
+      "attendees": [
+        {
+          "userid": "sign1"
+        }
+      ],
+      "cal_id": "wcj9N2BwAAamuNRjMBabOUxhhPc3K_iQ",
+      "description": "测试创建日程",
+      "end_time": 1635177600,
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "start_time": 1635091200,
+      "summary": "创建我的日程一"
+    }
+  },
+  "method": "post",
+  "params": "access_token=lENR6q0Gmp_6b8dFXyF_l1zAKBV7wW-7t_APvqoE6CcZkiTTa84_aVK3byBri-WL2oGbO38vg1rOUVyq2OY1cZIg6OZAqfdqFvrrSLXUdERIug9vMcHEPOc2RtQ_iRfSugbsKQ2YNwlgRKSchW9tlewGLN3UHU9xY5KqtQGq8fWgYIgTkcvTp2XQnZfvmcpSlE4V_PeGOUwgJPucvfT-nw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/add"
+}
+2021-10-28-13:55|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "schedule_id": "9b4a982a1403dbf643a54221b96970fc"
+}
+2021-10-28-13:55|[32mINFO  [0m|mysql.py:81 |insert语句为INSERT INTO schedule_1 (user_id,start_time,end_time,summary,description,location,cal_id,schedule_id,status_a) VALUES ('cwz', 1635091200, 1635177600, '创建我的日程一', '测试创建日程', '四川省成都市', 'wcj9N2BwAAamuNRjMBabOUxhhPc3K_iQ', '9b4a982a1403dbf643a54221b96970fc', 0) ;
+2021-10-28-13:55|[32mINFO  [0m|test_schedule.py:43 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日程测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

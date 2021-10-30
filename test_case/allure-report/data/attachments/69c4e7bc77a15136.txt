@@ -1,0 +1,33 @@
+2021-10-27-23:05|[32mINFO  [0m|test_calender.py:60 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试修改日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-27-23:05|[32mINFO  [0m|mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-27-23:05|[32mINFO  [0m|calendar.py:53 |报错信息是：list indices must be integers or slices, not NoneType
+2021-10-27-23:05|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "calendar": {
+      "cal_id": [
+        "wcj9N2BwAA8XHUBNzBAC5BNui5NpcLhA",
+        "wcj9N2BwAAoWh7FDv6lwm3-nM2DSMEkg",
+        "wcj9N2BwAAGm0XGPUTsToWTXKZlw7mUA"
+      ],
+      "color": "1000FF",
+      "description": "update日历1",
+      "readonly": 0,
+      "shares": {
+        "userid": "sign1"
+      },
+      "summary": "测试修改日历一"
+    }
+  },
+  "method": "post",
+  "params": "access_token=CNgXO5EBr9AUg3UOS-4m5-kCmxHBtEHRkyWfHLMbr-Nsg9dEFmc9pFpa4JjQvtMd_eN_-8KyVc-QaZjiIsbYp6iY_2uhCZpfiaFQwlQdTI9OjPlYwZcfcRbjCwy3qd3FioaVGIo0gEubzIvKGwtdRasa5KshDs2BMan5UdRmlypNbQi-qJUk_dsI3oFiCsadG8pGud8f8ovZkOA11tDUdQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/update"
+}
+2021-10-27-23:05|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "Warning: wrong json format. paramter cal_id is empty or has invalid characters, hint: [1635347154_232_ff23d9321ce8278cf03206444636447c], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-27-23:05|[32mINFO  [0m|mysql.py:81 |insert语句为UPDATE calender SET readonly = 0, summary = '测试修改日历一', color = '1000FF', description = 'update日历1' WHERE cal_id = '['wcj9N2BwAA8XHUBNzBAC5BNui5NpcLhA', 'wcj9N2BwAAoWh7FDv6lwm3-nM2DSMEkg', 'wcj9N2BwAAGm0XGPUTsToWTXKZlw7mUA']';
+2021-10-27-23:05|[1m[31mERROR [0m|mysql.py:87 |insert语句错误，错误原因是(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'wcj9N2BwAA8XHUBNzBAC5BNui5NpcLhA', 'wcj9N2BwAAoWh7FDv6lwm3-nM2DSMEkg', 'wcj9N2Bw' at line 1")
+2021-10-27-23:05|[32mINFO  [0m|test_calender.py:62 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

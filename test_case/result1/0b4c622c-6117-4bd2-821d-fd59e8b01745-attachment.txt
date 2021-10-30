@@ -1,0 +1,53 @@
+2021-10-27-23:05|[32mINFO  [0m|test_schedule.py:85 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取日程详细信息>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-27-23:05|[32mINFO  [0m|mysql.py:42 |select语句是SELECT schedule_id FROM schedule_1;
+2021-10-27-23:05|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "schedule_id_list": [
+      "ea616fece02a3c4e509033e7613e95bf"
+    ]
+  },
+  "method": "post",
+  "params": "access_token=CNgXO5EBr9AUg3UOS-4m5-kCmxHBtEHRkyWfHLMbr-Nsg9dEFmc9pFpa4JjQvtMd_eN_-8KyVc-QaZjiIsbYp6iY_2uhCZpfiaFQwlQdTI9OjPlYwZcfcRbjCwy3qd3FioaVGIo0gEubzIvKGwtdRasa5KshDs2BMan5UdRmlypNbQi-qJUk_dsI3oFiCsadG8pGud8f8ovZkOA11tDUdQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/get"
+}
+2021-10-27-23:05|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "schedule_list": [
+    {
+      "schedule_id": "ea616fece02a3c4e509033e7613e95bf",
+      "attendees": [
+        {
+          "userid": "sign2",
+          "response_status": 0
+        }
+      ],
+      "summary": "修改我的日程一",
+      "description": "测试修改日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "北京市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1635091200,
+      "end_time": 1635177600,
+      "cal_id": "wcj9N2BwAAGm0XGPUTsToWTXKZlw7mUA"
+    }
+  ]
+}
+2021-10-27-23:05|[32mINFO  [0m|test_schedule.py:87 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取日程详细信息测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

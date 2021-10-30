@@ -1,0 +1,133 @@
+{
+  "uid" : "36d659ac84e06a16",
+  "name" : "test_creat_member[name重复，断言成功]",
+  "fullName" : "contact.member.test_member.TestMember#test_creat_member",
+  "historyId" : "713dbedb10b4d71bd305dae4d43ac5d9",
+  "time" : {
+    "start" : 1635347171242,
+    "stop" : 1635347171970,
+    "duration" : 728
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "create",
+    "time" : {
+      "start" : 1635347167378,
+      "stop" : 1635347168622,
+      "duration" : 1244
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "token",
+    "time" : {
+      "start" : 1635347159999,
+      "stop" : 1635347160322,
+      "duration" : 323
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "70aad14183cd646f",
+      "name" : "log",
+      "source" : "70aad14183cd646f.txt",
+      "type" : "text/plain",
+      "size" : 1308
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "通讯录人员的增删改查等接口测试"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "增加联系人接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "contact.member"
+  }, {
+    "name" : "suite",
+    "value" : "test_member"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMember"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EOQ4GM0"
+  }, {
+    "name" : "thread",
+    "value" : "10132-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "contact.member.test_member"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "errcode",
+    "value" : "0"
+  }, {
+    "name" : "errmsg",
+    "value" : "'created'"
+  }, {
+    "name" : "logname",
+    "value" : "'name重复，断言成功'"
+  }, {
+    "name" : "mobile",
+    "value" : "'13222661161'"
+  }, {
+    "name" : "name",
+    "value" : "'tong5'"
+  }, {
+    "name" : "userid",
+    "value" : "'aaa'"
+  } ],
+  "links" : [ {
+    "name" : "api地址",
+    "url" : "https://work.weixin.qq.com/api/doc/90000/90135/90195",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "36d659ac84e06a16.json",
+  "parameterValues" : [ "0", "'created'", "'name重复，断言成功'", "'13222661161'", "'tong5'", "'aaa'" ]
+}

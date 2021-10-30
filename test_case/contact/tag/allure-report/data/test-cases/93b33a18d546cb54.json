@@ -1,0 +1,126 @@
+{
+  "uid" : "93b33a18d546cb54",
+  "name" : "test_update_tag[tagid为空，tagname正确，标签修改失败]",
+  "fullName" : "contact.tag.test_tag.TestTag#test_update_tag",
+  "historyId" : "aa1f7da14bdf6a59c748e50d49c8f691",
+  "time" : {
+    "start" : 1634660500360,
+    "stop" : 1634660500731,
+    "duration" : 371
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "token",
+    "time" : {
+      "start" : 1634660490591,
+      "stop" : 1634660491030,
+      "duration" : 439
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "update_tag",
+    "time" : {
+      "start" : 1634660495731,
+      "stop" : 1634660499856,
+      "duration" : 4125
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1191211c40abd2a6",
+      "name" : "log",
+      "source" : "1191211c40abd2a6.txt",
+      "type" : "text/plain",
+      "size" : 1254
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "修改标签接口"
+  }, {
+    "name" : "feature",
+    "value" : "标签增删改查等接口"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "contact.tag"
+  }, {
+    "name" : "suite",
+    "value" : "test_tag"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTag"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EOQ4GM0"
+  }, {
+    "name" : "thread",
+    "value" : "1768-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "contact.tag.test_tag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "errcode",
+    "value" : "40068"
+  }, {
+    "name" : "errmsg",
+    "value" : "'invalid tagid'"
+  }, {
+    "name" : "logname",
+    "value" : "'tagid为空，tagname正确，标签修改失败'"
+  }, {
+    "name" : "tagid",
+    "value" : "''"
+  }, {
+    "name" : "tagname",
+    "value" : "'update22'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "93b33a18d546cb54.json",
+  "parameterValues" : [ "40068", "'invalid tagid'", "'tagid为空，tagname正确，标签修改失败'", "''", "'update22'" ]
+}

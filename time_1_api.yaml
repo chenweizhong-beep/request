@@ -1,0 +1,6 @@
+active:
+  method: "post"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat"
+  params: "access_token=${token}"
+  json:
+    "date": "${data}"

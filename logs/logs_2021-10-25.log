@@ -1,0 +1,3515 @@
+2021-10-25-21:22|INFO  |test_schedule.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取日历下的日程列表>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-21:22|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-25-21:26|INFO  |test_schedule.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取日历下的日程列表>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-21:26|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-25-21:30|INFO  |test_schedule.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取日历下的日程列表>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-21:30|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-25-21:30|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg",
+    "limit": null,
+    "offset": null
+  },
+  "method": "post",
+  "params": "access_token=s4VtV0gTBMQv_v0R3yMGujZO3lvrojsjEkddu2xFNIZyq1D6cEZCVa1V5HAX_Eojl6XXhi8NLYSJvZfNtvJ4D7iIEGaGrW7PpwLwsXivJDxug6Zllsn_sMycMpGEOx2XJW7Bj4_xR6UyVS0QRQX4K_oI7Eg9meBMAeh_TeBKCMnrzPme9VYJYXc6sTu2WfoVelDxSbrSYZeFP9ZfrH_aRQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/get_by_calendar"
+}
+2021-10-25-21:30|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "schedule_list": [
+    {
+      "schedule_id": "13b5c14aeb9805983075169d3ee26853",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 8,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "216bfaf875213519558a1ed978ce054b",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 3,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "4e65054a275abfe74674974d080f6666",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 1,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "51a58d1127fc10866af5063f19356a14",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 1,
+      "start_time": 1571274600,
+      "end_time": 1603641600,
+      "sequence": 12,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "57779c8e2bc5d7e355dad2a63616cd06",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 5,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "5c4999da6e7eaf1a7ced7d8d4cdfb761",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1603641600,
+      "sequence": 10,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "6d1c9a7fbb2475ccfad768b3dcccf455",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 1,
+      "start_time": 1571274600,
+      "end_time": 1603641600,
+      "sequence": 9,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "b6de49cced3344b07c3e2973e76f33bb",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 2,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "bcb5ff957cde487179e0eb58869248c0",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 6,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "ca27bf479e4644c6757bc8ff0b49248d",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 7,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "e688156ead51c8eeb124532e9a4d4f61",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 4,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "f51251389e1adfdc680cefe7c023262e",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1603641600,
+      "sequence": 11,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "fba2d9da1bf4c9e1ca00e8b51fac80a6",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 1,
+        "is_repeat": 1,
+        "remind_before_event_secs": 3600,
+        "repeat_type": 7,
+        "repeat_until": 1606976813,
+        "is_custom_repeat": 1,
+        "repeat_interval": 1,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          -3600
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 0,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "fee96caf54832d499d41386442093c55",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "创建我的日程一",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1635091200,
+      "end_time": 1635177600,
+      "sequence": 14,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "ffcce16110755dcd563eb0efb55db018",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "创建我的日程一",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1635091200,
+      "end_time": 1635177600,
+      "sequence": 13,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    }
+  ]
+}
+2021-10-25-21:30|INFO  |test_schedule.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取日历下的日程列表测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-21:32|INFO  |test_schedule.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取日历下的日程列表>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-21:33|INFO  |test_schedule.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取日历下的日程列表>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-21:33|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-25-21:33|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg",
+    "limit": 500,
+    "offset": 0
+  },
+  "method": "post",
+  "params": "access_token=s4VtV0gTBMQv_v0R3yMGujZO3lvrojsjEkddu2xFNIZyq1D6cEZCVa1V5HAX_Eojl6XXhi8NLYSJvZfNtvJ4D7iIEGaGrW7PpwLwsXivJDxug6Zllsn_sMycMpGEOx2XJW7Bj4_xR6UyVS0QRQX4K_oI7Eg9meBMAeh_TeBKCMnrzPme9VYJYXc6sTu2WfoVelDxSbrSYZeFP9ZfrH_aRQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/get_by_calendar"
+}
+2021-10-25-21:33|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "schedule_list": [
+    {
+      "schedule_id": "13b5c14aeb9805983075169d3ee26853",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 8,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "216bfaf875213519558a1ed978ce054b",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 3,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "4e65054a275abfe74674974d080f6666",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 1,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "51a58d1127fc10866af5063f19356a14",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 1,
+      "start_time": 1571274600,
+      "end_time": 1603641600,
+      "sequence": 12,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "57779c8e2bc5d7e355dad2a63616cd06",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 5,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "5c4999da6e7eaf1a7ced7d8d4cdfb761",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1603641600,
+      "sequence": 10,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "6d1c9a7fbb2475ccfad768b3dcccf455",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 1,
+      "start_time": 1571274600,
+      "end_time": 1603641600,
+      "sequence": 9,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "b6de49cced3344b07c3e2973e76f33bb",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 2,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "bcb5ff957cde487179e0eb58869248c0",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 6,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "ca27bf479e4644c6757bc8ff0b49248d",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 7,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "e688156ead51c8eeb124532e9a4d4f61",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 4,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "f51251389e1adfdc680cefe7c023262e",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1603641600,
+      "sequence": 11,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "fba2d9da1bf4c9e1ca00e8b51fac80a6",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 1,
+        "is_repeat": 1,
+        "remind_before_event_secs": 3600,
+        "repeat_type": 7,
+        "repeat_until": 1606976813,
+        "is_custom_repeat": 1,
+        "repeat_interval": 1,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          -3600
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 0,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "fee96caf54832d499d41386442093c55",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "创建我的日程一",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1635091200,
+      "end_time": 1635177600,
+      "sequence": 14,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "ffcce16110755dcd563eb0efb55db018",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "创建我的日程一",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1635091200,
+      "end_time": 1635177600,
+      "sequence": 13,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    }
+  ]
+}
+2021-10-25-21:33|INFO  |test_schedule.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取日历下的日程列表测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-21:34|INFO  |test_schedule.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取日历下的日程列表>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-21:34|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-25-21:34|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg",
+    "limit": 500,
+    "offset": 0
+  },
+  "method": "post",
+  "params": "access_token=s4VtV0gTBMQv_v0R3yMGujZO3lvrojsjEkddu2xFNIZyq1D6cEZCVa1V5HAX_Eojl6XXhi8NLYSJvZfNtvJ4D7iIEGaGrW7PpwLwsXivJDxug6Zllsn_sMycMpGEOx2XJW7Bj4_xR6UyVS0QRQX4K_oI7Eg9meBMAeh_TeBKCMnrzPme9VYJYXc6sTu2WfoVelDxSbrSYZeFP9ZfrH_aRQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/get_by_calendar"
+}
+2021-10-25-21:34|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "schedule_list": [
+    {
+      "schedule_id": "13b5c14aeb9805983075169d3ee26853",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 8,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "216bfaf875213519558a1ed978ce054b",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 3,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "4e65054a275abfe74674974d080f6666",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 1,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "51a58d1127fc10866af5063f19356a14",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 1,
+      "start_time": 1571274600,
+      "end_time": 1603641600,
+      "sequence": 12,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "57779c8e2bc5d7e355dad2a63616cd06",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 5,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "5c4999da6e7eaf1a7ced7d8d4cdfb761",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1603641600,
+      "sequence": 10,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "6d1c9a7fbb2475ccfad768b3dcccf455",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 1,
+      "start_time": 1571274600,
+      "end_time": 1603641600,
+      "sequence": 9,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "b6de49cced3344b07c3e2973e76f33bb",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 2,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "bcb5ff957cde487179e0eb58869248c0",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 6,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "ca27bf479e4644c6757bc8ff0b49248d",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 7,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "e688156ead51c8eeb124532e9a4d4f61",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 4,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "f51251389e1adfdc680cefe7c023262e",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1603641600,
+      "sequence": 11,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "fba2d9da1bf4c9e1ca00e8b51fac80a6",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 1,
+        "is_repeat": 1,
+        "remind_before_event_secs": 3600,
+        "repeat_type": 7,
+        "repeat_until": 1606976813,
+        "is_custom_repeat": 1,
+        "repeat_interval": 1,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          -3600
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 0,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "fee96caf54832d499d41386442093c55",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "创建我的日程一",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1635091200,
+      "end_time": 1635177600,
+      "sequence": 14,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "ffcce16110755dcd563eb0efb55db018",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "创建我的日程一",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1635091200,
+      "end_time": 1635177600,
+      "sequence": 13,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    }
+  ]
+}
+2021-10-25-21:34|INFO  |test_schedule.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取日历下的日程列表测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-21:34|INFO  |test_schedule.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取日历下的日程列表>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-21:34|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-25-21:34|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id": "wcj9N2BwAAYiP4TtU2kf_KwNr-qg1ZWw",
+    "limit": 500,
+    "offset": 0
+  },
+  "method": "post",
+  "params": "access_token=s4VtV0gTBMQv_v0R3yMGujZO3lvrojsjEkddu2xFNIZyq1D6cEZCVa1V5HAX_Eojl6XXhi8NLYSJvZfNtvJ4D7iIEGaGrW7PpwLwsXivJDxug6Zllsn_sMycMpGEOx2XJW7Bj4_xR6UyVS0QRQX4K_oI7Eg9meBMAeh_TeBKCMnrzPme9VYJYXc6sTu2WfoVelDxSbrSYZeFP9ZfrH_aRQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/get_by_calendar"
+}
+2021-10-25-21:34|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "schedule_list": []
+}
+2021-10-25-21:34|INFO  |test_schedule.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取日历下的日程列表测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-21:35|INFO  |test_schedule.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取日历下的日程列表>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-21:35|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-25-21:35|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg",
+    "limit": 500,
+    "offset": 0
+  },
+  "method": "post",
+  "params": "access_token=s4VtV0gTBMQv_v0R3yMGujZO3lvrojsjEkddu2xFNIZyq1D6cEZCVa1V5HAX_Eojl6XXhi8NLYSJvZfNtvJ4D7iIEGaGrW7PpwLwsXivJDxug6Zllsn_sMycMpGEOx2XJW7Bj4_xR6UyVS0QRQX4K_oI7Eg9meBMAeh_TeBKCMnrzPme9VYJYXc6sTu2WfoVelDxSbrSYZeFP9ZfrH_aRQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/get_by_calendar"
+}
+2021-10-25-21:35|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "schedule_list": [
+    {
+      "schedule_id": "13b5c14aeb9805983075169d3ee26853",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 8,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "216bfaf875213519558a1ed978ce054b",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 3,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "4e65054a275abfe74674974d080f6666",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 1,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "51a58d1127fc10866af5063f19356a14",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 1,
+      "start_time": 1571274600,
+      "end_time": 1603641600,
+      "sequence": 12,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "57779c8e2bc5d7e355dad2a63616cd06",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 5,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "5c4999da6e7eaf1a7ced7d8d4cdfb761",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1603641600,
+      "sequence": 10,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "6d1c9a7fbb2475ccfad768b3dcccf455",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 1,
+      "start_time": 1571274600,
+      "end_time": 1603641600,
+      "sequence": 9,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "b6de49cced3344b07c3e2973e76f33bb",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 2,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "bcb5ff957cde487179e0eb58869248c0",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 6,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "ca27bf479e4644c6757bc8ff0b49248d",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 7,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "e688156ead51c8eeb124532e9a4d4f61",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 4,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "f51251389e1adfdc680cefe7c023262e",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1603641600,
+      "sequence": 11,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "fba2d9da1bf4c9e1ca00e8b51fac80a6",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 1,
+        "is_repeat": 1,
+        "remind_before_event_secs": 3600,
+        "repeat_type": 7,
+        "repeat_until": 1606976813,
+        "is_custom_repeat": 1,
+        "repeat_interval": 1,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          -3600
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 0,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "fee96caf54832d499d41386442093c55",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "创建我的日程一",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1635091200,
+      "end_time": 1635177600,
+      "sequence": 14,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "ffcce16110755dcd563eb0efb55db018",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "创建我的日程一",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1635091200,
+      "end_time": 1635177600,
+      "sequence": 13,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    }
+  ]
+}
+2021-10-25-21:35|INFO  |test_schedule.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取日历下的日程列表测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-21:35|INFO  |test_schedule.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取日历下的日程列表>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-21:35|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-25-21:35|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id": "wcj9N2BwAAYiP4TtU2kf_KwNr-qg1ZWw",
+    "limit": 500,
+    "offset": 0
+  },
+  "method": "post",
+  "params": "access_token=s4VtV0gTBMQv_v0R3yMGujZO3lvrojsjEkddu2xFNIZyq1D6cEZCVa1V5HAX_Eojl6XXhi8NLYSJvZfNtvJ4D7iIEGaGrW7PpwLwsXivJDxug6Zllsn_sMycMpGEOx2XJW7Bj4_xR6UyVS0QRQX4K_oI7Eg9meBMAeh_TeBKCMnrzPme9VYJYXc6sTu2WfoVelDxSbrSYZeFP9ZfrH_aRQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/get_by_calendar"
+}
+2021-10-25-21:35|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "schedule_list": []
+}
+2021-10-25-21:35|INFO  |test_schedule.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取日历下的日程列表测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-21:35|INFO  |test_schedule.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取日历下的日程列表>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-21:35|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-25-21:35|INFO  |schedule.py:45 |报错信息是:list index out of range
+2021-10-25-21:35|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id": [
+      "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg",
+      "wcj9N2BwAAYiP4TtU2kf_KwNr-qg1ZWw"
+    ],
+    "limit": 500,
+    "offset": 0
+  },
+  "method": "post",
+  "params": "access_token=s4VtV0gTBMQv_v0R3yMGujZO3lvrojsjEkddu2xFNIZyq1D6cEZCVa1V5HAX_Eojl6XXhi8NLYSJvZfNtvJ4D7iIEGaGrW7PpwLwsXivJDxug6Zllsn_sMycMpGEOx2XJW7Bj4_xR6UyVS0QRQX4K_oI7Eg9meBMAeh_TeBKCMnrzPme9VYJYXc6sTu2WfoVelDxSbrSYZeFP9ZfrH_aRQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/get_by_calendar"
+}
+2021-10-25-21:35|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "Warning: wrong json formatcal_id missing. Invalid input invalid Request Parameter, hint: [1635168944_231_0fa49728aded6c19069246fb72b36cba], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "schedule_list": []
+}
+2021-10-25-21:35|INFO  |test_schedule.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取日历下的日程列表测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-21:36|INFO  |test_schedule.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取日历下的日程列表>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-21:36|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-25-21:36|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg",
+    "limit": 500,
+    "offset": 0
+  },
+  "method": "post",
+  "params": "access_token=s4VtV0gTBMQv_v0R3yMGujZO3lvrojsjEkddu2xFNIZyq1D6cEZCVa1V5HAX_Eojl6XXhi8NLYSJvZfNtvJ4D7iIEGaGrW7PpwLwsXivJDxug6Zllsn_sMycMpGEOx2XJW7Bj4_xR6UyVS0QRQX4K_oI7Eg9meBMAeh_TeBKCMnrzPme9VYJYXc6sTu2WfoVelDxSbrSYZeFP9ZfrH_aRQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/get_by_calendar"
+}
+2021-10-25-21:36|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "schedule_list": [
+    {
+      "schedule_id": "13b5c14aeb9805983075169d3ee26853",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 8,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "216bfaf875213519558a1ed978ce054b",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 3,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "4e65054a275abfe74674974d080f6666",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 1,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "51a58d1127fc10866af5063f19356a14",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 1,
+      "start_time": 1571274600,
+      "end_time": 1603641600,
+      "sequence": 12,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "57779c8e2bc5d7e355dad2a63616cd06",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 5,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "5c4999da6e7eaf1a7ced7d8d4cdfb761",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1603641600,
+      "sequence": 10,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "6d1c9a7fbb2475ccfad768b3dcccf455",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 1,
+      "start_time": 1571274600,
+      "end_time": 1603641600,
+      "sequence": 9,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "b6de49cced3344b07c3e2973e76f33bb",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 2,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "bcb5ff957cde487179e0eb58869248c0",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 6,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "ca27bf479e4644c6757bc8ff0b49248d",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 7,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "e688156ead51c8eeb124532e9a4d4f61",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 4,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "f51251389e1adfdc680cefe7c023262e",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1603641600,
+      "sequence": 11,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "fba2d9da1bf4c9e1ca00e8b51fac80a6",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 1,
+        "is_repeat": 1,
+        "remind_before_event_secs": 3600,
+        "repeat_type": 7,
+        "repeat_until": 1606976813,
+        "is_custom_repeat": 1,
+        "repeat_interval": 1,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          -3600
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 0,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "fee96caf54832d499d41386442093c55",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "创建我的日程一",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1635091200,
+      "end_time": 1635177600,
+      "sequence": 14,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "ffcce16110755dcd563eb0efb55db018",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "创建我的日程一",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1635091200,
+      "end_time": 1635177600,
+      "sequence": 13,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    }
+  ]
+}
+2021-10-25-21:36|INFO  |test_schedule.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取日历下的日程列表测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-21:36|INFO  |test_schedule.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取日历下的日程列表>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-21:36|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-25-21:36|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id": "wcj9N2BwAAYiP4TtU2kf_KwNr-qg1ZWw",
+    "limit": 500,
+    "offset": 0
+  },
+  "method": "post",
+  "params": "access_token=s4VtV0gTBMQv_v0R3yMGujZO3lvrojsjEkddu2xFNIZyq1D6cEZCVa1V5HAX_Eojl6XXhi8NLYSJvZfNtvJ4D7iIEGaGrW7PpwLwsXivJDxug6Zllsn_sMycMpGEOx2XJW7Bj4_xR6UyVS0QRQX4K_oI7Eg9meBMAeh_TeBKCMnrzPme9VYJYXc6sTu2WfoVelDxSbrSYZeFP9ZfrH_aRQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/get_by_calendar"
+}
+2021-10-25-21:36|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "schedule_list": []
+}
+2021-10-25-21:36|INFO  |test_schedule.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取日历下的日程列表测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-21:36|INFO  |test_schedule.py:39 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取日历下的日程列表>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-21:36|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-25-21:36|INFO  |schedule.py:45 |报错信息是:list index out of range
+2021-10-25-21:36|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id": [
+      "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg",
+      "wcj9N2BwAAYiP4TtU2kf_KwNr-qg1ZWw"
+    ],
+    "limit": 500,
+    "offset": 0
+  },
+  "method": "post",
+  "params": "access_token=s4VtV0gTBMQv_v0R3yMGujZO3lvrojsjEkddu2xFNIZyq1D6cEZCVa1V5HAX_Eojl6XXhi8NLYSJvZfNtvJ4D7iIEGaGrW7PpwLwsXivJDxug6Zllsn_sMycMpGEOx2XJW7Bj4_xR6UyVS0QRQX4K_oI7Eg9meBMAeh_TeBKCMnrzPme9VYJYXc6sTu2WfoVelDxSbrSYZeFP9ZfrH_aRQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/get_by_calendar"
+}
+2021-10-25-21:36|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "Warning: wrong json formatcal_id missing. Invalid input invalid Request Parameter, hint: [1635168970_171_00f8b6401be1956132c16acf4d2a63b5], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "schedule_list": []
+}
+2021-10-25-21:36|INFO  |test_schedule.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取日历下的日程列表测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-22:03|INFO  |test_schedule.py:52 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试修改日程>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-22:03|INFO  |mysql.py:42 |select语句是SELECT * FROM schedule_1;
+2021-10-25-22:05|INFO  |test_schedule.py:52 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试修改日程>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-22:05|INFO  |mysql.py:42 |select语句是SELECT * FROM schedule_1;
+2021-10-25-22:05|INFO  |test_schedule.py:52 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试修改日程>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-22:05|INFO  |mysql.py:42 |select语句是SELECT * FROM schedule_1;
+2021-10-25-22:05|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "schedule": {
+      "attendees": [
+        {
+          "userid": "sign2"
+        }
+      ],
+      "description": "测试修改日程",
+      "end_time": 1637856000,
+      "location": "北京市",
+      "schedule_id": 1.0,
+      "start_time": 1637769600,
+      "summary": "修改我的日程一"
+    }
+  },
+  "method": "post",
+  "params": "access_token=s4VtV0gTBMQv_v0R3yMGujZO3lvrojsjEkddu2xFNIZyq1D6cEZCVa1V5HAX_Eojl6XXhi8NLYSJvZfNtvJ4D7iIEGaGrW7PpwLwsXivJDxug6Zllsn_sMycMpGEOx2XJW7Bj4_xR6UyVS0QRQX4K_oI7Eg9meBMAeh_TeBKCMnrzPme9VYJYXc6sTu2WfoVelDxSbrSYZeFP9ZfrH_aRQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/update"
+}
+2021-10-25-22:05|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "Warning: wrong json format. missing paramters organizer, hint: [1635170733_170_c33c585f92f2361af91045ab19e494c1], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-25-22:05|INFO  |mysql.py:61 |update语句是UPDATE schedule_1 SET start_time = 1637769600, end_time = '1637856000', summary = '修改我的日程一', description = '测试修改日程,location = '北京市'WHERE schedule_id = '1.0';
+2021-10-25-22:05|ERROR |mysql.py:69 |update语句错误，错误原因是(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '北京市'WHERE schedule_id = '1.0'' at line 1")
+2021-10-25-22:05|INFO  |test_schedule.py:54 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改日程测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-22:07|INFO  |test_schedule.py:52 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试修改日程>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-22:07|INFO  |mysql.py:42 |select语句是SELECT schedule_id FROM schedule_1;
+2021-10-25-22:07|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "schedule": {
+      "attendees": [
+        {
+          "userid": "sign2"
+        }
+      ],
+      "description": "测试修改日程",
+      "end_time": 1637856000,
+      "location": "北京市",
+      "schedule_id": "fee96caf54832d499d41386442093c55",
+      "start_time": 1637769600,
+      "summary": "修改我的日程一"
+    }
+  },
+  "method": "post",
+  "params": "access_token=s4VtV0gTBMQv_v0R3yMGujZO3lvrojsjEkddu2xFNIZyq1D6cEZCVa1V5HAX_Eojl6XXhi8NLYSJvZfNtvJ4D7iIEGaGrW7PpwLwsXivJDxug6Zllsn_sMycMpGEOx2XJW7Bj4_xR6UyVS0QRQX4K_oI7Eg9meBMAeh_TeBKCMnrzPme9VYJYXc6sTu2WfoVelDxSbrSYZeFP9ZfrH_aRQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/update"
+}
+2021-10-25-22:07|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing paramters organizer, hint: [1635170829_164_f8fc30e6f972a664a92d91c8cc2fe520], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-25-22:07|INFO  |mysql.py:61 |update语句是UPDATE schedule_1 SET start_time = 1637769600, end_time = '1637856000', summary = '修改我的日程一', description = '测试修改日程,location = '北京市'WHERE schedule_id = 'fee96caf54832d499d41386442093c55';
+2021-10-25-22:07|ERROR |mysql.py:69 |update语句错误，错误原因是(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '北京市'WHERE schedule_id = 'fee96caf54832d499d41386442093c55'' at line 1")
+2021-10-25-22:07|INFO  |test_schedule.py:54 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改日程测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-22:08|INFO  |test_schedule.py:52 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试修改日程>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-22:08|INFO  |mysql.py:42 |select语句是SELECT schedule_id FROM schedule_1;
+2021-10-25-22:08|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "schedule": {
+      "attendees": [
+        {
+          "userid": "sign2"
+        }
+      ],
+      "description": "测试修改日程",
+      "end_time": 1635177600,
+      "location": "北京市",
+      "schedule_id": "fee96caf54832d499d41386442093c55",
+      "start_time": 1635091200,
+      "summary": "修改我的日程一"
+    }
+  },
+  "method": "post",
+  "params": "access_token=s4VtV0gTBMQv_v0R3yMGujZO3lvrojsjEkddu2xFNIZyq1D6cEZCVa1V5HAX_Eojl6XXhi8NLYSJvZfNtvJ4D7iIEGaGrW7PpwLwsXivJDxug6Zllsn_sMycMpGEOx2XJW7Bj4_xR6UyVS0QRQX4K_oI7Eg9meBMAeh_TeBKCMnrzPme9VYJYXc6sTu2WfoVelDxSbrSYZeFP9ZfrH_aRQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/update"
+}
+2021-10-25-22:08|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "missing paramters organizer, hint: [1635170938_171_70ea19c36fa0696d6a86cd94ecdc0a59], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-25-22:08|INFO  |mysql.py:61 |update语句是UPDATE schedule_1 SET start_time = '1635091200', end_time = '1635177600', summary = '修改我的日程一', description = '测试修改日程,location = '北京市' WHERE schedule_id = 'fee96caf54832d499d41386442093c55';
+2021-10-25-22:08|ERROR |mysql.py:69 |update语句错误，错误原因是(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '北京市' WHERE schedule_id = 'fee96caf54832d499d41386442093c55'' at line 1")
+2021-10-25-22:08|INFO  |test_schedule.py:54 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改日程测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-22:17|INFO  |test_schedule.py:53 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试修改日程>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-22:17|INFO  |mysql.py:42 |select语句是SELECT schedule_id FROM schedule_1;
+2021-10-25-22:17|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "schedule": {
+      "attendees": [
+        {
+          "userid": "sign2"
+        }
+      ],
+      "description": "测试修改日程",
+      "end_time": 1635177600,
+      "location": "北京市",
+      "organizer": "cwz",
+      "schedule_id": "fee96caf54832d499d41386442093c55",
+      "start_time": 1635091200,
+      "summary": "修改我的日程一"
+    }
+  },
+  "method": "post",
+  "params": "access_token=s4VtV0gTBMQv_v0R3yMGujZO3lvrojsjEkddu2xFNIZyq1D6cEZCVa1V5HAX_Eojl6XXhi8NLYSJvZfNtvJ4D7iIEGaGrW7PpwLwsXivJDxug6Zllsn_sMycMpGEOx2XJW7Bj4_xR6UyVS0QRQX4K_oI7Eg9meBMAeh_TeBKCMnrzPme9VYJYXc6sTu2WfoVelDxSbrSYZeFP9ZfrH_aRQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/update"
+}
+2021-10-25-22:17|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-25-22:17|INFO  |mysql.py:61 |update语句是UPDATE schedule_1 SET start_time = '1635091200', end_time = '1635177600', summary = '修改我的日程一', description = '测试修改日程,location = '北京市' WHERE schedule_id = 'fee96caf54832d499d41386442093c55';
+2021-10-25-22:17|ERROR |mysql.py:69 |update语句错误，错误原因是(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '北京市' WHERE schedule_id = 'fee96caf54832d499d41386442093c55'' at line 1")
+2021-10-25-22:17|INFO  |test_schedule.py:56 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改日程测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-22:19|INFO  |test_schedule.py:53 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试修改日程>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-22:19|INFO  |mysql.py:42 |select语句是SELECT schedule_id FROM schedule_1;
+2021-10-25-22:19|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "schedule": {
+      "attendees": [
+        {
+          "userid": "sign2"
+        }
+      ],
+      "description": "测试修改日程",
+      "end_time": 1635177600,
+      "location": "北京市",
+      "organizer": "cwz",
+      "schedule_id": "fee96caf54832d499d41386442093c55",
+      "start_time": 1635091200,
+      "summary": "修改我的日程一"
+    }
+  },
+  "method": "post",
+  "params": "access_token=s4VtV0gTBMQv_v0R3yMGujZO3lvrojsjEkddu2xFNIZyq1D6cEZCVa1V5HAX_Eojl6XXhi8NLYSJvZfNtvJ4D7iIEGaGrW7PpwLwsXivJDxug6Zllsn_sMycMpGEOx2XJW7Bj4_xR6UyVS0QRQX4K_oI7Eg9meBMAeh_TeBKCMnrzPme9VYJYXc6sTu2WfoVelDxSbrSYZeFP9ZfrH_aRQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/update"
+}
+2021-10-25-22:19|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-25-22:19|INFO  |mysql.py:61 |update语句是UPDATE schedule_1 SET start_time = '1635091200', end_time = '1635177600', summary = '修改我的日程一', description = '测试修改日程',location = '北京市' WHERE schedule_id = 'fee96caf54832d499d41386442093c55';
+2021-10-25-22:19|INFO  |test_schedule.py:56 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改日程测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-22:49|INFO  |test_schedule.py:31 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日程>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-22:49|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-25-22:49|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "schedule": {
+      "attendees": [
+        {
+          "userid": "sign1"
+        }
+      ],
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg",
+      "description": "测试创建日程",
+      "end_time": 1635177600,
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "start_time": 1635091200,
+      "summary": "创建我的日程一"
+    }
+  },
+  "method": "post",
+  "params": "access_token=s4VtV0gTBMQv_v0R3yMGujZO3lvrojsjEkddu2xFNIZyq1D6cEZCVa1V5HAX_Eojl6XXhi8NLYSJvZfNtvJ4D7iIEGaGrW7PpwLwsXivJDxug6Zllsn_sMycMpGEOx2XJW7Bj4_xR6UyVS0QRQX4K_oI7Eg9meBMAeh_TeBKCMnrzPme9VYJYXc6sTu2WfoVelDxSbrSYZeFP9ZfrH_aRQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/add"
+}
+2021-10-25-22:49|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "schedule_id": "4bd1dba37128c2af2d1089d0715b153a"
+}
+2021-10-25-22:49|INFO  |mysql.py:81 |insert语句为INSERT INTO schedule_1 (user_id,start_time,end_time,summary,description,location,cal_id,schedule_id) VALUES ('cwz', 1635091200, 1635177600, '创建我的日程一', '测试创建日程', '四川省成都市', 'wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg', '4bd1dba37128c2af2d1089d0715b153a') ;
+2021-10-25-22:49|INFO  |test_schedule.py:34 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日程测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-22:49|INFO  |test_schedule.py:42 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取日历下的日程列表>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-22:49|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-25-22:49|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg",
+    "limit": 500,
+    "offset": 0
+  },
+  "method": "post",
+  "params": "access_token=s4VtV0gTBMQv_v0R3yMGujZO3lvrojsjEkddu2xFNIZyq1D6cEZCVa1V5HAX_Eojl6XXhi8NLYSJvZfNtvJ4D7iIEGaGrW7PpwLwsXivJDxug6Zllsn_sMycMpGEOx2XJW7Bj4_xR6UyVS0QRQX4K_oI7Eg9meBMAeh_TeBKCMnrzPme9VYJYXc6sTu2WfoVelDxSbrSYZeFP9ZfrH_aRQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/get_by_calendar"
+}
+2021-10-25-22:49|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "schedule_list": [
+    {
+      "schedule_id": "13b5c14aeb9805983075169d3ee26853",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 8,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "216bfaf875213519558a1ed978ce054b",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 3,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "4bd1dba37128c2af2d1089d0715b153a",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "创建我的日程一",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1635091200,
+      "end_time": 1635177600,
+      "sequence": 15,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "4e65054a275abfe74674974d080f6666",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 1,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "51a58d1127fc10866af5063f19356a14",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 1,
+      "start_time": 1571274600,
+      "end_time": 1603641600,
+      "sequence": 12,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "57779c8e2bc5d7e355dad2a63616cd06",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 5,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "5c4999da6e7eaf1a7ced7d8d4cdfb761",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1603641600,
+      "sequence": 10,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "6d1c9a7fbb2475ccfad768b3dcccf455",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 1,
+      "start_time": 1571274600,
+      "end_time": 1603641600,
+      "sequence": 9,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "b6de49cced3344b07c3e2973e76f33bb",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 2,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "bcb5ff957cde487179e0eb58869248c0",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 6,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "ca27bf479e4644c6757bc8ff0b49248d",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 7,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "e688156ead51c8eeb124532e9a4d4f61",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 4,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "f51251389e1adfdc680cefe7c023262e",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1603641600,
+      "sequence": 11,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "fba2d9da1bf4c9e1ca00e8b51fac80a6",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "需求评审会议",
+      "description": "2.0版本需求初步评审",
+      "reminders": {
+        "is_remind": 1,
+        "is_repeat": 1,
+        "remind_before_event_secs": 3600,
+        "repeat_type": 7,
+        "repeat_until": 1606976813,
+        "is_custom_repeat": 1,
+        "repeat_interval": 1,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          -3600
+        ],
+        "exclude_time_list": []
+      },
+      "location": "广州国际媒体港10楼1005会议室",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1571274600,
+      "end_time": 1571320210,
+      "sequence": 0,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "fee96caf54832d499d41386442093c55",
+      "attendees": [
+        {
+          "userid": "sign2",
+          "response_status": 0
+        }
+      ],
+      "summary": "修改我的日程一",
+      "description": "测试修改日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "北京市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1635091200,
+      "end_time": 1635177600,
+      "sequence": 14,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    },
+    {
+      "schedule_id": "ffcce16110755dcd563eb0efb55db018",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "创建我的日程一",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1635091200,
+      "end_time": 1635177600,
+      "sequence": 13,
+      "cal_id": "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg"
+    }
+  ]
+}
+2021-10-25-22:49|INFO  |test_schedule.py:44 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取日历下的日程列表测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-22:49|INFO  |test_schedule.py:42 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取日历下的日程列表>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-22:49|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-25-22:49|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id": "wcj9N2BwAAYiP4TtU2kf_KwNr-qg1ZWw",
+    "limit": 500,
+    "offset": 0
+  },
+  "method": "post",
+  "params": "access_token=s4VtV0gTBMQv_v0R3yMGujZO3lvrojsjEkddu2xFNIZyq1D6cEZCVa1V5HAX_Eojl6XXhi8NLYSJvZfNtvJ4D7iIEGaGrW7PpwLwsXivJDxug6Zllsn_sMycMpGEOx2XJW7Bj4_xR6UyVS0QRQX4K_oI7Eg9meBMAeh_TeBKCMnrzPme9VYJYXc6sTu2WfoVelDxSbrSYZeFP9ZfrH_aRQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/get_by_calendar"
+}
+2021-10-25-22:49|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "schedule_list": []
+}
+2021-10-25-22:49|INFO  |test_schedule.py:44 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取日历下的日程列表测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-22:49|INFO  |test_schedule.py:42 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取日历下的日程列表>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-22:49|INFO  |mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-25-22:49|INFO  |schedule.py:51 |报错信息是:list index out of range
+2021-10-25-22:49|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id": [
+      "wcj9N2BwAAAfSXhV-QCqbmz_CLV-Kihg",
+      "wcj9N2BwAAYiP4TtU2kf_KwNr-qg1ZWw"
+    ],
+    "limit": 500,
+    "offset": 0
+  },
+  "method": "post",
+  "params": "access_token=s4VtV0gTBMQv_v0R3yMGujZO3lvrojsjEkddu2xFNIZyq1D6cEZCVa1V5HAX_Eojl6XXhi8NLYSJvZfNtvJ4D7iIEGaGrW7PpwLwsXivJDxug6Zllsn_sMycMpGEOx2XJW7Bj4_xR6UyVS0QRQX4K_oI7Eg9meBMAeh_TeBKCMnrzPme9VYJYXc6sTu2WfoVelDxSbrSYZeFP9ZfrH_aRQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/get_by_calendar"
+}
+2021-10-25-22:49|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "Warning: wrong json formatcal_id missing. Invalid input invalid Request Parameter, hint: [1635173370_170_111e7a3f27ddccae13a11c14a86ddce6], from ip: , more info at https://open.work.weixin.qq.com/devtool/query?e=40058",
+  "schedule_list": []
+}
+2021-10-25-22:49|INFO  |test_schedule.py:44 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取日历下的日程列表测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-22:49|INFO  |test_schedule.py:55 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试修改日程>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-25-22:49|INFO  |mysql.py:42 |select语句是SELECT schedule_id FROM schedule_1;
+2021-10-25-22:49|INFO  |base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "schedule": {
+      "attendees": [
+        {
+          "userid": "sign2"
+        }
+      ],
+      "description": "测试修改日程",
+      "end_time": 1635177600,
+      "location": "北京市",
+      "organizer": "cwz",
+      "schedule_id": "fee96caf54832d499d41386442093c55",
+      "start_time": 1635091200,
+      "summary": "修改我的日程一"
+    }
+  },
+  "method": "post",
+  "params": "access_token=s4VtV0gTBMQv_v0R3yMGujZO3lvrojsjEkddu2xFNIZyq1D6cEZCVa1V5HAX_Eojl6XXhi8NLYSJvZfNtvJ4D7iIEGaGrW7PpwLwsXivJDxug6Zllsn_sMycMpGEOx2XJW7Bj4_xR6UyVS0QRQX4K_oI7Eg9meBMAeh_TeBKCMnrzPme9VYJYXc6sTu2WfoVelDxSbrSYZeFP9ZfrH_aRQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/update"
+}
+2021-10-25-22:49|INFO  |base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-25-22:49|INFO  |mysql.py:61 |update语句是UPDATE schedule_1 SET start_time = '1635091200', end_time = '1635177600', summary = '修改我的日程一', description = '测试修改日程',location = '北京市' WHERE schedule_id = 'fee96caf54832d499d41386442093c55';
+2021-10-25-22:49|INFO  |test_schedule.py:58 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改日程测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

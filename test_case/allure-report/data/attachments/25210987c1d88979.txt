@@ -1,0 +1,13 @@
+2021-10-27-23:06|[32mINFO  [0m|test_department.py:66 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试删除部门>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "method": "get",
+  "params": "access_token=IK5ErRA6zTLgwTudN6GtX3c1YOyfisrzJBQIvMtAfdxMy1iLjovQF2oXxgn_LEdtSUe-9OHcsCBr4meH0DlFldAP_nQ83Hg2LD0WuKSmY63oCyj1p149MBEr6G0tYlbX81vubGFr_ivjS8xuau3Ulj7txdsNZltepUVaBXjsgHJcHtg3mzl7MHlxVLIivZYpD5fgTIg4fi0W971Q8QnVyw&id=",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/delete"
+}
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40058,
+  "errmsg": "invalid Request Parameter, hint: [1635347166_161_0016f71ab11524852a3c040e7941bf5b], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40058"
+}
+2021-10-27-23:06|[32mINFO  [0m|test_department.py:68 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<删除部门测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

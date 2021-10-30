@@ -1,0 +1,94 @@
+2021-10-20-00:21|[32mINFO  [0m|conftest.py:54 |************************开始获取成员的前置条件*****************************************
+2021-10-20-00:21|[32mINFO  [0m|base_api.py:135|**********请求修改后的数据是：
+{
+  "json": {
+    "tagid": 1,
+    "tagname": "add1"
+  },
+  "method": "post",
+  "params": "access_token=NrfaIrMmJ7mVMmX5xBdOeZmXCMDXlW8bYXixkQRqYNfskfsoVXcfkUCFHa_UT9I2Ei4WGkIlq_0VPtyQzA7KRCbwDh53bJpgIV9DQYvL2uF9dl6NRDAu6HikQzAjEzBuqtkwq5uZBkEMePyBJ4nflO7jX8CXUL-h2nyO1eauP3b3odyX6zS9Ip-O4gxhtRllVZbrEK-xcjJjwaRxqMZ18A",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/create"
+}
+2021-10-20-00:21|[32mINFO  [0m|base_api.py:137|**********返回的数据为：
+{
+  "errcode": 0,
+  "errmsg": "created",
+  "tagid": 1
+}
+2021-10-20-00:21|[32mINFO  [0m|base_api.py:135|**********请求修改后的数据是：
+{
+  "json": {
+    "tagid": 2,
+    "tagname": "add2"
+  },
+  "method": "post",
+  "params": "access_token=NrfaIrMmJ7mVMmX5xBdOeZmXCMDXlW8bYXixkQRqYNfskfsoVXcfkUCFHa_UT9I2Ei4WGkIlq_0VPtyQzA7KRCbwDh53bJpgIV9DQYvL2uF9dl6NRDAu6HikQzAjEzBuqtkwq5uZBkEMePyBJ4nflO7jX8CXUL-h2nyO1eauP3b3odyX6zS9Ip-O4gxhtRllVZbrEK-xcjJjwaRxqMZ18A",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/create"
+}
+2021-10-20-00:21|[32mINFO  [0m|base_api.py:137|**********返回的数据为：
+{
+  "errcode": 0,
+  "errmsg": "created",
+  "tagid": 2
+}
+2021-10-20-00:21|[32mINFO  [0m|base_api.py:135|**********请求修改后的数据是：
+{
+  "json": {
+    "tagid": 3,
+    "tagname": "add3"
+  },
+  "method": "post",
+  "params": "access_token=NrfaIrMmJ7mVMmX5xBdOeZmXCMDXlW8bYXixkQRqYNfskfsoVXcfkUCFHa_UT9I2Ei4WGkIlq_0VPtyQzA7KRCbwDh53bJpgIV9DQYvL2uF9dl6NRDAu6HikQzAjEzBuqtkwq5uZBkEMePyBJ4nflO7jX8CXUL-h2nyO1eauP3b3odyX6zS9Ip-O4gxhtRllVZbrEK-xcjJjwaRxqMZ18A",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/create"
+}
+2021-10-20-00:21|[32mINFO  [0m|base_api.py:137|**********返回的数据为：
+{
+  "errcode": 0,
+  "errmsg": "created",
+  "tagid": 3
+}
+2021-10-20-00:21|[32mINFO  [0m|test_tag.py:78 |======开始测试获取所有标签======
+2021-10-20-00:21|[32mINFO  [0m|base_api.py:135|**********请求修改后的数据是：
+{
+  "method": "get",
+  "params": "access_token=NrfaIrMmJ7mVMmX5xBdOeZmXCMDXlW8bYXixkQRqYNfskfsoVXcfkUCFHa_UT9I2Ei4WGkIlq_0VPtyQzA7KRCbwDh53bJpgIV9DQYvL2uF9dl6NRDAu6HikQzAjEzBuqtkwq5uZBkEMePyBJ4nflO7jX8CXUL-h2nyO1eauP3b3odyX6zS9Ip-O4gxhtRllVZbrEK-xcjJjwaRxqMZ18A",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/list"
+}
+2021-10-20-00:21|[32mINFO  [0m|base_api.py:137|**********返回的数据为：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "taglist": [
+    {
+      "tagid": 1,
+      "tagname": "add1"
+    },
+    {
+      "tagid": 2,
+      "tagname": "add2"
+    },
+    {
+      "tagid": 3,
+      "tagname": "add3"
+    }
+  ]
+}
+2021-10-20-00:21|[32mINFO  [0m|test_tag.py:80 |打印的相应结果是：{
+  "errcode": 0,
+  "errmsg": "ok",
+  "taglist": [
+    {
+      "tagid": 1,
+      "tagname": "add1"
+    },
+    {
+      "tagid": 2,
+      "tagname": "add2"
+    },
+    {
+      "tagid": 3,
+      "tagname": "add3"
+    }
+  ]
+}
+2021-10-20-00:21|[32mINFO  [0m|test_tag.py:81 |======获取所有标签测试结束======

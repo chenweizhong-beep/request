@@ -1,0 +1,124 @@
+{
+  "uid" : "35b3ede5818494b4",
+  "name" : "test_create_meeting_room[案例3：会议室名称超长，创建会议室失败]",
+  "fullName" : "meeing_room.meeting_room.test_meeting_room.TestMeetingRoom#test_create_meeting_room",
+  "historyId" : "c95fe4e2ef0704f4436c2db9a6aac882",
+  "time" : {
+    "start" : 1635347209459,
+    "stop" : 1635347209741,
+    "duration" : 282
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "token",
+    "time" : {
+      "start" : 1635347208224,
+      "stop" : 1635347208500,
+      "duration" : 276
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4961e40e3433028d",
+      "name" : "log",
+      "source" : "4961e40e3433028d.txt",
+      "type" : "text/plain",
+      "size" : 1780
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "创建会议室接口"
+  }, {
+    "name" : "feature",
+    "value" : "会议室增删改查等接口"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "meeing_room.meeting_room"
+  }, {
+    "name" : "suite",
+    "value" : "test_meeting_room"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMeetingRoom"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EOQ4GM0"
+  }, {
+    "name" : "thread",
+    "value" : "10132-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "meeing_room.meeting_room.test_meeting_room"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "building",
+    "value" : "'陈氏集团1号楼'"
+  }, {
+    "name" : "capacity",
+    "value" : "''"
+  }, {
+    "name" : "city",
+    "value" : "'北京'"
+  }, {
+    "name" : "equipment",
+    "value" : "[1, 2, 3, 4, 5]"
+  }, {
+    "name" : "errcode",
+    "value" : "40058"
+  }, {
+    "name" : "errmsg",
+    "value" : "'name exceed max utf8 words 30'"
+  }, {
+    "name" : "floor",
+    "value" : "'10F'"
+  }, {
+    "name" : "name",
+    "value" : "'会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室'"
+  } ],
+  "links" : [ {
+    "name" : "api地址",
+    "url" : "https://work.weixin.qq.com/api/doc/90000/90135/90195",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "35b3ede5818494b4.json",
+  "parameterValues" : [ "'陈氏集团1号楼'", "''", "'北京'", "[1, 2, 3, 4, 5]", "40058", "'name exceed max utf8 words 30'", "'10F'", "'会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室'" ]
+}

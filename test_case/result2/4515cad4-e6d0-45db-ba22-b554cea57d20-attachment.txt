@@ -1,0 +1,54 @@
+2021-10-28-13:55|[32mINFO  [0m|test_schedule.py:51 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试获取日历下的日程列表>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-28-13:55|[32mINFO  [0m|mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-28-13:55|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "cal_id": "wcj9N2BwAAamuNRjMBabOUxhhPc3K_iQ",
+    "limit": 500,
+    "offset": 0
+  },
+  "method": "post",
+  "params": "access_token=lENR6q0Gmp_6b8dFXyF_l1zAKBV7wW-7t_APvqoE6CcZkiTTa84_aVK3byBri-WL2oGbO38vg1rOUVyq2OY1cZIg6OZAqfdqFvrrSLXUdERIug9vMcHEPOc2RtQ_iRfSugbsKQ2YNwlgRKSchW9tlewGLN3UHU9xY5KqtQGq8fWgYIgTkcvTp2XQnZfvmcpSlE4V_PeGOUwgJPucvfT-nw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/get_by_calendar"
+}
+2021-10-28-13:55|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "schedule_list": [
+    {
+      "schedule_id": "9b4a982a1403dbf643a54221b96970fc",
+      "attendees": [
+        {
+          "userid": "sign1",
+          "response_status": 0
+        }
+      ],
+      "summary": "创建我的日程一",
+      "description": "测试创建日程",
+      "reminders": {
+        "is_remind": 0,
+        "is_repeat": 0,
+        "remind_before_event_secs": 0,
+        "repeat_type": 0,
+        "is_custom_repeat": 0,
+        "repeat_interval": 0,
+        "repeat_day_of_week": [],
+        "repeat_day_of_month": [],
+        "timezone": 8,
+        "remind_time_diffs": [
+          0
+        ],
+        "exclude_time_list": []
+      },
+      "location": "四川省成都市",
+      "organizer": "cwz",
+      "status": 0,
+      "start_time": 1635091200,
+      "end_time": 1635177600,
+      "sequence": 0,
+      "cal_id": "wcj9N2BwAAamuNRjMBabOUxhhPc3K_iQ"
+    }
+  ]
+}
+2021-10-28-13:55|[32mINFO  [0m|test_schedule.py:53 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<获取日历下的日程列表测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

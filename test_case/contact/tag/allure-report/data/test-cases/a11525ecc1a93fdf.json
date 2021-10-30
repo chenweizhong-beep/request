@@ -1,0 +1,126 @@
+{
+  "uid" : "a11525ecc1a93fdf",
+  "name" : "test_create_tag_member[tagid存在，userlist为空，user添加标签失败]",
+  "fullName" : "contact.tag.test_tag.TestTag#test_create_tag_member",
+  "historyId" : "8aea53ffc6426d75b76e6ed962a7a8e2",
+  "time" : {
+    "start" : 1634660511944,
+    "stop" : 1634660512216,
+    "duration" : 272
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "token",
+    "time" : {
+      "start" : 1634660490591,
+      "stop" : 1634660491030,
+      "duration" : 439
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "create_tag_member",
+    "time" : {
+      "start" : 1634660506867,
+      "stop" : 1634660509829,
+      "duration" : 2962
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "96311d0e7ad77d7d",
+      "name" : "log",
+      "source" : "96311d0e7ad77d7d.txt",
+      "type" : "text/plain",
+      "size" : 1004
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "增加标签成员接口"
+  }, {
+    "name" : "feature",
+    "value" : "标签增删改查等接口"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "contact.tag"
+  }, {
+    "name" : "suite",
+    "value" : "test_tag"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTag"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EOQ4GM0"
+  }, {
+    "name" : "thread",
+    "value" : "1768-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "contact.tag.test_tag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "errcode",
+    "value" : "40035"
+  }, {
+    "name" : "errmsg",
+    "value" : "'invalid args size'"
+  }, {
+    "name" : "partylist",
+    "value" : "''"
+  }, {
+    "name" : "tagid",
+    "value" : "1"
+  }, {
+    "name" : "userlist",
+    "value" : "[]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a11525ecc1a93fdf.json",
+  "parameterValues" : [ "40035", "'invalid args size'", "''", "1", "[]" ]
+}

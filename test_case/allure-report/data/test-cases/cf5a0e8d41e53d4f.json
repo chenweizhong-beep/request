@@ -1,0 +1,124 @@
+{
+  "uid" : "cf5a0e8d41e53d4f",
+  "name" : "test_batch_delete_member[userid_list有一个不存在，其他存在，断言失败]",
+  "fullName" : "contact.member.test_member.TestMember#test_batch_delete_member",
+  "historyId" : "4170f1bea9e400dba1d53eb43d0a2285",
+  "time" : {
+    "start" : 1635347181940,
+    "stop" : 1635347182220,
+    "duration" : 280
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "batch_delete",
+    "time" : {
+      "start" : 1635347178589,
+      "stop" : 1635347180492,
+      "duration" : 1903
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "token",
+    "time" : {
+      "start" : 1635347159999,
+      "stop" : 1635347160322,
+      "duration" : 323
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "97ff6eff3bae220b",
+      "name" : "log",
+      "source" : "97ff6eff3bae220b.txt",
+      "type" : "text/plain",
+      "size" : 1264
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "批量山删除联系人接口"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "通讯录人员的增删改查等接口测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "contact.member"
+  }, {
+    "name" : "suite",
+    "value" : "test_member"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMember"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EOQ4GM0"
+  }, {
+    "name" : "thread",
+    "value" : "10132-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "contact.member.test_member"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "errcode",
+    "value" : "40031"
+  }, {
+    "name" : "errmsg",
+    "value" : "'invalid userid list'"
+  }, {
+    "name" : "useridlist",
+    "value" : "['delete3', 'delet1']"
+  } ],
+  "links" : [ {
+    "name" : "api地址",
+    "url" : "https://work.weixin.qq.com/api/doc/90000/90135/90195",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cf5a0e8d41e53d4f.json",
+  "parameterValues" : [ "40031", "'invalid userid list'", "['delete3', 'delet1']" ]
+}

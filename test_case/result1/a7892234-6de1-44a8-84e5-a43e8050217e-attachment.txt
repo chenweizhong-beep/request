@@ -1,0 +1,21 @@
+2021-10-27-23:06|[32mINFO  [0m|test_tag.py:89 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试增加标签成员>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "partylist": null,
+    "tagid": 1,
+    "userlist": [
+      "signggg"
+    ]
+  },
+  "method": "post",
+  "params": "access_token=IK5ErRA6zTLgwTudN6GtX3c1YOyfisrzJBQIvMtAfdxMy1iLjovQF2oXxgn_LEdtSUe-9OHcsCBr4meH0DlFldAP_nQ83Hg2LD0WuKSmY63oCyj1p149MBEr6G0tYlbX81vubGFr_ivjS8xuau3Ulj7txdsNZltepUVaBXjsgHJcHtg3mzl7MHlxVLIivZYpD5fgTIg4fi0W971Q8QnVyw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/addtagusers"
+}
+2021-10-27-23:06|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 40070,
+  "errmsg": " list all invalid, hint: [1635347201_161_6fe38e944ade79df3d50d255f61f09e7], from ip: 222.212.128.56, more info at https://open.work.weixin.qq.com/devtool/query?e=40070",
+  "invalidparty": []
+}
+2021-10-27-23:06|[32mINFO  [0m|test_tag.py:91 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<增加标签成员测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

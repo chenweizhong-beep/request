@@ -1,0 +1,91 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 0 == 40058\n  +0\n  -40058",
+      "children" : [ {
+        "name" : "test_create_meeting_room[案例1：会议室所有要素正确，创建会议室成功]",
+        "uid" : "9dff9bcbe7abbf57",
+        "parentUid" : "b4a0d2dd0b278ce78ae3f2aa49370d62",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635347208506,
+          "stop" : 1635347208850,
+          "duration" : 344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'陈氏集团1号楼'", "10", "'北京'", "[1, 2, 3, 4, 5]", "0", "'ok'", "'10F'", "'会议室1'" ]
+      }, {
+        "name" : "test_create_meeting_room[案例8：会议室支持地设备列表为空，创建会议室成功]",
+        "uid" : "c96e5384640e2810",
+        "parentUid" : "b4a0d2dd0b278ce78ae3f2aa49370d62",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635347210927,
+          "stop" : 1635347211232,
+          "duration" : 305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'陈氏集团1号楼'", "10", "'北京'", "[]", "0", "'ok'", "'10F'", "'会议室6'" ]
+      }, {
+        "name" : "test_update_meeting_room[案例1：会议室id输入正确，修改会议室信息成功]",
+        "uid" : "8e7f35bbad638d03",
+        "parentUid" : "b4a0d2dd0b278ce78ae3f2aa49370d62",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635347214269,
+          "stop" : 1635347214558,
+          "duration" : 289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "''", "''", "[]", "0", "'ok'", "''", "6", "''" ]
+      }, {
+        "name" : "test_update_meeting_room[案例2：会议室id，会议室名称，所在城市，所在楼宇，所在楼层，支持设备列表输入正确，会议室 信息修改成功]",
+        "uid" : "dca5519fefdacdee",
+        "parentUid" : "b4a0d2dd0b278ce78ae3f2aa49370d62",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635347214602,
+          "stop" : 1635347214856,
+          "duration" : 254
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'陈氏集团总部2号楼'", "'11'", "'成都1'", "[1, 2, 3]", "0", "'ok'", "'21F'", "8", "'修改会议室'" ]
+      }, {
+        "name" : "test_update_meeting_room[案例8：会议室id输入正确，只输入设备列表，修改会议室信息成功]",
+        "uid" : "c770afb528e2ed45",
+        "parentUid" : "b4a0d2dd0b278ce78ae3f2aa49370d62",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635347216345,
+          "stop" : 1635347216590,
+          "duration" : 245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "''", "''", "[1, 2, 3, 4]", "0", "'ok'", "''", "6", "''" ]
+      }, {
+        "name" : "test_delete_meeting_room[案例1：会议室id输入正确，删除会议室成功]",
+        "uid" : "de559d512f33bb2",
+        "parentUid" : "b4a0d2dd0b278ce78ae3f2aa49370d62",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635347216629,
+          "stop" : 1635347216921,
+          "duration" : 292
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'ok'", "6" ]
+      } ],
+      "uid" : "b4a0d2dd0b278ce78ae3f2aa49370d62"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

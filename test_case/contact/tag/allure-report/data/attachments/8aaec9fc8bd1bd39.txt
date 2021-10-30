@@ -1,0 +1,90 @@
+2021-10-20-00:21|[32mINFO  [0m|conftest.py:82 |************************开始获取标签成员的前置条件*****************************************
+2021-10-20-00:21|[32mINFO  [0m|base_api.py:135|**********请求修改后的数据是：
+{
+  "json": {
+    "tagid": 2,
+    "tagname": "partydepart1"
+  },
+  "method": "post",
+  "params": "access_token=NrfaIrMmJ7mVMmX5xBdOeZmXCMDXlW8bYXixkQRqYNfskfsoVXcfkUCFHa_UT9I2Ei4WGkIlq_0VPtyQzA7KRCbwDh53bJpgIV9DQYvL2uF9dl6NRDAu6HikQzAjEzBuqtkwq5uZBkEMePyBJ4nflO7jX8CXUL-h2nyO1eauP3b3odyX6zS9Ip-O4gxhtRllVZbrEK-xcjJjwaRxqMZ18A",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/create"
+}
+2021-10-20-00:21|[32mINFO  [0m|base_api.py:137|**********返回的数据为：
+{
+  "errcode": 40068,
+  "errmsg": "invalid tagid, hint: [1634660518_161_c5d71d32956f01dff0a3f0e6b158269c], from ip: 222.212.179.224, more info at https://open.work.weixin.qq.com/devtool/query?e=40068"
+}
+2021-10-20-00:21|[32mINFO  [0m|base_api.py:135|**********请求修改后的数据是：
+{
+  "json": {
+    "partylist": [],
+    "tagid": 1,
+    "userlist": [
+      "sign1",
+      "sign2",
+      "sign3",
+      "sign4"
+    ]
+  },
+  "method": "post",
+  "params": "access_token=NrfaIrMmJ7mVMmX5xBdOeZmXCMDXlW8bYXixkQRqYNfskfsoVXcfkUCFHa_UT9I2Ei4WGkIlq_0VPtyQzA7KRCbwDh53bJpgIV9DQYvL2uF9dl6NRDAu6HikQzAjEzBuqtkwq5uZBkEMePyBJ4nflO7jX8CXUL-h2nyO1eauP3b3odyX6zS9Ip-O4gxhtRllVZbrEK-xcjJjwaRxqMZ18A",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/addtagusers"
+}
+2021-10-20-00:21|[32mINFO  [0m|base_api.py:137|**********返回的数据为：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "invalidparty": []
+}
+2021-10-20-00:21|[32mINFO  [0m|base_api.py:135|**********请求修改后的数据是：
+{
+  "json": {
+    "partylist": [
+      4
+    ],
+    "tagid": 2,
+    "userlist": []
+  },
+  "method": "post",
+  "params": "access_token=NrfaIrMmJ7mVMmX5xBdOeZmXCMDXlW8bYXixkQRqYNfskfsoVXcfkUCFHa_UT9I2Ei4WGkIlq_0VPtyQzA7KRCbwDh53bJpgIV9DQYvL2uF9dl6NRDAu6HikQzAjEzBuqtkwq5uZBkEMePyBJ4nflO7jX8CXUL-h2nyO1eauP3b3odyX6zS9Ip-O4gxhtRllVZbrEK-xcjJjwaRxqMZ18A",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/addtagusers"
+}
+2021-10-20-00:21|[32mINFO  [0m|base_api.py:137|**********返回的数据为：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "invalidparty": []
+}
+2021-10-20-00:21|[32mINFO  [0m|test_tag.py:112|==========开始测试获取标签成员==========
+2021-10-20-00:21|[32mINFO  [0m|base_api.py:135|**********请求修改后的数据是：
+{
+  "method": "get",
+  "params": "access_token=NrfaIrMmJ7mVMmX5xBdOeZmXCMDXlW8bYXixkQRqYNfskfsoVXcfkUCFHa_UT9I2Ei4WGkIlq_0VPtyQzA7KRCbwDh53bJpgIV9DQYvL2uF9dl6NRDAu6HikQzAjEzBuqtkwq5uZBkEMePyBJ4nflO7jX8CXUL-h2nyO1eauP3b3odyX6zS9Ip-O4gxhtRllVZbrEK-xcjJjwaRxqMZ18A&tagid=1",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/get"
+}
+2021-10-20-00:21|[32mINFO  [0m|base_api.py:137|**********返回的数据为：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "userlist": [
+    {
+      "userid": "sign1",
+      "name": "sign1"
+    },
+    {
+      "userid": "sign3",
+      "name": "sign3"
+    },
+    {
+      "userid": "sign4",
+      "name": "sign4"
+    },
+    {
+      "userid": "sign2",
+      "name": "sign2"
+    }
+  ],
+  "partylist": [],
+  "tagname": "add1"
+}
+2021-10-20-00:21|[32mINFO  [0m|test_tag.py:114|==========获取标签成员测试结束==========

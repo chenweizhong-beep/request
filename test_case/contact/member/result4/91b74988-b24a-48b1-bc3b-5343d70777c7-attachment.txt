@@ -1,0 +1,79 @@
+2021-10-17-21:56|[32mINFO  [0m|test_member.py:115|------开始获取详细部门成员信息department_id和fetch_child存在合法，断言成功------
+2021-10-17-21:56|[32mINFO  [0m|base_api.py:125|api变化的模板参数是:{
+  "token": "FTsumt3j6txqKydN103S6fHcMRa4JADvDUohu_kLMIzcLDopz407TMV-D1f9Vj8GPd1NSgneHDGFv_tbyxxKusx6qmYWXogj2iseIpbpq7ukAMNCqnUjFhROLqMnRmDQBUwCzlam62jzXrWnMQG-I_aWRFCOy79g_Smh1ZTgTlXpV7HGYMvP2SzDoHepdMTb1pygm58991iWJdFT007M3w",
+  "department_id": 1,
+  "fetch_child": 3
+}
+2021-10-17-21:56|[32mINFO  [0m|base_api.py:135|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=FTsumt3j6txqKydN103S6fHcMRa4JADvDUohu_kLMIzcLDopz407TMV-D1f9Vj8GPd1NSgneHDGFv_tbyxxKusx6qmYWXogj2iseIpbpq7ukAMNCqnUjFhROLqMnRmDQBUwCzlam62jzXrWnMQG-I_aWRFCOy79g_Smh1ZTgTlXpV7HGYMvP2SzDoHepdMTb1pygm58991iWJdFT007M3w&department_id=1&fetch_child=3",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist"
+}
+2021-10-17-21:56|[32mINFO  [0m|base_api.py:137|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "ok",
+  "userlist": [
+    {
+      "userid": "ChenWeiZhong",
+      "name": "陈魏钟",
+      "department": [
+        1
+      ]
+    },
+    {
+      "userid": "delete3",
+      "name": "delete3",
+      "department": [
+        1,
+        3
+      ]
+    },
+    {
+      "userid": "111",
+      "name": "test02",
+      "department": [
+        1
+      ]
+    },
+    {
+      "userid": "1842375247",
+      "name": "cwz",
+      "department": [
+        2
+      ]
+    },
+    {
+      "userid": "wufang",
+      "name": "吴芳",
+      "department": [
+        4
+      ]
+    },
+    {
+      "userid": "tong",
+      "name": "aaa",
+      "department": [
+        3,
+        1
+      ]
+    },
+    {
+      "userid": "tong5",
+      "name": "aaa",
+      "department": [
+        3,
+        1
+      ]
+    },
+    {
+      "userid": "edit",
+      "name": "edit",
+      "department": [
+        1,
+        3
+      ]
+    }
+  ]
+}
+2021-10-17-21:56|[32mINFO  [0m|test_member.py:117|------打印的相应结果：{'errcode': 0, 'errmsg': 'ok', 'userlist': [{'userid': 'ChenWeiZhong', 'name': '陈魏钟', 'department': [1]}, {'userid': 'delete3', 'name': 'delete3', 'department': [1, 3]}, {'userid': '111', 'name': 'test02', 'department': [1]}, {'userid': '1842375247', 'name': 'cwz', 'department': [2]}, {'userid': 'wufang', 'name': '吴芳', 'department': [4]}, {'userid': 'tong', 'name': 'aaa', 'department': [3, 1]}, {'userid': 'tong5', 'name': 'aaa', 'department': [3, 1]}, {'userid': 'edit', 'name': 'edit', 'department': [1, 3]}]}------
+2021-10-17-21:56|[32mINFO  [0m|test_member.py:118|------获取部门成员详细信息测试结束------

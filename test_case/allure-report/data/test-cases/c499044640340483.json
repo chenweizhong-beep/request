@@ -1,0 +1,130 @@
+{
+  "uid" : "c499044640340483",
+  "name" : "test_create_calender[所有信息输入正确，日历创建成功]",
+  "fullName" : "calender.calender_1.test_calender.TestCalender#test_create_calender",
+  "historyId" : "4dfd5eded8017810dd2b806e7cf29ce7",
+  "time" : {
+    "start" : 1635347152542,
+    "stop" : 1635347153032,
+    "duration" : 490
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "token",
+    "time" : {
+      "start" : 1635347152181,
+      "stop" : 1635347152536,
+      "duration" : 355
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c80d47fe72c40288",
+      "name" : "log",
+      "source" : "c80d47fe72c40288.txt",
+      "type" : "text/plain",
+      "size" : 1800
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "日历增删改查等接口测试"
+  }, {
+    "name" : "story",
+    "value" : "创建日历接口"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "calender.calender_1"
+  }, {
+    "name" : "suite",
+    "value" : "test_calender"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalender"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EOQ4GM0"
+  }, {
+    "name" : "thread",
+    "value" : "10132-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "calender.calender_1.test_calender"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "color",
+    "value" : "'FF3030'"
+  }, {
+    "name" : "description",
+    "value" : "'测试数据1'"
+  }, {
+    "name" : "errcode",
+    "value" : "0"
+  }, {
+    "name" : "errmsg",
+    "value" : "'ok'"
+  }, {
+    "name" : "organizer",
+    "value" : "'cwz'"
+  }, {
+    "name" : "readonly",
+    "value" : "1"
+  }, {
+    "name" : "set_as_default",
+    "value" : "1"
+  }, {
+    "name" : "summary",
+    "value" : "'创建日历1成功'"
+  }, {
+    "name" : "userid",
+    "value" : "'wufang'"
+  }, {
+    "name" : "userid1",
+    "value" : "'sign4'"
+  } ],
+  "links" : [ {
+    "name" : "api地址",
+    "url" : "https://work.weixin.qq.com/api/doc/90000/90135/90195",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c499044640340483.json",
+  "parameterValues" : [ "'FF3030'", "'测试数据1'", "0", "'ok'", "'cwz'", "1", "1", "'创建日历1成功'", "'wufang'", "'sign4'" ]
+}

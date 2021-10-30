@@ -1,0 +1,124 @@
+{
+  "uid" : "6163ed52b99c5883",
+  "name" : "test_update_calender[案例3：cal_is输入为空，修改日历失败]",
+  "fullName" : "calender.calender_1.test_calender.TestCalender#test_update_calender",
+  "historyId" : "94942ee2ba0ae439a0e85a9fa8f6c80b",
+  "time" : {
+    "start" : 1635347154910,
+    "stop" : 1635347155296,
+    "duration" : 386
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "token",
+    "time" : {
+      "start" : 1635347152181,
+      "stop" : 1635347152536,
+      "duration" : 355
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "69c4e7bc77a15136",
+      "name" : "log",
+      "source" : "69c4e7bc77a15136.txt",
+      "type" : "text/plain",
+      "size" : 2601
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "修改日历接口"
+  }, {
+    "name" : "feature",
+    "value" : "日历增删改查等接口测试"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "calender.calender_1"
+  }, {
+    "name" : "suite",
+    "value" : "test_calender"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalender"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EOQ4GM0"
+  }, {
+    "name" : "thread",
+    "value" : "10132-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "calender.calender_1.test_calender"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "color",
+    "value" : "'1000FF'"
+  }, {
+    "name" : "description",
+    "value" : "'update日历1'"
+  }, {
+    "name" : "errcode",
+    "value" : "40058"
+  }, {
+    "name" : "errmsg",
+    "value" : "'invalid characters'"
+  }, {
+    "name" : "index",
+    "value" : "None"
+  }, {
+    "name" : "readonly",
+    "value" : "0"
+  }, {
+    "name" : "summary",
+    "value" : "'测试修改日历一'"
+  }, {
+    "name" : "userid",
+    "value" : "'sign1'"
+  } ],
+  "links" : [ {
+    "name" : "api地址",
+    "url" : "https://work.weixin.qq.com/api/doc/90000/90135/90195",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6163ed52b99c5883.json",
+  "parameterValues" : [ "'1000FF'", "'update日历1'", "40058", "'invalid characters'", "None", "0", "'测试修改日历一'", "'sign1'" ]
+}

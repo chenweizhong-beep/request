@@ -1,0 +1,27 @@
+2021-10-28-13:55|[32mINFO  [0m|test_calender.py:60 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试修改日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-28-13:55|[32mINFO  [0m|mysql.py:42 |select语句是SELECT cal_id FROM calender;
+2021-10-28-13:55|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "calendar": {
+      "cal_id": "wcj9N2BwAAoWh7FDv6lwm3-nM2DSMEkg",
+      "color": "1000FF",
+      "description": "update日历1",
+      "readonly": 0,
+      "shares": {
+        "userid": "sign1"
+      },
+      "summary": "测试修改日历一"
+    }
+  },
+  "method": "post",
+  "params": "access_token=lENR6q0Gmp_6b8dFXyF_l1zAKBV7wW-7t_APvqoE6CcZkiTTa84_aVK3byBri-WL2oGbO38vg1rOUVyq2OY1cZIg6OZAqfdqFvrrSLXUdERIug9vMcHEPOc2RtQ_iRfSugbsKQ2YNwlgRKSchW9tlewGLN3UHU9xY5KqtQGq8fWgYIgTkcvTp2XQnZfvmcpSlE4V_PeGOUwgJPucvfT-nw",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/update"
+}
+2021-10-28-13:55|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok. Warning: wrong json format. "
+}
+2021-10-28-13:55|[32mINFO  [0m|mysql.py:81 |insert语句为UPDATE calender SET readonly = 0, summary = '测试修改日历一', color = '1000FF', description = 'update日历1' WHERE cal_id = 'wcj9N2BwAAoWh7FDv6lwm3-nM2DSMEkg';
+2021-10-28-13:55|[32mINFO  [0m|test_calender.py:62 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<修改日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

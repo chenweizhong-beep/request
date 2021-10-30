@@ -1,0 +1,124 @@
+{
+  "uid" : "9d0b3c2a0471c42a",
+  "name" : "test_create_meeting_room[案例6：会议室所在楼宇输入为空，创建会议室失败]",
+  "fullName" : "meeing_room.meeting_room.test_meeting_room.TestMeetingRoom#test_create_meeting_room",
+  "historyId" : "04e7bdd3e8076c8cc151e12c58b6d6d8",
+  "time" : {
+    "start" : 1635347210377,
+    "stop" : 1635347210616,
+    "duration" : 239
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "token",
+    "time" : {
+      "start" : 1635347208224,
+      "stop" : 1635347208500,
+      "duration" : 276
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1b2579c38c5e053e",
+      "name" : "log",
+      "source" : "1b2579c38c5e053e.txt",
+      "type" : "text/plain",
+      "size" : 1549
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "创建会议室接口"
+  }, {
+    "name" : "feature",
+    "value" : "会议室增删改查等接口"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "meeing_room.meeting_room"
+  }, {
+    "name" : "suite",
+    "value" : "test_meeting_room"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMeetingRoom"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EOQ4GM0"
+  }, {
+    "name" : "thread",
+    "value" : "10132-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "meeing_room.meeting_room.test_meeting_room"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "building",
+    "value" : "''"
+  }, {
+    "name" : "capacity",
+    "value" : "10"
+  }, {
+    "name" : "city",
+    "value" : "'北京'"
+  }, {
+    "name" : "equipment",
+    "value" : "[1, 2, 3, 4, 5]"
+  }, {
+    "name" : "errcode",
+    "value" : "40058"
+  }, {
+    "name" : "errmsg",
+    "value" : "'missing city/building/floor info'"
+  }, {
+    "name" : "floor",
+    "value" : "'10F'"
+  }, {
+    "name" : "name",
+    "value" : "'会议室4'"
+  } ],
+  "links" : [ {
+    "name" : "api地址",
+    "url" : "https://work.weixin.qq.com/api/doc/90000/90135/90195",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9d0b3c2a0471c42a.json",
+  "parameterValues" : [ "''", "10", "'北京'", "[1, 2, 3, 4, 5]", "40058", "'missing city/building/floor info'", "'10F'", "'会议室4'" ]
+}

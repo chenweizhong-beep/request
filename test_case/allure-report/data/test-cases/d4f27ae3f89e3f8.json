@@ -1,0 +1,130 @@
+{
+  "uid" : "d4f27ae3f89e3f8",
+  "name" : "test_delete_tag_member[tagid存在，userlist有一个没有被添加过，有一个被添加过，user标签删除失败]",
+  "fullName" : "contact.tag.test_tag.TestTag#test_delete_tag_member",
+  "historyId" : "befd65676bce2585c3aa72458e73f5ba",
+  "time" : {
+    "start" : 1635347205498,
+    "stop" : 1635347205773,
+    "duration" : 275
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "delete_tag_member",
+    "time" : {
+      "start" : 1635347203479,
+      "stop" : 1635347203799,
+      "duration" : 320
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "token",
+    "time" : {
+      "start" : 1635347159999,
+      "stop" : 1635347160322,
+      "duration" : 323
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "66c67e93c2cfec5b",
+      "name" : "log",
+      "source" : "66c67e93c2cfec5b.txt",
+      "type" : "text/plain",
+      "size" : 1316
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "标签增删改查等接口测试"
+  }, {
+    "name" : "story",
+    "value" : "删除标签成员接口"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "contact.tag"
+  }, {
+    "name" : "suite",
+    "value" : "test_tag"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTag"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EOQ4GM0"
+  }, {
+    "name" : "thread",
+    "value" : "10132-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "contact.tag.test_tag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "errcode",
+    "value" : "0"
+  }, {
+    "name" : "errmsg",
+    "value" : "'deleted'"
+  }, {
+    "name" : "partylist",
+    "value" : "''"
+  }, {
+    "name" : "tagid",
+    "value" : "1"
+  }, {
+    "name" : "userlist",
+    "value" : "['sign3', 'none1']"
+  } ],
+  "links" : [ {
+    "name" : "api地址",
+    "url" : "https://work.weixin.qq.com/api/doc/90000/90135/90195",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d4f27ae3f89e3f8.json",
+  "parameterValues" : [ "0", "'deleted'", "''", "1", "['sign3', 'none1']" ]
+}

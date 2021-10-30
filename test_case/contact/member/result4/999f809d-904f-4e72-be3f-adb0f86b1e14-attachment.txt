@@ -1,0 +1,27 @@
+2021-10-17-21:56|[32mINFO  [0m|test_member.py:58 |------开始测试修改成员userid不存在，断言失败------
+2021-10-17-21:56|[32mINFO  [0m|base_api.py:125|api变化的模板参数是:{
+  "token": "FTsumt3j6txqKydN103S6fHcMRa4JADvDUohu_kLMIzcLDopz407TMV-D1f9Vj8GPd1NSgneHDGFv_tbyxxKusx6qmYWXogj2iseIpbpq7ukAMNCqnUjFhROLqMnRmDQBUwCzlam62jzXrWnMQG-I_aWRFCOy79g_Smh1ZTgTlXpV7HGYMvP2SzDoHepdMTb1pygm58991iWJdFT007M3w",
+  "name": "edit1",
+  "userid": "edit1",
+  "mobile": "15172661165"
+}
+2021-10-17-21:56|[32mINFO  [0m|base_api.py:135|请求修改后的数据是：{
+  "json": {
+    "department": [
+      1,
+      3
+    ],
+    "mobile": 15172661165,
+    "name": "edit1",
+    "userid": "edit1"
+  },
+  "method": "post",
+  "params": "access_token=FTsumt3j6txqKydN103S6fHcMRa4JADvDUohu_kLMIzcLDopz407TMV-D1f9Vj8GPd1NSgneHDGFv_tbyxxKusx6qmYWXogj2iseIpbpq7ukAMNCqnUjFhROLqMnRmDQBUwCzlam62jzXrWnMQG-I_aWRFCOy79g_Smh1ZTgTlXpV7HGYMvP2SzDoHepdMTb1pygm58991iWJdFT007M3w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/update"
+}
+2021-10-17-21:56|[32mINFO  [0m|base_api.py:137|返回的数据为：{
+  "errcode": 60111,
+  "errmsg": "Warning: wrong json format. userid not found, hint: [1634478968_161_0ea251a100b61979608edb1af32927cf], from ip: 222.212.179.224, more info at https://open.work.weixin.qq.com/devtool/query?e=60111"
+}
+2021-10-17-21:56|[32mINFO  [0m|test_member.py:60 |------打印的相应结果：{'errcode': 60111, 'errmsg': 'Warning: wrong json format. userid not found, hint: [1634478968_161_0ea251a100b61979608edb1af32927cf], from ip: 222.212.179.224, more info at https://open.work.weixin.qq.com/devtool/query?e=60111'}------
+2021-10-17-21:56|[32mINFO  [0m|test_member.py:61 |------修改成员测试结束------

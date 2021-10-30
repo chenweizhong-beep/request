@@ -1,0 +1,1955 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "日历增删改查等接口测试",
+    "children" : [ {
+      "name" : "创建日历接口",
+      "children" : [ {
+        "name" : "test_create_calender[所有信息输入正确，日历创建成功]",
+        "uid" : "c499044640340483",
+        "parentUid" : "b68d8503c90cb053d7c73faf8fbeb879",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347152542,
+          "stop" : 1635347153032,
+          "duration" : 490
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'FF3030'", "'测试数据1'", "0", "'ok'", "'cwz'", "1", "1", "'创建日历1成功'", "'wufang'", "'sign4'" ]
+      } ],
+      "uid" : "b68d8503c90cb053d7c73faf8fbeb879"
+    }, {
+      "name" : "查询日历接口",
+      "children" : [ {
+        "name" : "test_get_calender[案例1：查询所有存在的日历，查询成功]",
+        "uid" : "9f4b3f371cd9ebd4",
+        "parentUid" : "c656f7ce26b1750a175d7a69e2f76145",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347153065,
+          "stop" : 1635347153441,
+          "duration" : 376
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'ok'", "None" ]
+      }, {
+        "name" : "test_get_calender[案例2：查询第一个创建的日历，查询成功]",
+        "uid" : "36a67709054468da",
+        "parentUid" : "c656f7ce26b1750a175d7a69e2f76145",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347153479,
+          "stop" : 1635347153811,
+          "duration" : 332
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'ok'", "0" ]
+      }, {
+        "name" : "test_get_calender[案例2：查寻不存在的日历，查询失败]",
+        "uid" : "7b2c29e6ed8df709",
+        "parentUid" : "c656f7ce26b1750a175d7a69e2f76145",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347153822,
+          "stop" : 1635347154067,
+          "duration" : 245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40058", "'cal_id_list count 0'", "8" ]
+      } ],
+      "uid" : "c656f7ce26b1750a175d7a69e2f76145"
+    }, {
+      "name" : "修改日历接口",
+      "children" : [ {
+        "name" : "test_update_calender[案例1：所有项输入正确，修改日历成功]",
+        "uid" : "9b496761e70a5efc",
+        "parentUid" : "35c0035abe7980f8521a94a7a4337db7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347154078,
+          "stop" : 1635347154494,
+          "duration" : 416
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'1000FF'", "'update日历1'", "0", "'ok'", "0", "0", "'测试修改日历一'", "'sign1'" ]
+      }, {
+        "name" : "test_update_calender[案例2：cal_id输入错误，修改日历失败]",
+        "uid" : "a975117f9ec8e4f3",
+        "parentUid" : "35c0035abe7980f8521a94a7a4337db7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347154513,
+          "stop" : 1635347154893,
+          "duration" : 380
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'1000FF'", "'update日历1'", "40058", "'invalid characters'", "5", "0", "'测试修改日历一'", "'sign1'" ]
+      }, {
+        "name" : "test_update_calender[案例3：cal_is输入为空，修改日历失败]",
+        "uid" : "6163ed52b99c5883",
+        "parentUid" : "35c0035abe7980f8521a94a7a4337db7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347154910,
+          "stop" : 1635347155296,
+          "duration" : 386
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'1000FF'", "'update日历1'", "40058", "'invalid characters'", "None", "0", "'测试修改日历一'", "'sign1'" ]
+      } ],
+      "uid" : "35c0035abe7980f8521a94a7a4337db7"
+    }, {
+      "name" : "删除日历接口",
+      "children" : [ {
+        "name" : "test_delete_calender[案例1：cal_id输入正确，删除日历成功]",
+        "uid" : "2868359d523c04ed",
+        "parentUid" : "4418b831975908a659ee2fcb2a989c98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347155313,
+          "stop" : 1635347155818,
+          "duration" : 505
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'ok'", "0" ]
+      }, {
+        "name" : "test_delete_calender[案例2：cal_id输入错误，删除日历失败]",
+        "uid" : "5f81af821d327c66",
+        "parentUid" : "4418b831975908a659ee2fcb2a989c98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347155852,
+          "stop" : 1635347156269,
+          "duration" : 417
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40058", "'formatcal_id missing'", "5" ]
+      }, {
+        "name" : "test_delete_calender[案例3：cal_id输入为空，删除日历失败]",
+        "uid" : "db2938b74f528ebd",
+        "parentUid" : "4418b831975908a659ee2fcb2a989c98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347156280,
+          "stop" : 1635347156683,
+          "duration" : 403
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40058", "'formatcal_id missing'", "None" ]
+      } ],
+      "uid" : "4418b831975908a659ee2fcb2a989c98"
+    } ],
+    "uid" : "8ea50384c2ee7309ed194fe426e81a25"
+  }, {
+    "name" : "日程增删改查等接口测试",
+    "children" : [ {
+      "name" : "创建日程接口",
+      "children" : [ {
+        "name" : "test_create_schedule[案例1：所有信息输入正确，日程建立成功]",
+        "uid" : "808c8b4594888a4a",
+        "parentUid" : "6589cb6efece35a2f0d227085f33da05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347156699,
+          "stop" : 1635347157250,
+          "duration" : 551
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'测试创建日程'", "'2021-10-26 00:00:00'", "0", "'ok'", "'四川省成都市'", "'cwz'", "'2021-10-25 00:00:00'", "'创建我的日程一'", "'sign1'" ]
+      } ],
+      "uid" : "6589cb6efece35a2f0d227085f33da05"
+    }, {
+      "name" : "获取日历下的日程列表接口",
+      "children" : [ {
+        "name" : "test_get_all_schedule[案例1：查询index1日历的所有日程成功]",
+        "uid" : "9e04598b9393f21a",
+        "parentUid" : "b0ee43515c06a6fedeacaf97f3ce23b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347157267,
+          "stop" : 1635347157615,
+          "duration" : 348
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'ok'", "0", "500", "0" ]
+      }, {
+        "name" : "test_get_all_schedule[案例2：查询index2日历的所有日程成功]",
+        "uid" : "4461a32011869313",
+        "parentUid" : "b0ee43515c06a6fedeacaf97f3ce23b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347157646,
+          "stop" : 1635347158031,
+          "duration" : 385
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'ok'", "1", "500", "0" ]
+      }, {
+        "name" : "test_get_all_schedule[案例3：查询错误]",
+        "uid" : "c8fbe6f3ab40eb76",
+        "parentUid" : "b0ee43515c06a6fedeacaf97f3ce23b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347158050,
+          "stop" : 1635347158289,
+          "duration" : 239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40058", "'formatcal_id missing'", "8", "500", "0" ]
+      } ],
+      "uid" : "b0ee43515c06a6fedeacaf97f3ce23b0"
+    }, {
+      "name" : "修改日程接口",
+      "children" : [ {
+        "name" : "test_update_schedule[案例1： 所有信息输入正确，日程信息修改成功]",
+        "uid" : "73b6f9c71827474e",
+        "parentUid" : "82f3ae5c307abdb477977f074597f23f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347158305,
+          "stop" : 1635347158836,
+          "duration" : 531
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'测试修改日程'", "'2021-10-26 00:00:00'", "0", "'ok'", "0", "'北京市'", "'cwz'", "'2021-10-25 00:00:00'", "'修改我的日程一'", "'sign2'" ]
+      } ],
+      "uid" : "82f3ae5c307abdb477977f074597f23f"
+    }, {
+      "name" : "获取日程详细信息接口",
+      "children" : [ {
+        "name" : "test_get_schedule[案例1：查询所有日程详细信息成功]",
+        "uid" : "62d215a028de7c86",
+        "parentUid" : "a0a14f73f31d0624df635798e34bec3b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347158855,
+          "stop" : 1635347159179,
+          "duration" : 324
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'ok'", "None" ]
+      }, {
+        "name" : "test_get_schedule[案例2：查询指定日程详细信息成功]",
+        "uid" : "ee02136b79381281",
+        "parentUid" : "a0a14f73f31d0624df635798e34bec3b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347159195,
+          "stop" : 1635347159518,
+          "duration" : 323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'ok'", "0" ]
+      } ],
+      "uid" : "a0a14f73f31d0624df635798e34bec3b"
+    }, {
+      "name" : "删除日程接口",
+      "children" : [ {
+        "name" : "test_delete_schedule[案例1：信息输入正确，日程信息取消成功]",
+        "uid" : "ef55800e0f4c0b6c",
+        "parentUid" : "769f97ba887e465ec06fb39690fceaf5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347159544,
+          "stop" : 1635347159986,
+          "duration" : 442
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'ok'", "0" ]
+      } ],
+      "uid" : "769f97ba887e465ec06fb39690fceaf5"
+    } ],
+    "uid" : "a93db10b85744ad9c30ddae0aefa2378"
+  }, {
+    "name" : "部门增删改查等接口测试",
+    "children" : [ {
+      "name" : "增加部门接口",
+      "children" : [ {
+        "name" : "test_add_department[parentid存在，name存在不唯一，增加部门成功]",
+        "uid" : "24ff33f01cefed56",
+        "parentUid" : "76546a763491d8cab3d7a2c929bc0ade",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347160326,
+          "stop" : 1635347160765,
+          "duration" : 439
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'created'", "'parentid存在，name存在不唯一，增加部门成功'", "'add'", "1" ]
+      }, {
+        "name" : "test_add_department[parentid为空，增加部门失败]",
+        "uid" : "ad1386ebf39a96b2",
+        "parentUid" : "76546a763491d8cab3d7a2c929bc0ade",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347160784,
+          "stop" : 1635347161047,
+          "duration" : 263
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60004", "'parent department not found'", "'parentid为空，增加部门失败'", "'add1'", "''" ]
+      }, {
+        "name" : "test_add_department[parentid不存在，增加部门失败]",
+        "uid" : "8a61c99a608972ae",
+        "parentUid" : "76546a763491d8cab3d7a2c929bc0ade",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347161066,
+          "stop" : 1635347161402,
+          "duration" : 336
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60004", "'parent department not found'", "'parentid不存在，增加部门失败'", "'add2'", "100" ]
+      }, {
+        "name" : "test_add_department[parentid存在，name为空，增加部门失败]",
+        "uid" : "53dca3ac0c10aa6d",
+        "parentUid" : "76546a763491d8cab3d7a2c929bc0ade",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347161437,
+          "stop" : 1635347161782,
+          "duration" : 345
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60001", "'department invalid length'", "'parentid存在，name为空，增加部门失败'", "''", "1" ]
+      }, {
+        "name" : "test_add_department[parentid存在，name非法，增加部门失败]",
+        "uid" : "14481363bc3692e",
+        "parentUid" : "76546a763491d8cab3d7a2c929bc0ade",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347161801,
+          "stop" : 1635347162079,
+          "duration" : 278
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60009", "'department name include invalid char'", "'parentid存在，name非法，增加部门失败'", "'add<>!?:/'", "1" ]
+      }, {
+        "name" : "test_add_department[parentid存在，name重复，增加部门失败]",
+        "uid" : "8e354ab40d666cce",
+        "parentUid" : "76546a763491d8cab3d7a2c929bc0ade",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347162094,
+          "stop" : 1635347162433,
+          "duration" : 339
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60008", "'department existed'", "'parentid存在，name重复，增加部门失败'", "'add'", "1" ]
+      } ],
+      "uid" : "76546a763491d8cab3d7a2c929bc0ade"
+    }, {
+      "name" : "获取部门接口",
+      "children" : [ {
+        "name" : "test_get_department[部门id存在，查询特定的部门ok]",
+        "uid" : "614d25f79a276846",
+        "parentUid" : "af77f0e565b9cdff2cec4505f4e496ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347162454,
+          "stop" : 1635347162724,
+          "duration" : 270
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'ok'", "1" ]
+      }, {
+        "name" : "test_get_department[部门id为空，查询全部的部门]",
+        "uid" : "7aa5462824bc403d",
+        "parentUid" : "af77f0e565b9cdff2cec4505f4e496ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347162735,
+          "stop" : 1635347162995,
+          "duration" : 260
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'ok'", "''" ]
+      }, {
+        "name" : "test_get_department[部门id不存在，无法查询部门]",
+        "uid" : "fff5250788027e27",
+        "parentUid" : "af77f0e565b9cdff2cec4505f4e496ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347163008,
+          "stop" : 1635347163289,
+          "duration" : 281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60123", "'invalid party id,'", "200" ]
+      } ],
+      "uid" : "af77f0e565b9cdff2cec4505f4e496ed"
+    }, {
+      "name" : "修改部门接口",
+      "children" : [ {
+        "name" : "test_update_department[部门存在，名字不为空，部门修改成功]",
+        "uid" : "774201e213359d1e",
+        "parentUid" : "910dc079dd4f610799b4eadcdf70cd42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347163316,
+          "stop" : 1635347163919,
+          "duration" : 603
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'updated'", "5", "'edit'" ]
+      }, {
+        "name" : "test_update_department[部门存在，名字为空，部门修改失败]",
+        "uid" : "5f9d0da85ccaeddc",
+        "parentUid" : "910dc079dd4f610799b4eadcdf70cd42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347163932,
+          "stop" : 1635347164517,
+          "duration" : 585
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'updated'", "5", "''" ]
+      }, {
+        "name" : "test_update_department[部门存在，名字重复，部门修改失败]",
+        "uid" : "22d43993437777",
+        "parentUid" : "910dc079dd4f610799b4eadcdf70cd42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347164551,
+          "stop" : 1635347164977,
+          "duration" : 426
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'updated'", "5", "'陈氏集团'" ]
+      }, {
+        "name" : "test_update_department[部门不存在，部门修改失败]",
+        "uid" : "10671e247f969338",
+        "parentUid" : "910dc079dd4f610799b4eadcdf70cd42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347164991,
+          "stop" : 1635347165308,
+          "duration" : 317
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60003", "'department not found'", "100", "'edit12'" ]
+      }, {
+        "name" : "test_update_department[部门为空，部门修改失败]",
+        "uid" : "b4884e18eef93d63",
+        "parentUid" : "910dc079dd4f610799b4eadcdf70cd42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347165321,
+          "stop" : 1635347165594,
+          "duration" : 273
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60003", "'department not found'", "''", "'edit2'" ]
+      } ],
+      "uid" : "910dc079dd4f610799b4eadcdf70cd42"
+    }, {
+      "name" : "删除部门接口",
+      "children" : [ {
+        "name" : "test_delete_department[部门id存在，不存在成员和子部门，删除成功]",
+        "uid" : "29e966db2a65058b",
+        "parentUid" : "29a9fd22ff833e4ea04b164b9aca85c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347165605,
+          "stop" : 1635347166040,
+          "duration" : 435
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'deleted'", "5" ]
+      }, {
+        "name" : "test_delete_department[部门id存在，存在成员，删除失败]",
+        "uid" : "e6404520e31728e0",
+        "parentUid" : "29a9fd22ff833e4ea04b164b9aca85c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347166064,
+          "stop" : 1635347166353,
+          "duration" : 289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60123", "'invalid party id'", "6" ]
+      }, {
+        "name" : "test_delete_department[部门id存在，存在子部门，删除失败]",
+        "uid" : "ce1c3c3c09e2cbbc",
+        "parentUid" : "29a9fd22ff833e4ea04b164b9aca85c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347166379,
+          "stop" : 1635347166756,
+          "duration" : 377
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60005", "'department contains user'", "3" ]
+      }, {
+        "name" : "test_delete_department[部门id不存在，删除失败]",
+        "uid" : "9321a9ad6132b562",
+        "parentUid" : "29a9fd22ff833e4ea04b164b9aca85c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347166780,
+          "stop" : 1635347167070,
+          "duration" : 290
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60123", "'invalid party id'", "100" ]
+      }, {
+        "name" : "test_delete_department[部门id为空，删除失败]",
+        "uid" : "6e19e4bbeed168bb",
+        "parentUid" : "29a9fd22ff833e4ea04b164b9aca85c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347167086,
+          "stop" : 1635347167358,
+          "duration" : 272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40058", "'invalid Request Parameter'", "''" ]
+      } ],
+      "uid" : "29a9fd22ff833e4ea04b164b9aca85c4"
+    } ],
+    "uid" : "5d74a656808e3097f68e43e67e30aef8"
+  }, {
+    "name" : "通讯录人员的增删改查等接口测试",
+    "children" : [ {
+      "name" : "增加联系人接口",
+      "children" : [ {
+        "name" : "test_creat_member[输入非重复的userid，name，mobile，断言成功]",
+        "uid" : "59e7bb150ac8b9db",
+        "parentUid" : "09ac7451146c6ae5d3bfc2a47f7f9d31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347168625,
+          "stop" : 1635347169416,
+          "duration" : 791
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'created'", "'输入非重复的userid，name，mobile，断言成功'", "'13222261165'", "'tong'", "'aaa'" ]
+      }, {
+        "name" : "test_creat_member[没有name,创建失败]",
+        "uid" : "2e490e3819fe4973",
+        "parentUid" : "09ac7451146c6ae5d3bfc2a47f7f9d31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347169441,
+          "stop" : 1635347169850,
+          "duration" : 409
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60112", "'invalid name'", "'没有name,创建失败'", "'13221661164'", "'tong1'", "''" ]
+      }, {
+        "name" : "test_creat_member[没有userid，断言失败]",
+        "uid" : "47dc3d9bd272db7e",
+        "parentUid" : "09ac7451146c6ae5d3bfc2a47f7f9d31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347169881,
+          "stop" : 1635347170297,
+          "duration" : 416
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "41009", "'missing userid'", "'没有userid，断言失败'", "'13221661163'", "''", "'bbb'" ]
+      }, {
+        "name" : "test_creat_member[没有电话，断言失败]",
+        "uid" : "2520a8b7e5bdf072",
+        "parentUid" : "09ac7451146c6ae5d3bfc2a47f7f9d31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347170314,
+          "stop" : 1635347170735,
+          "duration" : 421
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60129", "'missing mobile or email'", "'没有电话，断言失败'", "''", "'tong3'", "'ccc'" ]
+      }, {
+        "name" : "test_creat_member[userid重复，断言失败]",
+        "uid" : "6d2155675f55defc",
+        "parentUid" : "09ac7451146c6ae5d3bfc2a47f7f9d31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347170756,
+          "stop" : 1635347171225,
+          "duration" : 469
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60102", "'userid existed'", "'userid重复，断言失败'", "'13222661172'", "'tong'", "'ddd'" ]
+      }, {
+        "name" : "test_creat_member[name重复，断言成功]",
+        "uid" : "36d659ac84e06a16",
+        "parentUid" : "09ac7451146c6ae5d3bfc2a47f7f9d31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347171242,
+          "stop" : 1635347171970,
+          "duration" : 728
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'created'", "'name重复，断言成功'", "'13222661161'", "'tong5'", "'aaa'" ]
+      }, {
+        "name" : "test_creat_member[电话重复，断言失败]",
+        "uid" : "c89b87af46dbe50a",
+        "parentUid" : "09ac7451146c6ae5d3bfc2a47f7f9d31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347171997,
+          "stop" : 1635347172470,
+          "duration" : 473
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60104", "'mobile existed'", "'电话重复，断言失败'", "'13222261165'", "'tong6'", "'tong6'" ]
+      } ],
+      "uid" : "09ac7451146c6ae5d3bfc2a47f7f9d31"
+    }, {
+      "name" : "修改联系人接口",
+      "children" : [ {
+        "name" : "test_update_member[userid存在，name不为空，电话不重复，断言成功]",
+        "uid" : "d80f7c377e4f4e1c",
+        "parentUid" : "a046d2e573b04ffa618ca85f1b651409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347172969,
+          "stop" : 1635347173802,
+          "duration" : 833
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'updated'", "'userid存在，name不为空，电话不重复，断言成功'", "'15172999999'", "'edit'", "'edit'" ]
+      }, {
+        "name" : "test_update_member[userid存在，name为空，断言失败]",
+        "uid" : "310b589738b1addb",
+        "parentUid" : "a046d2e573b04ffa618ca85f1b651409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347173818,
+          "stop" : 1635347174417,
+          "duration" : 599
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'updated'", "'userid存在，name为空，断言失败'", "'15172661165'", "''", "'edit'" ]
+      }, {
+        "name" : "test_update_member[userid不存在，断言失败]",
+        "uid" : "3093d2bfae55f397",
+        "parentUid" : "a046d2e573b04ffa618ca85f1b651409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347174452,
+          "stop" : 1635347174727,
+          "duration" : 275
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60111", "'userid not found'", "'userid不存在，断言失败'", "'15172661165'", "'edit1'", "'edit1'" ]
+      }, {
+        "name" : "test_update_member[userid为空，断言失败]",
+        "uid" : "8a633ff4b885c68f",
+        "parentUid" : "a046d2e573b04ffa618ca85f1b651409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347174743,
+          "stop" : 1635347175027,
+          "duration" : 284
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60111", "'userid not found'", "'userid为空，断言失败'", "'15172661165'", "'edit1'", "''" ]
+      }, {
+        "name" : "test_update_member[修改后的mobile重复，断言失败]",
+        "uid" : "b1edacf81a9188ec",
+        "parentUid" : "a046d2e573b04ffa618ca85f1b651409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347175043,
+          "stop" : 1635347175363,
+          "duration" : 320
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60104", "'mobile existed'", "'修改后的mobile重复，断言失败'", "'13222661161'", "'edit'", "'edit'" ]
+      } ],
+      "uid" : "a046d2e573b04ffa618ca85f1b651409"
+    }, {
+      "name" : "查询联系人接口",
+      "children" : [ {
+        "name" : "test_get_member[userid存在，断言成功]",
+        "uid" : "55e63e9462c2633f",
+        "parentUid" : "e8de7a743b2f150ad8e2a1828535fb2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347175401,
+          "stop" : 1635347175787,
+          "duration" : 386
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'ok'", "'userid存在，断言成功'", "'edit'" ]
+      }, {
+        "name" : "test_get_member[userid为空，断言失败]",
+        "uid" : "6be7495fa022267",
+        "parentUid" : "e8de7a743b2f150ad8e2a1828535fb2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347175801,
+          "stop" : 1635347176334,
+          "duration" : 533
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "41009", "'missing userid'", "'userid为空，断言失败'", "''" ]
+      }, {
+        "name" : "test_get_member[userid不存在，断言失败]",
+        "uid" : "c9fdaed375b7ed47",
+        "parentUid" : "e8de7a743b2f150ad8e2a1828535fb2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347176346,
+          "stop" : 1635347176586,
+          "duration" : 240
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60111", "'userid not found'", "'userid不存在，断言失败'", "'get1'" ]
+      } ],
+      "uid" : "e8de7a743b2f150ad8e2a1828535fb2e"
+    }, {
+      "name" : "删除联系人接口",
+      "children" : [ {
+        "name" : "test_delete_member[userid存在，不为空，断言成功]",
+        "uid" : "fd6759c8b7d7777d",
+        "parentUid" : "2d9090786a91740bfd672d222f37e9b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347177289,
+          "stop" : 1635347177883,
+          "duration" : 594
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'deleted'", "'userid存在，不为空，断言成功'", "'delete'" ]
+      }, {
+        "name" : "test_delete_member[userid为空，断言失败]",
+        "uid" : "b1e66f8cbb8a8788",
+        "parentUid" : "2d9090786a91740bfd672d222f37e9b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347177896,
+          "stop" : 1635347178143,
+          "duration" : 247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60111", "'userid not found'", "'userid为空，断言失败'", "'tongd'" ]
+      }, {
+        "name" : "test_delete_member[userid不存在，断言失败]",
+        "uid" : "47d029cc96e05fe4",
+        "parentUid" : "2d9090786a91740bfd672d222f37e9b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347178272,
+          "stop" : 1635347178576,
+          "duration" : 304
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "60111", "'userid not found'", "'userid不存在，断言失败'", "''" ]
+      } ],
+      "uid" : "2d9090786a91740bfd672d222f37e9b6"
+    }, {
+      "name" : "批量山删除联系人接口",
+      "children" : [ {
+        "name" : "test_batch_delete_member[userid_list存在，断言成功]",
+        "uid" : "29fb83fc672b4160",
+        "parentUid" : "660500b48f7db18816fb5a85a69b2daf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347180493,
+          "stop" : 1635347181181,
+          "duration" : 688
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'deleted'", "['delete1', 'delete2']" ]
+      }, {
+        "name" : "test_batch_delete_member[userid_list为空，断言失败]",
+        "uid" : "846d45b24f7c18d2",
+        "parentUid" : "660500b48f7db18816fb5a85a69b2daf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347181304,
+          "stop" : 1635347181604,
+          "duration" : 300
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40063", "'some parameters are empty'", "[]" ]
+      }, {
+        "name" : "test_batch_delete_member[userid_list都不存在，断言失败]",
+        "uid" : "8d8b6144b0ecd1ef",
+        "parentUid" : "660500b48f7db18816fb5a85a69b2daf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347181621,
+          "stop" : 1635347181928,
+          "duration" : 307
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40031", "'invalid userid list'", "['delet1', 'delet2', 'delet3']" ]
+      }, {
+        "name" : "test_batch_delete_member[userid_list有一个不存在，其他存在，断言失败]",
+        "uid" : "cf5a0e8d41e53d4f",
+        "parentUid" : "660500b48f7db18816fb5a85a69b2daf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347181940,
+          "stop" : 1635347182220,
+          "duration" : 280
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40031", "'invalid userid list'", "['delete3', 'delet1']" ]
+      } ],
+      "uid" : "660500b48f7db18816fb5a85a69b2daf"
+    }, {
+      "name" : "获取联系人简单信息接口",
+      "children" : [ {
+        "name" : "test_depart_simple[department_id和fetch_child存在合法，断言成功]",
+        "uid" : "d3e4c65373f907f7",
+        "parentUid" : "9bfd4211f95ea34613d66c9fefba1d76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347182248,
+          "stop" : 1635347182622,
+          "duration" : 374
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "0", "'ok'", "1", "'department_id和fetch_child为1存在合法，断言成功'" ]
+      }, {
+        "name" : "test_depart_simple[department_id合法，fetch_child非法，断言失败]",
+        "uid" : "e4eea7d5d20cbdaa",
+        "parentUid" : "9bfd4211f95ea34613d66c9fefba1d76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347182644,
+          "stop" : 1635347182985,
+          "duration" : 341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "0", "'ok'", "0", "'department_id合法，fetch_child为0，断言失败'" ]
+      }, {
+        "name" : "test_depart_simple[department_id合法，fetch_child为空，断言失败]",
+        "uid" : "c547a176e12f0cfd",
+        "parentUid" : "9bfd4211f95ea34613d66c9fefba1d76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347183009,
+          "stop" : 1635347183363,
+          "duration" : 354
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "0", "'ok'", "'None'", "'department_id合法，fetch_child为空，断言失败'" ]
+      }, {
+        "name" : "test_depart_simple[department_id为空，fetch_child合法，断言失败]",
+        "uid" : "3a1ebfaf333c42fd",
+        "parentUid" : "9bfd4211f95ea34613d66c9fefba1d76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347183379,
+          "stop" : 1635347183694,
+          "duration" : 315
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'None'", "60003", "'department not found'", "1", "'department_id为空，fetch_child合法，断言失败'" ]
+      }, {
+        "name" : "test_depart_simple[department_id非法，fetch_child合法，断言失败]",
+        "uid" : "5041ab9954aa5008",
+        "parentUid" : "9bfd4211f95ea34613d66c9fefba1d76",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347183714,
+          "stop" : 1635347184026,
+          "duration" : 312
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "100", "60003", "'department not found'", "1", "'department_id非法，fetch_child合法，断言失败'" ]
+      } ],
+      "uid" : "9bfd4211f95ea34613d66c9fefba1d76"
+    }, {
+      "name" : "获取联系人详细信息接口",
+      "children" : [ {
+        "name" : "test_depart_explicit[department_id和fetch_child存在合法，断言成功]",
+        "uid" : "5747db0d8d9af8ca",
+        "parentUid" : "560053c6a60f7caba23cd4123b3ef7cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347184042,
+          "stop" : 1635347184425,
+          "duration" : 383
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "0", "'ok'", "3", "'department_id和fetch_child存在合法，断言成功'" ]
+      }, {
+        "name" : "test_depart_explicit[department_id合法，fetch_child非法，断言失败]",
+        "uid" : "5880b8ab8a66ac5c",
+        "parentUid" : "560053c6a60f7caba23cd4123b3ef7cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347184440,
+          "stop" : 1635347184770,
+          "duration" : 330
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "0", "'ok'", "100", "'department_id合法，fetch_child非法，断言失败'" ]
+      }, {
+        "name" : "test_depart_explicit[department_id合法，fetch_child为空，断言失败]",
+        "uid" : "3478c1c3ca396d53",
+        "parentUid" : "560053c6a60f7caba23cd4123b3ef7cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347184786,
+          "stop" : 1635347185141,
+          "duration" : 355
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "0", "'ok'", "'None'", "'department_id合法，fetch_child为空，断言失败'" ]
+      }, {
+        "name" : "test_depart_explicit[department_id为空，fetch_child合法，断言失败]",
+        "uid" : "90587607148a0328",
+        "parentUid" : "560053c6a60f7caba23cd4123b3ef7cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347185165,
+          "stop" : 1635347186424,
+          "duration" : 1259
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'None'", "60003", "'department not found'", "1", "'department_id为空，fetch_child合法，断言失败'" ]
+      }, {
+        "name" : "test_depart_explicit[department_id非法，fetch_child合法，断言失败]",
+        "uid" : "42f4db629f67199b",
+        "parentUid" : "560053c6a60f7caba23cd4123b3ef7cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347186438,
+          "stop" : 1635347186732,
+          "duration" : 294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "100", "60003", "'department not found'", "1", "'department_id非法，fetch_child合法，断言失败'" ]
+      } ],
+      "uid" : "560053c6a60f7caba23cd4123b3ef7cb"
+    }, {
+      "name" : "查看企业微信活跃度",
+      "children" : [ {
+        "name" : "test_active_status[date为2020-01-01，断言成功]",
+        "uid" : "5654b782f205c5b4",
+        "parentUid" : "f1aed1b3863f602721a44452e3b4f606",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347186753,
+          "stop" : 1635347187019,
+          "duration" : 266
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'2021-10-16'", "0", "'ok'", "'date为2020-01-01，断言成功'" ]
+      }, {
+        "name" : "test_active_status[data大于如今日期，断言失败]",
+        "uid" : "fd7fa0039de7025c",
+        "parentUid" : "f1aed1b3863f602721a44452e3b4f606",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347187053,
+          "stop" : 1635347187342,
+          "duration" : 289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'2035-10-10'", "40058", "'invalid Request Parameter'", "'data大于如今日期，断言失败'" ]
+      }, {
+        "name" : "test_active_status[data为空，断言失败]",
+        "uid" : "26709954d954b15b",
+        "parentUid" : "f1aed1b3863f602721a44452e3b4f606",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347187365,
+          "stop" : 1635347187613,
+          "duration" : 248
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "40063", "'some parameters are empty'", "'data为空，断言失败'" ]
+      }, {
+        "name" : "test_active_status[data格式不正确，断言失败]",
+        "uid" : "b3d39d50e7868ba2",
+        "parentUid" : "f1aed1b3863f602721a44452e3b4f606",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347187627,
+          "stop" : 1635347187892,
+          "duration" : 265
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'abcd'", "40058", "'invalid Request Parameter'", "'data格式不正确，断言失败'" ]
+      } ],
+      "uid" : "f1aed1b3863f602721a44452e3b4f606"
+    }, {
+      "name" : "获取加入成员二维码",
+      "children" : [ {
+        "name" : "test_get_invite[二维码尺寸为1，断言成功]",
+        "uid" : "29e1ebeab44c528c",
+        "parentUid" : "254e2d73366c4f945c78a46848e64815",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347187910,
+          "stop" : 1635347188204,
+          "duration" : 294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'ok'", "'二维码尺寸为:1'", "'1'" ]
+      } ],
+      "uid" : "254e2d73366c4f945c78a46848e64815"
+    } ],
+    "uid" : "cc15c6dbd1e11a115f69b76e0543d27b"
+  }, {
+    "name" : "标签增删改查等接口测试",
+    "children" : [ {
+      "name" : "增加标签接口",
+      "children" : [ {
+        "name" : "test_creat_tag[tagid，tagname正确，标签添加成功]",
+        "uid" : "c48dde5a969dc603",
+        "parentUid" : "2dc97a7592d56559aae3921d75c41b8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347188817,
+          "stop" : 1635347189118,
+          "duration" : 301
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'created'", "'tagid，tagname正确，标签添加成功'", "1", "'add1'" ]
+      }, {
+        "name" : "test_creat_tag[tagid为空，自动生成tagid，tagname不重复，标签添加成功]",
+        "uid" : "f357437d3345d618",
+        "parentUid" : "2dc97a7592d56559aae3921d75c41b8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347189133,
+          "stop" : 1635347189511,
+          "duration" : 378
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'created'", "'tagid为空，自动生成tagid，tagname不重复，标签添加成功'", "''", "'add2'" ]
+      }, {
+        "name" : "test_creat_tag[标签添加成功0]",
+        "uid" : "dd6357e9be0adbfe",
+        "parentUid" : "2dc97a7592d56559aae3921d75c41b8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347189527,
+          "stop" : 1635347189821,
+          "duration" : 294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'created'", "'标签添加成功'", "3", "'add3'" ]
+      }, {
+        "name" : "test_creat_tag[标签添加成功1]",
+        "uid" : "2bbb35990ace669f",
+        "parentUid" : "2dc97a7592d56559aae3921d75c41b8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347189866,
+          "stop" : 1635347190221,
+          "duration" : 355
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'created'", "'标签添加成功'", "4", "'add4'" ]
+      }, {
+        "name" : "test_creat_tag[tagid不重复，tagname重复，标签添加失败]",
+        "uid" : "2d8ec44c90028a8e",
+        "parentUid" : "2dc97a7592d56559aae3921d75c41b8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347190235,
+          "stop" : 1635347190500,
+          "duration" : 265
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40071", "'UserTag Name Already Exist'", "'tagid不重复，tagname重复，标签添加失败'", "5", "'add1'" ]
+      }, {
+        "name" : "test_creat_tag[tagid不重复，tagname为空，标签添加失败]",
+        "uid" : "881789f42f1dbc86",
+        "parentUid" : "2dc97a7592d56559aae3921d75c41b8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347190536,
+          "stop" : 1635347190805,
+          "duration" : 269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40072", "'unknow error'", "'tagid不重复，tagname为空，标签添加失败'", "6", "''" ]
+      }, {
+        "name" : "test_creat_tag[tagid重复，tagname不重复，标签添加失败]",
+        "uid" : "a37079b9d52a4f0",
+        "parentUid" : "2dc97a7592d56559aae3921d75c41b8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347190834,
+          "stop" : 1635347191106,
+          "duration" : 272
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40068", "'invalid tagid'", "'tagid重复，tagname不重复，标签添加失败'", "6", "'add6'" ]
+      } ],
+      "uid" : "2dc97a7592d56559aae3921d75c41b8b"
+    }, {
+      "name" : "修改标签接口",
+      "children" : [ {
+        "name" : "test_update_tag[tagid，tagname正确，标签修改成功]",
+        "uid" : "fb83db78aee2edd9",
+        "parentUid" : "f4478a42fcc29def40ac676713c9bfed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347193732,
+          "stop" : 1635347194037,
+          "duration" : 305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'update'", "'tagid，tagname正确，标签修改成功'", "1", "'update00'" ]
+      }, {
+        "name" : "test_update_tag[tagid为空，tagname正确，标签修改失败]",
+        "uid" : "2013e0bde3fd79a0",
+        "parentUid" : "f4478a42fcc29def40ac676713c9bfed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347194067,
+          "stop" : 1635347194331,
+          "duration" : 264
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40068", "'invalid tagid'", "'tagid为空，tagname正确，标签修改失败'", "''", "'update22'" ]
+      }, {
+        "name" : "test_update_tag[tagid不存在，tagname正确，标签修改失败]",
+        "uid" : "1b8d571e596deb51",
+        "parentUid" : "f4478a42fcc29def40ac676713c9bfed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347194349,
+          "stop" : 1635347194608,
+          "duration" : 259
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40068", "'invalid tagid'", "'tagid不存在，tagname正确，标签修改失败'", "120", "'update33'" ]
+      }, {
+        "name" : "test_update_tag[tagid存在，tagname重复，标签修改失败]",
+        "uid" : "ef86d8bbc5d8b136",
+        "parentUid" : "f4478a42fcc29def40ac676713c9bfed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347194623,
+          "stop" : 1635347194890,
+          "duration" : 267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40071", "'UserTag Name Already Exist'", "'tagid存在，tagname重复，标签修改失败'", "2", "'update00'" ]
+      }, {
+        "name" : "test_update_tag[tagid存在，tagname为空，标签修改失败]",
+        "uid" : "359be89560ca5a2e",
+        "parentUid" : "f4478a42fcc29def40ac676713c9bfed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347194912,
+          "stop" : 1635347195145,
+          "duration" : 233
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40072", "'unknow error'", "'tagid存在，tagname为空，标签修改失败'", "3", "''" ]
+      } ],
+      "uid" : "f4478a42fcc29def40ac676713c9bfed"
+    }, {
+      "name" : "删除标签接口",
+      "children" : [ {
+        "name" : "test_delete_tag[tagid正确，标签删除成功]",
+        "uid" : "56da60c1ddbb309f",
+        "parentUid" : "1a2fb72c9bda0a84d09cac21ae124b58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347196672,
+          "stop" : 1635347196964,
+          "duration" : 292
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'deleted'", "1" ]
+      }, {
+        "name" : "test_delete_tag[tagid为空，标签删除失败]",
+        "uid" : "a6046f2e1b4976f9",
+        "parentUid" : "1a2fb72c9bda0a84d09cac21ae124b58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347197088,
+          "stop" : 1635347197362,
+          "duration" : 274
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40068", "'invalid tagid'", "''" ]
+      }, {
+        "name" : "test_delete_tag[tagid不存在，标签删除失败]",
+        "uid" : "afd80b0c954b8f55",
+        "parentUid" : "1a2fb72c9bda0a84d09cac21ae124b58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347197376,
+          "stop" : 1635347197633,
+          "duration" : 257
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40068", "'invalid tagid'", "1000" ]
+      } ],
+      "uid" : "1a2fb72c9bda0a84d09cac21ae124b58"
+    }, {
+      "name" : "获取所有标签接口",
+      "children" : [ {
+        "name" : "test_get_tag[获取全部列表成功]",
+        "uid" : "b62028dbb45dfbcf",
+        "parentUid" : "dcd3966b1c560a44d4a5534f385d55b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347198618,
+          "stop" : 1635347198850,
+          "duration" : 232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'ok'" ]
+      } ],
+      "uid" : "dcd3966b1c560a44d4a5534f385d55b2"
+    }, {
+      "name" : "增加标签成员接口",
+      "children" : [ {
+        "name" : "test_create_tag_member[tagid存在，userlist未被添加过，user添加标签成功]",
+        "uid" : "6c6440e896d04cc7",
+        "parentUid" : "92b575041697ca339866650d6134a09c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347201030,
+          "stop" : 1635347201304,
+          "duration" : 274
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'ok'", "''", "1", "['sign1', 'sign2']" ]
+      }, {
+        "name" : "test_create_tag_member[tagid存在，userlist已被添加过，user添加标签成功]",
+        "uid" : "c4bde2bc3b39ebfd",
+        "parentUid" : "92b575041697ca339866650d6134a09c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347201321,
+          "stop" : 1635347201614,
+          "duration" : 293
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'ok'", "''", "1", "['sign1', 'sign2']" ]
+      }, {
+        "name" : "test_create_tag_member[tagid为空，userlist未被添加过，user添加标签失败]",
+        "uid" : "e1b3960c6f8f79a",
+        "parentUid" : "92b575041697ca339866650d6134a09c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347201641,
+          "stop" : 1635347201884,
+          "duration" : 243
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "41017", "'missing tagid'", "''", "''", "['sign5', 'sign6']" ]
+      }, {
+        "name" : "test_create_tag_member[tagid不存在，userlist未被添加过，user添加标签失败]",
+        "uid" : "c620c790812efb21",
+        "parentUid" : "92b575041697ca339866650d6134a09c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347201899,
+          "stop" : 1635347202142,
+          "duration" : 243
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40068", "'invalid tagid'", "''", "132", "['sign5', 'sign6']" ]
+      }, {
+        "name" : "test_create_tag_member[tagid存在，userlist不存在，user添加标签失败]",
+        "uid" : "f5f5d2c1624aa567",
+        "parentUid" : "92b575041697ca339866650d6134a09c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347202162,
+          "stop" : 1635347202435,
+          "duration" : 273
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40070", "'list all invalid'", "''", "1", "['signggg']" ]
+      }, {
+        "name" : "test_create_tag_member[tagid存在，userlist为空，user添加标签失败]",
+        "uid" : "2be1bea197f8a014",
+        "parentUid" : "92b575041697ca339866650d6134a09c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347202467,
+          "stop" : 1635347202690,
+          "duration" : 223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40035", "'invalid args size'", "''", "1", "[]" ]
+      }, {
+        "name" : "test_create_tag_member[tagid存在，userlist有一个不存在，user添加标签成功]",
+        "uid" : "2db7bce682872f0e",
+        "parentUid" : "92b575041697ca339866650d6134a09c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347202705,
+          "stop" : 1635347203124,
+          "duration" : 419
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'ok'", "''", "1", "['sign3', 'sign80']" ]
+      }, {
+        "name" : "test_create_tag_member[userlist为空，partylist为1，user添加标签失败]",
+        "uid" : "fce62957c5ef47cc",
+        "parentUid" : "92b575041697ca339866650d6134a09c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347203140,
+          "stop" : 1635347203460,
+          "duration" : 320
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'ok'", "[1]", "1", "''" ]
+      } ],
+      "uid" : "92b575041697ca339866650d6134a09c"
+    }, {
+      "name" : "删除标签成员接口",
+      "children" : [ {
+        "name" : "test_delete_tag_member[tagid存在，userlist存在并被添加过，user标签删除成功]",
+        "uid" : "b6a7b8d41a4aeed8",
+        "parentUid" : "d3a4a0dd9960a555ba033e7d65868210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347203802,
+          "stop" : 1635347204124,
+          "duration" : 322
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'deleted'", "''", "1", "['sign1', 'sign2']" ]
+      }, {
+        "name" : "test_delete_tag_member[tagid不存在，userlist存在并被添加过，user标签删除失败]",
+        "uid" : "cc367292848b92a4",
+        "parentUid" : "d3a4a0dd9960a555ba033e7d65868210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347204140,
+          "stop" : 1635347204383,
+          "duration" : 243
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "81011", "'no priviledge to access/modify tag'", "''", "100", "['sign3', 'sign4']" ]
+      }, {
+        "name" : "test_delete_tag_member[tagid为空，userlist存在并被添加过，user标签删除失败]",
+        "uid" : "f9dd2b62e36c2e4d",
+        "parentUid" : "d3a4a0dd9960a555ba033e7d65868210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347204397,
+          "stop" : 1635347204677,
+          "duration" : 280
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "41017", "'missing tagid'", "''", "''", "['sign3', 'sign4']" ]
+      }, {
+        "name" : "test_delete_tag_member[tagid存在，userlist为空，user标签删除失败]",
+        "uid" : "3c3c584afac83378",
+        "parentUid" : "d3a4a0dd9960a555ba033e7d65868210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347204694,
+          "stop" : 1635347204916,
+          "duration" : 222
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40035", "'invalid args size'", "''", "1", "[]" ]
+      }, {
+        "name" : "test_delete_tag_member[tagid存在，userlist不存在，user标签删除失败]",
+        "uid" : "3ec38457f7f4237c",
+        "parentUid" : "d3a4a0dd9960a555ba033e7d65868210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347204932,
+          "stop" : 1635347205201,
+          "duration" : 269
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40070", "'list all invalid'", "''", "1", "['sign100', 'sign200']" ]
+      }, {
+        "name" : "test_delete_tag_member[tagid存在，userlist存在但没有被添加过，user标签删除失败]",
+        "uid" : "29e3f2e3eca0b6f",
+        "parentUid" : "d3a4a0dd9960a555ba033e7d65868210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347205216,
+          "stop" : 1635347205483,
+          "duration" : 267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40070", "'list all invalid'", "''", "1", "['none1', 'none2']" ]
+      }, {
+        "name" : "test_delete_tag_member[tagid存在，userlist有一个没有被添加过，有一个被添加过，user标签删除失败]",
+        "uid" : "d4f27ae3f89e3f8",
+        "parentUid" : "d3a4a0dd9960a555ba033e7d65868210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347205498,
+          "stop" : 1635347205773,
+          "duration" : 275
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'deleted'", "''", "1", "['sign3', 'none1']" ]
+      }, {
+        "name" : "test_delete_tag_member[tagid存在，userlist为空，partylist存在，user标签删除成功]",
+        "uid" : "77c0b13bf507decb",
+        "parentUid" : "d3a4a0dd9960a555ba033e7d65868210",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347205822,
+          "stop" : 1635347206121,
+          "duration" : 299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'deleted'", "[1]", "1", "[]" ]
+      } ],
+      "uid" : "d3a4a0dd9960a555ba033e7d65868210"
+    }, {
+      "name" : "获取标签成员接口",
+      "children" : [ {
+        "name" : "test_get_tag_member[获取标签成功]",
+        "uid" : "81a5417796900a98",
+        "parentUid" : "1a03278ae318f28eb6b21ce53c2df728",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347207118,
+          "stop" : 1635347207386,
+          "duration" : 268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'ok'", "1" ]
+      }, {
+        "name" : "test_get_tag_member[tagid不存在，获取标签成功]",
+        "uid" : "5c51f4129814086a",
+        "parentUid" : "1a03278ae318f28eb6b21ce53c2df728",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347207399,
+          "stop" : 1635347207623,
+          "duration" : 224
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40068", "'invalid tagid'", "123" ]
+      }, {
+        "name" : "test_get_tag_member[tagid为空，获取标签成功]",
+        "uid" : "c9fcde69c358ce3b",
+        "parentUid" : "1a03278ae318f28eb6b21ce53c2df728",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347207636,
+          "stop" : 1635347207898,
+          "duration" : 262
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40068", "'invalid tagid'", "''" ]
+      }, {
+        "name" : "test_get_tag_member[tagid存在，获取部门得标签成功]",
+        "uid" : "5bb0de69c3eedef8",
+        "parentUid" : "1a03278ae318f28eb6b21ce53c2df728",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347207913,
+          "stop" : 1635347208207,
+          "duration" : 294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'ok'", "2" ]
+      } ],
+      "uid" : "1a03278ae318f28eb6b21ce53c2df728"
+    } ],
+    "uid" : "6607f6de563ef84c752360f6ee12cae4"
+  }, {
+    "name" : "会议室增删改查等接口",
+    "children" : [ {
+      "name" : "创建会议室接口",
+      "children" : [ {
+        "name" : "test_create_meeting_room[案例1：会议室所有要素正确，创建会议室成功]",
+        "uid" : "9dff9bcbe7abbf57",
+        "parentUid" : "fcf4339977197ec929b67ab9cc597257",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635347208506,
+          "stop" : 1635347208850,
+          "duration" : 344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'陈氏集团1号楼'", "10", "'北京'", "[1, 2, 3, 4, 5]", "0", "'ok'", "'10F'", "'会议室1'" ]
+      }, {
+        "name" : "test_create_meeting_room[案例2：会议室名称为空，创建会议室失败]",
+        "uid" : "baf8eabae67113b9",
+        "parentUid" : "fcf4339977197ec929b67ab9cc597257",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347209178,
+          "stop" : 1635347209440,
+          "duration" : 262
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'陈氏集团1号楼'", "10", "'北京'", "[1, 2, 3, 4, 5]", "40058", "'missing paramters name'", "'10F'", "''" ]
+      }, {
+        "name" : "test_create_meeting_room[案例3：会议室名称超长，创建会议室失败]",
+        "uid" : "35b3ede5818494b4",
+        "parentUid" : "fcf4339977197ec929b67ab9cc597257",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347209459,
+          "stop" : 1635347209741,
+          "duration" : 282
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'陈氏集团1号楼'", "''", "'北京'", "[1, 2, 3, 4, 5]", "40058", "'name exceed max utf8 words 30'", "'10F'", "'会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室会议室'" ]
+      }, {
+        "name" : "test_create_meeting_room[案例4：会议室人数为空，创建会议室失败]",
+        "uid" : "d0189bc6b07e79bf",
+        "parentUid" : "fcf4339977197ec929b67ab9cc597257",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347209761,
+          "stop" : 1635347210048,
+          "duration" : 287
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'陈氏集团1号楼'", "''", "'北京'", "[1, 2, 3, 4, 5]", "40058", "'missing paramters capacity'", "'10F'", "'会议室2'" ]
+      }, {
+        "name" : "test_create_meeting_room[案例5：会议室城市输入为空，创建会议室失败]",
+        "uid" : "4cf95e4dfaaab00b",
+        "parentUid" : "fcf4339977197ec929b67ab9cc597257",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347210092,
+          "stop" : 1635347210358,
+          "duration" : 266
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'陈氏集团1号楼'", "10", "''", "[1, 2, 3, 4, 5]", "40058", "'missing city/building/floor info'", "'10F'", "'会议室3'" ]
+      }, {
+        "name" : "test_create_meeting_room[案例6：会议室所在楼宇输入为空，创建会议室失败]",
+        "uid" : "9d0b3c2a0471c42a",
+        "parentUid" : "fcf4339977197ec929b67ab9cc597257",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347210377,
+          "stop" : 1635347210616,
+          "duration" : 239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "10", "'北京'", "[1, 2, 3, 4, 5]", "40058", "'missing city/building/floor info'", "'10F'", "'会议室4'" ]
+      }, {
+        "name" : "test_create_meeting_room[案例7：会议室所在楼层输入为空，创建会议室失败]",
+        "uid" : "b645e95cf4b5c7a3",
+        "parentUid" : "fcf4339977197ec929b67ab9cc597257",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347210636,
+          "stop" : 1635347210909,
+          "duration" : 273
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'陈氏集团1号楼'", "10", "'北京'", "[1, 2, 3, 4, 5]", "40058", "'missing city/building/floor info'", "''", "'会议室5'" ]
+      }, {
+        "name" : "test_create_meeting_room[案例8：会议室支持地设备列表为空，创建会议室成功]",
+        "uid" : "c96e5384640e2810",
+        "parentUid" : "fcf4339977197ec929b67ab9cc597257",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635347210927,
+          "stop" : 1635347211232,
+          "duration" : 305
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'陈氏集团1号楼'", "10", "'北京'", "[]", "0", "'ok'", "'10F'", "'会议室6'" ]
+      }, {
+        "name" : "test_create_meeting_room[案例9：会议室名称重复，创建会议室失败]",
+        "uid" : "786cb81aacd6839c",
+        "parentUid" : "fcf4339977197ec929b67ab9cc597257",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347211314,
+          "stop" : 1635347211648,
+          "duration" : 334
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'陈氏集团1号楼'", "10", "'北京'", "[1, 2, 3, 4]", "40058", "'meetingroom name exist'", "'10F'", "'会议室1'" ]
+      } ],
+      "uid" : "fcf4339977197ec929b67ab9cc597257"
+    }, {
+      "name" : "获取会议室接口",
+      "children" : [ {
+        "name" : "test_get_meeting_room[案例1：会议室所在位置输入为空，查询成功]",
+        "uid" : "42732e8914bf4e6f",
+        "parentUid" : "ec67a119a0c9bdd68c2b8a0b06b78f7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347211677,
+          "stop" : 1635347211928,
+          "duration" : 251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "''", "[]", "0", "'ok'", "''" ]
+      }, {
+        "name" : "test_get_meeting_room[案例2：会议室所在城市输入正确，查询成功]",
+        "uid" : "7609f16dc05b58fb",
+        "parentUid" : "ec67a119a0c9bdd68c2b8a0b06b78f7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347211945,
+          "stop" : 1635347212216,
+          "duration" : 271
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'北京'", "[]", "0", "'ok'", "''" ]
+      }, {
+        "name" : "test_get_meeting_room[案例3：会议室所在楼宇输入正确，查询失败]",
+        "uid" : "29c43808e0d6c37e",
+        "parentUid" : "ec67a119a0c9bdd68c2b8a0b06b78f7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347212239,
+          "stop" : 1635347212547,
+          "duration" : 308
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'陈氏集团1号楼'", "''", "[]", "40058", "'missing city/building/floor info'", "''" ]
+      }, {
+        "name" : "test_get_meeting_room[案例4：会议室所在楼层输入正确，查询失败]",
+        "uid" : "ddb71cac26c50a37",
+        "parentUid" : "ec67a119a0c9bdd68c2b8a0b06b78f7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347212585,
+          "stop" : 1635347212872,
+          "duration" : 287
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "''", "[]", "40058", "'missing city/building/floor info'", "'10F'" ]
+      }, {
+        "name" : "test_get_meeting_room[案例5：会议室支持设备输入正确，查询成功]",
+        "uid" : "e8778a27dfb765f2",
+        "parentUid" : "ec67a119a0c9bdd68c2b8a0b06b78f7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347212905,
+          "stop" : 1635347213301,
+          "duration" : 396
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "''", "[1, 2, 3, 4, 5]", "0", "'ok'", "''" ]
+      }, {
+        "name" : "test_get_meeting_room[案例6：会议室所在城市输入正确，楼宇输入错误，查询失败]",
+        "uid" : "8ed7d44d2c40ba27",
+        "parentUid" : "ec67a119a0c9bdd68c2b8a0b06b78f7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347213335,
+          "stop" : 1635347213618,
+          "duration" : 283
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'错误楼号'", "'北京'", "[]", "40058", "'invalid city/building/floor'", "''" ]
+      }, {
+        "name" : "test_get_meeting_room[案例7：会议室所在城市，楼宇输入正确，楼层输入错误，查询失败]",
+        "uid" : "b934e2b83d21790f",
+        "parentUid" : "ec67a119a0c9bdd68c2b8a0b06b78f7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347213636,
+          "stop" : 1635347213961,
+          "duration" : 325
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'陈氏集团1号楼'", "'北京'", "[]", "40058", "'invalid city/building/floor'", "'11F'" ]
+      }, {
+        "name" : "test_get_meeting_room[案例8：会议室位置信息输入为空，支持设备输入错误，查询失败]",
+        "uid" : "7df7e3803a120cc1",
+        "parentUid" : "ec67a119a0c9bdd68c2b8a0b06b78f7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347213978,
+          "stop" : 1635347214254,
+          "duration" : 276
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "''", "[6]", "600039", "'device type not support'", "''" ]
+      } ],
+      "uid" : "ec67a119a0c9bdd68c2b8a0b06b78f7b"
+    }, {
+      "name" : "修改会议室接口",
+      "children" : [ {
+        "name" : "test_update_meeting_room[案例1：会议室id输入正确，修改会议室信息成功]",
+        "uid" : "8e7f35bbad638d03",
+        "parentUid" : "41bc6b2cdb8cc6441fb944d1a7f100b0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635347214269,
+          "stop" : 1635347214558,
+          "duration" : 289
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "''", "''", "[]", "0", "'ok'", "''", "6", "''" ]
+      }, {
+        "name" : "test_update_meeting_room[案例2：会议室id，会议室名称，所在城市，所在楼宇，所在楼层，支持设备列表输入正确，会议室 信息修改成功]",
+        "uid" : "dca5519fefdacdee",
+        "parentUid" : "41bc6b2cdb8cc6441fb944d1a7f100b0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635347214602,
+          "stop" : 1635347214856,
+          "duration" : 254
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'陈氏集团总部2号楼'", "'11'", "'成都1'", "[1, 2, 3]", "0", "'ok'", "'21F'", "8", "'修改会议室'" ]
+      }, {
+        "name" : "test_update_meeting_room[案例3：会议室id输入错误，修改会议室信息失败]",
+        "uid" : "199b9f80dd22a97a",
+        "parentUid" : "41bc6b2cdb8cc6441fb944d1a7f100b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347214902,
+          "stop" : 1635347215173,
+          "duration" : 271
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'陈氏集团总部1号楼'", "'11'", "'成都'", "[1, 2]", "40058", "'invalid meeting roomid'", "'21F'", "100", "'修改会议室'" ]
+      }, {
+        "name" : "test_update_meeting_room[案例4：会议室id输入为空，修改会议室信息失败]",
+        "uid" : "c07b1ab96bd4257b",
+        "parentUid" : "41bc6b2cdb8cc6441fb944d1a7f100b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347215199,
+          "stop" : 1635347215429,
+          "duration" : 230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'陈氏集团总部1号楼'", "'11'", "'成都'", "[1, 2]", "40058", "'missing meeting roomid'", "'21F'", "''", "'修改会议室'" ]
+      }, {
+        "name" : "test_update_meeting_room[案例5：会议室id输入正确，只输入城市信息，修改会议室信息失败]",
+        "uid" : "7752ce97a4ad1740",
+        "parentUid" : "41bc6b2cdb8cc6441fb944d1a7f100b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347215448,
+          "stop" : 1635347215757,
+          "duration" : 309
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "''", "'上海'", "[]", "40058", "'missing city/building/floor info'", "''", "6", "''" ]
+      }, {
+        "name" : "test_update_meeting_room[案例6：会议是id输入正确，只输入楼宇信息，修改会议室信息失败]",
+        "uid" : "96f9cc224a070279",
+        "parentUid" : "41bc6b2cdb8cc6441fb944d1a7f100b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347215778,
+          "stop" : 1635347216036,
+          "duration" : 258
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'陈氏集团总部2号楼'", "''", "''", "[]", "40058", "'missing city/building/floor info'", "''", "6", "''" ]
+      }, {
+        "name" : "test_update_meeting_room[案例7：会议室id输入正确，只输入楼层信息，修改会议室信息失败]",
+        "uid" : "a607e7903d00e9b8",
+        "parentUid" : "41bc6b2cdb8cc6441fb944d1a7f100b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347216060,
+          "stop" : 1635347216320,
+          "duration" : 260
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "''", "''", "[]", "40058", "'missing city/building/floor info'", "'25F'", "6", "''" ]
+      }, {
+        "name" : "test_update_meeting_room[案例8：会议室id输入正确，只输入设备列表，修改会议室信息成功]",
+        "uid" : "c770afb528e2ed45",
+        "parentUid" : "41bc6b2cdb8cc6441fb944d1a7f100b0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635347216345,
+          "stop" : 1635347216590,
+          "duration" : 245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "''", "''", "[1, 2, 3, 4]", "0", "'ok'", "''", "6", "''" ]
+      } ],
+      "uid" : "41bc6b2cdb8cc6441fb944d1a7f100b0"
+    }, {
+      "name" : "删除会议室接口",
+      "children" : [ {
+        "name" : "test_delete_meeting_room[案例1：会议室id输入正确，删除会议室成功]",
+        "uid" : "de559d512f33bb2",
+        "parentUid" : "c5f20a30940e44c5a7f59c1d477baae5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1635347216629,
+          "stop" : 1635347216921,
+          "duration" : 292
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'ok'", "6" ]
+      }, {
+        "name" : "test_delete_meeting_room[案例2：会议室id输入为空，删除会议室失败]",
+        "uid" : "beff396758b6467d",
+        "parentUid" : "c5f20a30940e44c5a7f59c1d477baae5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347216959,
+          "stop" : 1635347217206,
+          "duration" : 247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "40058", "'missing meeting roomid'", "''" ]
+      }, {
+        "name" : "test_delete_meeting_room[案例3：会议室id输入错误，删除会议室失败]",
+        "uid" : "646e7c073537c23c",
+        "parentUid" : "c5f20a30940e44c5a7f59c1d477baae5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635347217225,
+          "stop" : 1635347217517,
+          "duration" : 292
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "'ok'", "77" ]
+      } ],
+      "uid" : "c5f20a30940e44c5a7f59c1d477baae5"
+    } ],
+    "uid" : "4e4c6a145d6db24d022168c47a2d12d3"
+  } ]
+}

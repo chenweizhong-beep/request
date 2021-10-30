@@ -1,0 +1,26 @@
+2021-10-17-21:56|[32mINFO  [0m|test_member.py:103|------开始测试获取简单部门成员信息department_id合法，fetch_child为0，断言失败------
+2021-10-17-21:56|[32mINFO  [0m|base_api.py:125|api变化的模板参数是:{
+  "token": "FTsumt3j6txqKydN103S6fHcMRa4JADvDUohu_kLMIzcLDopz407TMV-D1f9Vj8GPd1NSgneHDGFv_tbyxxKusx6qmYWXogj2iseIpbpq7ukAMNCqnUjFhROLqMnRmDQBUwCzlam62jzXrWnMQG-I_aWRFCOy79g_Smh1ZTgTlXpV7HGYMvP2SzDoHepdMTb1pygm58991iWJdFT007M3w",
+  "department_id": 2,
+  "fetch_child": 0
+}
+2021-10-17-21:56|[32mINFO  [0m|base_api.py:135|请求修改后的数据是：{
+  "method": "get",
+  "params": "access_token=FTsumt3j6txqKydN103S6fHcMRa4JADvDUohu_kLMIzcLDopz407TMV-D1f9Vj8GPd1NSgneHDGFv_tbyxxKusx6qmYWXogj2iseIpbpq7ukAMNCqnUjFhROLqMnRmDQBUwCzlam62jzXrWnMQG-I_aWRFCOy79g_Smh1ZTgTlXpV7HGYMvP2SzDoHepdMTb1pygm58991iWJdFT007M3w&department_id=2&fetch_child=0",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist"
+}
+2021-10-17-21:56|[32mINFO  [0m|base_api.py:137|返回的数据为：{
+  "errcode": 0,
+  "errmsg": "ok",
+  "userlist": [
+    {
+      "userid": "1842375247",
+      "name": "cwz",
+      "department": [
+        2
+      ]
+    }
+  ]
+}
+2021-10-17-21:56|[32mINFO  [0m|test_member.py:105|------打印的相应结果：{'errcode': 0, 'errmsg': 'ok', 'userlist': [{'userid': '1842375247', 'name': 'cwz', 'department': [2]}]}------
+2021-10-17-21:56|[32mINFO  [0m|test_member.py:106|------获取部门成员简单信息测试结束------

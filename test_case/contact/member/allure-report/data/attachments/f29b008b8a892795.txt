@@ -1,0 +1,27 @@
+[32mINFO    [0m logs:test_member.py:58 ------开始测试修改成员userid存在，name为空，断言失败------
+[32mINFO    [0m logs:base_api.py:125 api变化的模板参数是:{
+  "token": "FTsumt3j6txqKydN103S6fHcMRa4JADvDUohu_kLMIzcLDopz407TMV-D1f9Vj8GPd1NSgneHDGFv_tbyxxKusx6qmYWXogj2iseIpbpq7ukAMNCqnUjFhROLqMnRmDQBUwCzlam62jzXrWnMQG-I_aWRFCOy79g_Smh1ZTgTlXpV7HGYMvP2SzDoHepdMTb1pygm58991iWJdFT007M3w",
+  "name": "",
+  "userid": "edit",
+  "mobile": "15172661165"
+}
+[32mINFO    [0m logs:base_api.py:135 请求修改后的数据是：{
+  "json": {
+    "department": [
+      1,
+      3
+    ],
+    "mobile": 15172661165,
+    "name": null,
+    "userid": "edit"
+  },
+  "method": "post",
+  "params": "access_token=FTsumt3j6txqKydN103S6fHcMRa4JADvDUohu_kLMIzcLDopz407TMV-D1f9Vj8GPd1NSgneHDGFv_tbyxxKusx6qmYWXogj2iseIpbpq7ukAMNCqnUjFhROLqMnRmDQBUwCzlam62jzXrWnMQG-I_aWRFCOy79g_Smh1ZTgTlXpV7HGYMvP2SzDoHepdMTb1pygm58991iWJdFT007M3w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/update"
+}
+[32mINFO    [0m logs:base_api.py:137 返回的数据为：{
+  "errcode": 0,
+  "errmsg": "updated. Warning: wrong json format. "
+}
+[32mINFO    [0m logs:test_member.py:60 ------打印的相应结果：{'errcode': 0, 'errmsg': 'updated. Warning: wrong json format. '}------
+[32mINFO    [0m logs:test_member.py:61 ------修改成员测试结束------

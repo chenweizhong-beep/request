@@ -1,0 +1,115 @@
+{
+  "uid" : "24ff33f01cefed56",
+  "name" : "test_add_department[parentid存在，name存在不唯一，增加部门成功]",
+  "fullName" : "contact.department.test_department.TestDepartment#test_add_department",
+  "historyId" : "0332063048943f008df1e80f8157f733",
+  "time" : {
+    "start" : 1635347160326,
+    "stop" : 1635347160765,
+    "duration" : 439
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "token",
+    "time" : {
+      "start" : 1635347159999,
+      "stop" : 1635347160322,
+      "duration" : 323
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d7150b6eb02b21be",
+      "name" : "log",
+      "source" : "d7150b6eb02b21be.txt",
+      "type" : "text/plain",
+      "size" : 1228
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "部门增删改查等接口测试"
+  }, {
+    "name" : "story",
+    "value" : "增加部门接口"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "contact.department"
+  }, {
+    "name" : "suite",
+    "value" : "test_department"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDepartment"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EOQ4GM0"
+  }, {
+    "name" : "thread",
+    "value" : "10132-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "contact.department.test_department"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "errcode",
+    "value" : "0"
+  }, {
+    "name" : "errmsg",
+    "value" : "'created'"
+  }, {
+    "name" : "log_name",
+    "value" : "'parentid存在，name存在不唯一，增加部门成功'"
+  }, {
+    "name" : "name",
+    "value" : "'add'"
+  }, {
+    "name" : "parentid",
+    "value" : "1"
+  } ],
+  "links" : [ {
+    "name" : "api地址",
+    "url" : "https://work.weixin.qq.com/api/doc/90000/90135/90195",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "24ff33f01cefed56.json",
+  "parameterValues" : [ "0", "'created'", "'parentid存在，name存在不唯一，增加部门成功'", "'add'", "1" ]
+}

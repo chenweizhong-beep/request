@@ -1,0 +1,33 @@
+2021-10-27-23:05|[32mINFO  [0m|test_calender.py:38 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试创建日历>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-27-23:05|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "calendar": {
+      "color": "FF3030",
+      "description": "测试数据1",
+      "organizer": "cwz",
+      "readonly": 1,
+      "set_as_default": 1,
+      "shares": [
+        {
+          "userid": "wufang"
+        },
+        {
+          "userid": "sign4"
+        }
+      ],
+      "summary": "创建日历1成功"
+    }
+  },
+  "method": "post",
+  "params": "access_token=CNgXO5EBr9AUg3UOS-4m5-kCmxHBtEHRkyWfHLMbr-Nsg9dEFmc9pFpa4JjQvtMd_eN_-8KyVc-QaZjiIsbYp6iY_2uhCZpfiaFQwlQdTI9OjPlYwZcfcRbjCwy3qd3FioaVGIo0gEubzIvKGwtdRasa5KshDs2BMan5UdRmlypNbQi-qJUk_dsI3oFiCsadG8pGud8f8ovZkOA11tDUdQ",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/add"
+}
+2021-10-27-23:05|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok",
+  "cal_id": "wcj9N2BwAAGm0XGPUTsToWTXKZlw7mUA"
+}
+2021-10-27-23:05|[32mINFO  [0m|mysql.py:81 |insert语句为INSERT INTO calender (user_id,readonly,set_as_deafult,summary,color,description,cal_id) VALUES ('cwz', 1, 1, '创建日历1成功', 'FF3030', '测试数据1', 'wcj9N2BwAAGm0XGPUTsToWTXKZlw7mUA') ;
+2021-10-27-23:05|[32mINFO  [0m|test_calender.py:41 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<创建日历测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

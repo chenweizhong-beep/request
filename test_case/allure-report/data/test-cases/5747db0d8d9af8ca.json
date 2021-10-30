@@ -1,0 +1,115 @@
+{
+  "uid" : "5747db0d8d9af8ca",
+  "name" : "test_depart_explicit[department_id和fetch_child存在合法，断言成功]",
+  "fullName" : "contact.member.test_member.TestMember#test_depart_explicit",
+  "historyId" : "d4f1b4a3546fcbf76fe9e2181851db5e",
+  "time" : {
+    "start" : 1635347184042,
+    "stop" : 1635347184425,
+    "duration" : 383
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "token",
+    "time" : {
+      "start" : 1635347159999,
+      "stop" : 1635347160322,
+      "duration" : 323
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3aa9e24ac9c2c170",
+      "name" : "log",
+      "source" : "3aa9e24ac9c2c170.txt",
+      "type" : "text/plain",
+      "size" : 2530
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "通讯录人员的增删改查等接口测试"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "获取联系人详细信息接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "contact.member"
+  }, {
+    "name" : "suite",
+    "value" : "test_member"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMember"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EOQ4GM0"
+  }, {
+    "name" : "thread",
+    "value" : "10132-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "contact.member.test_member"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "department_id",
+    "value" : "1"
+  }, {
+    "name" : "errcode",
+    "value" : "0"
+  }, {
+    "name" : "errmsg",
+    "value" : "'ok'"
+  }, {
+    "name" : "fetch_child",
+    "value" : "3"
+  }, {
+    "name" : "logname",
+    "value" : "'department_id和fetch_child存在合法，断言成功'"
+  } ],
+  "links" : [ {
+    "name" : "api地址",
+    "url" : "https://work.weixin.qq.com/api/doc/90000/90135/90195",
+    "type" : "test_case"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5747db0d8d9af8ca.json",
+  "parameterValues" : [ "1", "0", "'ok'", "3", "'department_id和fetch_child存在合法，断言成功'" ]
+}

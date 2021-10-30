@@ -1,0 +1,19 @@
+[32mINFO    [0m logs:test_member.py:91 ------开始测试批量删除成员------
+[32mINFO    [0m logs:base_api.py:125 api变化的模板参数是:{
+  "token": "FTsumt3j6txqKydN103S6fHcMRa4JADvDUohu_kLMIzcLDopz407TMV-D1f9Vj8GPd1NSgneHDGFv_tbyxxKusx6qmYWXogj2iseIpbpq7ukAMNCqnUjFhROLqMnRmDQBUwCzlam62jzXrWnMQG-I_aWRFCOy79g_Smh1ZTgTlXpV7HGYMvP2SzDoHepdMTb1pygm58991iWJdFT007M3w",
+  "useridlist": []
+}
+[32mINFO    [0m logs:base_api.py:135 请求修改后的数据是：{
+  "json": {
+    "useridlist": []
+  },
+  "method": "post",
+  "params": "access_token=FTsumt3j6txqKydN103S6fHcMRa4JADvDUohu_kLMIzcLDopz407TMV-D1f9Vj8GPd1NSgneHDGFv_tbyxxKusx6qmYWXogj2iseIpbpq7ukAMNCqnUjFhROLqMnRmDQBUwCzlam62jzXrWnMQG-I_aWRFCOy79g_Smh1ZTgTlXpV7HGYMvP2SzDoHepdMTb1pygm58991iWJdFT007M3w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/batchdelete"
+}
+[32mINFO    [0m logs:base_api.py:137 返回的数据为：{
+  "errcode": 40063,
+  "errmsg": "some parameters are empty, hint: [1634477127_161_c7c60bb9e79229b6a964f6e3e9440d2c], from ip: 222.212.179.224, more info at https://open.work.weixin.qq.com/devtool/query?e=40063"
+}
+[32mINFO    [0m logs:test_member.py:93 打印的相应结果是：{'errcode': 40063, 'errmsg': 'some parameters are empty, hint: [1634477127_161_c7c60bb9e79229b6a964f6e3e9440d2c], from ip: 222.212.179.224, more info at https://open.work.weixin.qq.com/devtool/query?e=40063'}
+[32mINFO    [0m logs:test_member.py:94 ------批量删除成员测试结束------

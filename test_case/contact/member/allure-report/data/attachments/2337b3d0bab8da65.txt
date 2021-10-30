@@ -1,0 +1,27 @@
+[32mINFO    [0m logs:test_member.py:47 ------开始测试创建成员:没有name,创建失败------
+[32mINFO    [0m logs:base_api.py:125 api变化的模板参数是:{
+  "token": "FTsumt3j6txqKydN103S6fHcMRa4JADvDUohu_kLMIzcLDopz407TMV-D1f9Vj8GPd1NSgneHDGFv_tbyxxKusx6qmYWXogj2iseIpbpq7ukAMNCqnUjFhROLqMnRmDQBUwCzlam62jzXrWnMQG-I_aWRFCOy79g_Smh1ZTgTlXpV7HGYMvP2SzDoHepdMTb1pygm58991iWJdFT007M3w",
+  "name": "",
+  "userid": "tong1",
+  "mobile": "13221661164"
+}
+[32mINFO    [0m logs:base_api.py:135 请求修改后的数据是：{
+  "json": {
+    "department": [
+      1,
+      3
+    ],
+    "mobile": 13221661164,
+    "name": null,
+    "userid": "tong1"
+  },
+  "method": "post",
+  "params": "access_token=FTsumt3j6txqKydN103S6fHcMRa4JADvDUohu_kLMIzcLDopz407TMV-D1f9Vj8GPd1NSgneHDGFv_tbyxxKusx6qmYWXogj2iseIpbpq7ukAMNCqnUjFhROLqMnRmDQBUwCzlam62jzXrWnMQG-I_aWRFCOy79g_Smh1ZTgTlXpV7HGYMvP2SzDoHepdMTb1pygm58991iWJdFT007M3w",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/create"
+}
+[32mINFO    [0m logs:base_api.py:137 返回的数据为：{
+  "errcode": 60112,
+  "errmsg": "Warning: wrong json format. invalid name, hint: [1634477111_161_492291260831d120369d941d91abfc23], from ip: 222.212.179.224, more info at https://open.work.weixin.qq.com/devtool/query?e=60112"
+}
+[32mINFO    [0m logs:test_member.py:49 打印相应的结果：{'errcode': 60112, 'errmsg': 'Warning: wrong json format. invalid name, hint: [1634477111_161_492291260831d120369d941d91abfc23], from ip: 222.212.179.224, more info at https://open.work.weixin.qq.com/devtool/query?e=60112'}
+[32mINFO    [0m logs:test_member.py:50 ------创建成员测试结束------

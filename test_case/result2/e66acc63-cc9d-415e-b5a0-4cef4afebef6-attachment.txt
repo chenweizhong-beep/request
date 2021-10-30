@@ -1,0 +1,18 @@
+2021-10-28-13:55|[32mINFO  [0m|test_schedule.py:95 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<开始测试取消日程>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2021-10-28-13:55|[32mINFO  [0m|mysql.py:42 |select语句是SELECT schedule_id FROM schedule_1 where status_a = 0;
+2021-10-28-13:55|[32mINFO  [0m|base_api.py:135|============================================================请求修改后的数据============================================================：
+{
+  "json": {
+    "schedule_id": "4f93dc72ac806be0b95cbcfb20bb8ce1"
+  },
+  "method": "post",
+  "params": "access_token=lENR6q0Gmp_6b8dFXyF_l1zAKBV7wW-7t_APvqoE6CcZkiTTa84_aVK3byBri-WL2oGbO38vg1rOUVyq2OY1cZIg6OZAqfdqFvrrSLXUdERIug9vMcHEPOc2RtQ_iRfSugbsKQ2YNwlgRKSchW9tlewGLN3UHU9xY5KqtQGq8fWgYIgTkcvTp2XQnZfvmcpSlE4V_PeGOUwgJPucvfT-nw",
+  "url": " https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/del"
+}
+2021-10-28-13:55|[32mINFO  [0m|base_api.py:138|============================================================返回的数据为============================================================：
+{
+  "errcode": 0,
+  "errmsg": "ok"
+}
+2021-10-28-13:55|[32mINFO  [0m|mysql.py:96 |delete语句为update schedule_1 set status_a = 1 where schedule_id = '4f93dc72ac806be0b95cbcfb20bb8ce1';
+2021-10-28-13:55|[32mINFO  [0m|test_schedule.py:97 |<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<取消日程测试结束>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

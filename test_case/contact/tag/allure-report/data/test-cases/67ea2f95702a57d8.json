@@ -1,0 +1,126 @@
+{
+  "uid" : "67ea2f95702a57d8",
+  "name" : "test_creat_tag[tagid重复，tagname不重复，标签添加失败]",
+  "fullName" : "contact.tag.test_tag.TestTag#test_creat_tag",
+  "historyId" : "20e80a00cf6e31ee5c857257180c9514",
+  "time" : {
+    "start" : 1634660495135,
+    "stop" : 1634660495717,
+    "duration" : 582
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "token",
+    "time" : {
+      "start" : 1634660490591,
+      "stop" : 1634660491030,
+      "duration" : 439
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "create_tag",
+    "time" : {
+      "start" : 1634660491031,
+      "stop" : 1634660492022,
+      "duration" : 991
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "49c80c1877d475b6",
+      "name" : "log",
+      "source" : "49c80c1877d475b6.txt",
+      "type" : "text/plain",
+      "size" : 1249
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "标签增删改查等接口"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "增加标签接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "contact.tag"
+  }, {
+    "name" : "suite",
+    "value" : "test_tag"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTag"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EOQ4GM0"
+  }, {
+    "name" : "thread",
+    "value" : "1768-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "contact.tag.test_tag"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "errcode",
+    "value" : "40068"
+  }, {
+    "name" : "errmsg",
+    "value" : "'invalid tagid'"
+  }, {
+    "name" : "logname",
+    "value" : "'tagid重复，tagname不重复，标签添加失败'"
+  }, {
+    "name" : "tagid",
+    "value" : "6"
+  }, {
+    "name" : "tagname",
+    "value" : "'add6'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "67ea2f95702a57d8.json",
+  "parameterValues" : [ "40068", "'invalid tagid'", "'tagid重复，tagname不重复，标签添加失败'", "6", "'add6'" ]
+}

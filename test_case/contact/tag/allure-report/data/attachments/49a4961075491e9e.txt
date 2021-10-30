@@ -1,0 +1,19 @@
+2021-10-20-00:21|[32mINFO  [0m|test_tag.py:42 |======开始测试添加标签标签添加成功======
+2021-10-20-00:21|[32mINFO  [0m|base_api.py:135|**********请求修改后的数据是：
+{
+  "json": {
+    "tagid": 3,
+    "tagname": "add3"
+  },
+  "method": "post",
+  "params": "access_token=NrfaIrMmJ7mVMmX5xBdOeZmXCMDXlW8bYXixkQRqYNfskfsoVXcfkUCFHa_UT9I2Ei4WGkIlq_0VPtyQzA7KRCbwDh53bJpgIV9DQYvL2uF9dl6NRDAu6HikQzAjEzBuqtkwq5uZBkEMePyBJ4nflO7jX8CXUL-h2nyO1eauP3b3odyX6zS9Ip-O4gxhtRllVZbrEK-xcjJjwaRxqMZ18A",
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/create"
+}
+2021-10-20-00:21|[32mINFO  [0m|base_api.py:137|**********返回的数据为：
+{
+  "errcode": 0,
+  "errmsg": "created",
+  "tagid": 3
+}
+2021-10-20-00:21|[32mINFO  [0m|test_tag.py:44 |打印的相应结果是：{'errcode': 0, 'errmsg': 'created', 'tagid': 3}
+2021-10-20-00:21|[32mINFO  [0m|test_tag.py:45 |======创建标签测试结束======
