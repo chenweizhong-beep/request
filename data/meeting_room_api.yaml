@@ -1,0 +1,43 @@
+# 创建会议室
+create_meeting:
+  method: "post"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/add"
+  params: "access_token=${token}"
+  json:
+    name: ${name}
+    capacity: ${capacity}
+    city: ${city}
+    building: ${building}
+    floor: ${floor}
+    equipment: ${equipment}
+# 查询会议室
+get_meeting:
+  method: "post"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/list"
+  params: "access_token=${token}"
+  json:
+    city: ${city}
+    building: ${building}
+    floor: ${floor}
+    equipment: ${equipment}
+# 修改会议室
+update_meeting:
+  method: "post"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/edit"
+  params: "access_token=${token}"
+  json:
+    meetingroom_id: ${meetingroom_id}
+    name: ${name}
+    capacity: ${capacity}
+    city: ${city}
+    building: ${building}
+    floor: ${floor}
+    equipment: ${equipment}
+# 删除会议室
+delete_meeting:
+  method: "post"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/oa/meetingroom/del"
+  params: "access_token=${token}"
+  json:
+    meetingroom_id: ${meetingroom_id}
+

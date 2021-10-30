@@ -1,0 +1,153 @@
+# add标签，参数有：token,errcode,errmsg
+get_all:
+  ids:
+    - 获取全部列表成功
+  data:
+    - [ 0,"ok" ]
+
+# add标签，参数有：token,tagid,tagname,errcode,errmsg
+add:
+  ids:
+    - tagid，tagname正确，标签添加成功
+    - tagid为空，自动生成tagid，tagname不重复，标签添加成功
+    - 标签添加成功
+    - 标签添加成功
+    - tagid不重复，tagname重复，标签添加失败
+    - tagid不重复，tagname为空，标签添加失败
+    - tagid重复，tagname不重复，标签添加失败
+  data:
+    - [ 1,"add1",0,"created","tagid，tagname正确，标签添加成功" ]
+    - [ "","add2",0,"created","tagid为空，自动生成tagid，tagname不重复，标签添加成功" ]
+    - [ 3,"add3",0,"created","标签添加成功" ]
+    - [ 4,"add4",0,"created","标签添加成功" ]
+    - [ 5,"add1",40071,"UserTag Name Already Exist","tagid不重复，tagname重复，标签添加失败" ]
+    - [ 6,"",40072,"unknow error","tagid不重复，tagname为空，标签添加失败" ]
+    - [ 6,"add6",40068,"invalid tagid","tagid重复，tagname不重复，标签添加失败" ]
+
+
+# edit标签，参数有：token,tagid,tagname,errcode,errmsg
+update:
+  ids:
+    - tagid，tagname正确，标签修改成功
+    - tagid为空，tagname正确，标签修改失败
+    - tagid不存在，tagname正确，标签修改失败
+    - tagid存在，tagname重复，标签修改失败
+    - tagid存在，tagname为空，标签修改失败
+  data:
+    - [ 1,"update00",0,"update","tagid，tagname正确，标签修改成功" ]
+    - [ "","update22",40068,"invalid tagid","tagid为空，tagname正确，标签修改失败" ]
+    - [ 120,"update33",40068,"invalid tagid","tagid不存在，tagname正确，标签修改失败" ]
+    - [ 2,"update00",40071,"UserTag Name Already Exist","tagid存在，tagname重复，标签修改失败" ]
+    - [ 3,"",40072,"unknow error","tagid存在，tagname为空，标签修改失败" ]
+
+# delete标签，参数有：token,tagid,errcode,errmsg
+delete:
+  ids:
+    - tagid正确，标签删除成功
+    - tagid为空，标签删除失败
+    - tagid不存在，标签删除失败
+  data:
+    - [ 1,0,"deleted" ]
+    - [ "",40068,"invalid tagid" ]
+    - [ 1000,40068,"invalid tagid" ]
+
+# get_member_sign标签，参数有：token,tagid,errcode,errmsg
+get_tag_member:
+  ids:
+    - 获取标签成功
+    - tagid不存在，获取标签成功
+    - tagid为空，获取标签成功
+    - tagid存在，获取部门得标签成功
+
+  data:
+    - [ 1,0,"ok" ]
+    - [ 123,40068,"invalid tagid" ]
+    - [ "",40068,"invalid tagid" ]
+    - [ 2,0,"ok" ]
+
+
+# add标签，参数有：token,tagid,userlist,errcode,errmsg
+create_tag_member:
+  ids:
+    - tagid存在，userlist未被添加过，user添加标签成功
+    - tagid存在，userlist已被添加过，user添加标签成功
+    - tagid为空，userlist未被添加过，user添加标签失败
+    - tagid不存在，userlist未被添加过，user添加标签失败
+    - tagid存在，userlist不存在，user添加标签失败
+    - tagid存在，userlist为空，user添加标签失败
+    - tagid存在，userlist有一个不存在，user添加标签成功
+    - userlist为空，partylist为1，user添加标签失败
+  data:
+    - [ 1,[ "sign1","sign2" ],"",0,"ok" ]
+    - [ 1,[ "sign1","sign2" ],"",0,"ok" ]
+    - [ "",[ "sign5","sign6" ],"",41017,"missing tagid" ]
+    - [ 132,[ "sign5","sign6" ],"",40068,"invalid tagid" ]
+    - [ 1,[ "signggg" ],"",40070,"list all invalid" ]
+    - [ 1,[ ],"",40035,"invalid args size" ]
+    - [ 1,[ "sign3","sign80" ],"",0,"ok" ]
+    - [ 1,"",[ 1 ],0,"ok" ]
+
+
+# add标签，参数有：token,tagid,userlist,errcode,errmsg,invalidlist
+delete_tag_member:
+  ids:
+    - tagid存在，userlist存在并被添加过，user标签删除成功
+    - tagid不存在，userlist存在并被添加过，user标签删除失败
+    - tagid为空，userlist存在并被添加过，user标签删除失败
+    - tagid存在，userlist为空，user标签删除失败
+    - tagid存在，userlist不存在，user标签删除失败
+    - tagid存在，userlist存在但没有被添加过，user标签删除失败
+    - tagid存在，userlist有一个没有被添加过，有一个被添加过，user标签删除失败
+    - tagid存在，userlist为空，partylist存在，user标签删除成功
+
+  data:
+    - [ 1,[ "sign1","sign2" ],"",0,"deleted" ]
+    - [ 100,[ "sign3","sign4" ],"",81011,"no priviledge to access/modify tag" ]
+    - [ "",[ "sign3","sign4" ],"",41017,"missing tagid" ]
+    - [ 1,[ ],"",40035,"invalid args size" ]
+    - [ 1,[ "sign100","sign200" ],"",40070,"list all invalid" ]
+    - [ 1,[ "none1","none2" ],"",40070,"list all invalid" ]
+    - [ 1,[ "sign3","none1" ],"",0,"deleted" ]
+    - [ 1,[ ],[ 1 ],0, "deleted" ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+add:
+  "method": "post"
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/create"
+  "params": "access_token=${token}"
+  "json":
+    "name": $name
+    "parentid": "$parentid"
+
+get:
+  "method": "get"
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/list"
+  "params": "access_token=${token}&id=${id}"
+
+update:
+  "method": "post"
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/update"
+  "params": "access_token=${token}"
+  "json":
+    "id": "${id}"
+    "name": "${name}"
+
+delete:
+  "method": "get"
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/department/delete"
+  "params": "access_token=${token}&id=${id}"
+

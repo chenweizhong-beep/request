@@ -1,0 +1,50 @@
+# 创建标签
+creat:
+  method: "post"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/tag/create"
+  params: "access_token=${token}"
+  json:
+    tagname: "${tagname}"
+    tagid: "${tagid}"
+# 修改标签
+update:
+  method: "post"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/tag/update"
+  params: "access_token=${token}"
+  json:
+    tagid: "${tagid}"
+    tagname: "${tagname}"
+# 删除标签
+delete:
+  method: "get"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/tag/delete"
+  params: "access_token=${token}&tagid=${tagid}"
+# 获取所有标签
+get_all:
+  method: "get"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/tag/list"
+  params: "access_token=${token}"
+# 创建标签成员
+create_tag_member:
+  method: "post"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/tag/addtagusers"
+  params: "access_token=${token}"
+  json:
+    tagid: "${tagid}"
+    userlist: "${userlist}"
+    partylist: "${partylist}"
+# 删除标签成员
+delete_tag_member:
+  method: "post"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/tag/deltagusers"
+  params: "access_token=${token}"
+  json:
+    tagid: "${tagid}"
+    userlist: "${userlist}"
+    partylist: "${partylist}"
+# 获取标签成员
+get_tag_member:
+  method: "get"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/tag/get"
+  params: "access_token=${token}&tagid=${tagid}"
+

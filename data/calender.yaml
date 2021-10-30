@@ -1,0 +1,33 @@
+create_calender:
+  ids:
+    - 所有信息输入正确，日历创建成功
+  data:
+    - [ "cwz",1,1,"创建日历1成功","FF3030","测试数据1","wufang","sign4",0,"ok" ]
+get_calender:
+  ids:
+    - 案例1：查询所有存在的日历，查询成功
+    - 案例2：查询第一个创建的日历，查询成功
+    - 案例2：查寻不存在的日历，查询失败
+  data:
+    - [ 0,"ok",null ]
+    - [0,"ok",0]
+    - [ 40058,"cal_id_list count 0",8 ]
+update_calender:
+  ids:
+    - 案例1：所有项输入正确，修改日历成功
+    - 案例2：cal_id输入错误，修改日历失败
+    - 案例3：cal_is输入为空，修改日历失败
+  data:
+    - [0,"测试修改日历一","1000FF","update日历1","sign1",0,0,"ok"]
+    - [0,"测试修改日历一","1000FF","update日历1","sign1",5,40058,"invalid characters"]
+    - [0,"测试修改日历一","1000FF","update日历1","sign1",null,40058,"invalid characters"]
+delete_calender:
+  ids:
+    - 案例1：cal_id输入正确，删除日历成功
+    - 案例2：cal_id输入错误，删除日历失败
+    - 案例3：cal_id输入为空，删除日历失败
+  data:
+    - [0,0,"ok"]
+    - [5,40058,"formatcal_id missing"]
+    - [null,40058,"formatcal_id missing"]
+

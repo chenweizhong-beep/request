@@ -1,0 +1,40 @@
+create:
+  method: "post"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/add"
+  params: "access_token=${token}"
+  json:
+    calendar:
+      organizer: ${organizer}
+      readonly: ${readonly}
+      set_as_default: ${set_as_default}
+      summary: ${summary}
+      color: ${color}
+      description: ${description}
+      shares:
+        - userid: ${userid}
+        - userid: ${userid1}
+get:
+  method: "post"
+  url: " https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/get"
+  params: "access_token=${token}"
+  json:
+    cal_id_list: ${cal_id_list}
+update:
+  method: "post"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/update"
+  params: "access_token=${token}"
+  json:
+    calendar:
+      cal_id: ${cal_id}
+      readonly: ${readonly}
+      summary: ${summary}
+      color: ${color}
+      description: ${description}
+      shares:
+        userid: ${userid}
+delete:
+  method: "post"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/oa/calendar/del"
+  params: "access_token=${token}"
+  json:
+    cal_id: ${cal_id}

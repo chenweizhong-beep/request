@@ -1,0 +1,50 @@
+add:
+  method: "post"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/user/create"
+  params: "access_token=${token}"
+  json:
+    userid: "${userid}"
+    name: "${name}"
+    mobile: "${mobile}"
+    department: [ 1, 3 ]
+update:
+  method: "post"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/user/update"
+  params: "access_token=${token}"
+  json:
+    userid: "$userid"
+    name: "$name"
+    mobile: "$mobile"
+    department: [ 1,3 ]
+get:
+  method: "get"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/user/get"
+  params: "access_token=${token}&userid=${userid}"
+delete:
+  method: "get"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/user/delete"
+  params: "access_token=${token}&userid=${userid}"
+batch_delete:
+  method: "post"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/user/batchdelete"
+  params: "access_token=${token}"
+  json:
+    useridlist: ${useridlist}
+depart_simple:
+  method: "get"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist"
+  params: "access_token=${token}&department_id=${department_id}&fetch_child=${fetch_child}"
+depart_explicit:
+  method: "get"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/user/list"
+  params: "access_token=${token}&department_id=${department_id}&fetch_child=${fetch_child"
+active:
+  method: "post"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/user/get_active_stat"
+  params: "access_token=${token}"
+  json:
+    "date": "${data}"
+invite:
+  method: "get"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/corp/get_join_qrcode"
+  params: "access_token=${token}&size_type=${size_type}"

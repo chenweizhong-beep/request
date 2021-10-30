@@ -1,0 +1,50 @@
+create:
+  method: "post"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/add"
+  params: "access_token=${token}"
+  json:
+    schedule:
+      organizer: ${organizer}
+      start_time: ${start_time}
+      end_time: ${end_time}
+      attendees:
+        - userid: ${userid}
+      summary: ${summary}
+      description: ${description}
+      location: ${location}
+      cal_id: ${cal_id}
+get_all:
+  method: "post"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/get_by_calendar"
+  params: "access_token=${token}"
+  json:
+    cal_id: ${cal_id}
+    offset: ${offset}
+    limit: ${limit}
+update:
+  method: "post"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/update"
+  params: "access_token=${token}"
+  json:
+    schedule:
+      organizer: ${organizer}
+      schedule_id: ${schedule_id}
+      start_time: ${start_time}
+      end_time: ${end_time}
+      attendees:
+        - userid: ${userid}
+      summary: ${summary}
+      description: ${description}
+      location: ${location}
+delete:
+  method: "post"
+  url: " https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/del"
+  params: "access_token=${token}"
+  json:
+    schedule_id: ${schedule_id}
+get:
+  method: "post"
+  url: "https://qyapi.weixin.qq.com/cgi-bin/oa/schedule/get"
+  params: "access_token=${token}"
+  json:
+    schedule_id_list: ${schedule_id_list}
