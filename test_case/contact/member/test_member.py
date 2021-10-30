@@ -37,7 +37,6 @@ class TestMember:
     depart_explicit_ids = datas['depart_explicit']['ids']
 
     active_status_datas = datas['active']['data']
-    print(active_status_datas)
     active_status_ids = datas['active']['ids']
 
     invite_datas = datas['qr']['data']
@@ -120,7 +119,6 @@ class TestMember:
     @pytest.mark.parametrize("data, errcode, errmsg, logname", active_status_datas, ids=active_status_ids)
     def test_active_status(self, token, data, errcode, errmsg, logname):
         log.info(f"{30 * '<<'}开始测试企业微信活跃度{30 * '>>'}")
-        log.info(f"==================================================={self.active_status_datas}")
         res = self.member.get_active_status(token, data)
         log.info(f"{30 * '<<'}企业微信活跃度测试结束{30 * '>>'}")
         assert errcode == res['errcode']

@@ -23,7 +23,7 @@ class Mysql:
         user = cf.get_value("mysql", "user")
         password = cf.get_value("mysql", "password")
         charset = cf.get_value("mysql", "charset")
-        print(charset)
+        # print(charset)
         database = cf.get_value("mysql", "database")
         # 当无法连接数据库，走异常处理处理
         try:
@@ -87,7 +87,7 @@ class Mysql:
             log.error(f"insert语句错误，错误原因是{e}")
             self.conn.rollback()
 
-    def delete(self,query):
+    def delete(self, query):
         '''
         删除语句方法
         :param query:

@@ -26,9 +26,9 @@ class Log:
         if not os.path.exists(a):
             # 不存在路径，创建该路径
             os.makedirs(a)
-            print(f"创建{a}路径成功")
-        else:
-            print(f"该路径已存在")
+        #     print(f"创建{a}路径成功")
+        # else:
+        #     print(f"该路径已存在")
 
         # 生成记录器，名字为"logs",其实是用logger调用，这里估计是给配置文件用的
         self.logger = logging.getLogger(name)
